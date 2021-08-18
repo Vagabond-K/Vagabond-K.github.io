@@ -95,13 +95,20 @@
     <HelpKINode Title="InstantCommand.CanExecute Method " Url="html/Overload_System_InstantCommand_CanExecute.htm" />
     <HelpKINode Title="InstantCommandBase.CanExecute Method " Url="html/M_System_InstantCommandBase_CanExecute.htm" />
     <HelpKINode Title="MinimizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_MinimizeWindowCommand_CanExecute.htm" />
+    <HelpKINode Title="SetPropertyValueCommand.CanExecute Method " Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecute.htm" />
     <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecute.htm" />
   </HelpKINode>
   <HelpKINode Title="CanExecuteChanged event">
     <HelpKINode Title="CloseWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_CloseWindowCommand_CanExecuteChanged.htm" />
     <HelpKINode Title="InstantCommandBase.CanExecuteChanged Event" Url="html/E_System_InstantCommandBase_CanExecuteChanged.htm" />
     <HelpKINode Title="MinimizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_MinimizeWindowCommand_CanExecuteChanged.htm" />
+    <HelpKINode Title="SetPropertyValueCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecuteChanged.htm" />
     <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecuteChanged.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
+  <HelpKINode Title="CanReload method">
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case property" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Category property">
@@ -240,6 +247,7 @@
     <HelpKINode Title="CnetWriteContinuousRequest.Clear Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Clear.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Clear Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Clear.htm" />
   </HelpKINode>
+  <HelpKINode Title="ClearBackStack method" Url="html/M_VagabondK_App_INavigationManager_ClearBackStack.htm" />
   <HelpKINode Title="ClearProperty method" Url="html/M_System_NotifyPropertyChangeObject_ClearProperty.htm" />
   <HelpKINode Title="ClientBackground property">
     <HelpKINode Title="ThemeRibbonWindow.ClientBackground Property " Url="html/P_VagabondK_Windows_ThemeRibbonWindow_ClientBackground.htm" />
@@ -259,6 +267,7 @@
     <HelpKINode Title="CnetWriteContinuousRequest.Clone Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Clone.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Clone Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Clone.htm" />
   </HelpKINode>
+  <HelpKINode Title="Close method" Url="html/M_System_Threading_DisposableMutex_Close.htm" />
   <HelpKINode Title="CloseWindowCommand class">
     <HelpKINode Title="CloseWindowCommand Class" Url="html/T_VagabondK_Windows_CloseWindowCommand.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_CloseWindowCommand__ctor.htm" />
@@ -657,7 +666,7 @@
     <HelpKINode Title="NotNullToVisibilityConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_NotNullToVisibilityConverter_Convert.htm" />
     <HelpKINode Title="NumericLimitConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_NumericLimitConverter_Convert.htm" />
     <HelpKINode Title="NumericSignToObjectConverter.Convert Method " Url="html/Overload_VagabondK_Windows_Converters_NumericSignToObjectConverter_Convert.htm" />
-    <HelpKINode Title="SwitchCaseConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_SwitchCaseConverter_Convert.htm" />
+    <HelpKINode Title="SwitchCaseConverter.Convert Method " Url="html/Overload_VagabondK_Windows_Converters_SwitchCaseConverter_Convert.htm" />
     <HelpKINode Title="ToByteConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_ToByteConverter_Convert.htm" />
     <HelpKINode Title="ToDecimalConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_ToDecimalConverter_Convert.htm" />
     <HelpKINode Title="ToDoubleConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_ToDoubleConverter_Convert.htm" />
@@ -683,7 +692,7 @@
     <HelpKINode Title="NotNullToVisibilityConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_NotNullToVisibilityConverter_ConvertBack.htm" />
     <HelpKINode Title="NumericLimitConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_NumericLimitConverter_ConvertBack.htm" />
     <HelpKINode Title="NumericSignToObjectConverter.ConvertBack Method " Url="html/Overload_VagabondK_Windows_Converters_NumericSignToObjectConverter_ConvertBack.htm" />
-    <HelpKINode Title="SwitchCaseConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack.htm" />
+    <HelpKINode Title="SwitchCaseConverter.ConvertBack Method " Url="html/Overload_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack.htm" />
     <HelpKINode Title="ToByteConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_ToByteConverter_ConvertBack.htm" />
     <HelpKINode Title="ToDecimalConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_ToDecimalConverter_ConvertBack.htm" />
     <HelpKINode Title="ToDoubleConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_ToDoubleConverter_ConvertBack.htm" />
@@ -761,6 +770,8 @@
   </HelpKINode>
   <HelpKINode Title="DecimalExtension.DecimalExtension constructor" Url="html/M_VagabondK_Windows_DecimalExtension__ctor.htm" />
   <HelpKINode Title="DecimalExtension.ProvideValue method" Url="html/M_VagabondK_Windows_DecimalExtension_ProvideValue.htm" />
+  <HelpKINode Title="DefaultViewModelType property" Url="html/P_System_ViewAttribute_DefaultViewModelType.htm" />
+  <HelpKINode Title="DefaultViewType property" Url="html/P_System_ViewModelAttribute_DefaultViewType.htm" />
   <HelpKINode Title="Description property">
     <HelpKINode Title="Channel.Description Property " Url="html/P_VagabondK_Protocols_Channels_Channel_Description.htm" />
     <HelpKINode Title="ChannelProvider.Description Property " Url="html/P_VagabondK_Protocols_Channels_ChannelProvider_Description.htm" />
@@ -858,11 +869,23 @@
   <HelpKINode Title="DialogExtensions.ShowDialog method" Url="html/Overload_VagabondK_App_DialogExtensions_ShowDialog.htm" />
   <HelpKINode Title="DiscreteInput enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusObjectType.htm" />
   <HelpKINode Title="DiscreteInputs property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_DiscreteInputs.htm" />
+  <HelpKINode Title="DisposableMutex class">
+    <HelpKINode Title="DisposableMutex Class" Url="html/T_System_Threading_DisposableMutex.htm" />
+    <HelpKINode Title="constructor" Url="html/M_System_Threading_DisposableMutex__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_System_Threading_DisposableMutex.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_System_Threading_DisposableMutex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisposableMutex.Close method" Url="html/M_System_Threading_DisposableMutex_Close.htm" />
+  <HelpKINode Title="DisposableMutex.DisposableMutex constructor" Url="html/M_System_Threading_DisposableMutex__ctor.htm" />
+  <HelpKINode Title="DisposableMutex.Dispose method" Url="html/Overload_System_Threading_DisposableMutex_Dispose.htm" />
+  <HelpKINode Title="DisposableMutex.InitializeLifetimeService method" Url="html/M_System_Threading_DisposableMutex_InitializeLifetimeService.htm" />
+  <HelpKINode Title="DisposableMutex.WaitOne method" Url="html/Overload_System_Threading_DisposableMutex_WaitOne.htm" />
   <HelpKINode Title="Dispose method">
     <HelpKINode Title="Channel.Dispose Method " Url="html/M_VagabondK_Protocols_Channels_Channel_Dispose.htm" />
     <HelpKINode Title="ChannelProvider.Dispose Method " Url="html/M_VagabondK_Protocols_Channels_ChannelProvider_Dispose.htm" />
     <HelpKINode Title="CnetClient.Dispose Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Dispose.htm" />
     <HelpKINode Title="CnetSimulationService.Dispose Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Dispose.htm" />
+    <HelpKINode Title="DisposableMutex.Dispose Method " Url="html/Overload_System_Threading_DisposableMutex_Dispose.htm" />
     <HelpKINode Title="ModbusMaster.Dispose Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusMaster_Dispose.htm" />
     <HelpKINode Title="ModbusSlaveService.Dispose Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Dispose.htm" />
     <HelpKINode Title="PageContext.Dispose Method " Url="html/M_VagabondK_App_PageContext_Dispose.htm" />
@@ -887,6 +910,8 @@
   <HelpKINode Title="EndAddress property" Url="html/P_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2_EndAddress.htm" />
   <HelpKINode Title="ENQ field" Url="html/F_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_ENQ.htm" />
   <HelpKINode Title="EOT field" Url="html/F_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_EOT.htm" />
+  <HelpKINode Title="Equality operator" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_op_Equality.htm" />
+  <HelpKINode Title="Equals method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_Equals.htm" />
   <HelpKINode Title="Error enumeration member">
     <HelpKINode Title="MessageImage Enumeration" Url="html/T_VagabondK_App_MessageImage.htm" />
     <HelpKINode Title="ModbusLogCategory Enumeration" Url="html/T_VagabondK_Protocols_Modbus_Logging_ModbusLogCategory.htm" />
@@ -925,6 +950,7 @@
     <HelpKINode Title="InstantCommand.Execute Method " Url="html/Overload_System_InstantCommand_Execute.htm" />
     <HelpKINode Title="InstantCommandBase.Execute Method " Url="html/M_System_InstantCommandBase_Execute.htm" />
     <HelpKINode Title="MinimizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_MinimizeWindowCommand_Execute.htm" />
+    <HelpKINode Title="SetPropertyValueCommand.Execute Method " Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_Execute.htm" />
     <HelpKINode Title="ToggleMaximizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_Execute.htm" />
   </HelpKINode>
   <HelpKINode Title="ExecuteMonitor enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
@@ -997,6 +1023,7 @@
     <HelpKINode Title="ModbusSlaveService.GetEnumerator Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_GetEnumerator.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).GetEnumerator Method " Url="html/M_VagabondK_App_MultiServiceProviderShell_2_GetEnumerator.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetHashCode method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_GetHashCode.htm" />
   <HelpKINode Title="GetInt16 method">
     <HelpKINode Title="ModbusReadRegisterResponse.GetInt16 Method " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt16.htm" />
     <HelpKINode Title="ModbusRegisters.GetInt16 Method " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt16.htm" />
@@ -1032,6 +1059,7 @@
     <HelpKINode Title="ModbusReadRegisterResponse.GetUInt64 Method " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt64.htm" />
     <HelpKINode Title="ModbusRegisters.GetUInt64 Method " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt64.htm" />
   </HelpKINode>
+  <HelpKINode Title="GoBack method" Url="html/M_VagabondK_App_INavigationManager_GoBack.htm" />
   <HelpKINode Title="Hand enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="Header property">
     <HelpKINode Title="CnetACKResponse.Header Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetACKResponse_Header.htm" />
@@ -1146,6 +1174,15 @@
   </HelpKINode>
   <HelpKINode Title="IModbusMessage.LogCategory property" Url="html/P_VagabondK_Protocols_Modbus_IModbusMessage_LogCategory.htm" />
   <HelpKINode Title="IModbusMessage.TransactionID property" Url="html/P_VagabondK_Protocols_Modbus_IModbusMessage_TransactionID.htm" />
+  <HelpKINode Title="INavigationManager interface">
+    <HelpKINode Title="INavigationManager Interface" Url="html/T_VagabondK_App_INavigationManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_INavigationManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_App_INavigationManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INavigationManager.CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
+  <HelpKINode Title="INavigationManager.ClearBackStack method" Url="html/M_VagabondK_App_INavigationManager_ClearBackStack.htm" />
+  <HelpKINode Title="INavigationManager.GoBack method" Url="html/M_VagabondK_App_INavigationManager_GoBack.htm" />
+  <HelpKINode Title="INavigationManager.Navigate method" Url="html/M_VagabondK_App_INavigationManager_Navigate.htm" />
   <HelpKINode Title="Index property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariable_Index.htm" />
   <HelpKINode Title="IndexOf method">
     <HelpKINode Title="CnetReadIndividualRequest.IndexOf Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_IndexOf.htm" />
@@ -1153,7 +1190,9 @@
     <HelpKINode Title="CnetWriteContinuousRequest.IndexOf Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_IndexOf.htm" />
   </HelpKINode>
   <HelpKINode Title="Individual enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
+  <HelpKINode Title="Inequality operator" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_op_Inequality.htm" />
   <HelpKINode Title="Information enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
+  <HelpKINode Title="InitializeLifetimeService method" Url="html/M_System_Threading_DisposableMutex_InitializeLifetimeService.htm" />
   <HelpKINode Title="InnerBigEndian property" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusEndian_InnerBigEndian.htm" />
   <HelpKINode Title="InnerStream property" Url="html/P_VagabondK_Protocols_Logging_StreamChannelLogger_InnerStream.htm" />
   <HelpKINode Title="INotifyLoaded interface">
@@ -1457,10 +1496,15 @@
     <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusEndian__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_VagabondK_Protocols_Modbus_Data_ModbusEndian.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_Data_ModbusEndian.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_VagabondK_Protocols_Modbus_Data_ModbusEndian.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusEndian.htm" />
   </HelpKINode>
   <HelpKINode Title="ModbusEndian.AllBig field" Url="html/F_VagabondK_Protocols_Modbus_Data_ModbusEndian_AllBig.htm" />
   <HelpKINode Title="ModbusEndian.AllLittle field" Url="html/F_VagabondK_Protocols_Modbus_Data_ModbusEndian_AllLittle.htm" />
+  <HelpKINode Title="ModbusEndian.Equality operator" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_op_Equality.htm" />
+  <HelpKINode Title="ModbusEndian.Equals method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_Equals.htm" />
+  <HelpKINode Title="ModbusEndian.GetHashCode method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_GetHashCode.htm" />
+  <HelpKINode Title="ModbusEndian.Inequality operator" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_op_Inequality.htm" />
   <HelpKINode Title="ModbusEndian.InnerBigEndian property" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusEndian_InnerBigEndian.htm" />
   <HelpKINode Title="ModbusEndian.ModbusEndian constructor" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusEndian__ctor.htm" />
   <HelpKINode Title="ModbusEndian.OuterBigEndian property" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusEndian_OuterBigEndian.htm" />
@@ -1839,6 +1883,15 @@
     <HelpKINode Title="RequestedEventArgs.NAKCode Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_NAKCode.htm" />
   </HelpKINode>
   <HelpKINode Title="NAKCodeValue property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetNAKResponse_NAKCodeValue.htm" />
+  <HelpKINode Title="Navigate method">
+    <HelpKINode Title="INavigationManager.Navigate Method " Url="html/M_VagabondK_App_INavigationManager_Navigate.htm" />
+    <HelpKINode Title="NavigationManagerExtensions.Navigate Method " Url="html/Overload_VagabondK_App_NavigationManagerExtensions_Navigate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NavigationManagerExtensions class">
+    <HelpKINode Title="NavigationManagerExtensions Class" Url="html/T_VagabondK_App_NavigationManagerExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_NavigationManagerExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NavigationManagerExtensions.Navigate method" Url="html/Overload_VagabondK_App_NavigationManagerExtensions_Navigate.htm" />
   <HelpKINode Title="NegationConverter class">
     <HelpKINode Title="NegationConverter Class" Url="html/T_VagabondK_Windows_Converters_NegationConverter.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Converters_NegationConverter__ctor.htm" />
@@ -2016,7 +2069,9 @@
   <HelpKINode Title="PageContext.Owner property" Url="html/P_VagabondK_App_PageContext_Owner.htm" />
   <HelpKINode Title="PageContext.PageContext constructor" Url="html/M_VagabondK_App_PageContext__ctor.htm" />
   <HelpKINode Title="PageContext.PropertyChanged event" Url="html/E_VagabondK_App_PageContext_PropertyChanged.htm" />
+  <HelpKINode Title="PageContext.ReloadView method" Url="html/M_VagabondK_App_PageContext_ReloadView.htm" />
   <HelpKINode Title="PageContext.Result property" Url="html/P_VagabondK_App_PageContext_Result.htm" />
+  <HelpKINode Title="PageContext.ServiceProvider property" Url="html/P_VagabondK_App_PageContext_ServiceProvider.htm" />
   <HelpKINode Title="PageContext.Title property" Url="html/P_VagabondK_App_PageContext_Title.htm" />
   <HelpKINode Title="PageContext.View property" Url="html/P_VagabondK_App_PageContext_View.htm" />
   <HelpKINode Title="PageContext.ViewModel property" Url="html/P_VagabondK_App_PageContext_ViewModel.htm" />
@@ -2213,6 +2268,7 @@
   <HelpKINode Title="ReceivedBytes property" Url="html/P_VagabondK_Protocols_RequestException_1_ReceivedBytes.htm" />
   <HelpKINode Title="RegisterMonitor enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
   <HelpKINode Title="Registers property" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Registers.htm" />
+  <HelpKINode Title="ReloadView method" Url="html/M_VagabondK_App_PageContext_ReloadView.htm" />
   <HelpKINode Title="RemotePort property" Url="html/P_VagabondK_Protocols_Channels_UdpChannel_RemotePort.htm" />
   <HelpKINode Title="Remove method">
     <HelpKINode Title="CnetReadIndividualRequest.Remove Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Remove.htm" />
@@ -2240,10 +2296,10 @@
     <HelpKINode Title="RequestException(TErrorCode).Request Property " Url="html/P_VagabondK_Protocols_RequestException_1_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs class">
-    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
+    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
   </HelpKINode>
@@ -2447,6 +2503,7 @@
   <HelpKINode Title="ServiceDescriptionAttribute.Priority property" Url="html/P_System_ServiceDescriptionAttribute_Priority.htm" />
   <HelpKINode Title="ServiceDescriptionAttribute.ServiceDescriptionAttribute constructor" Url="html/Overload_System_ServiceDescriptionAttribute__ctor.htm" />
   <HelpKINode Title="ServiceDescriptionAttribute.ServiceType property" Url="html/P_System_ServiceDescriptionAttribute_ServiceType.htm" />
+  <HelpKINode Title="ServiceProvider property" Url="html/P_VagabondK_App_PageContext_ServiceProvider.htm" />
   <HelpKINode Title="ServiceProviderExtensions class">
     <HelpKINode Title="ServiceProviderExtensions Class" Url="html/T_VagabondK_App_ServiceProviderExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ServiceProviderExtensions.htm" />
@@ -2468,6 +2525,20 @@
   <HelpKINode Title="SetIsOk method" Url="html/M_VagabondK_App_Windows_Dialog_SetIsOk.htm" />
   <HelpKINode Title="SetProperty(Of TProperty) method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
   <HelpKINode Title="SetProperty&lt;TProperty&gt; method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
+  <HelpKINode Title="SetPropertyValueCommand class">
+    <HelpKINode Title="SetPropertyValueCommand Class" Url="html/T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetPropertyValueCommand.CanExecute method" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecute.htm" />
+  <HelpKINode Title="SetPropertyValueCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecuteChanged.htm" />
+  <HelpKINode Title="SetPropertyValueCommand.Execute method" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_Execute.htm" />
+  <HelpKINode Title="SetPropertyValueCommand.SetPropertyValueCommand constructor" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand__ctor.htm" />
+  <HelpKINode Title="SetPropertyValueCommand.Target property" Url="html/P_VagabondK_Windows_Commands_SetPropertyValueCommand_Target.htm" />
+  <HelpKINode Title="SetPropertyValueCommand.TargetProperty field" Url="html/F_VagabondK_Windows_Commands_SetPropertyValueCommand_TargetProperty.htm" />
   <HelpKINode Title="SetRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetRawData.htm" />
   <HelpKINode Title="SetResizeMode method" Url="html/M_VagabondK_App_Windows_Dialog_SetResizeMode.htm" />
   <HelpKINode Title="SetShowInTaskbar method" Url="html/M_VagabondK_App_Windows_Dialog_SetShowInTaskbar.htm" />
@@ -2624,8 +2695,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Converters_SwitchCaseConverter.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Windows_Converters_SwitchCaseConverter.htm" />
   </HelpKINode>
-  <HelpKINode Title="SwitchCaseConverter.Convert method" Url="html/M_VagabondK_Windows_Converters_SwitchCaseConverter_Convert.htm" />
-  <HelpKINode Title="SwitchCaseConverter.ConvertBack method" Url="html/M_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack.htm" />
+  <HelpKINode Title="SwitchCaseConverter.Convert method" Url="html/Overload_VagabondK_Windows_Converters_SwitchCaseConverter_Convert.htm" />
+  <HelpKINode Title="SwitchCaseConverter.ConvertBack method" Url="html/Overload_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack.htm" />
   <HelpKINode Title="SwitchCaseConverter.Map property" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverter_Map.htm" />
   <HelpKINode Title="SwitchCaseConverter.SwitchCaseConverter constructor" Url="html/M_VagabondK_Windows_Converters_SwitchCaseConverter__ctor.htm" />
   <HelpKINode Title="SwitchCaseConverterItem class">
@@ -2655,12 +2726,18 @@
   <HelpKINode Title="System.ServiceCollectionAttributeExtensions class" Url="html/T_System_ServiceCollectionAttributeExtensions.htm" />
   <HelpKINode Title="System.ServiceConstructorAttribute class" Url="html/T_System_ServiceConstructorAttribute.htm" />
   <HelpKINode Title="System.ServiceDescriptionAttribute class" Url="html/T_System_ServiceDescriptionAttribute.htm" />
+  <HelpKINode Title="System.Threading namespace" Url="html/N_System_Threading.htm" />
+  <HelpKINode Title="System.Threading.DisposableMutex class" Url="html/T_System_Threading_DisposableMutex.htm" />
+  <HelpKINode Title="System.ViewAttribute class" Url="html/T_System_ViewAttribute.htm" />
+  <HelpKINode Title="System.ViewModelAttribute class" Url="html/T_System_ViewModelAttribute.htm" />
   <HelpKINode Title="T enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
   <HelpKINode Title="Tail property">
     <HelpKINode Title="CnetMessage.Tail Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_Tail.htm" />
     <HelpKINode Title="CnetRequest.Tail Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Tail.htm" />
     <HelpKINode Title="CnetResponse.Tail Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Tail.htm" />
   </HelpKINode>
+  <HelpKINode Title="Target property" Url="html/P_VagabondK_Windows_Commands_SetPropertyValueCommand_Target.htm" />
+  <HelpKINode Title="TargetProperty field" Url="html/F_VagabondK_Windows_Commands_SetPropertyValueCommand_TargetProperty.htm" />
   <HelpKINode Title="TcpChannel class">
     <HelpKINode Title="TcpChannel Class" Url="html/T_VagabondK_Protocols_Channels_TcpChannel.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_Channels_TcpChannel__ctor.htm" />
@@ -2984,6 +3061,7 @@
   <HelpKINode Title="VagabondK.App.IFocusHandler interface" Url="html/T_VagabondK_App_IFocusHandler.htm" />
   <HelpKINode Title="VagabondK.App.IMessageBox interface" Url="html/T_VagabondK_App_IMessageBox.htm" />
   <HelpKINode Title="VagabondK.App.IMessageBoxExtensions class" Url="html/T_VagabondK_App_IMessageBoxExtensions.htm" />
+  <HelpKINode Title="VagabondK.App.INavigationManager interface" Url="html/T_VagabondK_App_INavigationManager.htm" />
   <HelpKINode Title="VagabondK.App.INotifyLoaded interface" Url="html/T_VagabondK_App_INotifyLoaded.htm" />
   <HelpKINode Title="VagabondK.App.IPageData interface" Url="html/T_VagabondK_App_IPageData.htm" />
   <HelpKINode Title="VagabondK.App.IQueryClosing interface" Url="html/T_VagabondK_App_IQueryClosing.htm" />
@@ -2992,6 +3070,7 @@
   <HelpKINode Title="VagabondK.App.MessageImage enumeration" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="VagabondK.App.MultiServiceProviderShell(Of TServiceProviderKey, TPageData) class" Url="html/T_VagabondK_App_MultiServiceProviderShell_2.htm" />
   <HelpKINode Title="VagabondK.App.MultiServiceProviderShell&lt;TServiceProviderKey, TPageData&gt; class" Url="html/T_VagabondK_App_MultiServiceProviderShell_2.htm" />
+  <HelpKINode Title="VagabondK.App.NavigationManagerExtensions class" Url="html/T_VagabondK_App_NavigationManagerExtensions.htm" />
   <HelpKINode Title="VagabondK.App.PageContext class" Url="html/T_VagabondK_App_PageContext.htm" />
   <HelpKINode Title="VagabondK.App.PageContext(Of TPageData) class" Url="html/T_VagabondK_App_PageContext_1.htm" />
   <HelpKINode Title="VagabondK.App.PageContext&lt;TPageData&gt; class" Url="html/T_VagabondK_App_PageContext_1.htm" />
@@ -3000,6 +3079,7 @@
   <HelpKINode Title="VagabondK.App.Shell class" Url="html/T_VagabondK_App_Shell.htm" />
   <HelpKINode Title="VagabondK.App.Shell(Of TPageData) class" Url="html/T_VagabondK_App_Shell_1.htm" />
   <HelpKINode Title="VagabondK.App.Shell&lt;TPageData&gt; class" Url="html/T_VagabondK_App_Shell_1.htm" />
+  <HelpKINode Title="VagabondK.App.ViewProvider class" Url="html/T_VagabondK_App_ViewProvider.htm" />
   <HelpKINode Title="VagabondK.App.Windows namespace" Url="html/N_VagabondK_App_Windows.htm" />
   <HelpKINode Title="VagabondK.App.Windows.Dialog class" Url="html/T_VagabondK_App_Windows_Dialog.htm" />
   <HelpKINode Title="VagabondK.App.Windows.FocusHandler class" Url="html/T_VagabondK_App_Windows_FocusHandler.htm" />
@@ -3008,6 +3088,7 @@
   <HelpKINode Title="VagabondK.App.Windows.SimpleShell class" Url="html/T_VagabondK_App_Windows_SimpleShell.htm" />
   <HelpKINode Title="VagabondK.App.Windows.SimpleShell(Of TPageData) class" Url="html/T_VagabondK_App_Windows_SimpleShell_1.htm" />
   <HelpKINode Title="VagabondK.App.Windows.SimpleShell&lt;TPageData&gt; class" Url="html/T_VagabondK_App_Windows_SimpleShell_1.htm" />
+  <HelpKINode Title="VagabondK.App.Windows.ViewProvider class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
   <HelpKINode Title="VagabondK.Protocols namespace" Url="html/N_VagabondK_Protocols.htm" />
   <HelpKINode Title="VagabondK.Protocols.Channels namespace" Url="html/N_VagabondK_Protocols_Channels.htm" />
   <HelpKINode Title="VagabondK.Protocols.Channels.Channel class" Url="html/T_VagabondK_Protocols_Channels_Channel.htm" />
@@ -3139,6 +3220,8 @@
   <HelpKINode Title="VagabondK.Windows.BooleanExtension class" Url="html/T_VagabondK_Windows_BooleanExtension.htm" />
   <HelpKINode Title="VagabondK.Windows.ByteExtension class" Url="html/T_VagabondK_Windows_ByteExtension.htm" />
   <HelpKINode Title="VagabondK.Windows.CloseWindowCommand class" Url="html/T_VagabondK_Windows_CloseWindowCommand.htm" />
+  <HelpKINode Title="VagabondK.Windows.Commands namespace" Url="html/N_VagabondK_Windows_Commands.htm" />
+  <HelpKINode Title="VagabondK.Windows.Commands.SetPropertyValueCommand class" Url="html/T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters namespace" Url="html/N_VagabondK_Windows_Converters.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.BooleanToObjectConverter class" Url="html/T_VagabondK_Windows_Converters_BooleanToObjectConverter.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.BooleanToVisibilityConverter class" Url="html/T_VagabondK_Windows_Converters_BooleanToVisibilityConverter.htm" />
@@ -3205,15 +3288,48 @@
     <HelpKINode Title="RequestedWriteEventArgs.Values Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs_Values.htm" />
   </HelpKINode>
   <HelpKINode Title="View property" Url="html/P_VagabondK_App_PageContext_View.htm" />
+  <HelpKINode Title="ViewAttribute class">
+    <HelpKINode Title="ViewAttribute Class" Url="html/T_System_ViewAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_System_ViewAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_System_ViewAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_System_ViewAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewAttribute.DefaultViewModelType property" Url="html/P_System_ViewAttribute_DefaultViewModelType.htm" />
+  <HelpKINode Title="ViewAttribute.ViewAttribute constructor" Url="html/Overload_System_ViewAttribute__ctor.htm" />
   <HelpKINode Title="ViewModel property" Url="html/P_VagabondK_App_PageContext_ViewModel.htm" />
+  <HelpKINode Title="ViewModelAttribute class">
+    <HelpKINode Title="ViewModelAttribute Class" Url="html/T_System_ViewModelAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_System_ViewModelAttribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_System_ViewModelAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_System_ViewModelAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewModelAttribute.DefaultViewType property" Url="html/P_System_ViewModelAttribute_DefaultViewType.htm" />
+  <HelpKINode Title="ViewModelAttribute.ViewModelAttribute constructor" Url="html/Overload_System_ViewModelAttribute__ctor.htm" />
   <HelpKINode Title="ViewModelTypeName property">
     <HelpKINode Title="IPageData.ViewModelTypeName Property " Url="html/P_VagabondK_App_IPageData_ViewModelTypeName.htm" />
     <HelpKINode Title="PageData.ViewModelTypeName Property " Url="html/P_VagabondK_App_PageData_ViewModelTypeName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewProvider class">
+    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
+    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_ViewProvider.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewProvider.CanReload method">
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ViewProvider.ViewProvider constructor">
+    <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
+    <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewTypeName property">
     <HelpKINode Title="IPageData.ViewTypeName Property " Url="html/P_VagabondK_App_IPageData_ViewTypeName.htm" />
     <HelpKINode Title="PageData.ViewTypeName Property " Url="html/P_VagabondK_App_PageData_ViewTypeName.htm" />
   </HelpKINode>
+  <HelpKINode Title="WaitOne method" Url="html/Overload_System_Threading_DisposableMutex_WaitOne.htm" />
   <HelpKINode Title="Warning enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="Word enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
   <HelpKINode Title="WordValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_WordValue.htm" />

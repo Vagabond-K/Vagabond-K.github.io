@@ -25,6 +25,16 @@
     <HelpKINode Title="ModbusBooleans.Allocate Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_Allocate.htm" />
     <HelpKINode Title="ModbusRegisters.Allocate Method " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate.htm" />
   </HelpKINode>
+  <HelpKINode Title="AllocateAll method">
+    <HelpKINode Title="ModbusBooleans.AllocateAll Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateAll.htm" />
+    <HelpKINode Title="ModbusRegisters.AllocateAll Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAll.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AllocateAllRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAllRawData.htm" />
+  <HelpKINode Title="AllocateRepeat method">
+    <HelpKINode Title="ModbusBooleans.AllocateRepeat Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateRepeat.htm" />
+    <HelpKINode Title="ModbusRegisters.AllocateRepeat Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeat.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AllocateRepeatRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeatRawData.htm" />
   <HelpKINode Title="Asterisk enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="AutoAllocation property" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_AutoAllocation.htm" />
   <HelpKINode Title="BaudRate property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_BaudRate.htm" />
@@ -107,8 +117,8 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload method">
-    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case property" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Channel class">
@@ -122,8 +132,8 @@
     <HelpKINode Title="CnetClient.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
     <HelpKINode Title="CnetSimulationService.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Channel.htm" />
     <HelpKINode Title="ModbusMaster.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_Channel.htm" />
-    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="ValidatingSlaveAddressEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_Channel.htm" />
   </HelpKINode>
   <HelpKINode Title="Channel.BytesToRead property" Url="html/P_VagabondK_Protocols_Channels_Channel_BytesToRead.htm" />
@@ -1490,6 +1500,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusBooleans.htm" />
   </HelpKINode>
   <HelpKINode Title="ModbusBooleans.Allocate method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_Allocate.htm" />
+  <HelpKINode Title="ModbusBooleans.AllocateAll method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateAll.htm" />
+  <HelpKINode Title="ModbusBooleans.AllocateRepeat method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateRepeat.htm" />
   <HelpKINode Title="ModbusBooleans.GetEnumerator method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_GetEnumerator.htm" />
   <HelpKINode Title="ModbusBooleans.ModbusBooleans constructor" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans__ctor.htm" />
   <HelpKINode Title="ModbusCommErrorCode enumeration" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
@@ -1678,6 +1690,10 @@
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusRegisters.htm" />
   </HelpKINode>
   <HelpKINode Title="ModbusRegisters.Allocate method" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate.htm" />
+  <HelpKINode Title="ModbusRegisters.AllocateAll method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAll.htm" />
+  <HelpKINode Title="ModbusRegisters.AllocateAllRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAllRawData.htm" />
+  <HelpKINode Title="ModbusRegisters.AllocateRepeat method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeat.htm" />
+  <HelpKINode Title="ModbusRegisters.AllocateRepeatRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeatRawData.htm" />
   <HelpKINode Title="ModbusRegisters.GetDouble method" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetDouble.htm" />
   <HelpKINode Title="ModbusRegisters.GetEnumerator method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetEnumerator.htm" />
   <HelpKINode Title="ModbusRegisters.GetInt16 method" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt16.htm" />
@@ -2321,8 +2337,8 @@
     <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Address property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Address.htm" />
   <HelpKINode Title="RequestedEventArgs.Channel property">
@@ -3337,12 +3353,12 @@
     <HelpKINode Title="PageData.ViewModelTypeName Property " Url="html/P_VagabondK_App_PageData_ViewModelTypeName.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider class">
-    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_ViewProvider.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
+    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload method">
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />

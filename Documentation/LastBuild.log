@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2021-09-03 오후 8:49:13">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2021-09-05 오후 10:51:35">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -66,17 +66,17 @@ Copying XML comments files
 Generating shared content files (ko-KR, 한국어 (대한민국))...
 SHFB: Warning BE0003: Sandcastle shared content for the &#39;ko-KR, 한국어 (대한민국)&#39; language could not be found.  Using &#39;en-US, English (US)&#39; defaults.
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.1472
+</plugIn>    Last step completed in 00:00:00.0210
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0680
+    Last step completed in 00:00:00.0730
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj]
-빌드 시작: 2021-09-03 오후 8:49:18
-1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj&quot; 프로젝트(기본 대상)입니다.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj]
+빌드 시작: 2021-09-05 오후 10:51:38
+1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj&quot; 프로젝트(기본 대상)입니다.
 PrepareForBuild:
   &quot;obj\Debug\&quot; 디렉터리를 만들고 있습니다.
 GenerateBindingRedirects:
@@ -87,19 +87,19 @@ GenerateRefInfo:
   Portions Copyright ⓒ 2006-2021, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 10 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj]
-  Wrote information on 17 namespaces, 204 types, and 1545 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj]
+  Wrote information on 17 namespaces, 207 types, and 1574 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-c4d8764b-56c0-44b0-af3b-93b653bac60b.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:06.9738
+&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-09445434-f77d-4b72-b034-337c371aa3b9.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+    Last step completed in 00:00:04.4355
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-빌드 시작: 2021-09-03 오후 8:49:25
+빌드 시작: 2021-09-05 오후 10:51:42
 1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\TransformManifest.proj&quot; 프로젝트(기본 대상)입니다.
 TransformManifest:
   XslTransform (v2021.4.9.0)
@@ -444,22 +444,42 @@ TransformManifest:
     Unique name M_VagabondK_Protocols_LSElectric_DeviceValue_op_Implicit_16 generated for M:VagabondK.Protocols.LSElectric.DeviceValue.op_Implicit(VagabondK.Protocols.LSElectric.DeviceValue)~System.UInt32
     Unique name M_VagabondK_Protocols_LSElectric_DeviceValue_op_Implicit_17 generated for M:VagabondK.Protocols.LSElectric.DeviceValue.op_Implicit(VagabondK.Protocols.LSElectric.DeviceValue)~System.UInt64
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.#ctor(VagabondK.Protocols.Channels.IChannel)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Request(VagabondK.Protocols.LSElectric.Cnet.CnetRequest,System.Int32)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest.#ctor(System.Byte,System.Byte,VagabondK.Protocols.LSElectric.Cnet.CnetCommandType,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetReadContinuousRequest.#ctor(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetReadIndividualRequest.#ctor(System.Byte,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest__ctor_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetReadIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable})
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest__ctor_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetReadIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable},System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorContinuousRequest.#ctor(System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorIndividualRequest.#ctor(System.Byte,System.Byte,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorIndividualRequest__ctor_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorIndividualRequest.#ctor(System.Byte,System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable})
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorIndividualRequest__ctor_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorIndividualRequest.#ctor(System.Byte,System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable},System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest.#ctor(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest__ctor_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest.#ctor(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceValue})
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest__ctor_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest.#ctor(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceValue},System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.#ctor(System.Byte,System.Boolean)
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest__ctor_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
-    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest__ctor_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}},System.Boolean)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Boolean,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Boolean,System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Boolean,System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_4 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Boolean,System.Int32,VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_5 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Boolean,VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_6 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_7 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_8 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_9 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_10 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read_11 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Read(VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Boolean,System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Boolean,System.Int32,System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Boolean,System.Int32,System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_4 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_5 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_6 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Int32,System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor_7 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.RegisterMonitor(System.Int32,System.Byte,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Request(System.Boolean,VagabondK.Protocols.LSElectric.Cnet.CnetRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Request(System.Int32,VagabondK.Protocols.LSElectric.Cnet.CnetRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Request(VagabondK.Protocols.LSElectric.Cnet.CnetRequest)
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Boolean,System.Byte,System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue},System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_2 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Boolean,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue,VagabondK.Protocols.LSElectric.DeviceValue[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_3 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Boolean,System.Int32,System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_4 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Boolean,System.Int32,System.Byte,System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue},System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_5 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Boolean,System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue,VagabondK.Protocols.LSElectric.DeviceValue[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_6 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_7 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Byte,System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue},System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_8 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue,VagabondK.Protocols.LSElectric.DeviceValue[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_9 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Int32,System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_10 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Int32,System.Byte,System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue},System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write_11 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetClient.Write(System.Int32,System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue,VagabondK.Protocols.LSElectric.DeviceValue[])
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetReadIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorIndividualRequest.#ctor(System.Byte,System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest.#ctor(System.Byte,VagabondK.Protocols.LSElectric.DeviceVariable,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceValue})
+    Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.#ctor(System.Byte,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Add_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.Add(VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue)
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Remove_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.Remove(VagabondK.Protocols.LSElectric.DeviceVariable)
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetSimulationService.#ctor(VagabondK.Protocols.Channels.IChannel)
@@ -638,11 +658,11 @@ TransformManifest:
   Portions Copyright ⓒ 2006-2021, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\TransformManifest.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:04.5741
+    Last step completed in 00:00:03.5267
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1200
+    Last step completed in 00:00:00.1170
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -664,17 +684,17 @@ Indexing D:\Documents\Project\VagabondK.Documents\Help\Working\VagabondK.Protoco
 Indexing D:\Documents\Project\VagabondK.Documents\Help\Working\VagabondK.Protocols.Channels.xml
 Indexing D:\Documents\Project\VagabondK.Documents\Help\Working\VagabondK.Protocols.Modbus.xml
 Indexing D:\Documents\Project\VagabondK.Documents\Help\Working\VagabondK.Protocols.LSElectric.xml
-Indexed 159882 members in 137 file(s).  10 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 159914 members in 137 file(s).  10 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:03.1020
+    Last step completed in 00:00:01.5940
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 D:\Documents\Project\VagabondK.Documents\icons\VagabondK.png -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\icons\VagabondK.png
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -683,7 +703,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-빌드 시작: 2021-09-03 오후 8:49:33
+빌드 시작: 2021-09-05 오후 10:51:47
 1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateIntermediateTOC.proj&quot; 프로젝트(기본 대상)입니다.
 GenerateIntermediateTOC:
   XslTransform (v2021.4.9.0)
@@ -692,24 +712,24 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateIntermediateTOC.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7272
+    Last step completed in 00:00:00.6190
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4898
+    Last step completed in 00:00:00.2860
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Documents\Project\VagabondK.Documents\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0310
+    Last step completed in 00:00:00.0250
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-빌드 시작: 2021-09-03 오후 8:49:34
+빌드 시작: 2021-09-05 오후 10:51:48
 1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트(기본 대상)입니다.
 BuildTopics:
   BuildAssembler (v2021.4.9.0)
@@ -720,16 +740,16 @@ BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:Sy
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.ComponentModel&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.Threading&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
   Processing topics...
-  Processed 2088 topic(s)
+  Processed 2121 topic(s)
   3 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 13 of 30.
 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:22.5497
+    Last step completed in 00:00:19.9468
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0620
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -741,11 +761,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1042&#39;, code page &#39;949&#39;, encoding charset &#39;ks_c_5601-1987&#39;.
 
 Processing website files in D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website
-Processed 2088 HTML files
+Processed 2121 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Documents\Project\VagabondK.Documents\Help\Working\WebKI.xml
 Saving website table of contents to D:\Documents\Project\VagabondK.Documents\Help\Working\WebTOC.xml
-    Last step completed in 00:00:02.0009
+    Last step completed in 00:00:01.5873
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -827,18 +847,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.7135
+    Last step completed in 00:00:00.3398
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:27.7085
+</plugIn>    Last step completed in 00:00:24.6244
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -848,16 +868,17 @@ Copied 1000 files
 Copied 1500 files
 Copied 2000 files
 Copied 2500 files
-Copied 2966 files for the website content
-    Last step completed in 00:00:39.2332
+Copied 3000 files
+Copied 3001 files for the website content
+    Last step completed in 00:00:11.3120
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:01.8145
+    Last step completed in 00:00:02.4251
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2021-09-03 오후 8:51:07.  Total time: 00:01:54.5476
+Build completed successfully at 2021-09-05 오후 10:52:48.  Total time: 00:01:13.6267
 
 </buildStep>
 </shfbBuild>

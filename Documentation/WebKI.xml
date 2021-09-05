@@ -253,7 +253,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_ChannelRequestLog.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelRequestLog.ChannelRequestLog constructor" Url="html/M_VagabondK_Protocols_Logging_ChannelRequestLog__ctor.htm" />
-  <HelpKINode Title="ChannelRequestLog.Message property" Url="html/P_VagabondK_Protocols_Logging_ChannelRequestLog_Message.htm" />
+  <HelpKINode Title="ChannelRequestLog.Request property" Url="html/P_VagabondK_Protocols_Logging_ChannelRequestLog_Request.htm" />
   <HelpKINode Title="ChannelRequestLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_ChannelRequestLog_ToString.htm" />
   <HelpKINode Title="ChannelResponseLog class">
     <HelpKINode Title="ChannelResponseLog Class" Url="html/T_VagabondK_Protocols_Logging_ChannelResponseLog.htm" />
@@ -262,8 +262,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_ChannelResponseLog.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelResponseLog.ChannelResponseLog constructor" Url="html/M_VagabondK_Protocols_Logging_ChannelResponseLog__ctor.htm" />
-  <HelpKINode Title="ChannelResponseLog.Message property" Url="html/P_VagabondK_Protocols_Logging_ChannelResponseLog_Message.htm" />
   <HelpKINode Title="ChannelResponseLog.RequestLog property" Url="html/P_VagabondK_Protocols_Logging_ChannelResponseLog_RequestLog.htm" />
+  <HelpKINode Title="ChannelResponseLog.Response property" Url="html/P_VagabondK_Protocols_Logging_ChannelResponseLog_Response.htm" />
   <HelpKINode Title="ChannelResponseLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_ChannelResponseLog_ToString.htm" />
   <HelpKINode Title="Channels property">
     <HelpKINode Title="ChannelProvider.Channels Property " Url="html/P_VagabondK_Protocols_Channels_ChannelProvider_Channels.htm" />
@@ -328,9 +328,12 @@
   <HelpKINode Title="CnetClient.Channel property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
   <HelpKINode Title="CnetClient.CnetClient constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient__ctor.htm" />
   <HelpKINode Title="CnetClient.Dispose method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Dispose.htm" />
+  <HelpKINode Title="CnetClient.Read method" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read.htm" />
+  <HelpKINode Title="CnetClient.RegisterMonitor method" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor.htm" />
   <HelpKINode Title="CnetClient.Request method" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request.htm" />
   <HelpKINode Title="CnetClient.ThrowsExceptionFromNAK property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_ThrowsExceptionFromNAK.htm" />
   <HelpKINode Title="CnetClient.Timeout property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Timeout.htm" />
+  <HelpKINode Title="CnetClient.Write method" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write.htm" />
   <HelpKINode Title="CnetCommand enumeration" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
   <HelpKINode Title="CnetCommandType enumeration" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
   <HelpKINode Title="CnetCommErrorCode enumeration" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
@@ -341,12 +344,12 @@
   <HelpKINode Title="CnetContinuousRequestExtensions.ToDeviceVariables method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions_ToDeviceVariables.htm" />
   <HelpKINode Title="CnetExecuteMonitorRequest class">
     <HelpKINode Title="CnetExecuteMonitorRequest Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
   </HelpKINode>
   <HelpKINode Title="CnetExecuteMonitorRequest.Clone method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest_Clone.htm" />
-  <HelpKINode Title="CnetExecuteMonitorRequest.CnetExecuteMonitorRequest constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest__ctor.htm" />
+  <HelpKINode Title="CnetExecuteMonitorRequest.CnetExecuteMonitorRequest constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest__ctor.htm" />
   <HelpKINode Title="CnetExecuteMonitorRequest.MonitorNumber property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest_MonitorNumber.htm" />
   <HelpKINode Title="CnetExecuteMonitorRequest.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetIncludeCommandTypeRequest class">
@@ -431,12 +434,12 @@
   <HelpKINode Title="CnetNAKResponse.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetNAKResponse_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetReadContinuousRequest class">
     <HelpKINode Title="CnetReadContinuousRequest Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest.htm" />
   </HelpKINode>
   <HelpKINode Title="CnetReadContinuousRequest.Clone method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest_Clone.htm" />
-  <HelpKINode Title="CnetReadContinuousRequest.CnetReadContinuousRequest constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest__ctor.htm" />
+  <HelpKINode Title="CnetReadContinuousRequest.CnetReadContinuousRequest constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest__ctor.htm" />
   <HelpKINode Title="CnetReadContinuousRequest.Count property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest_Count.htm" />
   <HelpKINode Title="CnetReadContinuousRequest.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetReadContinuousRequest.StartDeviceVariable property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest_StartDeviceVariable.htm" />
@@ -483,12 +486,12 @@
   <HelpKINode Title="CnetReadResponse.Values property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_Values.htm" />
   <HelpKINode Title="CnetRegisterMonitorContinuousRequest class">
     <HelpKINode Title="CnetRegisterMonitorContinuousRequest Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest.htm" />
   </HelpKINode>
   <HelpKINode Title="CnetRegisterMonitorContinuousRequest.Clone method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest_Clone.htm" />
-  <HelpKINode Title="CnetRegisterMonitorContinuousRequest.CnetRegisterMonitorContinuousRequest constructor" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest__ctor.htm" />
+  <HelpKINode Title="CnetRegisterMonitorContinuousRequest.CnetRegisterMonitorContinuousRequest constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest__ctor.htm" />
   <HelpKINode Title="CnetRegisterMonitorContinuousRequest.Count property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest_Count.htm" />
   <HelpKINode Title="CnetRegisterMonitorContinuousRequest.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetRegisterMonitorContinuousRequest.StartDeviceVariable property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorContinuousRequest_StartDeviceVariable.htm" />
@@ -528,6 +531,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="CnetRequest property" Url="html/P_VagabondK_Protocols_Logging_CnetRequestLog_CnetRequest.htm" />
   <HelpKINode Title="CnetRequest.Clone method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Clone.htm" />
   <HelpKINode Title="CnetRequest.CnetRequest constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest__ctor.htm" />
   <HelpKINode Title="CnetRequest.Command property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Command.htm" />
@@ -536,21 +540,28 @@
   <HelpKINode Title="CnetRequest.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetRequest.StationNumber property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_StationNumber.htm" />
   <HelpKINode Title="CnetRequest.Tail property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Tail.htm" />
-  <HelpKINode Title="CnetRequest.UseBCC property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_UseBCC.htm" />
+  <HelpKINode Title="CnetRequestException class">
+    <HelpKINode Title="CnetRequestException Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CnetRequestException.CnetRequestException constructor" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException__ctor.htm" />
   <HelpKINode Title="CnetRequestLog class">
     <HelpKINode Title="CnetRequestLog Class" Url="html/T_VagabondK_Protocols_Logging_CnetRequestLog.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_Logging_CnetRequestLog__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Logging_CnetRequestLog.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_CnetRequestLog.htm" />
   </HelpKINode>
+  <HelpKINode Title="CnetRequestLog.CnetRequest property" Url="html/P_VagabondK_Protocols_Logging_CnetRequestLog_CnetRequest.htm" />
   <HelpKINode Title="CnetRequestLog.CnetRequestLog constructor" Url="html/M_VagabondK_Protocols_Logging_CnetRequestLog__ctor.htm" />
-  <HelpKINode Title="CnetRequestLog.Message property" Url="html/P_VagabondK_Protocols_Logging_CnetRequestLog_Message.htm" />
   <HelpKINode Title="CnetRequestLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_CnetRequestLog_ToString.htm" />
   <HelpKINode Title="CnetResponse class">
     <HelpKINode Title="CnetResponse Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
   </HelpKINode>
+  <HelpKINode Title="CnetResponse property" Url="html/P_VagabondK_Protocols_Logging_CnetResponseLog_CnetResponse.htm" />
   <HelpKINode Title="CnetResponse.Command property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Command.htm" />
   <HelpKINode Title="CnetResponse.OnCreateFrame method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_OnCreateFrame.htm" />
   <HelpKINode Title="CnetResponse.OnCreateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_OnCreateFrameData.htm" />
@@ -562,8 +573,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Logging_CnetResponseLog.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_CnetResponseLog.htm" />
   </HelpKINode>
+  <HelpKINode Title="CnetResponseLog.CnetResponse property" Url="html/P_VagabondK_Protocols_Logging_CnetResponseLog_CnetResponse.htm" />
   <HelpKINode Title="CnetResponseLog.CnetResponseLog constructor" Url="html/M_VagabondK_Protocols_Logging_CnetResponseLog__ctor.htm" />
-  <HelpKINode Title="CnetResponseLog.Message property" Url="html/P_VagabondK_Protocols_Logging_CnetResponseLog_Message.htm" />
   <HelpKINode Title="CnetResponseLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_CnetResponseLog_ToString.htm" />
   <HelpKINode Title="CnetSimulationService class">
     <HelpKINode Title="CnetSimulationService Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService.htm" />
@@ -1210,6 +1221,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_IModbusMessage.htm" />
   </HelpKINode>
   <HelpKINode Title="IModbusMessage.MessageCategory property" Url="html/P_VagabondK_Protocols_Modbus_IModbusMessage_MessageCategory.htm" />
+  <HelpKINode Title="IModbusMessage.Serialize method" Url="html/M_VagabondK_Protocols_Modbus_IModbusMessage_Serialize.htm" />
   <HelpKINode Title="IModbusMessage.TransactionID property" Url="html/P_VagabondK_Protocols_Modbus_IModbusMessage_TransactionID.htm" />
   <HelpKINode Title="INavigationManager interface">
     <HelpKINode Title="INavigationManager Interface" Url="html/T_VagabondK_App_INavigationManager.htm" />
@@ -1322,40 +1334,18 @@
   <HelpKINode Title="IPageData.Title property" Url="html/P_VagabondK_App_IPageData_Title.htm" />
   <HelpKINode Title="IPageData.ViewModelTypeName property" Url="html/P_VagabondK_App_IPageData_ViewModelTypeName.htm" />
   <HelpKINode Title="IPageData.ViewTypeName property" Url="html/P_VagabondK_App_IPageData_ViewTypeName.htm" />
-  <HelpKINode Title="IProtocolMessage interface">
-    <HelpKINode Title="IProtocolMessage Interface" Url="html/T_VagabondK_Protocols_IProtocolMessage.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IProtocolMessage.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IProtocolMessage.Serialize method" Url="html/M_VagabondK_Protocols_IProtocolMessage_Serialize.htm" />
+  <HelpKINode Title="IProtocolMessage interface" Url="html/T_VagabondK_Protocols_IProtocolMessage.htm" />
   <HelpKINode Title="IQueryClosing interface">
     <HelpKINode Title="IQueryClosing Interface" Url="html/T_VagabondK_App_IQueryClosing.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_IQueryClosing.htm" />
   </HelpKINode>
   <HelpKINode Title="IQueryClosing.QueryClosing method" Url="html/M_VagabondK_App_IQueryClosing_QueryClosing.htm" />
-  <HelpKINode Title="IRequest interface">
-    <HelpKINode Title="IRequest Interface" Url="html/T_VagabondK_Protocols_IRequest.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IRequest(Of TErrorCode) interface">
-    <HelpKINode Title="IRequest(TErrorCode) Interface" Url="html/T_VagabondK_Protocols_IRequest_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IRequest_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IRequest&lt;TErrorCode&gt; interface">
-    <HelpKINode Title="IRequest(TErrorCode) Interface" Url="html/T_VagabondK_Protocols_IRequest_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IRequest_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IResponse interface">
-    <HelpKINode Title="IResponse Interface" Url="html/T_VagabondK_Protocols_IResponse.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IResponse.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IResponse(Of TErrorCode) interface">
-    <HelpKINode Title="IResponse(TErrorCode) Interface" Url="html/T_VagabondK_Protocols_IResponse_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IResponse_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IResponse&lt;TErrorCode&gt; interface">
-    <HelpKINode Title="IResponse(TErrorCode) Interface" Url="html/T_VagabondK_Protocols_IResponse_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_IResponse_1.htm" />
-  </HelpKINode>
+  <HelpKINode Title="IRequest interface" Url="html/T_VagabondK_Protocols_IRequest.htm" />
+  <HelpKINode Title="IRequest(Of TErrorCode) interface" Url="html/T_VagabondK_Protocols_IRequest_1.htm" />
+  <HelpKINode Title="IRequest&lt;TErrorCode&gt; interface" Url="html/T_VagabondK_Protocols_IRequest_1.htm" />
+  <HelpKINode Title="IResponse interface" Url="html/T_VagabondK_Protocols_IResponse.htm" />
+  <HelpKINode Title="IResponse(Of TErrorCode) interface" Url="html/T_VagabondK_Protocols_IResponse_1.htm" />
+  <HelpKINode Title="IResponse&lt;TErrorCode&gt; interface" Url="html/T_VagabondK_Protocols_IResponse_1.htm" />
   <HelpKINode Title="IsAndOperation property">
     <HelpKINode Title="MultiBooleanToObjectConverter.IsAndOperation Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToObjectConverter_IsAndOperation.htm" />
     <HelpKINode Title="MultiBooleanToVisibilityConverter.IsAndOperation Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToVisibilityConverter_IsAndOperation.htm" />
@@ -1448,10 +1438,6 @@
   <HelpKINode Title="MemoryParityError enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="Message property">
     <HelpKINode Title="ChannelMessageLog.Message Property " Url="html/P_VagabondK_Protocols_Logging_ChannelMessageLog_Message.htm" />
-    <HelpKINode Title="ChannelRequestLog.Message Property " Url="html/P_VagabondK_Protocols_Logging_ChannelRequestLog_Message.htm" />
-    <HelpKINode Title="ChannelResponseLog.Message Property " Url="html/P_VagabondK_Protocols_Logging_ChannelResponseLog_Message.htm" />
-    <HelpKINode Title="CnetRequestLog.Message Property " Url="html/P_VagabondK_Protocols_Logging_CnetRequestLog_Message.htm" />
-    <HelpKINode Title="CnetResponseLog.Message Property " Url="html/P_VagabondK_Protocols_Logging_CnetResponseLog_Message.htm" />
     <HelpKINode Title="ErrorCodeException(TErrorCode).Message Property " Url="html/P_VagabondK_Protocols_ErrorCodeException_1_Message.htm" />
   </HelpKINode>
   <HelpKINode Title="MessageBox class">
@@ -1713,6 +1699,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusRequest.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusRequest.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModbusRequest property" Url="html/P_VagabondK_Protocols_Logging_ModbusRequestLog_ModbusRequest.htm" />
   <HelpKINode Title="ModbusRequest.Address property" Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_Address.htm" />
   <HelpKINode Title="ModbusRequest.Function property" Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_Function.htm" />
   <HelpKINode Title="ModbusRequest.Length property" Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_Length.htm" />
@@ -1722,15 +1709,34 @@
   <HelpKINode Title="ModbusRequest.Serialize method" Url="html/M_VagabondK_Protocols_Modbus_ModbusRequest_Serialize.htm" />
   <HelpKINode Title="ModbusRequest.SlaveAddress property" Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_SlaveAddress.htm" />
   <HelpKINode Title="ModbusRequest.TransactionID property" Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_TransactionID.htm" />
+  <HelpKINode Title="ModbusRequestLog class">
+    <HelpKINode Title="ModbusRequestLog Class" Url="html/T_VagabondK_Protocols_Logging_ModbusRequestLog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_Logging_ModbusRequestLog__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Logging_ModbusRequestLog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_ModbusRequestLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModbusRequestLog.ModbusRequest property" Url="html/P_VagabondK_Protocols_Logging_ModbusRequestLog_ModbusRequest.htm" />
+  <HelpKINode Title="ModbusRequestLog.ModbusRequestLog constructor" Url="html/M_VagabondK_Protocols_Logging_ModbusRequestLog__ctor.htm" />
+  <HelpKINode Title="ModbusRequestLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_ModbusRequestLog_ToString.htm" />
   <HelpKINode Title="ModbusResponse class">
     <HelpKINode Title="ModbusResponse Class" Url="html/T_VagabondK_Protocols_Modbus_ModbusResponse.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusResponse.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusResponse.htm" />
   </HelpKINode>
+  <HelpKINode Title="ModbusResponse property" Url="html/P_VagabondK_Protocols_Logging_ModbusResponseLog_ModbusResponse.htm" />
   <HelpKINode Title="ModbusResponse.MessageCategory property" Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_MessageCategory.htm" />
   <HelpKINode Title="ModbusResponse.Request property" Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_Request.htm" />
   <HelpKINode Title="ModbusResponse.Serialize method" Url="html/M_VagabondK_Protocols_Modbus_ModbusResponse_Serialize.htm" />
   <HelpKINode Title="ModbusResponse.TransactionID property" Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_TransactionID.htm" />
+  <HelpKINode Title="ModbusResponseLog class">
+    <HelpKINode Title="ModbusResponseLog Class" Url="html/T_VagabondK_Protocols_Logging_ModbusResponseLog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_Logging_ModbusResponseLog__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Logging_ModbusResponseLog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Logging_ModbusResponseLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModbusResponseLog.ModbusResponse property" Url="html/P_VagabondK_Protocols_Logging_ModbusResponseLog_ModbusResponse.htm" />
+  <HelpKINode Title="ModbusResponseLog.ModbusResponseLog constructor" Url="html/M_VagabondK_Protocols_Logging_ModbusResponseLog__ctor.htm" />
+  <HelpKINode Title="ModbusResponseLog.ToString method" Url="html/M_VagabondK_Protocols_Logging_ModbusResponseLog_ToString.htm" />
   <HelpKINode Title="ModbusRtuSerializer class">
     <HelpKINode Title="ModbusRtuSerializer Class" Url="html/T_VagabondK_Protocols_Modbus_Serialization_ModbusRtuSerializer.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Protocols_Modbus_Serialization_ModbusRtuSerializer__ctor.htm" />
@@ -2256,6 +2262,7 @@
   <HelpKINode Title="Read method">
     <HelpKINode Title="Channel.Read Method " Url="html/Overload_VagabondK_Protocols_Channels_Channel_Read.htm" />
     <HelpKINode Title="ChannelProvider.Read Method " Url="html/Overload_VagabondK_Protocols_Channels_ChannelProvider_Read.htm" />
+    <HelpKINode Title="CnetClient.Read Method " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read.htm" />
     <HelpKINode Title="IChannel.Read Method " Url="html/Overload_VagabondK_Protocols_Channels_IChannel_Read.htm" />
     <HelpKINode Title="SerialPortChannel.Read Method " Url="html/Overload_VagabondK_Protocols_Channels_SerialPortChannel_Read.htm" />
     <HelpKINode Title="StreamChannel.Read Method " Url="html/Overload_VagabondK_Protocols_Channels_StreamChannel_Read.htm" />
@@ -2303,6 +2310,7 @@
   <HelpKINode Title="ReadUInt64FromInputRegisters method" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters.htm" />
   <HelpKINode Title="ReceivedBytes property" Url="html/P_VagabondK_Protocols_RequestException_1_ReceivedBytes.htm" />
   <HelpKINode Title="RegisterMonitor enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
+  <HelpKINode Title="RegisterMonitor method" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor.htm" />
   <HelpKINode Title="Registers property" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Registers.htm" />
   <HelpKINode Title="ReloadView method" Url="html/M_VagabondK_App_PageContext_ReloadView.htm" />
   <HelpKINode Title="RemotePort property" Url="html/P_VagabondK_Protocols_Channels_UdpChannel_RemotePort.htm" />
@@ -2328,6 +2336,7 @@
     <HelpKINode Title="ModbusMaster.Request Method " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="Request property">
+    <HelpKINode Title="ChannelRequestLog.Request Property " Url="html/P_VagabondK_Protocols_Logging_ChannelRequestLog_Request.htm" />
     <HelpKINode Title="CnetResponse.Request Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Request.htm" />
     <HelpKINode Title="ModbusResponse.Request Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_Request.htm" />
     <HelpKINode Title="RequestException(TErrorCode).Request Property " Url="html/P_VagabondK_Protocols_RequestException_1_Request.htm" />
@@ -2429,6 +2438,7 @@
   <HelpKINode Title="ResizeMode attached property" Url="html/P_VagabondK_App_Windows_Dialog_ResizeMode.htm" />
   <HelpKINode Title="ResizeModeProperty field" Url="html/F_VagabondK_App_Windows_Dialog_ResizeModeProperty.htm" />
   <HelpKINode Title="Response enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
+  <HelpKINode Title="Response property" Url="html/P_VagabondK_Protocols_Logging_ChannelResponseLog_Response.htm" />
   <HelpKINode Title="ResponseAddressDoNotMatch enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseAsciiEndError enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseAsciiStartError enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
@@ -2481,7 +2491,7 @@
   <HelpKINode Title="SelectedPageContext property" Url="html/P_VagabondK_App_Shell_SelectedPageContext.htm" />
   <HelpKINode Title="Serialize method">
     <HelpKINode Title="CnetMessage.Serialize Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_Serialize.htm" />
-    <HelpKINode Title="IProtocolMessage.Serialize Method " Url="html/M_VagabondK_Protocols_IProtocolMessage_Serialize.htm" />
+    <HelpKINode Title="IModbusMessage.Serialize Method " Url="html/M_VagabondK_Protocols_Modbus_IModbusMessage_Serialize.htm" />
     <HelpKINode Title="ModbusExceptionResponse.Serialize Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusExceptionResponse_Serialize.htm" />
     <HelpKINode Title="ModbusReadBooleanResponse.Serialize Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Serialize.htm" />
     <HelpKINode Title="ModbusReadRegisterResponse.Serialize Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Serialize.htm" />
@@ -2974,6 +2984,8 @@
     <HelpKINode Title="DeviceVariable.ToString Method " Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_ToString.htm" />
     <HelpKINode Title="ModbusEndian.ToString Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_ToString.htm" />
     <HelpKINode Title="ModbusExceptionLog.ToString Method " Url="html/M_VagabondK_Protocols_Logging_ModbusExceptionLog_ToString.htm" />
+    <HelpKINode Title="ModbusRequestLog.ToString Method " Url="html/M_VagabondK_Protocols_Logging_ModbusRequestLog_ToString.htm" />
+    <HelpKINode Title="ModbusResponseLog.ToString Method " Url="html/M_VagabondK_Protocols_Logging_ModbusResponseLog_ToString.htm" />
     <HelpKINode Title="UnrecognizedErrorLog.ToString Method " Url="html/M_VagabondK_Protocols_Logging_UnrecognizedErrorLog_ToString.htm" />
   </HelpKINode>
   <HelpKINode Title="ToUInt16Converter class">
@@ -3096,7 +3108,6 @@
   <HelpKINode Title="UnsignedDoubleWordValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedDoubleWordValue.htm" />
   <HelpKINode Title="UnsignedLongWordValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedLongWordValue.htm" />
   <HelpKINode Title="UnsignedWordValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedWordValue.htm" />
-  <HelpKINode Title="UseBCC property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_UseBCC.htm" />
   <HelpKINode Title="VagabondK.App namespace" Url="html/N_VagabondK_App.htm" />
   <HelpKINode Title="VagabondK.App.DialogExtensions class" Url="html/T_VagabondK_App_DialogExtensions.htm" />
   <HelpKINode Title="VagabondK.App.FocusHandlerExtensions class" Url="html/T_VagabondK_App_FocusHandlerExtensions.htm" />
@@ -3171,6 +3182,8 @@
   <HelpKINode Title="VagabondK.Protocols.Logging.ConsoleChannelLogger class" Url="html/T_VagabondK_Protocols_Logging_ConsoleChannelLogger.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.IChannelLogger interface" Url="html/T_VagabondK_Protocols_Logging_IChannelLogger.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.ModbusExceptionLog class" Url="html/T_VagabondK_Protocols_Logging_ModbusExceptionLog.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Logging.ModbusRequestLog class" Url="html/T_VagabondK_Protocols_Logging_ModbusRequestLog.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Logging.ModbusResponseLog class" Url="html/T_VagabondK_Protocols_Logging_ModbusResponseLog.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.StreamChannelLogger class" Url="html/T_VagabondK_Protocols_Logging_StreamChannelLogger.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.UnrecognizedErrorLog class" Url="html/T_VagabondK_Protocols_Logging_UnrecognizedErrorLog.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric namespace" Url="html/N_VagabondK_Protocols_LSElectric.htm" />
@@ -3197,6 +3210,7 @@
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorIndividualRequest class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorIndividualRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetRegisterMonitorRequest class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRegisterMonitorRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetRequest class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetRequestException class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetRequestException.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetResponse class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest.htm" />
@@ -3353,8 +3367,8 @@
     <HelpKINode Title="PageData.ViewModelTypeName Property " Url="html/P_VagabondK_App_PageData_ViewModelTypeName.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider class">
-    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
+    <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
@@ -3380,6 +3394,7 @@
   <HelpKINode Title="Write method">
     <HelpKINode Title="Channel.Write Method " Url="html/M_VagabondK_Protocols_Channels_Channel_Write.htm" />
     <HelpKINode Title="ChannelProvider.Write Method " Url="html/M_VagabondK_Protocols_Channels_ChannelProvider_Write.htm" />
+    <HelpKINode Title="CnetClient.Write Method " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write.htm" />
     <HelpKINode Title="IChannel.Write Method " Url="html/M_VagabondK_Protocols_Channels_IChannel_Write.htm" />
     <HelpKINode Title="ModbusMaster.Write Method " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_Write.htm" />
     <HelpKINode Title="SerialPortChannel.Write Method " Url="html/M_VagabondK_Protocols_Channels_SerialPortChannel_Write.htm" />

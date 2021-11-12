@@ -36,6 +36,7 @@
   <HelpKINode Title="AllocateRepeatRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeatRawData.htm" />
   <HelpKINode Title="Asterisk enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="AutoAllocation property" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_AutoAllocation.htm" />
+  <HelpKINode Title="Automata property" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_Automata.htm" />
   <HelpKINode Title="BaudRate property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_BaudRate.htm" />
   <HelpKINode Title="Bit enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
   <HelpKINode Title="BitValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_BitValue.htm" />
@@ -97,22 +98,22 @@
   </HelpKINode>
   <HelpKINode Title="ByteValue property" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_ByteValue.htm" />
   <HelpKINode Title="C enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
+  <HelpKINode Title="CanBeHangulFinal method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_CanBeHangulFinal.htm" />
+  <HelpKINode Title="CanBeHangulInitial method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_CanBeHangulInitial.htm" />
   <HelpKINode Title="Cancel enumeration member" Url="html/T_VagabondK_App_MessageBoxResult.htm" />
   <HelpKINode Title="CanExecute method">
-    <HelpKINode Title="CloseWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_CloseWindowCommand_CanExecute.htm" />
+    <HelpKINode Title="CloseWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand_CanExecute.htm" />
     <HelpKINode Title="InstantCommand(TParameter).CanExecute Method " Url="html/Overload_System_InstantCommand_1_CanExecute.htm" />
     <HelpKINode Title="InstantCommand.CanExecute Method " Url="html/Overload_System_InstantCommand_CanExecute.htm" />
     <HelpKINode Title="InstantCommandBase.CanExecute Method " Url="html/M_System_InstantCommandBase_CanExecute.htm" />
-    <HelpKINode Title="MinimizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_MinimizeWindowCommand_CanExecute.htm" />
-    <HelpKINode Title="SetPropertyValueCommand.CanExecute Method " Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecute.htm" />
-    <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecute.htm" />
+    <HelpKINode Title="MinimizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand_CanExecute.htm" />
+    <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecute Method " Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_CanExecute.htm" />
   </HelpKINode>
   <HelpKINode Title="CanExecuteChanged event">
-    <HelpKINode Title="CloseWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_CloseWindowCommand_CanExecuteChanged.htm" />
+    <HelpKINode Title="CloseWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_Commands_CloseWindowCommand_CanExecuteChanged.htm" />
     <HelpKINode Title="InstantCommandBase.CanExecuteChanged Event" Url="html/E_System_InstantCommandBase_CanExecuteChanged.htm" />
-    <HelpKINode Title="MinimizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_MinimizeWindowCommand_CanExecuteChanged.htm" />
-    <HelpKINode Title="SetPropertyValueCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecuteChanged.htm" />
-    <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecuteChanged.htm" />
+    <HelpKINode Title="MinimizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_Commands_MinimizeWindowCommand_CanExecuteChanged.htm" />
+    <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecuteChanged Event" Url="html/E_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_CanExecuteChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload method">
@@ -131,8 +132,8 @@
     <HelpKINode Title="CnetClient.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
     <HelpKINode Title="CnetSimulationService.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Channel.htm" />
     <HelpKINode Title="ModbusMaster.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_Channel.htm" />
-    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="ValidatingSlaveAddressEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_Channel.htm" />
   </HelpKINode>
   <HelpKINode Title="Channel.BytesToRead property" Url="html/P_VagabondK_Protocols_Channels_Channel_BytesToRead.htm" />
@@ -298,15 +299,15 @@
   </HelpKINode>
   <HelpKINode Title="Close method" Url="html/M_System_Threading_DisposableMutex_Close.htm" />
   <HelpKINode Title="CloseWindowCommand class">
-    <HelpKINode Title="CloseWindowCommand Class" Url="html/T_VagabondK_Windows_CloseWindowCommand.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_CloseWindowCommand__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_CloseWindowCommand.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_CloseWindowCommand.htm" />
+    <HelpKINode Title="CloseWindowCommand Class" Url="html/T_VagabondK_Windows_Commands_CloseWindowCommand.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_Commands_CloseWindowCommand.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Commands_CloseWindowCommand.htm" />
   </HelpKINode>
-  <HelpKINode Title="CloseWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_CloseWindowCommand_CanExecute.htm" />
-  <HelpKINode Title="CloseWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_CloseWindowCommand_CanExecuteChanged.htm" />
-  <HelpKINode Title="CloseWindowCommand.CloseWindowCommand constructor" Url="html/M_VagabondK_Windows_CloseWindowCommand__ctor.htm" />
-  <HelpKINode Title="CloseWindowCommand.Execute method" Url="html/M_VagabondK_Windows_CloseWindowCommand_Execute.htm" />
+  <HelpKINode Title="CloseWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand_CanExecute.htm" />
+  <HelpKINode Title="CloseWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_Commands_CloseWindowCommand_CanExecuteChanged.htm" />
+  <HelpKINode Title="CloseWindowCommand.CloseWindowCommand constructor" Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand__ctor.htm" />
+  <HelpKINode Title="CloseWindowCommand.Execute method" Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand_Execute.htm" />
   <HelpKINode Title="CnetACKResponse class">
     <HelpKINode Title="CnetACKResponse Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetACKResponse.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetACKResponse.htm" />
@@ -659,6 +660,8 @@
   <HelpKINode Title="Convert method">
     <HelpKINode Title="BooleanToObjectConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_BooleanToObjectConverter_Convert.htm" />
     <HelpKINode Title="BooleanToVisibilityConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_BooleanToVisibilityConverter_Convert.htm" />
+    <HelpKINode Title="EqualsConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_EqualsConverter_Convert.htm" />
+    <HelpKINode Title="EqualsToVisibilityConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_Convert.htm" />
     <HelpKINode Title="IfElseConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_IfElseConverter_Convert.htm" />
     <HelpKINode Title="MathAbsConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_MathAbsConverter_Convert.htm" />
     <HelpKINode Title="MathSqrtConverter.Convert Method " Url="html/M_VagabondK_Windows_Converters_MathSqrtConverter_Convert.htm" />
@@ -685,6 +688,8 @@
   <HelpKINode Title="ConvertBack method">
     <HelpKINode Title="BooleanToObjectConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_BooleanToObjectConverter_ConvertBack.htm" />
     <HelpKINode Title="BooleanToVisibilityConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_BooleanToVisibilityConverter_ConvertBack.htm" />
+    <HelpKINode Title="EqualsConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_EqualsConverter_ConvertBack.htm" />
+    <HelpKINode Title="EqualsToVisibilityConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_ConvertBack.htm" />
     <HelpKINode Title="IfElseConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_IfElseConverter_ConvertBack.htm" />
     <HelpKINode Title="MathAbsConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_MathAbsConverter_ConvertBack.htm" />
     <HelpKINode Title="MathSqrtConverter.ConvertBack Method " Url="html/M_VagabondK_Windows_Converters_MathSqrtConverter_ConvertBack.htm" />
@@ -905,6 +910,8 @@
     <HelpKINode Title="UdpChannel.Dispose Method " Url="html/M_VagabondK_Protocols_Channels_UdpChannel_Dispose.htm" />
     <HelpKINode Title="UdpChannelProvider.Dispose Method " Url="html/M_VagabondK_Protocols_Channels_UdpChannelProvider_Dispose.htm" />
   </HelpKINode>
+  <HelpKINode Title="Dot field" Url="html/F_VagabondK_Korean_Hangul_HangulCharacter_Dot.htm" />
+  <HelpKINode Title="DoubleDot field" Url="html/F_VagabondK_Korean_Hangul_HangulCharacter_DoubleDot.htm" />
   <HelpKINode Title="DoubleExtension class">
     <HelpKINode Title="DoubleExtension Class" Url="html/T_VagabondK_Windows_DoubleExtension.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_DoubleExtension__ctor.htm" />
@@ -928,6 +935,29 @@
     <HelpKINode Title="DeviceVariable.Equals Method " Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_Equals.htm" />
     <HelpKINode Title="ModbusEndian.Equals Method " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_Equals.htm" />
   </HelpKINode>
+  <HelpKINode Title="EqualsConverter class">
+    <HelpKINode Title="EqualsConverter Class" Url="html/T_VagabondK_Windows_Converters_EqualsConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Converters_EqualsConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Converters_EqualsConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Windows_Converters_EqualsConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EqualsConverter.Convert method" Url="html/M_VagabondK_Windows_Converters_EqualsConverter_Convert.htm" />
+  <HelpKINode Title="EqualsConverter.ConvertBack method" Url="html/M_VagabondK_Windows_Converters_EqualsConverter_ConvertBack.htm" />
+  <HelpKINode Title="EqualsConverter.EqualsConverter constructor" Url="html/M_VagabondK_Windows_Converters_EqualsConverter__ctor.htm" />
+  <HelpKINode Title="EqualsConverter.Invert property" Url="html/P_VagabondK_Windows_Converters_EqualsConverter_Invert.htm" />
+  <HelpKINode Title="EqualsConverter.ProvideValue method" Url="html/M_VagabondK_Windows_Converters_EqualsConverter_ProvideValue.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter class">
+    <HelpKINode Title="EqualsToVisibilityConverter Class" Url="html/T_VagabondK_Windows_Converters_EqualsToVisibilityConverter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Converters_EqualsToVisibilityConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Windows_Converters_EqualsToVisibilityConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EqualsToVisibilityConverter.Convert method" Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_Convert.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter.ConvertBack method" Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_ConvertBack.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter.EqualsToVisibilityConverter constructor" Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter__ctor.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter.HiddenInsteadOfCollapsed property" Url="html/P_VagabondK_Windows_Converters_EqualsToVisibilityConverter_HiddenInsteadOfCollapsed.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter.Invert property" Url="html/P_VagabondK_Windows_Converters_EqualsToVisibilityConverter_Invert.htm" />
+  <HelpKINode Title="EqualsToVisibilityConverter.ProvideValue method" Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_ProvideValue.htm" />
   <HelpKINode Title="Error enumeration member">
     <HelpKINode Title="MessageImage Enumeration" Url="html/T_VagabondK_App_MessageImage.htm" />
     <HelpKINode Title="ModbusMessageCategory Enumeration" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
@@ -961,13 +991,12 @@
   </HelpKINode>
   <HelpKINode Title="Exclamation enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="Execute method">
-    <HelpKINode Title="CloseWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_CloseWindowCommand_Execute.htm" />
+    <HelpKINode Title="CloseWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_Commands_CloseWindowCommand_Execute.htm" />
     <HelpKINode Title="InstantCommand(TParameter).Execute Method " Url="html/Overload_System_InstantCommand_1_Execute.htm" />
     <HelpKINode Title="InstantCommand.Execute Method " Url="html/Overload_System_InstantCommand_Execute.htm" />
     <HelpKINode Title="InstantCommandBase.Execute Method " Url="html/M_System_InstantCommandBase_Execute.htm" />
-    <HelpKINode Title="MinimizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_MinimizeWindowCommand_Execute.htm" />
-    <HelpKINode Title="SetPropertyValueCommand.Execute Method " Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_Execute.htm" />
-    <HelpKINode Title="ToggleMaximizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_Execute.htm" />
+    <HelpKINode Title="MinimizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand_Execute.htm" />
+    <HelpKINode Title="ToggleMaximizeWindowCommand.Execute Method " Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_Execute.htm" />
   </HelpKINode>
   <HelpKINode Title="ExecuteMonitor enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
   <HelpKINode Title="F enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
@@ -1010,6 +1039,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_FocusHandlerExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="FocusHandlerExtensions.Focus method" Url="html/M_VagabondK_App_FocusHandlerExtensions_Focus.htm" />
+  <HelpKINode Title="FromHangulParts method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_FromHangulParts.htm" />
   <HelpKINode Title="Function property">
     <HelpKINode Title="ModbusRequest.Function Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_Function.htm" />
     <HelpKINode Title="RequestedEventArgs.Function Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Function.htm" />
@@ -1083,6 +1113,54 @@
   </HelpKINode>
   <HelpKINode Title="GoBack method" Url="html/M_VagabondK_App_INavigationManager_GoBack.htm" />
   <HelpKINode Title="Hand enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
+  <HelpKINode Title="HangulAutomata class">
+    <HelpKINode Title="HangulAutomata Class" Url="html/T_VagabondK_Korean_Hangul_HangulAutomata.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Korean_Hangul_HangulAutomata.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Korean_Hangul_HangulAutomata.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HangulAutomata.HangulAutomata constructor" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata__ctor.htm" />
+  <HelpKINode Title="HangulAutomata.InputBackspace method" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_InputBackspace.htm" />
+  <HelpKINode Title="HangulAutomata.InputCharacter method" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_InputCharacter.htm" />
+  <HelpKINode Title="HangulAutomata.ReplaceInputTimeout property" Url="html/P_VagabondK_Korean_Hangul_HangulAutomata_ReplaceInputTimeout.htm" />
+  <HelpKINode Title="HangulAutomata.TryBreak method" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_TryBreak.htm" />
+  <HelpKINode Title="HangulAutomata.TryCombine method" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_TryCombine.htm" />
+  <HelpKINode Title="HangulCharacter class">
+    <HelpKINode Title="HangulCharacter Class" Url="html/T_VagabondK_Korean_Hangul_HangulCharacter.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_VagabondK_Korean_Hangul_HangulCharacter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Korean_Hangul_HangulCharacter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HangulCharacter.CanBeHangulFinal method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_CanBeHangulFinal.htm" />
+  <HelpKINode Title="HangulCharacter.CanBeHangulInitial method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_CanBeHangulInitial.htm" />
+  <HelpKINode Title="HangulCharacter.Dot field" Url="html/F_VagabondK_Korean_Hangul_HangulCharacter_Dot.htm" />
+  <HelpKINode Title="HangulCharacter.DoubleDot field" Url="html/F_VagabondK_Korean_Hangul_HangulCharacter_DoubleDot.htm" />
+  <HelpKINode Title="HangulCharacter.FromHangulParts method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_FromHangulParts.htm" />
+  <HelpKINode Title="HangulCharacter.IsDots method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsDots.htm" />
+  <HelpKINode Title="HangulCharacter.IsHangul method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangul.htm" />
+  <HelpKINode Title="HangulCharacter.IsHangulConsonant method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulConsonant.htm" />
+  <HelpKINode Title="HangulCharacter.IsHangulSyllable method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulSyllable.htm" />
+  <HelpKINode Title="HangulCharacter.IsHangulVowel method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulVowel.htm" />
+  <HelpKINode Title="HangulCharacter.ToHangulParts method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_ToHangulParts.htm" />
+  <HelpKINode Title="HangulKeyInputModel class">
+    <HelpKINode Title="HangulKeyInputModel Class" Url="html/T_VagabondK_Korean_ScreenInput_HangulKeyInputModel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Korean_ScreenInput_HangulKeyInputModel__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Korean_ScreenInput_HangulKeyInputModel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Korean_ScreenInput_HangulKeyInputModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Korean_ScreenInput_HangulKeyInputModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HangulKeyInputModel.Automata property" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_Automata.htm" />
+  <HelpKINode Title="HangulKeyInputModel.HangulKeyInputModel constructor" Url="html/M_VagabondK_Korean_ScreenInput_HangulKeyInputModel__ctor.htm" />
+  <HelpKINode Title="HangulKeyInputModel.InputBackspaceCommand property" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_InputBackspaceCommand.htm" />
+  <HelpKINode Title="HangulKeyInputModel.InputCharacterCommand property" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_InputCharacterCommand.htm" />
+  <HelpKINode Title="HangulKeyInputModel.PropertyChanged event" Url="html/E_VagabondK_Korean_ScreenInput_HangulKeyInputModel_PropertyChanged.htm" />
+  <HelpKINode Title="HangulKSX5002Automata class">
+    <HelpKINode Title="HangulKSX5002Automata Class" Url="html/T_VagabondK_Korean_Hangul_HangulKSX5002Automata.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Korean_Hangul_HangulKSX5002Automata__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Korean_Hangul_HangulKSX5002Automata.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Korean_Hangul_HangulKSX5002Automata.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HangulKSX5002Automata.HangulKSX5002Automata constructor" Url="html/M_VagabondK_Korean_Hangul_HangulKSX5002Automata__ctor.htm" />
+  <HelpKINode Title="HangulKSX5002Automata.TryCombine method" Url="html/M_VagabondK_Korean_Hangul_HangulKSX5002Automata_TryCombine.htm" />
   <HelpKINode Title="Header property">
     <HelpKINode Title="CnetACKResponse.Header Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetACKResponse_Header.htm" />
     <HelpKINode Title="CnetMessage.Header Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_Header.htm" />
@@ -1091,6 +1169,7 @@
   </HelpKINode>
   <HelpKINode Title="HiddenInsteadOfCollapsed property">
     <HelpKINode Title="BooleanToVisibilityConverter.HiddenInsteadOfCollapsed Property " Url="html/P_VagabondK_Windows_Converters_BooleanToVisibilityConverter_HiddenInsteadOfCollapsed.htm" />
+    <HelpKINode Title="EqualsToVisibilityConverter.HiddenInsteadOfCollapsed Property " Url="html/P_VagabondK_Windows_Converters_EqualsToVisibilityConverter_HiddenInsteadOfCollapsed.htm" />
     <HelpKINode Title="MultiBooleanToVisibilityConverter.HiddenInsteadOfCollapsed Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToVisibilityConverter_HiddenInsteadOfCollapsed.htm" />
     <HelpKINode Title="NotNullToVisibilityConverter.HiddenInsteadOfCollapsed Property " Url="html/P_VagabondK_Windows_Converters_NotNullToVisibilityConverter_HiddenInsteadOfCollapsed.htm" />
   </HelpKINode>
@@ -1149,6 +1228,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_IFocusHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="IFocusHandler.Focus method" Url="html/M_VagabondK_App_IFocusHandler_Focus.htm" />
+  <HelpKINode Title="IHangulAutomata interface">
+    <HelpKINode Title="IHangulAutomata Interface" Url="html/T_VagabondK_Korean_Hangul_IHangulAutomata.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Korean_Hangul_IHangulAutomata.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IHangulAutomata.InputBackspace method" Url="html/M_VagabondK_Korean_Hangul_IHangulAutomata_InputBackspace.htm" />
+  <HelpKINode Title="IHangulAutomata.InputCharacter method" Url="html/M_VagabondK_Korean_Hangul_IHangulAutomata_InputCharacter.htm" />
   <HelpKINode Title="IInstantCommand interface">
     <HelpKINode Title="IInstantCommand Interface" Url="html/T_System_IInstantCommand.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_System_IInstantCommand.htm" />
@@ -1226,6 +1311,22 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_INotifyLoaded.htm" />
   </HelpKINode>
   <HelpKINode Title="INotifyLoaded.OnLoaded method" Url="html/M_VagabondK_App_INotifyLoaded_OnLoaded.htm" />
+  <HelpKINode Title="InputBackspace method">
+    <HelpKINode Title="HangulAutomata.InputBackspace Method " Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_InputBackspace.htm" />
+    <HelpKINode Title="IHangulAutomata.InputBackspace Method " Url="html/M_VagabondK_Korean_Hangul_IHangulAutomata_InputBackspace.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputBackspaceCommand property">
+    <HelpKINode Title="HangulKeyInputModel.InputBackspaceCommand Property " Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_InputBackspaceCommand.htm" />
+    <HelpKINode Title="IScreenKeyInputModel.InputBackspaceCommand Property " Url="html/P_VagabondK_Korean_ScreenInput_IScreenKeyInputModel_InputBackspaceCommand.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputCharacter method">
+    <HelpKINode Title="HangulAutomata.InputCharacter Method " Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_InputCharacter.htm" />
+    <HelpKINode Title="IHangulAutomata.InputCharacter Method " Url="html/M_VagabondK_Korean_Hangul_IHangulAutomata_InputCharacter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputCharacterCommand property">
+    <HelpKINode Title="HangulKeyInputModel.InputCharacterCommand Property " Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_InputCharacterCommand.htm" />
+    <HelpKINode Title="IScreenKeyInputModel.InputCharacterCommand Property " Url="html/P_VagabondK_Korean_ScreenInput_IScreenKeyInputModel_InputCharacterCommand.htm" />
+  </HelpKINode>
   <HelpKINode Title="InputRegister enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusObjectType.htm" />
   <HelpKINode Title="InputRegisters property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_InputRegisters.htm" />
   <HelpKINode Title="Insert method">
@@ -1297,6 +1398,8 @@
   <HelpKINode Title="InvalidateFrameData method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_InvalidateFrameData.htm" />
   <HelpKINode Title="Invert property">
     <HelpKINode Title="BooleanToVisibilityConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_BooleanToVisibilityConverter_Invert.htm" />
+    <HelpKINode Title="EqualsConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_EqualsConverter_Invert.htm" />
+    <HelpKINode Title="EqualsToVisibilityConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_EqualsToVisibilityConverter_Invert.htm" />
     <HelpKINode Title="MultiBooleanToObjectConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToObjectConverter_Invert.htm" />
     <HelpKINode Title="MultiBooleanToVisibilityConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToVisibilityConverter_Invert.htm" />
     <HelpKINode Title="NotNullToVisibilityConverter.Invert Property " Url="html/P_VagabondK_Windows_Converters_NotNullToVisibilityConverter_Invert.htm" />
@@ -1328,6 +1431,12 @@
   </HelpKINode>
   <HelpKINode Title="IsCanceled method" Url="html/M_System_PropertyExtensions_IsCanceled.htm" />
   <HelpKINode Title="IsCanceled property" Url="html/P_System_ComponentModel_QueryPropertyChangingEventArgs_IsCanceled.htm" />
+  <HelpKINode Title="IScreenKeyInputModel interface">
+    <HelpKINode Title="IScreenKeyInputModel Interface" Url="html/T_VagabondK_Korean_ScreenInput_IScreenKeyInputModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Korean_ScreenInput_IScreenKeyInputModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IScreenKeyInputModel.InputBackspaceCommand property" Url="html/P_VagabondK_Korean_ScreenInput_IScreenKeyInputModel_InputBackspaceCommand.htm" />
+  <HelpKINode Title="IScreenKeyInputModel.InputCharacterCommand property" Url="html/P_VagabondK_Korean_ScreenInput_IScreenKeyInputModel_InputCharacterCommand.htm" />
   <HelpKINode Title="IsDefault attached property" Url="html/P_VagabondK_Windows_Focus_IsDefault.htm" />
   <HelpKINode Title="IsDefaultProperty field" Url="html/F_VagabondK_Windows_Focus_IsDefaultProperty.htm" />
   <HelpKINode Title="IsDisposed property">
@@ -1335,6 +1444,11 @@
     <HelpKINode Title="ChannelProvider.IsDisposed Property " Url="html/P_VagabondK_Protocols_Channels_ChannelProvider_IsDisposed.htm" />
     <HelpKINode Title="IChannel.IsDisposed Property " Url="html/P_VagabondK_Protocols_Channels_IChannel_IsDisposed.htm" />
   </HelpKINode>
+  <HelpKINode Title="IsDots method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsDots.htm" />
+  <HelpKINode Title="IsHangul method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangul.htm" />
+  <HelpKINode Title="IsHangulConsonant method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulConsonant.htm" />
+  <HelpKINode Title="IsHangulSyllable method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulSyllable.htm" />
+  <HelpKINode Title="IsHangulVowel method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_IsHangulVowel.htm" />
   <HelpKINode Title="IsOk attached property" Url="html/P_VagabondK_App_Windows_Dialog_IsOk.htm" />
   <HelpKINode Title="IsOkProperty field" Url="html/F_VagabondK_App_Windows_Dialog_IsOkProperty.htm" />
   <HelpKINode Title="IsReadOnly property">
@@ -1437,15 +1551,15 @@
   </HelpKINode>
   <HelpKINode Title="MessageImage enumeration" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="MinimizeWindowCommand class">
-    <HelpKINode Title="MinimizeWindowCommand Class" Url="html/T_VagabondK_Windows_MinimizeWindowCommand.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_MinimizeWindowCommand__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_MinimizeWindowCommand.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_MinimizeWindowCommand.htm" />
+    <HelpKINode Title="MinimizeWindowCommand Class" Url="html/T_VagabondK_Windows_Commands_MinimizeWindowCommand.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_Commands_MinimizeWindowCommand.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Commands_MinimizeWindowCommand.htm" />
   </HelpKINode>
-  <HelpKINode Title="MinimizeWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_MinimizeWindowCommand_CanExecute.htm" />
-  <HelpKINode Title="MinimizeWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_MinimizeWindowCommand_CanExecuteChanged.htm" />
-  <HelpKINode Title="MinimizeWindowCommand.Execute method" Url="html/M_VagabondK_Windows_MinimizeWindowCommand_Execute.htm" />
-  <HelpKINode Title="MinimizeWindowCommand.MinimizeWindowCommand constructor" Url="html/M_VagabondK_Windows_MinimizeWindowCommand__ctor.htm" />
+  <HelpKINode Title="MinimizeWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand_CanExecute.htm" />
+  <HelpKINode Title="MinimizeWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_Commands_MinimizeWindowCommand_CanExecuteChanged.htm" />
+  <HelpKINode Title="MinimizeWindowCommand.Execute method" Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand_Execute.htm" />
+  <HelpKINode Title="MinimizeWindowCommand.MinimizeWindowCommand constructor" Url="html/M_VagabondK_Windows_Commands_MinimizeWindowCommand__ctor.htm" />
   <HelpKINode Title="Minimum property" Url="html/P_VagabondK_Windows_Converters_NumericLimitConverter_Minimum.htm" />
   <HelpKINode Title="ModbusAsciiSerializer class">
     <HelpKINode Title="ModbusAsciiSerializer Class" Url="html/T_VagabondK_Protocols_Modbus_Serialization_ModbusAsciiSerializer.htm" />
@@ -2137,6 +2251,7 @@
   <HelpKINode Title="PrimaryChannel property" Url="html/P_VagabondK_Protocols_Channels_ChannelProvider_PrimaryChannel.htm" />
   <HelpKINode Title="Priority property" Url="html/P_System_ServiceDescriptionAttribute_Priority.htm" />
   <HelpKINode Title="PropertyChanged event">
+    <HelpKINode Title="HangulKeyInputModel.PropertyChanged Event" Url="html/E_VagabondK_Korean_ScreenInput_HangulKeyInputModel_PropertyChanged.htm" />
     <HelpKINode Title="ModbusSlave.PropertyChanged Event" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlave_PropertyChanged.htm" />
     <HelpKINode Title="NotifyPropertyChangeObject.PropertyChanged Event" Url="html/E_System_NotifyPropertyChangeObject_PropertyChanged.htm" />
     <HelpKINode Title="PageContext(TPageData).PropertyChanged Event" Url="html/E_VagabondK_App_PageContext_1_PropertyChanged.htm" />
@@ -2170,6 +2285,8 @@
     <HelpKINode Title="ByteExtension.ProvideValue Method " Url="html/M_VagabondK_Windows_ByteExtension_ProvideValue.htm" />
     <HelpKINode Title="DecimalExtension.ProvideValue Method " Url="html/M_VagabondK_Windows_DecimalExtension_ProvideValue.htm" />
     <HelpKINode Title="DoubleExtension.ProvideValue Method " Url="html/M_VagabondK_Windows_DoubleExtension_ProvideValue.htm" />
+    <HelpKINode Title="EqualsConverter.ProvideValue Method " Url="html/M_VagabondK_Windows_Converters_EqualsConverter_ProvideValue.htm" />
+    <HelpKINode Title="EqualsToVisibilityConverter.ProvideValue Method " Url="html/M_VagabondK_Windows_Converters_EqualsToVisibilityConverter_ProvideValue.htm" />
     <HelpKINode Title="Int16Extension.ProvideValue Method " Url="html/M_VagabondK_Windows_Int16Extension_ProvideValue.htm" />
     <HelpKINode Title="Int32Extension.ProvideValue Method " Url="html/M_VagabondK_Windows_Int32Extension_ProvideValue.htm" />
     <HelpKINode Title="Int64Extension.ProvideValue Method " Url="html/M_VagabondK_Windows_Int64Extension_ProvideValue.htm" />
@@ -2303,6 +2420,7 @@
   </HelpKINode>
   <HelpKINode Title="RemoveChannel method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_RemoveChannel.htm" />
   <HelpKINode Title="RemoveChannelLogger method" Url="html/M_VagabondK_Protocols_Logging_ChannelLoggerGroup_RemoveChannelLogger.htm" />
+  <HelpKINode Title="ReplaceInputTimeout property" Url="html/P_VagabondK_Korean_Hangul_HangulAutomata_ReplaceInputTimeout.htm" />
   <HelpKINode Title="Request enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   <HelpKINode Title="Request method">
     <HelpKINode Title="CnetClient.Request Method " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request.htm" />
@@ -2324,8 +2442,8 @@
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Address property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Address.htm" />
   <HelpKINode Title="RequestedEventArgs.Channel property">
-    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Function property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Function.htm" />
   <HelpKINode Title="RequestedEventArgs.NAKCode property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_NAKCode.htm" />
@@ -2547,20 +2665,6 @@
   <HelpKINode Title="SetIsOk method" Url="html/M_VagabondK_App_Windows_Dialog_SetIsOk.htm" />
   <HelpKINode Title="SetProperty(Of TProperty) method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
   <HelpKINode Title="SetProperty&lt;TProperty&gt; method" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
-  <HelpKINode Title="SetPropertyValueCommand class">
-    <HelpKINode Title="SetPropertyValueCommand Class" Url="html/T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SetPropertyValueCommand.CanExecute method" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecute.htm" />
-  <HelpKINode Title="SetPropertyValueCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_Commands_SetPropertyValueCommand_CanExecuteChanged.htm" />
-  <HelpKINode Title="SetPropertyValueCommand.Execute method" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand_Execute.htm" />
-  <HelpKINode Title="SetPropertyValueCommand.SetPropertyValueCommand constructor" Url="html/M_VagabondK_Windows_Commands_SetPropertyValueCommand__ctor.htm" />
-  <HelpKINode Title="SetPropertyValueCommand.Target property" Url="html/P_VagabondK_Windows_Commands_SetPropertyValueCommand_Target.htm" />
-  <HelpKINode Title="SetPropertyValueCommand.TargetProperty field" Url="html/F_VagabondK_Windows_Commands_SetPropertyValueCommand_TargetProperty.htm" />
   <HelpKINode Title="SetRawData method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetRawData.htm" />
   <HelpKINode Title="SetResizeMode method" Url="html/M_VagabondK_App_Windows_Dialog_SetResizeMode.htm" />
   <HelpKINode Title="SetShowInTaskbar method" Url="html/M_VagabondK_App_Windows_Dialog_SetShowInTaskbar.htm" />
@@ -2758,8 +2862,6 @@
     <HelpKINode Title="CnetRequest.Tail Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Tail.htm" />
     <HelpKINode Title="CnetResponse.Tail Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Tail.htm" />
   </HelpKINode>
-  <HelpKINode Title="Target property" Url="html/P_VagabondK_Windows_Commands_SetPropertyValueCommand_Target.htm" />
-  <HelpKINode Title="TargetProperty field" Url="html/F_VagabondK_Windows_Commands_SetPropertyValueCommand_TargetProperty.htm" />
   <HelpKINode Title="TcpChannel class">
     <HelpKINode Title="TcpChannel Class" Url="html/T_VagabondK_Protocols_Channels_TcpChannel.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_VagabondK_Protocols_Channels_TcpChannel__ctor.htm" />
@@ -2889,15 +2991,16 @@
   <HelpKINode Title="ToDoubleConverter.ProvideValue method" Url="html/M_VagabondK_Windows_Converters_ToDoubleConverter_ProvideValue.htm" />
   <HelpKINode Title="ToDoubleConverter.ToDoubleConverter constructor" Url="html/M_VagabondK_Windows_Converters_ToDoubleConverter__ctor.htm" />
   <HelpKINode Title="ToggleMaximizeWindowCommand class">
-    <HelpKINode Title="ToggleMaximizeWindowCommand Class" Url="html/T_VagabondK_Windows_ToggleMaximizeWindowCommand.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand__ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_ToggleMaximizeWindowCommand.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_ToggleMaximizeWindowCommand.htm" />
+    <HelpKINode Title="ToggleMaximizeWindowCommand Class" Url="html/T_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand.htm" />
   </HelpKINode>
-  <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecute.htm" />
-  <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_ToggleMaximizeWindowCommand_CanExecuteChanged.htm" />
-  <HelpKINode Title="ToggleMaximizeWindowCommand.Execute method" Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand_Execute.htm" />
-  <HelpKINode Title="ToggleMaximizeWindowCommand.ToggleMaximizeWindowCommand constructor" Url="html/M_VagabondK_Windows_ToggleMaximizeWindowCommand__ctor.htm" />
+  <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecute method" Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_CanExecute.htm" />
+  <HelpKINode Title="ToggleMaximizeWindowCommand.CanExecuteChanged event" Url="html/E_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_CanExecuteChanged.htm" />
+  <HelpKINode Title="ToggleMaximizeWindowCommand.Execute method" Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand_Execute.htm" />
+  <HelpKINode Title="ToggleMaximizeWindowCommand.ToggleMaximizeWindowCommand constructor" Url="html/M_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand__ctor.htm" />
+  <HelpKINode Title="ToHangulParts method" Url="html/M_VagabondK_Korean_Hangul_HangulCharacter_ToHangulParts.htm" />
   <HelpKINode Title="ToInt16Converter class">
     <HelpKINode Title="ToInt16Converter Class" Url="html/T_VagabondK_Windows_Converters_ToInt16Converter.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Windows_Converters_ToInt16Converter__ctor.htm" />
@@ -2995,6 +3098,11 @@
   <HelpKINode Title="True property">
     <HelpKINode Title="BooleanToObjectConverter.True Property " Url="html/P_VagabondK_Windows_Converters_BooleanToObjectConverter_True.htm" />
     <HelpKINode Title="MultiBooleanToObjectConverter.True Property " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToObjectConverter_True.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryBreak method" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_TryBreak.htm" />
+  <HelpKINode Title="TryCombine method">
+    <HelpKINode Title="HangulAutomata.TryCombine Method " Url="html/M_VagabondK_Korean_Hangul_HangulAutomata_TryCombine.htm" />
+    <HelpKINode Title="HangulKSX5002Automata.TryCombine Method " Url="html/M_VagabondK_Korean_Hangul_HangulKSX5002Automata_TryCombine.htm" />
   </HelpKINode>
   <HelpKINode Title="TryGetModbusSlave method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_TryGetModbusSlave.htm" />
   <HelpKINode Title="TryGetValue method">
@@ -3115,6 +3223,14 @@
   <HelpKINode Title="VagabondK.App.Windows.SimpleShell(Of TPageData) class" Url="html/T_VagabondK_App_Windows_SimpleShell_1.htm" />
   <HelpKINode Title="VagabondK.App.Windows.SimpleShell&lt;TPageData&gt; class" Url="html/T_VagabondK_App_Windows_SimpleShell_1.htm" />
   <HelpKINode Title="VagabondK.App.Windows.ViewProvider class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
+  <HelpKINode Title="VagabondK.Korean.Hangul namespace" Url="html/N_VagabondK_Korean_Hangul.htm" />
+  <HelpKINode Title="VagabondK.Korean.Hangul.HangulAutomata class" Url="html/T_VagabondK_Korean_Hangul_HangulAutomata.htm" />
+  <HelpKINode Title="VagabondK.Korean.Hangul.HangulCharacter class" Url="html/T_VagabondK_Korean_Hangul_HangulCharacter.htm" />
+  <HelpKINode Title="VagabondK.Korean.Hangul.HangulKSX5002Automata class" Url="html/T_VagabondK_Korean_Hangul_HangulKSX5002Automata.htm" />
+  <HelpKINode Title="VagabondK.Korean.Hangul.IHangulAutomata interface" Url="html/T_VagabondK_Korean_Hangul_IHangulAutomata.htm" />
+  <HelpKINode Title="VagabondK.Korean.ScreenInput namespace" Url="html/N_VagabondK_Korean_ScreenInput.htm" />
+  <HelpKINode Title="VagabondK.Korean.ScreenInput.HangulKeyInputModel class" Url="html/T_VagabondK_Korean_ScreenInput_HangulKeyInputModel.htm" />
+  <HelpKINode Title="VagabondK.Korean.ScreenInput.IScreenKeyInputModel interface" Url="html/T_VagabondK_Korean_ScreenInput_IScreenKeyInputModel.htm" />
   <HelpKINode Title="VagabondK.Protocols namespace" Url="html/N_VagabondK_Protocols.htm" />
   <HelpKINode Title="VagabondK.Protocols.Channels namespace" Url="html/N_VagabondK_Protocols_Channels.htm" />
   <HelpKINode Title="VagabondK.Protocols.Channels.Channel class" Url="html/T_VagabondK_Protocols_Channels_Channel.htm" />
@@ -3246,12 +3362,15 @@
   <HelpKINode Title="VagabondK.Windows namespace" Url="html/N_VagabondK_Windows.htm" />
   <HelpKINode Title="VagabondK.Windows.BooleanExtension class" Url="html/T_VagabondK_Windows_BooleanExtension.htm" />
   <HelpKINode Title="VagabondK.Windows.ByteExtension class" Url="html/T_VagabondK_Windows_ByteExtension.htm" />
-  <HelpKINode Title="VagabondK.Windows.CloseWindowCommand class" Url="html/T_VagabondK_Windows_CloseWindowCommand.htm" />
   <HelpKINode Title="VagabondK.Windows.Commands namespace" Url="html/N_VagabondK_Windows_Commands.htm" />
-  <HelpKINode Title="VagabondK.Windows.Commands.SetPropertyValueCommand class" Url="html/T_VagabondK_Windows_Commands_SetPropertyValueCommand.htm" />
+  <HelpKINode Title="VagabondK.Windows.Commands.CloseWindowCommand class" Url="html/T_VagabondK_Windows_Commands_CloseWindowCommand.htm" />
+  <HelpKINode Title="VagabondK.Windows.Commands.MinimizeWindowCommand class" Url="html/T_VagabondK_Windows_Commands_MinimizeWindowCommand.htm" />
+  <HelpKINode Title="VagabondK.Windows.Commands.ToggleMaximizeWindowCommand class" Url="html/T_VagabondK_Windows_Commands_ToggleMaximizeWindowCommand.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters namespace" Url="html/N_VagabondK_Windows_Converters.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.BooleanToObjectConverter class" Url="html/T_VagabondK_Windows_Converters_BooleanToObjectConverter.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.BooleanToVisibilityConverter class" Url="html/T_VagabondK_Windows_Converters_BooleanToVisibilityConverter.htm" />
+  <HelpKINode Title="VagabondK.Windows.Converters.EqualsConverter class" Url="html/T_VagabondK_Windows_Converters_EqualsConverter.htm" />
+  <HelpKINode Title="VagabondK.Windows.Converters.EqualsToVisibilityConverter class" Url="html/T_VagabondK_Windows_Converters_EqualsToVisibilityConverter.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.IfElseConverter class" Url="html/T_VagabondK_Windows_Converters_IfElseConverter.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.MathAbsConverter class" Url="html/T_VagabondK_Windows_Converters_MathAbsConverter.htm" />
   <HelpKINode Title="VagabondK.Windows.Converters.MathSqrtConverter class" Url="html/T_VagabondK_Windows_Converters_MathSqrtConverter.htm" />
@@ -3281,7 +3400,6 @@
   <HelpKINode Title="VagabondK.Windows.Int16Extension class" Url="html/T_VagabondK_Windows_Int16Extension.htm" />
   <HelpKINode Title="VagabondK.Windows.Int32Extension class" Url="html/T_VagabondK_Windows_Int32Extension.htm" />
   <HelpKINode Title="VagabondK.Windows.Int64Extension class" Url="html/T_VagabondK_Windows_Int64Extension.htm" />
-  <HelpKINode Title="VagabondK.Windows.MinimizeWindowCommand class" Url="html/T_VagabondK_Windows_MinimizeWindowCommand.htm" />
   <HelpKINode Title="VagabondK.Windows.SByteExtension class" Url="html/T_VagabondK_Windows_SByteExtension.htm" />
   <HelpKINode Title="VagabondK.Windows.SingleExtension class" Url="html/T_VagabondK_Windows_SingleExtension.htm" />
   <HelpKINode Title="VagabondK.Windows.ThemeMessageBox class" Url="html/T_VagabondK_Windows_ThemeMessageBox.htm" />
@@ -3289,7 +3407,6 @@
   <HelpKINode Title="VagabondK.Windows.ThemeResourceDictionary class" Url="html/T_VagabondK_Windows_ThemeResourceDictionary.htm" />
   <HelpKINode Title="VagabondK.Windows.ThemeRibbonWindow class" Url="html/T_VagabondK_Windows_ThemeRibbonWindow.htm" />
   <HelpKINode Title="VagabondK.Windows.ThemeWindow class" Url="html/T_VagabondK_Windows_ThemeWindow.htm" />
-  <HelpKINode Title="VagabondK.Windows.ToggleMaximizeWindowCommand class" Url="html/T_VagabondK_Windows_ToggleMaximizeWindowCommand.htm" />
   <HelpKINode Title="VagabondK.Windows.UInt16Extension class" Url="html/T_VagabondK_Windows_UInt16Extension.htm" />
   <HelpKINode Title="VagabondK.Windows.UInt32Extension class" Url="html/T_VagabondK_Windows_UInt32Extension.htm" />
   <HelpKINode Title="VagabondK.Windows.UInt64Extension class" Url="html/T_VagabondK_Windows_UInt64Extension.htm" />
@@ -3345,8 +3462,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload method">
-    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.ViewProvider constructor">
     <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />

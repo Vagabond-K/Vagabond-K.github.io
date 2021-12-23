@@ -117,8 +117,8 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload method">
-    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case property" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Channel class">
@@ -132,8 +132,8 @@
     <HelpKINode Title="CnetClient.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
     <HelpKINode Title="CnetSimulationService.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Channel.htm" />
     <HelpKINode Title="ModbusMaster.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_Channel.htm" />
-    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="ValidatingSlaveAddressEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_Channel.htm" />
   </HelpKINode>
   <HelpKINode Title="Channel.BytesToRead property" Url="html/P_VagabondK_Protocols_Channels_Channel_BytesToRead.htm" />
@@ -1113,6 +1113,7 @@
   </HelpKINode>
   <HelpKINode Title="GoBack method" Url="html/M_VagabondK_App_INavigationManager_GoBack.htm" />
   <HelpKINode Title="Hand enumeration member" Url="html/T_VagabondK_App_MessageImage.htm" />
+  <HelpKINode Title="Handshake property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_Handshake.htm" />
   <HelpKINode Title="HangulAutomata class">
     <HelpKINode Title="HangulAutomata Class" Url="html/T_VagabondK_Korean_Hangul_HangulAutomata.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_Korean_Hangul_HangulAutomata__ctor.htm" />
@@ -2433,17 +2434,17 @@
     <HelpKINode Title="RequestException(TErrorCode).Request Property " Url="html/P_VagabondK_Protocols_RequestException_1_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs class">
-    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
+    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Address property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Address.htm" />
   <HelpKINode Title="RequestedEventArgs.Channel property">
-    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="RequestedEventArgs.Channel Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Function property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Function.htm" />
   <HelpKINode Title="RequestedEventArgs.NAKCode property" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_NAKCode.htm" />
@@ -2612,6 +2613,7 @@
   <HelpKINode Title="SerialPortChannel.Dispose method" Url="html/M_VagabondK_Protocols_Channels_SerialPortChannel_Dispose.htm" />
   <HelpKINode Title="SerialPortChannel.DtrEnable property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_DtrEnable.htm" />
   <HelpKINode Title="SerialPortChannel.Finalize method" Url="html/M_VagabondK_Protocols_Channels_SerialPortChannel_Finalize.htm" />
+  <HelpKINode Title="SerialPortChannel.Handshake property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_Handshake.htm" />
   <HelpKINode Title="SerialPortChannel.Parity property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_Parity.htm" />
   <HelpKINode Title="SerialPortChannel.PortName property" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_PortName.htm" />
   <HelpKINode Title="SerialPortChannel.Read method" Url="html/Overload_VagabondK_Protocols_Channels_SerialPortChannel_Read.htm" />
@@ -3456,8 +3458,8 @@
   <HelpKINode Title="ViewProvider class">
     <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="ViewProvider Class" Url="html/T_VagabondK_App_ViewProvider.htm" />
-    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
   </HelpKINode>

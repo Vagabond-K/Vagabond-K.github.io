@@ -117,8 +117,8 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack property" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload method">
-    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case property" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Channel class">
@@ -648,6 +648,7 @@
     <HelpKINode Title="CnetReadIndividualRequest.Contains Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Contains.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Contains Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Contains.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Contains Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Contains.htm" />
+    <HelpKINode Title="ModbusSlaveService.Contains Method " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Contains.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainsKey method">
     <HelpKINode Title="CnetReadResponse.ContainsKey Method " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_ContainsKey.htm" />
@@ -1851,9 +1852,7 @@
   <HelpKINode Title="ModbusSlave.HoldingRegisters property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_HoldingRegisters.htm" />
   <HelpKINode Title="ModbusSlave.InputRegisters property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_InputRegisters.htm" />
   <HelpKINode Title="ModbusSlave.ModbusSlave constructor" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlave__ctor.htm" />
-  <HelpKINode Title="ModbusSlave.OwnerService property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_OwnerService.htm" />
   <HelpKINode Title="ModbusSlave.PropertyChanged event" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlave_PropertyChanged.htm" />
-  <HelpKINode Title="ModbusSlave.SlaveAddress property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_SlaveAddress.htm" />
   <HelpKINode Title="ModbusSlaves property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_ModbusSlaves.htm" />
   <HelpKINode Title="ModbusSlaveService class">
     <HelpKINode Title="ModbusSlaveService Class" Url="html/T_VagabondK_Protocols_Modbus_ModbusSlaveService.htm" />
@@ -1865,6 +1864,7 @@
   <HelpKINode Title="ModbusSlaveService.AddChannel method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_AddChannel.htm" />
   <HelpKINode Title="ModbusSlaveService.Channels property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_Channels.htm" />
   <HelpKINode Title="ModbusSlaveService.ChannelTimeout property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_ChannelTimeout.htm" />
+  <HelpKINode Title="ModbusSlaveService.Contains method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Contains.htm" />
   <HelpKINode Title="ModbusSlaveService.ContainsSlaveAddress method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_ContainsSlaveAddress.htm" />
   <HelpKINode Title="ModbusSlaveService.Dispose method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Dispose.htm" />
   <HelpKINode Title="ModbusSlaveService.GetEnumerator method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_GetEnumerator.htm" />
@@ -1889,6 +1889,7 @@
   <HelpKINode Title="ModbusSlaveService.RequestedWriteHoldingRegister event" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedWriteHoldingRegister.htm" />
   <HelpKINode Title="ModbusSlaveService.Serializer property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_Serializer.htm" />
   <HelpKINode Title="ModbusSlaveService.SlaveAddresses property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_SlaveAddresses.htm" />
+  <HelpKINode Title="ModbusSlaveService.SlaveAddressOf method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_SlaveAddressOf.htm" />
   <HelpKINode Title="ModbusSlaveService.TryGetModbusSlave method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_TryGetModbusSlave.htm" />
   <HelpKINode Title="ModbusSlaveService.ValidatingSlaveAddress event" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_ValidatingSlaveAddress.htm" />
   <HelpKINode Title="ModbusTcpSerializer class">
@@ -2179,7 +2180,6 @@
   <HelpKINode Title="OverRequestReadBlockCount enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="OverVariableLength enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="Owner property" Url="html/P_VagabondK_App_PageContext_Owner.htm" />
-  <HelpKINode Title="OwnerService property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_OwnerService.htm" />
   <HelpKINode Title="P enumeration member" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
   <HelpKINode Title="PageContext class">
     <HelpKINode Title="PageContext Class" Url="html/T_VagabondK_App_PageContext.htm" />
@@ -2434,12 +2434,12 @@
     <HelpKINode Title="RequestException(TErrorCode).Request Property " Url="html/P_VagabondK_Protocols_RequestException_1_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs class">
-    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
+    <HelpKINode Title="RequestedEventArgs Class" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Address property" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Address.htm" />
   <HelpKINode Title="RequestedEventArgs.Channel property">
@@ -2758,11 +2758,11 @@
   <HelpKINode Title="SingleRegisterValue property" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_SingleRegisterValue.htm" />
   <HelpKINode Title="SlaveAddress property">
     <HelpKINode Title="ModbusRequest.SlaveAddress Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_SlaveAddress.htm" />
-    <HelpKINode Title="ModbusSlave.SlaveAddress Property " Url="html/P_VagabondK_Protocols_Modbus_ModbusSlave_SlaveAddress.htm" />
     <HelpKINode Title="RequestedEventArgs.SlaveAddress Property " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_SlaveAddress.htm" />
     <HelpKINode Title="ValidatingSlaveAddressEventArgs.SlaveAddress Property " Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_SlaveAddress.htm" />
   </HelpKINode>
   <HelpKINode Title="SlaveAddresses property" Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_SlaveAddresses.htm" />
+  <HelpKINode Title="SlaveAddressOf method" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_SlaveAddressOf.htm" />
   <HelpKINode Title="SlaveDeviceBusy enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="SlaveDeviceFailure enumeration member" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="Sort method" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_Sort.htm" />
@@ -3464,12 +3464,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload method">
-    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload Method " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.ViewProvider constructor">
-    <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
     <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
+    <HelpKINode Title="ViewProvider Constructor " Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewTypeName property">
     <HelpKINode Title="IPageData.ViewTypeName Property " Url="html/P_VagabondK_App_IPageData_ViewTypeName.htm" />

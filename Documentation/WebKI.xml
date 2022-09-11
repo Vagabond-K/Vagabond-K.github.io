@@ -8,6 +8,9 @@
     <HelpKINode Title="CnetReadIndividualRequest.Add 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Add.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Add 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Add.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Add 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Add.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Add 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Add.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Add 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Add.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Add 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Add.htm" />
   </HelpKINode>
   <HelpKINode Title="AddChannel 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_AddChannel.htm" />
   <HelpKINode Title="AddChannelLogger 메서드" Url="html/M_VagabondK_Protocols_Logging_ChannelLoggerGroup_AddChannelLogger.htm" />
@@ -38,8 +41,18 @@
   <HelpKINode Title="AutoAllocation 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_AutoAllocation.htm" />
   <HelpKINode Title="Automata 속성" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_Automata.htm" />
   <HelpKINode Title="BaudRate 속성" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_BaudRate.htm" />
-  <HelpKINode Title="Bit 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+  <HelpKINode Title="Bit 열거형 멤버">
+    <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="BitValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_BitValue.htm" />
+  <HelpKINode Title="BlockCount 속성">
+    <HelpKINode Title="FEnetReadContinuousRequest.BlockCount 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_BlockCount.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.BlockCount 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_BlockCount.htm" />
+    <HelpKINode Title="FEnetRequest.BlockCount 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_BlockCount.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.BlockCount 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_BlockCount.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.BlockCount 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_BlockCount.htm" />
+  </HelpKINode>
   <HelpKINode Title="Boolean to DeviceValue 변환" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_op_Implicit.htm" />
   <HelpKINode Title="BooleanExtension 클래스">
     <HelpKINode Title="BooleanExtension 클래스" Url="html/T_VagabondK_Windows_BooleanExtension.htm" />
@@ -73,7 +86,10 @@
   <HelpKINode Title="BooleanToVisibilityConverter.Invert 속성" Url="html/P_VagabondK_Windows_Converters_BooleanToVisibilityConverter_Invert.htm" />
   <HelpKINode Title="BooleanToVisibilityConverter.ProvideValue 메서드" Url="html/M_VagabondK_Windows_Converters_BooleanToVisibilityConverter_ProvideValue.htm" />
   <HelpKINode Title="Byte to DeviceValue 변환" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_op_Implicit_1.htm" />
-  <HelpKINode Title="Byte 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+  <HelpKINode Title="Byte 열거형 멤버">
+    <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="ByteExtension 클래스">
     <HelpKINode Title="ByteExtension 클래스" Url="html/T_VagabondK_Windows_ByteExtension.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Windows_ByteExtension.htm" />
@@ -117,16 +133,19 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack 속성" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload 메서드">
-    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case 속성" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Channel 속성">
     <HelpKINode Title="ChannelCreatedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_Channels_ChannelCreatedEventArgs_Channel.htm" />
     <HelpKINode Title="CnetClient.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
+    <HelpKINode Title="CnetRequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs_Channel.htm" />
     <HelpKINode Title="CnetSimulationService.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Channel.htm" />
+    <HelpKINode Title="FEnetClient.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Channel.htm" />
+    <HelpKINode Title="FEnetRequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs_Channel.htm" />
+    <HelpKINode Title="FEnetSimulationService.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_Channel.htm" />
     <HelpKINode Title="ModbusMaster.Channel 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_Channel.htm" />
-    <HelpKINode Title="RequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="RequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
     <HelpKINode Title="ValidatingSlaveAddressEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_Channel.htm" />
   </HelpKINode>
@@ -273,12 +292,16 @@
   </HelpKINode>
   <HelpKINode Title="ChannelTimeout 속성">
     <HelpKINode Title="CnetSimulationService.ChannelTimeout 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_ChannelTimeout.htm" />
+    <HelpKINode Title="FEnetSimulationService.ChannelTimeout 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_ChannelTimeout.htm" />
     <HelpKINode Title="ModbusSlaveService.ChannelTimeout 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_ChannelTimeout.htm" />
   </HelpKINode>
   <HelpKINode Title="Clear 메서드">
     <HelpKINode Title="CnetReadIndividualRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Clear.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Clear.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Clear.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Clear.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Clear.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Clear 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Clear.htm" />
   </HelpKINode>
   <HelpKINode Title="ClearBackStack 메서드" Url="html/M_VagabondK_App_INavigationManager_ClearBackStack.htm" />
   <HelpKINode Title="ClearProperty 메서드" Url="html/M_System_NotifyPropertyChangeObject_ClearProperty.htm" />
@@ -296,6 +319,11 @@
     <HelpKINode Title="CnetRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Clone.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Clone.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Clone.htm" />
+    <HelpKINode Title="FEnetReadContinuousRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_Clone.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Clone.htm" />
+    <HelpKINode Title="FEnetRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_Clone.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Clone.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Clone 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Clone.htm" />
   </HelpKINode>
   <HelpKINode Title="Close 메서드" Url="html/M_System_Threading_DisposableMutex_Close.htm" />
   <HelpKINode Title="CloseWindowCommand 클래스">
@@ -323,6 +351,7 @@
   </HelpKINode>
   <HelpKINode Title="CnetClient.Channel 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Channel.htm" />
   <HelpKINode Title="CnetClient.CnetClient 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient__ctor.htm" />
+  <HelpKINode Title="CnetClient.DefaultUseBCC 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_DefaultUseBCC.htm" />
   <HelpKINode Title="CnetClient.Dispose 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Dispose.htm" />
   <HelpKINode Title="CnetClient.Read 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read.htm" />
   <HelpKINode Title="CnetClient.RegisterMonitor 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor.htm" />
@@ -333,11 +362,6 @@
   <HelpKINode Title="CnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
   <HelpKINode Title="CnetCommandType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
   <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
-  <HelpKINode Title="CnetContinuousRequestExtensions 클래스">
-    <HelpKINode Title="CnetContinuousRequestExtensions 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="CnetContinuousRequestExtensions.ToDeviceVariables 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions_ToDeviceVariables.htm" />
   <HelpKINode Title="CnetExecuteMonitorRequest 클래스">
     <HelpKINode Title="CnetExecuteMonitorRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
@@ -507,6 +531,25 @@
   <HelpKINode Title="CnetRequest.OnCreateFrameData 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetRequest.StationNumber 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_StationNumber.htm" />
   <HelpKINode Title="CnetRequest.Tail 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Tail.htm" />
+  <HelpKINode Title="CnetRequestedEventArgs 클래스">
+    <HelpKINode Title="CnetRequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CnetRequestedEventArgs.Channel 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs_Channel.htm" />
+  <HelpKINode Title="CnetRequestedEventArgs.NAKCode 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs_NAKCode.htm" />
+  <HelpKINode Title="CnetRequestedReadEventArgs 클래스">
+    <HelpKINode Title="CnetRequestedReadEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CnetRequestedReadEventArgs.ResponseValues 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs_ResponseValues.htm" />
+  <HelpKINode Title="CnetRequestedWriteEventArgs 클래스">
+    <HelpKINode Title="CnetRequestedWriteEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CnetRequestedWriteEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs_Values.htm" />
   <HelpKINode Title="CnetRequestLog 클래스">
     <HelpKINode Title="CnetRequestLog 클래스" Url="html/T_VagabondK_Protocols_Logging_CnetRequestLog.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Logging_CnetRequestLog.htm" />
@@ -522,7 +565,6 @@
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_CnetResponse.htm" />
   </HelpKINode>
-  <HelpKINode Title="CnetResponse.Command 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Command.htm" />
   <HelpKINode Title="CnetResponse.OnCreateFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_OnCreateFrame.htm" />
   <HelpKINode Title="CnetResponse.OnCreateFrameData 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_OnCreateFrameData.htm" />
   <HelpKINode Title="CnetResponse.Request 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Request.htm" />
@@ -629,13 +671,17 @@
   <HelpKINode Title="CollectionChannelLogger.Log 메서드" Url="html/M_VagabondK_Protocols_Logging_CollectionChannelLogger_Log.htm" />
   <HelpKINode Title="Command 속성">
     <HelpKINode Title="CnetRequest.Command 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_Command.htm" />
-    <HelpKINode Title="CnetResponse.Command 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Command.htm" />
+    <HelpKINode Title="FEnetMessage.Command 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_Command.htm" />
   </HelpKINode>
   <HelpKINode Title="CommandType 속성">
     <HelpKINode Title="CnetIncludeCommandTypeRequest.CommandType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetIncludeCommandTypeRequest_CommandType.htm" />
     <HelpKINode Title="CnetMonitor.CommandType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMonitor_CommandType.htm" />
   </HelpKINode>
   <HelpKINode Title="CommError 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
+  <HelpKINode Title="CompanyID 속성">
+    <HelpKINode Title="FEnetClient.CompanyID 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_CompanyID.htm" />
+    <HelpKINode Title="FEnetSimulationService.CompanyID 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_CompanyID.htm" />
+  </HelpKINode>
   <HelpKINode Title="ConnectTimeout 속성" Url="html/P_VagabondK_Protocols_Channels_TcpChannel_ConnectTimeout.htm" />
   <HelpKINode Title="ConsoleChannelLogger 클래스">
     <HelpKINode Title="ConsoleChannelLogger 클래스" Url="html/T_VagabondK_Protocols_Logging_ConsoleChannelLogger.htm" />
@@ -648,16 +694,29 @@
     <HelpKINode Title="CnetReadIndividualRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Contains.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Contains.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Contains.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Contains.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Contains.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Contains 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Contains.htm" />
     <HelpKINode Title="ModbusSlaveService.Contains 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Contains.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainsKey 메서드">
     <HelpKINode Title="CnetReadResponse.ContainsKey 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_ContainsKey.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.ContainsKey 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_ContainsKey.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.ContainsKey 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_ContainsKey.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.ContainsKey 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_ContainsKey.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).ContainsKey 메서드 " Url="html/M_VagabondK_App_MultiServiceProviderShell_2_ContainsKey.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainsSlaveAddress 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_ContainsSlaveAddress.htm" />
   <HelpKINode Title="ContainsStationsNumber 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_ContainsStationsNumber.htm" />
-  <HelpKINode Title="Continuous 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
+  <HelpKINode Title="Continuous 열거형 멤버">
+    <HelpKINode Title="CnetCommandType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContinuousRequestExtensions 클래스">
+    <HelpKINode Title="ContinuousRequestExtensions 클래스" Url="html/T_VagabondK_Protocols_LSElectric_ContinuousRequestExtensions.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_ContinuousRequestExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContinuousRequestExtensions.ToDeviceVariables 메서드" Url="html/M_VagabondK_Protocols_LSElectric_ContinuousRequestExtensions_ToDeviceVariables.htm" />
   <HelpKINode Title="Convert 메서드">
     <HelpKINode Title="BooleanToObjectConverter.Convert 메서드 " Url="html/M_VagabondK_Windows_Converters_BooleanToObjectConverter_Convert.htm" />
     <HelpKINode Title="BooleanToVisibilityConverter.Convert 메서드 " Url="html/M_VagabondK_Windows_Converters_BooleanToVisibilityConverter_Convert.htm" />
@@ -728,6 +787,9 @@
     <HelpKINode Title="CnetReadIndividualRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_CopyTo.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_CopyTo.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_CopyTo.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_CopyTo.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_CopyTo.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.CopyTo 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_CopyTo.htm" />
   </HelpKINode>
   <HelpKINode Title="Count 속성">
     <HelpKINode Title="CnetMonitorByContinuousAccess.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMonitorByContinuousAccess_Count.htm" />
@@ -736,7 +798,14 @@
     <HelpKINode Title="CnetReadResponse.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_Count.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Count.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Count.htm" />
-    <HelpKINode Title="ICnetContinuousAccessRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest_Count.htm" />
+    <HelpKINode Title="FEnetReadContinuousRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_Count.htm" />
+    <HelpKINode Title="FEnetReadContinuousResponse.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_Count.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Count.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Count.htm" />
+    <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_Count.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Count.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Count.htm" />
+    <HelpKINode Title="IContinuousAccessRequest.Count 속성 " Url="html/P_VagabondK_Protocols_LSElectric_IContinuousAccessRequest_Count.htm" />
     <HelpKINode Title="IModbusDataBlock(TData, TRawData).Count 속성 " Url="html/P_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2_Count.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).Count 속성 " Url="html/P_VagabondK_App_MultiServiceProviderShell_2_Count.htm" />
   </HelpKINode>
@@ -762,7 +831,10 @@
   <HelpKINode Title="DataBlocks 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_DataBlocks.htm" />
   <HelpKINode Title="DataError 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="DataParsingError 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
-  <HelpKINode Title="DataType 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariable_DataType.htm" />
+  <HelpKINode Title="DataType 속성">
+    <HelpKINode Title="DeviceVariable.DataType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariable_DataType.htm" />
+    <HelpKINode Title="FEnetMessage.DataType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_DataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
   <HelpKINode Title="DateTimeExtensions 클래스">
     <HelpKINode Title="DateTimeExtensions 클래스" Url="html/T_System_DateTimeExtensions.htm" />
@@ -780,6 +852,7 @@
   </HelpKINode>
   <HelpKINode Title="DecimalExtension.DecimalExtension 생성자" Url="html/M_VagabondK_Windows_DecimalExtension__ctor.htm" />
   <HelpKINode Title="DecimalExtension.ProvideValue 메서드" Url="html/M_VagabondK_Windows_DecimalExtension_ProvideValue.htm" />
+  <HelpKINode Title="DefaultUseBCC 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_DefaultUseBCC.htm" />
   <HelpKINode Title="DefaultViewModelType 속성" Url="html/P_System_ViewAttribute_DefaultViewModelType.htm" />
   <HelpKINode Title="DefaultViewType 속성" Url="html/P_System_ViewModelAttribute_DefaultViewType.htm" />
   <HelpKINode Title="Description 속성">
@@ -818,6 +891,7 @@
   <HelpKINode Title="DeviceValue.DoubleWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_DoubleWordValue.htm" />
   <HelpKINode Title="DeviceValue.Equality 연산자" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_op_Equality.htm" />
   <HelpKINode Title="DeviceValue.Equals 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_Equals.htm" />
+  <HelpKINode Title="DeviceValue.GetBytes 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_GetBytes.htm" />
   <HelpKINode Title="DeviceValue.GetHashCode 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_GetHashCode.htm" />
   <HelpKINode Title="DeviceValue.Inequality 연산자" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_op_Inequality.htm" />
   <HelpKINode Title="DeviceValue.LongWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_LongWordValue.htm" />
@@ -826,6 +900,7 @@
   <HelpKINode Title="DeviceValue.UnsignedLongWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedLongWordValue.htm" />
   <HelpKINode Title="DeviceValue.UnsignedWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedWordValue.htm" />
   <HelpKINode Title="DeviceValue.WordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_WordValue.htm" />
+  <HelpKINode Title="DeviceValueBytes 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariableValue_DeviceValueBytes.htm" />
   <HelpKINode Title="DeviceVariable 구조체">
     <HelpKINode Title="DeviceVariable 구조체" Url="html/T_VagabondK_Protocols_LSElectric_DeviceVariable.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_DeviceVariable.htm" />
@@ -848,7 +923,10 @@
   <HelpKINode Title="DeviceVariable.ToString 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_ToString.htm" />
   <HelpKINode Title="DeviceVariable.TryParse 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_TryParse.htm" />
   <HelpKINode Title="DeviceVariables 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMonitorByIndividualAccess_DeviceVariables.htm" />
-  <HelpKINode Title="DeviceVariableTypeError 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+  <HelpKINode Title="DeviceVariableTypeError 열거형 멤버">
+    <HelpKINode Title="CnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+    <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="DeviceVariableTypeIsDifferent 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="DeviceVariableValue 클래스">
     <HelpKINode Title="DeviceVariableValue 클래스" Url="html/T_VagabondK_Protocols_LSElectric_DeviceVariableValue.htm" />
@@ -857,6 +935,7 @@
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_DeviceVariableValue.htm" />
   </HelpKINode>
   <HelpKINode Title="DeviceVariableValue.DeviceValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariableValue_DeviceValue.htm" />
+  <HelpKINode Title="DeviceVariableValue.DeviceValueBytes 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariableValue_DeviceValueBytes.htm" />
   <HelpKINode Title="DeviceVariableValue.DeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceVariableValue_DeviceVariable.htm" />
   <HelpKINode Title="DeviceVariableValue.DeviceVariableValue 생성자" Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariableValue__ctor.htm" />
   <HelpKINode Title="Dialog 클래스">
@@ -904,6 +983,8 @@
     <HelpKINode Title="CnetClient.Dispose 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Dispose.htm" />
     <HelpKINode Title="CnetSimulationService.Dispose 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Dispose.htm" />
     <HelpKINode Title="DisposableMutex.Dispose 메서드 " Url="html/Overload_System_Threading_DisposableMutex_Dispose.htm" />
+    <HelpKINode Title="FEnetClient.Dispose 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Dispose.htm" />
+    <HelpKINode Title="FEnetSimulationService.Dispose 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_Dispose.htm" />
     <HelpKINode Title="ModbusMaster.Dispose 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusMaster_Dispose.htm" />
     <HelpKINode Title="ModbusSlaveService.Dispose 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Dispose.htm" />
     <HelpKINode Title="PageContext.Dispose 메서드 " Url="html/M_VagabondK_App_PageContext_Dispose.htm" />
@@ -924,7 +1005,10 @@
   </HelpKINode>
   <HelpKINode Title="DoubleExtension.DoubleExtension 생성자" Url="html/M_VagabondK_Windows_DoubleExtension__ctor.htm" />
   <HelpKINode Title="DoubleExtension.ProvideValue 메서드" Url="html/M_VagabondK_Windows_DoubleExtension_ProvideValue.htm" />
-  <HelpKINode Title="DoubleWord 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+  <HelpKINode Title="DoubleWord 열거형 멤버">
+    <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="DoubleWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_DoubleWordValue.htm" />
   <HelpKINode Title="DtrEnable 속성" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_DtrEnable.htm" />
   <HelpKINode Title="EndAddress 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2_EndAddress.htm" />
@@ -968,6 +1052,8 @@
     <HelpKINode Title="ModbusMessageCategory 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="ErrorBCC 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+  <HelpKINode Title="ErrorChacksum 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="ErrorChecksum 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
   <HelpKINode Title="ErrorCodeException(Of TErrorCode) 클래스">
     <HelpKINode Title="ErrorCodeException(TErrorCode) 클래스" Url="html/T_VagabondK_Protocols_ErrorCodeException_1.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_ErrorCodeException_1.htm" />
@@ -987,7 +1073,19 @@
   <HelpKINode Title="ErrorCodeException&lt;TErrorCode&gt;.ErrorCodeException 생성자" Url="html/Overload_VagabondK_Protocols_ErrorCodeException_1__ctor.htm" />
   <HelpKINode Title="ErrorCodeException&lt;TErrorCode&gt;.Message 속성" Url="html/P_VagabondK_Protocols_ErrorCodeException_1_Message.htm" />
   <HelpKINode Title="ErrorCRC 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
+  <HelpKINode Title="ErrorDataCount 열거형 멤버">
+    <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="ErrorLRC 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
+  <HelpKINode Title="EthernetModuleBase 속성">
+    <HelpKINode Title="FEnetResponse.EthernetModuleBase 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_EthernetModuleBase.htm" />
+    <HelpKINode Title="FEnetSimulationService.EthernetModuleBase 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_EthernetModuleBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EthernetModuleSlot 속성">
+    <HelpKINode Title="FEnetResponse.EthernetModuleSlot 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_EthernetModuleSlot.htm" />
+    <HelpKINode Title="FEnetSimulationService.EthernetModuleSlot 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_EthernetModuleSlot.htm" />
+  </HelpKINode>
   <HelpKINode Title="ETX 필드" Url="html/F_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_ETX.htm" />
   <HelpKINode Title="Exception 속성" Url="html/P_VagabondK_Protocols_Logging_ChannelErrorLog_Exception.htm" />
   <HelpKINode Title="ExceptionCode 속성">
@@ -1009,6 +1107,292 @@
     <HelpKINode Title="BooleanToObjectConverter.False 속성 " Url="html/P_VagabondK_Windows_Converters_BooleanToObjectConverter_False.htm" />
     <HelpKINode Title="MultiBooleanToObjectConverter.False 속성 " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToObjectConverter_False.htm" />
   </HelpKINode>
+  <HelpKINode Title="FEnetACKResponse 클래스">
+    <HelpKINode Title="FEnetACKResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetACKResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetACKResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetACKResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetClient 클래스">
+    <HelpKINode Title="FEnetClient 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetClient.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetClient.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetClient.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetClient.Channel 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Channel.htm" />
+  <HelpKINode Title="FEnetClient.CompanyID 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_CompanyID.htm" />
+  <HelpKINode Title="FEnetClient.Dispose 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Dispose.htm" />
+  <HelpKINode Title="FEnetClient.FEnetClient 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient__ctor.htm" />
+  <HelpKINode Title="FEnetClient.Read 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read.htm" />
+  <HelpKINode Title="FEnetClient.Request 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Request.htm" />
+  <HelpKINode Title="FEnetClient.ThrowsExceptionFromNAK 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_ThrowsExceptionFromNAK.htm" />
+  <HelpKINode Title="FEnetClient.Timeout 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Timeout.htm" />
+  <HelpKINode Title="FEnetClient.UseChecksum 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_UseChecksum.htm" />
+  <HelpKINode Title="FEnetClient.Write 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Write.htm" />
+  <HelpKINode Title="FEnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommand.htm" />
+  <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  <HelpKINode Title="FEnetMessage 클래스">
+    <HelpKINode Title="FEnetMessage 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetMessage.Command 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_Command.htm" />
+  <HelpKINode Title="FEnetMessage.DataType 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_DataType.htm" />
+  <HelpKINode Title="FEnetMessage.InvalidateFrameData 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_InvalidateFrameData.htm" />
+  <HelpKINode Title="FEnetMessage.InvokeID 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_InvokeID.htm" />
+  <HelpKINode Title="FEnetMessage.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetMessage.Serialize 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_Serialize.htm" />
+  <HelpKINode Title="FEnetMessage.SetProperty(Of TProperty) 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SetProperty__1.htm" />
+  <HelpKINode Title="FEnetMessage.SetProperty&lt;TProperty&gt; 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SetProperty__1.htm" />
+  <HelpKINode Title="FEnetMessage.SourceOfFrame 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SourceOfFrame.htm" />
+  <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="FEnetNAKException 클래스">
+    <HelpKINode Title="FEnetNAKException 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetNAKException.FEnetNAKException 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException__ctor.htm" />
+  <HelpKINode Title="FEnetNAKException.NAKCodeValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException_NAKCodeValue.htm" />
+  <HelpKINode Title="FEnetNAKLog 클래스">
+    <HelpKINode Title="FEnetNAKLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetNAKLog.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Logging_FEnetNAKLog.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetNAKLog__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Logging_FEnetNAKLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetNAKLog.FEnetNAKLog 생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetNAKLog__ctor.htm" />
+  <HelpKINode Title="FEnetNAKLog.NAKCode 속성" Url="html/P_VagabondK_Protocols_Logging_FEnetNAKLog_NAKCode.htm" />
+  <HelpKINode Title="FEnetNAKLog.ToString 메서드" Url="html/M_VagabondK_Protocols_Logging_FEnetNAKLog_ToString.htm" />
+  <HelpKINode Title="FEnetNAKResponse 클래스">
+    <HelpKINode Title="FEnetNAKResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetNAKResponse.NAKCode 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_NAKCode.htm" />
+  <HelpKINode Title="FEnetNAKResponse.NAKCodeValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_NAKCodeValue.htm" />
+  <HelpKINode Title="FEnetNAKResponse.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest 클래스">
+    <HelpKINode Title="FEnetReadContinuousRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetReadContinuousRequest.BlockCount 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_BlockCount.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.Clone 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_Clone.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_Count.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.FEnetReadContinuousRequest 생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest__ctor.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceIndex 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceIndex.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceType 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceType.htm" />
+  <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceVariable.htm" />
+  <HelpKINode Title="FEnetReadContinuousResponse 클래스">
+    <HelpKINode Title="FEnetReadContinuousResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetReadContinuousResponse.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_Count.htm" />
+  <HelpKINode Title="FEnetReadContinuousResponse.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_GetEnumerator.htm" />
+  <HelpKINode Title="FEnetReadContinuousResponse.Item 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_Item.htm" />
+  <HelpKINode Title="FEnetReadContinuousResponse.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest 클래스">
+    <HelpKINode Title="FEnetReadIndividualRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetReadIndividualRequest.Add 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Add.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.BlockCount 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_BlockCount.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Clear 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Clear.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Clone 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Clone.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Contains 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Contains.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.CopyTo 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_CopyTo.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Count.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.FEnetReadIndividualRequest 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest__ctor.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_GetEnumerator.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.IndexOf 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_IndexOf.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Insert 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Insert.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.IsReadOnly 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_IsReadOnly.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Item 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Item.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.Remove 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Remove.htm" />
+  <HelpKINode Title="FEnetReadIndividualRequest.RemoveAt 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_RemoveAt.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse 클래스">
+    <HelpKINode Title="FEnetReadIndividualResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetReadIndividualResponse.ContainsKey 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_ContainsKey.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Count.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_GetEnumerator.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.Item 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Item.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.Keys 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Keys.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.TryGetValue 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_TryGetValue.htm" />
+  <HelpKINode Title="FEnetReadIndividualResponse.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Values.htm" />
+  <HelpKINode Title="FEnetReadRequest 클래스">
+    <HelpKINode Title="FEnetReadRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetReadRequest.FEnetReadRequest 생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest__ctor.htm" />
+  <HelpKINode Title="FEnetRequest 속성" Url="html/P_VagabondK_Protocols_Logging_FEnetRequestLog_FEnetRequest.htm" />
+  <HelpKINode Title="FEnetRequest 클래스">
+    <HelpKINode Title="FEnetRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequest.BlockCount 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_BlockCount.htm" />
+  <HelpKINode Title="FEnetRequest.Clone 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_Clone.htm" />
+  <HelpKINode Title="FEnetRequest.FEnetRequest 생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest__ctor.htm" />
+  <HelpKINode Title="FEnetRequest.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetRequest.SourceOfFrame 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_SourceOfFrame.htm" />
+  <HelpKINode Title="FEnetRequestedEventArgs 클래스">
+    <HelpKINode Title="FEnetRequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestedEventArgs.Channel 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs_Channel.htm" />
+  <HelpKINode Title="FEnetRequestedEventArgs.NAKCode 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs_NAKCode.htm" />
+  <HelpKINode Title="FEnetRequestedReadContinuousEventArgs 클래스">
+    <HelpKINode Title="FEnetRequestedReadContinuousEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_Count.htm" />
+  <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.ResponseValues 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_ResponseValues.htm" />
+  <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_StartDeviceVariable.htm" />
+  <HelpKINode Title="FEnetRequestedReadIndividualEventArgs 클래스">
+    <HelpKINode Title="FEnetRequestedReadIndividualEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestedReadIndividualEventArgs.ResponseValues 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs_ResponseValues.htm" />
+  <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs 클래스">
+    <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs_StartDeviceVariable.htm" />
+  <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs_Values.htm" />
+  <HelpKINode Title="FEnetRequestedWriteIndividualEventArgs 클래스">
+    <HelpKINode Title="FEnetRequestedWriteIndividualEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestedWriteIndividualEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs_Values.htm" />
+  <HelpKINode Title="FEnetRequestLog 클래스">
+    <HelpKINode Title="FEnetRequestLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetRequestLog.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Logging_FEnetRequestLog.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetRequestLog__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Logging_FEnetRequestLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetRequestLog.FEnetRequest 속성" Url="html/P_VagabondK_Protocols_Logging_FEnetRequestLog_FEnetRequest.htm" />
+  <HelpKINode Title="FEnetRequestLog.FEnetRequestLog 생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetRequestLog__ctor.htm" />
+  <HelpKINode Title="FEnetRequestLog.ToString 메서드" Url="html/M_VagabondK_Protocols_Logging_FEnetRequestLog_ToString.htm" />
+  <HelpKINode Title="FEnetResponse 속성" Url="html/P_VagabondK_Protocols_Logging_FEnetResponseLog_FEnetResponse.htm" />
+  <HelpKINode Title="FEnetResponse 클래스">
+    <HelpKINode Title="FEnetResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetResponse.EthernetModuleBase 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_EthernetModuleBase.htm" />
+  <HelpKINode Title="FEnetResponse.EthernetModuleSlot 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_EthernetModuleSlot.htm" />
+  <HelpKINode Title="FEnetResponse.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetResponse.PlcInfo 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_PlcInfo.htm" />
+  <HelpKINode Title="FEnetResponse.Request 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_Request.htm" />
+  <HelpKINode Title="FEnetResponse.SourceOfFrame 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_SourceOfFrame.htm" />
+  <HelpKINode Title="FEnetResponseLog 클래스">
+    <HelpKINode Title="FEnetResponseLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetResponseLog.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Logging_FEnetResponseLog.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetResponseLog__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Logging_FEnetResponseLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetResponseLog.FEnetResponse 속성" Url="html/P_VagabondK_Protocols_Logging_FEnetResponseLog_FEnetResponse.htm" />
+  <HelpKINode Title="FEnetResponseLog.FEnetResponseLog 생성자" Url="html/M_VagabondK_Protocols_Logging_FEnetResponseLog__ctor.htm" />
+  <HelpKINode Title="FEnetResponseLog.ToString 메서드" Url="html/M_VagabondK_Protocols_Logging_FEnetResponseLog_ToString.htm" />
+  <HelpKINode Title="FEnetSimulationService 클래스">
+    <HelpKINode Title="FEnetSimulationService 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService.htm" />
+    <HelpKINode Title="이벤트" Url="html/Events_T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetSimulationService.Channel 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_Channel.htm" />
+  <HelpKINode Title="FEnetSimulationService.ChannelTimeout 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_ChannelTimeout.htm" />
+  <HelpKINode Title="FEnetSimulationService.CompanyID 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_CompanyID.htm" />
+  <HelpKINode Title="FEnetSimulationService.Dispose 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_Dispose.htm" />
+  <HelpKINode Title="FEnetSimulationService.EthernetModuleBase 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_EthernetModuleBase.htm" />
+  <HelpKINode Title="FEnetSimulationService.EthernetModuleSlot 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_EthernetModuleSlot.htm" />
+  <HelpKINode Title="FEnetSimulationService.FEnetSimulationService 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService__ctor.htm" />
+  <HelpKINode Title="FEnetSimulationService.PlcInfo 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_PlcInfo.htm" />
+  <HelpKINode Title="FEnetSimulationService.RequestedReadContinuous 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadContinuous.htm" />
+  <HelpKINode Title="FEnetSimulationService.RequestedReadIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadIndividual.htm" />
+  <HelpKINode Title="FEnetSimulationService.RequestedWriteContinuous 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedWriteContinuous.htm" />
+  <HelpKINode Title="FEnetSimulationService.RequestedWriteIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedWriteIndividual.htm" />
+  <HelpKINode Title="FEnetSimulationService.UseChecksum 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_UseChecksum.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest 클래스">
+    <HelpKINode Title="FEnetWriteContinuousRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetWriteContinuousRequest.Add 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Add.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.BlockCount 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_BlockCount.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Clear 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Clear.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Clone 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Clone.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Contains 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Contains.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.CopyTo 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_CopyTo.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Count.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.FEnetWriteContinuousRequest 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest__ctor.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_GetEnumerator.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.IndexOf 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_IndexOf.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Insert 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Insert.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.IsReadOnly 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_IsReadOnly.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Item 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Item.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.Remove 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Remove.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.RemoveAt 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_RemoveAt.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceIndex 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceIndex.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceType 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceType.htm" />
+  <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceVariable.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest 클래스">
+    <HelpKINode Title="FEnetWriteIndividualRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetWriteIndividualRequest.Add 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Add.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.BlockCount 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_BlockCount.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Clear 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Clear.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Clone 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Clone.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Contains 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Contains.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.ContainsKey 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_ContainsKey.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.CopyTo 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_CopyTo.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Count.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.FEnetWriteIndividualRequest 생성자" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest__ctor.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_GetEnumerator.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.IsReadOnly 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_IsReadOnly.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Item 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Item.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Keys 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Keys.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_OnCreateDataFrame.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Remove 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Remove.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.TryGetValue 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_TryGetValue.htm" />
+  <HelpKINode Title="FEnetWriteIndividualRequest.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Values.htm" />
+  <HelpKINode Title="FEnetWriteRequest 클래스">
+    <HelpKINode Title="FEnetWriteRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetWriteRequest.FEnetWriteRequest 생성자" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest__ctor.htm" />
+  <HelpKINode Title="FEnetWriteResponse 클래스">
+    <HelpKINode Title="FEnetWriteResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FEnetWriteResponse.OnCreateDataFrame 메서드" Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse_OnCreateDataFrame.htm" />
   <HelpKINode Title="Finalize 메서드">
     <HelpKINode Title="SerialPortChannel.Finalize 메서드 " Url="html/M_VagabondK_Protocols_Channels_SerialPortChannel_Finalize.htm" />
     <HelpKINode Title="StreamChannel.Finalize 메서드 " Url="html/M_VagabondK_Protocols_Channels_StreamChannel_Finalize.htm" />
@@ -1057,6 +1441,7 @@
   </HelpKINode>
   <HelpKINode Title="Get(Of TProperty) 메서드" Url="html/M_System_PropertyExtensions_Get__1.htm" />
   <HelpKINode Title="Get&lt;TProperty&gt; 메서드" Url="html/M_System_PropertyExtensions_Get__1.htm" />
+  <HelpKINode Title="GetBytes 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_GetBytes.htm" />
   <HelpKINode Title="GetCommand 메서드" Url="html/Overload_System_NotifyPropertyChangeObject_GetCommand.htm" />
   <HelpKINode Title="GetData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_GetData.htm" />
   <HelpKINode Title="GetDouble 메서드">
@@ -1070,6 +1455,11 @@
     <HelpKINode Title="CnetSimulationService.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_GetEnumerator.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_GetEnumerator.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_GetEnumerator.htm" />
+    <HelpKINode Title="FEnetReadContinuousResponse.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_GetEnumerator.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_GetEnumerator.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_GetEnumerator.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_GetEnumerator.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_GetEnumerator.htm" />
     <HelpKINode Title="ModbusBooleans.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_GetEnumerator.htm" />
     <HelpKINode Title="ModbusDataSet(TData, TRawData).GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_GetEnumerator.htm" />
     <HelpKINode Title="ModbusRegisters.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetEnumerator.htm" />
@@ -1202,18 +1592,18 @@
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Logging_IChannelLogger.htm" />
   </HelpKINode>
   <HelpKINode Title="IChannelLogger.Log 메서드" Url="html/M_VagabondK_Protocols_Logging_IChannelLogger_Log.htm" />
-  <HelpKINode Title="ICnetContinuousAccessRequest 인터페이스">
-    <HelpKINode Title="ICnetContinuousAccessRequest 인터페이스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ICnetContinuousAccessRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest_Count.htm" />
-  <HelpKINode Title="ICnetContinuousAccessRequest.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest_StartDeviceVariable.htm" />
   <HelpKINode Title="Icon 속성">
     <HelpKINode Title="Shell.Icon 속성 " Url="html/P_VagabondK_App_Shell_Icon.htm" />
     <HelpKINode Title="ThemeMessageBoxContentControl.Icon 속성 " Url="html/P_VagabondK_Windows_ThemeMessageBoxContentControl_Icon.htm" />
   </HelpKINode>
   <HelpKINode Title="IconProperty 필드" Url="html/F_VagabondK_Windows_ThemeMessageBoxContentControl_IconProperty.htm" />
+  <HelpKINode Title="IContinuousAccessRequest 인터페이스">
+    <HelpKINode Title="IContinuousAccessRequest 인터페이스" Url="html/T_VagabondK_Protocols_LSElectric_IContinuousAccessRequest.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_IContinuousAccessRequest.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_IContinuousAccessRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IContinuousAccessRequest.Count 속성" Url="html/P_VagabondK_Protocols_LSElectric_IContinuousAccessRequest_Count.htm" />
+  <HelpKINode Title="IContinuousAccessRequest.StartDeviceVariable 속성" Url="html/P_VagabondK_Protocols_LSElectric_IContinuousAccessRequest_StartDeviceVariable.htm" />
   <HelpKINode Title="IDialog 인터페이스">
     <HelpKINode Title="IDialog 인터페이스" Url="html/T_VagabondK_App_IDialog.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_IDialog.htm" />
@@ -1245,7 +1635,13 @@
     <HelpKINode Title="메서드" Url="html/Methods_T_System_IInstantCommand.htm" />
   </HelpKINode>
   <HelpKINode Title="IInstantCommand.RaiseCanExecuteChanged 메서드" Url="html/M_System_IInstantCommand_RaiseCanExecuteChanged.htm" />
-  <HelpKINode Title="IlegalDeviceMemory 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+  <HelpKINode Title="IlegalCommand 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="IlegalCompanyID 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="IlegalDeviceMemory 열거형 멤버">
+    <HelpKINode Title="CnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+    <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IlegalLength 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
   <HelpKINode Title="IllegalDataAddress 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="IllegalDataValue 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="IllegalFunction 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
@@ -1301,6 +1697,8 @@
   <HelpKINode Title="IndexOf 메서드">
     <HelpKINode Title="CnetReadIndividualRequest.IndexOf 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_IndexOf.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.IndexOf 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_IndexOf.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.IndexOf 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_IndexOf.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.IndexOf 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_IndexOf.htm" />
   </HelpKINode>
   <HelpKINode Title="Individual 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
   <HelpKINode Title="Inequality 연산자">
@@ -1338,6 +1736,8 @@
   <HelpKINode Title="Insert 메서드">
     <HelpKINode Title="CnetReadIndividualRequest.Insert 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Insert.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Insert 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Insert.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Insert 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Insert.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Insert 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Insert.htm" />
   </HelpKINode>
   <HelpKINode Title="InstantCommand 클래스">
     <HelpKINode Title="InstantCommand 클래스" Url="html/T_System_InstantCommand.htm" />
@@ -1401,7 +1801,10 @@
   </HelpKINode>
   <HelpKINode Title="Int64Extension.Int64Extension 생성자" Url="html/M_VagabondK_Windows_Int64Extension__ctor.htm" />
   <HelpKINode Title="Int64Extension.ProvideValue 메서드" Url="html/M_VagabondK_Windows_Int64Extension_ProvideValue.htm" />
-  <HelpKINode Title="InvalidateFrameData 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_InvalidateFrameData.htm" />
+  <HelpKINode Title="InvalidateFrameData 메서드">
+    <HelpKINode Title="CnetMessage.InvalidateFrameData 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_InvalidateFrameData.htm" />
+    <HelpKINode Title="FEnetMessage.InvalidateFrameData 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_InvalidateFrameData.htm" />
+  </HelpKINode>
   <HelpKINode Title="Invert 속성">
     <HelpKINode Title="BooleanToVisibilityConverter.Invert 속성 " Url="html/P_VagabondK_Windows_Converters_BooleanToVisibilityConverter_Invert.htm" />
     <HelpKINode Title="EqualsConverter.Invert 속성 " Url="html/P_VagabondK_Windows_Converters_EqualsConverter_Invert.htm" />
@@ -1410,6 +1813,7 @@
     <HelpKINode Title="MultiBooleanToVisibilityConverter.Invert 속성 " Url="html/P_VagabondK_Windows_Converters_MultiBooleanToVisibilityConverter_Invert.htm" />
     <HelpKINode Title="NotNullToVisibilityConverter.Invert 속성 " Url="html/P_VagabondK_Windows_Converters_NotNullToVisibilityConverter_Invert.htm" />
   </HelpKINode>
+  <HelpKINode Title="InvokeID 속성" Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_InvokeID.htm" />
   <HelpKINode Title="IPAddress 속성" Url="html/P_VagabondK_Protocols_Channels_TcpChannelProvider_IPAddress.htm" />
   <HelpKINode Title="IPageData 인터페이스">
     <HelpKINode Title="IPageData 인터페이스" Url="html/T_VagabondK_App_IPageData.htm" />
@@ -1461,6 +1865,9 @@
     <HelpKINode Title="CnetReadIndividualRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_IsReadOnly.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_IsReadOnly.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_IsReadOnly.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_IsReadOnly.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_IsReadOnly.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.IsReadOnly 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_IsReadOnly.htm" />
   </HelpKINode>
   <HelpKINode Title="IsValid 속성" Url="html/P_VagabondK_Protocols_Modbus_ValidatingSlaveAddressEventArgs_IsValid.htm" />
   <HelpKINode Title="Item 속성">
@@ -1469,6 +1876,11 @@
     <HelpKINode Title="CnetSimulationService.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_Item.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Item.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Item.htm" />
+    <HelpKINode Title="FEnetReadContinuousResponse.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_Item.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Item.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Item.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Item.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Item 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Item.htm" />
     <HelpKINode Title="IModbusDataBlock(TData, TRawData).Item 속성 " Url="html/P_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2_Item.htm" />
     <HelpKINode Title="ModbusDataSet(TData, TRawData).Item 속성 " Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_Item.htm" />
     <HelpKINode Title="ModbusSlaveService.Item 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusSlaveService_Item.htm" />
@@ -1478,6 +1890,8 @@
   <HelpKINode Title="Keys 속성">
     <HelpKINode Title="CnetReadResponse.Keys 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_Keys.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Keys 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Keys.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.Keys 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Keys.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Keys 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Keys.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).Keys 속성 " Url="html/P_VagabondK_App_MultiServiceProviderShell_2_Keys.htm" />
   </HelpKINode>
   <HelpKINode Title="L 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
@@ -1506,7 +1920,10 @@
     <HelpKINode Title="ChannelProvider.Logger 속성 " Url="html/P_VagabondK_Protocols_Channels_ChannelProvider_Logger.htm" />
     <HelpKINode Title="IChannel.Logger 속성 " Url="html/P_VagabondK_Protocols_Channels_IChannel_Logger.htm" />
   </HelpKINode>
-  <HelpKINode Title="LongWord 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+  <HelpKINode Title="LongWord 열거형 멤버">
+    <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="LongWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_LongWordValue.htm" />
   <HelpKINode Title="M 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
   <HelpKINode Title="Map 속성" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverter_Map.htm" />
@@ -2017,11 +2434,16 @@
   <HelpKINode Title="NAKCode 속성">
     <HelpKINode Title="CnetNAKLog.NAKCode 속성 " Url="html/P_VagabondK_Protocols_Logging_CnetNAKLog_NAKCode.htm" />
     <HelpKINode Title="CnetNAKResponse.NAKCode 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetNAKResponse_NAKCode.htm" />
-    <HelpKINode Title="RequestedEventArgs.NAKCode 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_NAKCode.htm" />
+    <HelpKINode Title="CnetRequestedEventArgs.NAKCode 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs_NAKCode.htm" />
+    <HelpKINode Title="FEnetNAKLog.NAKCode 속성 " Url="html/P_VagabondK_Protocols_Logging_FEnetNAKLog_NAKCode.htm" />
+    <HelpKINode Title="FEnetNAKResponse.NAKCode 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_NAKCode.htm" />
+    <HelpKINode Title="FEnetRequestedEventArgs.NAKCode 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs_NAKCode.htm" />
   </HelpKINode>
   <HelpKINode Title="NAKCodeValue 속성">
     <HelpKINode Title="CnetNAKException.NAKCodeValue 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetNAKException_NAKCodeValue.htm" />
     <HelpKINode Title="CnetNAKResponse.NAKCodeValue 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetNAKResponse_NAKCodeValue.htm" />
+    <HelpKINode Title="FEnetNAKException.NAKCodeValue 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException_NAKCodeValue.htm" />
+    <HelpKINode Title="FEnetNAKResponse.NAKCodeValue 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_NAKCodeValue.htm" />
   </HelpKINode>
   <HelpKINode Title="Navigate 메서드">
     <HelpKINode Title="INavigationManager.Navigate 메서드 " Url="html/M_VagabondK_App_INavigationManager_Navigate.htm" />
@@ -2061,6 +2483,7 @@
   </HelpKINode>
   <HelpKINode Title="NotDefined 열거형 멤버">
     <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
     <HelpKINode Title="ModbusCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
     <HelpKINode Title="ModbusExceptionCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   </HelpKINode>
@@ -2134,6 +2557,19 @@
   <HelpKINode Title="OKCancel 열거형 멤버" Url="html/T_VagabondK_App_MessageBoxButton.htm" />
   <HelpKINode Title="OnApplyTemplate 메서드" Url="html/M_VagabondK_Windows_ThemeMessageBoxContentControl_OnApplyTemplate.htm" />
   <HelpKINode Title="OnCanExecuteChanged 메서드" Url="html/M_System_InstantCommandBase_OnCanExecuteChanged.htm" />
+  <HelpKINode Title="OnCreateDataFrame 메서드">
+    <HelpKINode Title="FEnetMessage.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetNAKResponse.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetReadContinuousRequest.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetReadContinuousResponse.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetRequest.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetResponse.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_OnCreateDataFrame.htm" />
+    <HelpKINode Title="FEnetWriteResponse.OnCreateDataFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse_OnCreateDataFrame.htm" />
+  </HelpKINode>
   <HelpKINode Title="OnCreateFrame 메서드">
     <HelpKINode Title="CnetMessage.OnCreateFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_OnCreateFrame.htm" />
     <HelpKINode Title="CnetRequest.OnCreateFrame 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetRequest_OnCreateFrame.htm" />
@@ -2177,11 +2613,19 @@
     <HelpKINode Title="SimpleShell.OpenPage 메서드 " Url="html/Overload_VagabondK_App_Windows_SimpleShell_OpenPage.htm" />
   </HelpKINode>
   <HelpKINode Title="OuterBigEndian 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusEndian_OuterBigEndian.htm" />
-  <HelpKINode Title="OutOfRangeDeviceVariable 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+  <HelpKINode Title="OutOfRangeDeviceVariable 열거형 멤버">
+    <HelpKINode Title="CnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+    <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="OutOfRangeExecuteMonitorNumber 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="OutOfRangeRegisterMonitorNumber 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="OverDataLength 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
-  <HelpKINode Title="OverRequestReadBlockCount 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+  <HelpKINode Title="OverDataLengthIndividual 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="OverDataLengthTotal 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="OverRequestReadBlockCount 열거형 멤버">
+    <HelpKINode Title="CnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
+    <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="OverVariableLength 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="Owner 속성" Url="html/P_VagabondK_App_PageContext_Owner.htm" />
   <HelpKINode Title="P 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
@@ -2246,6 +2690,10 @@
   <HelpKINode Title="PageHostControl.PageHostControl 생성자" Url="html/M_VagabondK_App_Windows_PageHostControl__ctor.htm" />
   <HelpKINode Title="Parity 속성" Url="html/P_VagabondK_Protocols_Channels_SerialPortChannel_Parity.htm" />
   <HelpKINode Title="Parse 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_Parse.htm" />
+  <HelpKINode Title="PlcInfo 속성">
+    <HelpKINode Title="FEnetResponse.PlcInfo 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_PlcInfo.htm" />
+    <HelpKINode Title="FEnetSimulationService.PlcInfo 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_PlcInfo.htm" />
+  </HelpKINode>
   <HelpKINode Title="Port 속성">
     <HelpKINode Title="TcpChannel.Port 속성 " Url="html/P_VagabondK_Protocols_Channels_TcpChannel_Port.htm" />
     <HelpKINode Title="TcpChannelProvider.Port 속성 " Url="html/P_VagabondK_Protocols_Channels_TcpChannelProvider_Port.htm" />
@@ -2359,13 +2807,17 @@
     <HelpKINode Title="Channel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_Channel_Read.htm" />
     <HelpKINode Title="ChannelProvider.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_ChannelProvider_Read.htm" />
     <HelpKINode Title="CnetClient.Read 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Read.htm" />
+    <HelpKINode Title="FEnetClient.Read 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read.htm" />
     <HelpKINode Title="IChannel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_IChannel_Read.htm" />
     <HelpKINode Title="SerialPortChannel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_SerialPortChannel_Read.htm" />
     <HelpKINode Title="StreamChannel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_StreamChannel_Read.htm" />
     <HelpKINode Title="TcpChannel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_TcpChannel_Read.htm" />
     <HelpKINode Title="UdpChannel.Read 메서드 " Url="html/Overload_VagabondK_Protocols_Channels_UdpChannel_Read.htm" />
   </HelpKINode>
-  <HelpKINode Title="Read 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
+  <HelpKINode Title="Read 열거형 멤버">
+    <HelpKINode Title="CnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
+    <HelpKINode Title="FEnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommand.htm" />
+  </HelpKINode>
   <HelpKINode Title="ReadAllRemain 메서드">
     <HelpKINode Title="Channel.ReadAllRemain 메서드 " Url="html/M_VagabondK_Protocols_Channels_Channel_ReadAllRemain.htm" />
     <HelpKINode Title="ChannelProvider.ReadAllRemain 메서드 " Url="html/M_VagabondK_Protocols_Channels_ChannelProvider_ReadAllRemain.htm" />
@@ -2415,6 +2867,9 @@
     <HelpKINode Title="CnetReadIndividualRequest.Remove 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_Remove.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.Remove 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_Remove.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Remove 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Remove.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.Remove 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_Remove.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.Remove 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_Remove.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Remove 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Remove.htm" />
     <HelpKINode Title="ModbusDataSet(TData, TRawData).Remove 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_Remove.htm" />
     <HelpKINode Title="ModbusSlaveService.Remove 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_Remove.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).Remove 메서드 " Url="html/M_VagabondK_App_MultiServiceProviderShell_2_Remove.htm" />
@@ -2422,36 +2877,33 @@
   <HelpKINode Title="RemoveAt 메서드">
     <HelpKINode Title="CnetReadIndividualRequest.RemoveAt 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadIndividualRequest_RemoveAt.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.RemoveAt 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_RemoveAt.htm" />
+    <HelpKINode Title="FEnetReadIndividualRequest.RemoveAt 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest_RemoveAt.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.RemoveAt 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_RemoveAt.htm" />
   </HelpKINode>
   <HelpKINode Title="RemoveChannel 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_RemoveChannel.htm" />
   <HelpKINode Title="RemoveChannelLogger 메서드" Url="html/M_VagabondK_Protocols_Logging_ChannelLoggerGroup_RemoveChannelLogger.htm" />
   <HelpKINode Title="ReplaceInputTimeout 속성" Url="html/P_VagabondK_Korean_Hangul_HangulAutomata_ReplaceInputTimeout.htm" />
   <HelpKINode Title="Request 메서드">
     <HelpKINode Title="CnetClient.Request 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Request.htm" />
+    <HelpKINode Title="FEnetClient.Request 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Request.htm" />
     <HelpKINode Title="ModbusMaster.Request 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="Request 속성">
     <HelpKINode Title="ChannelRequestLog.Request 속성 " Url="html/P_VagabondK_Protocols_Logging_ChannelRequestLog_Request.htm" />
     <HelpKINode Title="CnetResponse.Request 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetResponse_Request.htm" />
+    <HelpKINode Title="FEnetResponse.Request 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_Request.htm" />
     <HelpKINode Title="ModbusResponse.Request 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_Request.htm" />
     <HelpKINode Title="RequestException(TErrorCode).Request 속성 " Url="html/P_VagabondK_Protocols_RequestException_1_Request.htm" />
   </HelpKINode>
   <HelpKINode Title="Request 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   <HelpKINode Title="RequestedEventArgs 클래스">
     <HelpKINode Title="RequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-    <HelpKINode Title="RequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedEventArgs.Address 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Address.htm" />
-  <HelpKINode Title="RequestedEventArgs.Channel 속성">
-    <HelpKINode Title="RequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_Channel.htm" />
-    <HelpKINode Title="RequestedEventArgs.Channel 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
-  </HelpKINode>
+  <HelpKINode Title="RequestedEventArgs.Channel 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Channel.htm" />
   <HelpKINode Title="RequestedEventArgs.Function 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Function.htm" />
-  <HelpKINode Title="RequestedEventArgs.NAKCode 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs_NAKCode.htm" />
   <HelpKINode Title="RequestedEventArgs.SlaveAddress 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_SlaveAddress.htm" />
   <HelpKINode Title="RequestedRead 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationStation_RequestedRead.htm" />
   <HelpKINode Title="RequestedReadBooleanEventArgs 클래스">
@@ -2462,14 +2914,10 @@
   <HelpKINode Title="RequestedReadBooleanEventArgs.Length 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Length.htm" />
   <HelpKINode Title="RequestedReadBooleanEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Values.htm" />
   <HelpKINode Title="RequestedReadCoils 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadCoils.htm" />
+  <HelpKINode Title="RequestedReadContinuous 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadContinuous.htm" />
   <HelpKINode Title="RequestedReadDiscreteInputs 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadDiscreteInputs.htm" />
-  <HelpKINode Title="RequestedReadEventArgs 클래스">
-    <HelpKINode Title="RequestedReadEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RequestedReadEventArgs.ResponseValues 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs_ResponseValues.htm" />
   <HelpKINode Title="RequestedReadHoldingRegisters 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadHoldingRegisters.htm" />
+  <HelpKINode Title="RequestedReadIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadIndividual.htm" />
   <HelpKINode Title="RequestedReadInputRegisters 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadInputRegisters.htm" />
   <HelpKINode Title="RequestedReadRegisterEventArgs 클래스">
     <HelpKINode Title="RequestedReadRegisterEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs.htm" />
@@ -2486,12 +2934,7 @@
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedWriteCoilEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedWriteCoilEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteCoilEventArgs_Values.htm" />
-  <HelpKINode Title="RequestedWriteEventArgs 클래스">
-    <HelpKINode Title="RequestedWriteEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RequestedWriteEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs_Values.htm" />
+  <HelpKINode Title="RequestedWriteContinuous 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedWriteContinuous.htm" />
   <HelpKINode Title="RequestedWriteHoldingRegister 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedWriteHoldingRegister.htm" />
   <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs 클래스">
     <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs.htm" />
@@ -2500,6 +2943,7 @@
   </HelpKINode>
   <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Bytes.htm" />
   <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Registers 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Registers.htm" />
+  <HelpKINode Title="RequestedWriteIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedWriteIndividual.htm" />
   <HelpKINode Title="RequestException(Of TErrorCode) 클래스">
     <HelpKINode Title="RequestException(TErrorCode) 클래스" Url="html/T_VagabondK_Protocols_RequestException_1.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_RequestException_1.htm" />
@@ -2538,14 +2982,27 @@
   <HelpKINode Title="ResponseAddressDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseAsciiEndError 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseAsciiStartError 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
-  <HelpKINode Title="ResponseCommandDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+  <HelpKINode Title="ResponseCommandDoNotMatch 열거형 멤버">
+    <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="ResponseCommandTypeDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
-  <HelpKINode Title="ResponseDataBlockCountDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
-  <HelpKINode Title="ResponseDataCountDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+  <HelpKINode Title="ResponseDataBlockCountDoNotMatch 열거형 멤버">
+    <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResponseDataCountNotMatch 열거형 멤버">
+    <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResponseDataTypeDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
   <HelpKINode Title="ResponseException 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   <HelpKINode Title="ResponseFunctionDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseHeaderError 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
-  <HelpKINode Title="ResponseLengthDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
+  <HelpKINode Title="ResponseLengthDoNotMatch 열거형 멤버">
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+    <HelpKINode Title="ModbusCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
+  </HelpKINode>
   <HelpKINode Title="ResponseMonitorNumberDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
   <HelpKINode Title="ResponseParseHexError 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
   <HelpKINode Title="ResponseRead 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
@@ -2559,9 +3016,14 @@
   <HelpKINode Title="ResponseTcpLengthDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ResponseTimeout 열거형 멤버">
     <HelpKINode Title="CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
+    <HelpKINode Title="FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
     <HelpKINode Title="ModbusCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   </HelpKINode>
-  <HelpKINode Title="ResponseValues 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs_ResponseValues.htm" />
+  <HelpKINode Title="ResponseValues 속성">
+    <HelpKINode Title="CnetRequestedReadEventArgs.ResponseValues 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs_ResponseValues.htm" />
+    <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.ResponseValues 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_ResponseValues.htm" />
+    <HelpKINode Title="FEnetRequestedReadIndividualEventArgs.ResponseValues 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs_ResponseValues.htm" />
+  </HelpKINode>
   <HelpKINode Title="ResponseWrite 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   <HelpKINode Title="ResponseWriteCoil 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusMessageCategory.htm" />
   <HelpKINode Title="ResponseWritedLengthDoNotMatch 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
@@ -2587,6 +3049,7 @@
   <HelpKINode Title="SelectedPageContext 속성" Url="html/P_VagabondK_App_Shell_SelectedPageContext.htm" />
   <HelpKINode Title="Serialize 메서드">
     <HelpKINode Title="CnetMessage.Serialize 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_Serialize.htm" />
+    <HelpKINode Title="FEnetMessage.Serialize 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_Serialize.htm" />
     <HelpKINode Title="IModbusMessage.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_IModbusMessage_Serialize.htm" />
     <HelpKINode Title="ModbusExceptionResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusExceptionResponse_Serialize.htm" />
     <HelpKINode Title="ModbusReadBooleanResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Serialize.htm" />
@@ -2669,8 +3132,14 @@
   <HelpKINode Title="SetData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_SetData.htm" />
   <HelpKINode Title="SetIsDefault 메서드" Url="html/M_VagabondK_Windows_Focus_SetIsDefault.htm" />
   <HelpKINode Title="SetIsOk 메서드" Url="html/M_VagabondK_App_Windows_Dialog_SetIsOk.htm" />
-  <HelpKINode Title="SetProperty(Of TProperty) 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
-  <HelpKINode Title="SetProperty&lt;TProperty&gt; 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
+  <HelpKINode Title="SetProperty(Of TProperty) 메서드">
+    <HelpKINode Title="CnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
+    <HelpKINode Title="FEnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SetProperty__1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetProperty&lt;TProperty&gt; 메서드">
+    <HelpKINode Title="CnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
+    <HelpKINode Title="FEnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SetProperty__1.htm" />
+  </HelpKINode>
   <HelpKINode Title="SetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetRawData.htm" />
   <HelpKINode Title="SetResizeMode 메서드" Url="html/M_VagabondK_App_Windows_Dialog_SetResizeMode.htm" />
   <HelpKINode Title="SetShowInTaskbar 메서드" Url="html/M_VagabondK_App_Windows_Dialog_SetShowInTaskbar.htm" />
@@ -2770,17 +3239,34 @@
   <HelpKINode Title="SlaveDeviceBusy 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="SlaveDeviceFailure 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusExceptionCode.htm" />
   <HelpKINode Title="Sort 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_Sort.htm" />
+  <HelpKINode Title="SourceOfFrame 속성">
+    <HelpKINode Title="FEnetMessage.SourceOfFrame 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SourceOfFrame.htm" />
+    <HelpKINode Title="FEnetRequest.SourceOfFrame 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_SourceOfFrame.htm" />
+    <HelpKINode Title="FEnetResponse.SourceOfFrame 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse_SourceOfFrame.htm" />
+  </HelpKINode>
   <HelpKINode Title="Start 메서드">
     <HelpKINode Title="ChannelProvider.Start 메서드 " Url="html/M_VagabondK_Protocols_Channels_ChannelProvider_Start.htm" />
     <HelpKINode Title="TcpChannelProvider.Start 메서드 " Url="html/M_VagabondK_Protocols_Channels_TcpChannelProvider_Start.htm" />
     <HelpKINode Title="UdpChannelProvider.Start 메서드 " Url="html/M_VagabondK_Protocols_Channels_UdpChannelProvider_Start.htm" />
   </HelpKINode>
   <HelpKINode Title="StartAddress 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2_StartAddress.htm" />
+  <HelpKINode Title="StartDeviceIndex 속성">
+    <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceIndex 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceIndex.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceIndex 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceIndex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StartDeviceType 속성">
+    <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceType.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceType 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceType.htm" />
+  </HelpKINode>
   <HelpKINode Title="StartDeviceVariable 속성">
     <HelpKINode Title="CnetMonitorByContinuousAccess.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMonitorByContinuousAccess_StartDeviceVariable.htm" />
     <HelpKINode Title="CnetReadContinuousRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadContinuousRequest_StartDeviceVariable.htm" />
     <HelpKINode Title="CnetWriteContinuousRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest_StartDeviceVariable.htm" />
-    <HelpKINode Title="ICnetContinuousAccessRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest_StartDeviceVariable.htm" />
+    <HelpKINode Title="FEnetReadContinuousRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest_StartDeviceVariable.htm" />
+    <HelpKINode Title="FEnetRequestedReadContinuousEventArgs.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs_StartDeviceVariable.htm" />
+    <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs_StartDeviceVariable.htm" />
+    <HelpKINode Title="FEnetWriteContinuousRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_StartDeviceVariable.htm" />
+    <HelpKINode Title="IContinuousAccessRequest.StartDeviceVariable 속성 " Url="html/P_VagabondK_Protocols_LSElectric_IContinuousAccessRequest_StartDeviceVariable.htm" />
   </HelpKINode>
   <HelpKINode Title="StationNumber 속성">
     <HelpKINode Title="CnetMonitor.StationNumber 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetMonitor_StationNumber.htm" />
@@ -2950,10 +3436,14 @@
   <HelpKINode Title="ThemeWindow.ClientBackground 속성" Url="html/P_VagabondK_Windows_ThemeWindow_ClientBackground.htm" />
   <HelpKINode Title="ThemeWindow.ClientBackgroundProperty 필드" Url="html/F_VagabondK_Windows_ThemeWindow_ClientBackgroundProperty.htm" />
   <HelpKINode Title="ThemeWindow.ThemeWindow 생성자" Url="html/M_VagabondK_Windows_ThemeWindow__ctor.htm" />
-  <HelpKINode Title="ThrowsExceptionFromNAK 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_ThrowsExceptionFromNAK.htm" />
+  <HelpKINode Title="ThrowsExceptionFromNAK 속성">
+    <HelpKINode Title="CnetClient.ThrowsExceptionFromNAK 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_ThrowsExceptionFromNAK.htm" />
+    <HelpKINode Title="FEnetClient.ThrowsExceptionFromNAK 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_ThrowsExceptionFromNAK.htm" />
+  </HelpKINode>
   <HelpKINode Title="ThrowsModbusExceptions 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_ThrowsModbusExceptions.htm" />
   <HelpKINode Title="Timeout 속성">
     <HelpKINode Title="CnetClient.Timeout 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Timeout.htm" />
+    <HelpKINode Title="FEnetClient.Timeout 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Timeout.htm" />
     <HelpKINode Title="ModbusMaster.Timeout 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusMaster_Timeout.htm" />
   </HelpKINode>
   <HelpKINode Title="TimeStamp 속성" Url="html/P_VagabondK_Protocols_Logging_ChannelLog_TimeStamp.htm" />
@@ -2986,7 +3476,7 @@
   <HelpKINode Title="ToDecimalConverter.ConvertBack 메서드" Url="html/M_VagabondK_Windows_Converters_ToDecimalConverter_ConvertBack.htm" />
   <HelpKINode Title="ToDecimalConverter.ProvideValue 메서드" Url="html/M_VagabondK_Windows_Converters_ToDecimalConverter_ProvideValue.htm" />
   <HelpKINode Title="ToDecimalConverter.ToDecimalConverter 생성자" Url="html/M_VagabondK_Windows_Converters_ToDecimalConverter__ctor.htm" />
-  <HelpKINode Title="ToDeviceVariables 메서드" Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions_ToDeviceVariables.htm" />
+  <HelpKINode Title="ToDeviceVariables 메서드" Url="html/M_VagabondK_Protocols_LSElectric_ContinuousRequestExtensions_ToDeviceVariables.htm" />
   <HelpKINode Title="ToDoubleConverter 클래스">
     <HelpKINode Title="ToDoubleConverter 클래스" Url="html/T_VagabondK_Windows_Converters_ToDoubleConverter.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Windows_Converters_ToDoubleConverter.htm" />
@@ -3065,6 +3555,9 @@
     <HelpKINode Title="CnetRequestLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_CnetRequestLog_ToString.htm" />
     <HelpKINode Title="CnetResponseLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_CnetResponseLog_ToString.htm" />
     <HelpKINode Title="DeviceVariable.ToString 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_ToString.htm" />
+    <HelpKINode Title="FEnetNAKLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_FEnetNAKLog_ToString.htm" />
+    <HelpKINode Title="FEnetRequestLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_FEnetRequestLog_ToString.htm" />
+    <HelpKINode Title="FEnetResponseLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_FEnetResponseLog_ToString.htm" />
     <HelpKINode Title="ModbusEndian.ToString 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusEndian_ToString.htm" />
     <HelpKINode Title="ModbusExceptionLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_ModbusExceptionLog_ToString.htm" />
     <HelpKINode Title="ModbusRequestLog.ToString 메서드 " Url="html/M_VagabondK_Protocols_Logging_ModbusRequestLog_ToString.htm" />
@@ -3119,6 +3612,8 @@
     <HelpKINode Title="CnetReadResponse.TryGetValue 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_TryGetValue.htm" />
     <HelpKINode Title="CnetSimulationService.TryGetValue 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_TryGetValue.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.TryGetValue 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_TryGetValue.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.TryGetValue 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_TryGetValue.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.TryGetValue 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_TryGetValue.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).TryGetValue 메서드 " Url="html/M_VagabondK_App_MultiServiceProviderShell_2_TryGetValue.htm" />
   </HelpKINode>
   <HelpKINode Title="TryParse 메서드" Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_TryParse.htm" />
@@ -3184,6 +3679,7 @@
     <HelpKINode Title="CnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
     <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
     <HelpKINode Title="DeviceType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
+    <HelpKINode Title="FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
   </HelpKINode>
   <HelpKINode Title="UnnecessaryDataInFrame 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetNAKCode.htm" />
   <HelpKINode Title="UnrecognizedErrorLog 클래스">
@@ -3198,6 +3694,10 @@
   <HelpKINode Title="UnsignedDoubleWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedDoubleWordValue.htm" />
   <HelpKINode Title="UnsignedLongWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedLongWordValue.htm" />
   <HelpKINode Title="UnsignedWordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_UnsignedWordValue.htm" />
+  <HelpKINode Title="UseChecksum 속성">
+    <HelpKINode Title="FEnetClient.UseChecksum 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_UseChecksum.htm" />
+    <HelpKINode Title="FEnetSimulationService.UseChecksum 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_UseChecksum.htm" />
+  </HelpKINode>
   <HelpKINode Title="VagabondK.App 네임스페이스" Url="html/N_VagabondK_App.htm" />
   <HelpKINode Title="VagabondK.App.DialogExtensions 클래스" Url="html/T_VagabondK_App_DialogExtensions.htm" />
   <HelpKINode Title="VagabondK.App.FocusHandlerExtensions 클래스" Url="html/T_VagabondK_App_FocusHandlerExtensions.htm" />
@@ -3278,6 +3778,9 @@
   <HelpKINode Title="VagabondK.Protocols.Logging.CnetResponseLog 클래스" Url="html/T_VagabondK_Protocols_Logging_CnetResponseLog.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.CollectionChannelLogger 클래스" Url="html/T_VagabondK_Protocols_Logging_CollectionChannelLogger.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.ConsoleChannelLogger 클래스" Url="html/T_VagabondK_Protocols_Logging_ConsoleChannelLogger.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Logging.FEnetNAKLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetNAKLog.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Logging.FEnetRequestLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetRequestLog.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Logging.FEnetResponseLog 클래스" Url="html/T_VagabondK_Protocols_Logging_FEnetResponseLog.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.IChannelLogger 인터페이스" Url="html/T_VagabondK_Protocols_Logging_IChannelLogger.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.ModbusExceptionLog 클래스" Url="html/T_VagabondK_Protocols_Logging_ModbusExceptionLog.htm" />
   <HelpKINode Title="VagabondK.Protocols.Logging.ModbusRequestLog 클래스" Url="html/T_VagabondK_Protocols_Logging_ModbusRequestLog.htm" />
@@ -3291,7 +3794,6 @@
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetCommandType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommandType.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommErrorCode.htm" />
-  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetContinuousRequestExtensions 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetContinuousRequestExtensions.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetExecuteMonitorRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetExecuteMonitorRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetIncludeCommandTypeRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetIncludeCommandTypeRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetMessage 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetMessage.htm" />
@@ -3311,18 +3813,47 @@
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetWriteContinuousRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetWriteContinuousRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.CnetWriteRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetWriteRequest.htm" />
-  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.ICnetContinuousAccessRequest 인터페이스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_ICnetContinuousAccessRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation 네임스페이스" Url="html/N_VagabondK_Protocols_LSElectric_Cnet_Simulation.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetRequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetRequestedReadEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedReadEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetRequestedWriteEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetSimulationService 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetSimulationStation 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationStation.htm" />
-  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.RequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedEventArgs.htm" />
-  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.RequestedReadEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedReadEventArgs.htm" />
-  <HelpKINode Title="VagabondK.Protocols.LSElectric.Cnet.Simulation.RequestedWriteEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.ContinuousRequestExtensions 클래스" Url="html/T_VagabondK_Protocols_LSElectric_ContinuousRequestExtensions.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.DeviceType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DeviceType.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.DeviceValue 구조체" Url="html/T_VagabondK_Protocols_LSElectric_DeviceValue.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.DeviceVariable 구조체" Url="html/T_VagabondK_Protocols_LSElectric_DeviceVariable.htm" />
   <HelpKINode Title="VagabondK.Protocols.LSElectric.DeviceVariableValue 클래스" Url="html/T_VagabondK_Protocols_LSElectric_DeviceVariableValue.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet 네임스페이스" Url="html/N_VagabondK_Protocols_LSElectric_FEnet.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetACKResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetACKResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetClient 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetClient.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommand.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommErrorCode.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetMessage 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetNAKCode 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKCode.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetNAKException 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKException.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetNAKResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetNAKResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetReadContinuousRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetReadContinuousResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadContinuousResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetReadIndividualRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetReadIndividualResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetReadRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetReadRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetWriteContinuousRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetWriteIndividualRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetWriteRequest 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteRequest.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.FEnetWriteResponse 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation 네임스페이스" Url="html/N_VagabondK_Protocols_LSElectric_FEnet_Simulation.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetRequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetRequestedReadContinuousEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadContinuousEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetRequestedReadIndividualEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedReadIndividualEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetRequestedWriteContinuousEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetRequestedWriteIndividualEventArgs 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService 클래스" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService.htm" />
+  <HelpKINode Title="VagabondK.Protocols.LSElectric.IContinuousAccessRequest 인터페이스" Url="html/T_VagabondK_Protocols_LSElectric_IContinuousAccessRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus 네임스페이스" Url="html/N_VagabondK_Protocols_Modbus.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data 네임스페이스" Url="html/N_VagabondK_Protocols_Modbus_Data.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data.IModbusDataBlock(Of TData, TRawData) 인터페이스" Url="html/T_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2.htm" />
@@ -3432,14 +3963,18 @@
   <HelpKINode Title="Value 속성" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Value.htm" />
   <HelpKINode Title="Values 속성">
     <HelpKINode Title="CnetReadResponse.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetReadResponse_Values.htm" />
+    <HelpKINode Title="CnetRequestedWriteEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetRequestedWriteEventArgs_Values.htm" />
     <HelpKINode Title="CnetWriteIndividualRequest.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Values.htm" />
+    <HelpKINode Title="FEnetReadIndividualResponse.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_Values.htm" />
+    <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs_Values.htm" />
+    <HelpKINode Title="FEnetRequestedWriteIndividualEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs_Values.htm" />
+    <HelpKINode Title="FEnetWriteIndividualRequest.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Values.htm" />
     <HelpKINode Title="ModbusReadBooleanResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Values.htm" />
     <HelpKINode Title="ModbusReadRegisterResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Values.htm" />
     <HelpKINode Title="ModbusWriteCoilRequest.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_Values.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).Values 속성 " Url="html/P_VagabondK_App_MultiServiceProviderShell_2_Values.htm" />
     <HelpKINode Title="RequestedReadBooleanEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Values.htm" />
     <HelpKINode Title="RequestedWriteCoilEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteCoilEventArgs_Values.htm" />
-    <HelpKINode Title="RequestedWriteEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_RequestedWriteEventArgs_Values.htm" />
   </HelpKINode>
   <HelpKINode Title="View 속성" Url="html/P_VagabondK_App_PageContext_View.htm" />
   <HelpKINode Title="ViewAttribute 클래스">
@@ -3464,16 +3999,16 @@
     <HelpKINode Title="PageData.ViewModelTypeName 속성 " Url="html/P_VagabondK_App_PageData_ViewModelTypeName.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider 클래스">
-    <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_ViewProvider.htm" />
+    <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="생성자" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
     <HelpKINode Title="생성자" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload 메서드">
-    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.ViewProvider 생성자">
     <HelpKINode Title="ViewProvider 생성자 " Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
@@ -3485,12 +4020,16 @@
   </HelpKINode>
   <HelpKINode Title="WaitOne 메서드" Url="html/Overload_System_Threading_DisposableMutex_WaitOne.htm" />
   <HelpKINode Title="Warning 열거형 멤버" Url="html/T_VagabondK_App_MessageImage.htm" />
-  <HelpKINode Title="Word 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+  <HelpKINode Title="Word 열거형 멤버">
+    <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
+    <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
+  </HelpKINode>
   <HelpKINode Title="WordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_WordValue.htm" />
   <HelpKINode Title="Write 메서드">
     <HelpKINode Title="Channel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_Channel_Write.htm" />
     <HelpKINode Title="ChannelProvider.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_ChannelProvider_Write.htm" />
     <HelpKINode Title="CnetClient.Write 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_Write.htm" />
+    <HelpKINode Title="FEnetClient.Write 메서드 " Url="html/Overload_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Write.htm" />
     <HelpKINode Title="IChannel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_IChannel_Write.htm" />
     <HelpKINode Title="ModbusMaster.Write 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_Write.htm" />
     <HelpKINode Title="SerialPortChannel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_SerialPortChannel_Write.htm" />
@@ -3498,7 +4037,10 @@
     <HelpKINode Title="TcpChannel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_TcpChannel_Write.htm" />
     <HelpKINode Title="UdpChannel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_UdpChannel_Write.htm" />
   </HelpKINode>
-  <HelpKINode Title="Write 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
+  <HelpKINode Title="Write 열거형 멤버">
+    <HelpKINode Title="CnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
+    <HelpKINode Title="FEnetCommand 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetCommand.htm" />
+  </HelpKINode>
   <HelpKINode Title="WriteCoil 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_WriteCoil.htm" />
   <HelpKINode Title="WriteCoils 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_WriteCoils.htm" />
   <HelpKINode Title="WriteHoldingRegister 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusMaster_WriteHoldingRegister.htm" />

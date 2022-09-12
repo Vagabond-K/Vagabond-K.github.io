@@ -133,8 +133,8 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack 속성" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload 메서드">
-    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case 속성" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Channel 속성">
@@ -3999,12 +3999,12 @@
     <HelpKINode Title="PageData.ViewModelTypeName 속성 " Url="html/P_VagabondK_App_PageData_ViewModelTypeName.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider 클래스">
-    <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
+    <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
-    <HelpKINode Title="생성자" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="생성자" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload 메서드">
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />

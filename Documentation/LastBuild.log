@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2022-10-02 오후 1:43:28">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2022-10-07 오후 3:09:34">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -73,17 +73,17 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (ko-KR, 한국어 (대한민국))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.1094
+</plugIn>    Last step completed in 00:00:00.0598
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0739
+    Last step completed in 00:00:00.0725
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj]
-빌드 시작: 2022-10-02 오후 1:43:34
-1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj&quot; 프로젝트(기본 대상)입니다.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
+빌드 시작: 2022-10-07 오후 3:09:40
+1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj&quot; 프로젝트(기본 대상)입니다.
 PrepareForBuild:
   &quot;obj\Debug\&quot; 디렉터리를 만들고 있습니다.
 GenerateBindingRedirects:
@@ -93,20 +93,20 @@ GenerateRefInfo:
   ⓒ Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 12 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
   Using automatic redirect &#39;VagabondK.App, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;VagabondK.App, Version=1.0.7.0, Culture=neutral, PublicKeyToken=null&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
   Using automatic redirect &#39;VagabondK.Protocols.Abstractions, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;VagabondK.Protocols.Abstractions, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null&#39;
-  Wrote information on 21 namespaces, 243 types, and 1817 members
+  Wrote information on 21 namespaces, 243 types, and 1819 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-0ee3a083-a1df-4d41-a3b0-0a37ad79fd8d.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:02.8492
+&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+    Last step completed in 00:00:02.4119
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.4471
+    Last step completed in 00:00:00.4295
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -495,11 +495,13 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_CnetWriteIndividualRequest_Remove_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.CnetWriteIndividualRequest.Remove(VagabondK.Protocols.LSElectric.DeviceVariable)
     Unique name M_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService__ctor_1 generated for M:VagabondK.Protocols.LSElectric.Cnet.Simulation.CnetSimulationService.#ctor(VagabondK.Protocols.Channels.IChannel)
     Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient__ctor_1 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.#ctor(VagabondK.Protocols.Channels.IChannel)
-    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_1 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
-    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_2 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
-    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_3 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceType,System.UInt32,System.Int32)
-    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_4 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
-    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_5 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_1 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Protocols.LSElectric.DeviceVariable})
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_2 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.DeviceType,System.UInt32,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_3 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_4 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(System.Int32,VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_5 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceType,System.UInt32,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_6 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceVariable,System.Int32)
+    Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Read_7 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Read(VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceVariable[])
     Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Request_1 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Request(VagabondK.Protocols.LSElectric.FEnet.FEnetRequest)
     Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Write_1 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Write(System.Int32,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}})
     Unique name M_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_Write_2 generated for M:VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Write(System.Int32,System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue},System.ValueTuple{VagabondK.Protocols.LSElectric.DeviceVariable,VagabondK.Protocols.LSElectric.DeviceValue}[])
@@ -695,51 +697,51 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Windows_Converters_NumericSignToObjectConverter_ConvertBack_1 generated for M:VagabondK.Windows.Converters.NumericSignToObjectConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
     Unique name M_VagabondK_Windows_Converters_SwitchCaseConverter_Convert_1 generated for M:VagabondK.Windows.Converters.SwitchCaseConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
     Unique name M_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack_1 generated for M:VagabondK.Windows.Converters.SwitchCaseConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
-    Last step completed in 00:00:00.3677
+    Last step completed in 00:00:00.4093
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.3040
+    Last step completed in 00:00:00.3163
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1087
+    Last step completed in 00:00:00.0990
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
-    Last step completed in 00:00:01.2788
+    Last step completed in 00:00:01.4500
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 D:\Documents\Project\VagabondK.Documents\icons\VagabondK.png -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\icons\VagabondK.png
-    Last step completed in 00:00:00.0330
+    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1390
+    Last step completed in 00:00:00.1529
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4190
+    Last step completed in 00:00:00.3991
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Documents\Project\VagabondK.Documents\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0330
+    Last step completed in 00:00:00.0270
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-빌드 시작: 2022-10-02 오후 1:43:40
+빌드 시작: 2022-10-07 오후 3:09:45
 1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트(기본 대상)입니다.
 BuildTopics:
   Microsoft.Build (v17.3.1+2badb37d109910fbd3155cf8743224b7a27494d8)
@@ -749,21 +751,21 @@ BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:Sy
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.ComponentModel&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.Threading&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
   Processing topics...
-  Processed 2449 topic(s)
+  Processed 2451 topic(s)
   3 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 15 of 30.
 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:18.7240
+    Last step completed in 00:00:19.4868
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0626
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
-    Last step completed in 00:00:01.4568
+    Last step completed in 00:00:01.5368
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -845,14 +847,14 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.3619
+    Last step completed in 00:00:00.8258
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:29.4137
+</plugIn>    Last step completed in 00:00:42.2900
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -863,16 +865,16 @@ Copied 1500 files
 Copied 2000 files
 Copied 2500 files
 Copied 3000 files
-Copied 3445 files for the website content
-    Last step completed in 00:00:15.1130
+Copied 3447 files for the website content
+    Last step completed in 00:01:05.9759
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:01.3420
+    Last step completed in 00:00:00.8734
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2022-10-02 오후 1:44:46.  Total time: 00:01:18.7041
+Build completed successfully at 2022-10-07 오후 3:11:56.  Total time: 00:02:22.5529
 
 </buildStep>
 </shfbBuild>

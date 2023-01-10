@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2022-10-07 오후 3:09:34">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\Documents\Project\VagabondK.Documents\VagabondK.Documents.shfbproj" started="2023-01-10 오후 11:46:21">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -73,40 +73,38 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (ko-KR, 한국어 (대한민국))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0598
+</plugIn>    Last step completed in 00:00:00.1128
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0725
+    Last step completed in 00:00:00.0654
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
-빌드 시작: 2022-10-07 오후 3:09:40
-1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj&quot; 프로젝트(기본 대상)입니다.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj]
+빌드 시작: 2023-01-10 오후 11:46:30
+1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj&quot; 프로젝트(기본 대상)입니다.
 PrepareForBuild:
   &quot;obj\Debug\&quot; 디렉터리를 만들고 있습니다.
 GenerateBindingRedirects:
   ResolveAssemblyReferences에서 제안된 바인딩 리디렉션이 없습니다.
 GenerateRefInfo:
-  Microsoft.Build (v17.3.1+2badb37d109910fbd3155cf8743224b7a27494d8)
+  Microsoft.Build (v17.4.0+18d5aef85920037c9d6ff49b1215a4daf515197f)
   ⓒ Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 12 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
-  Using automatic redirect &#39;VagabondK.App, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;VagabondK.App, Version=1.0.7.0, Culture=neutral, PublicKeyToken=null&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj]
-  Using automatic redirect &#39;VagabondK.Protocols.Abstractions, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null&#39; in place of &#39;VagabondK.Protocols.Abstractions, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null&#39;
-  Wrote information on 21 namespaces, 243 types, and 1819 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.App.Windows [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.DependencyInjection.Abstractions (Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by VagabondK.DependencyInjection [D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj]
+  Wrote information on 21 namespaces, 244 types, and 1822 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-f50fdd2e-f403-4c8a-89d4-962115f001e6.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:02.4119
+&quot;D:\Documents\Project\VagabondK.Documents\Help\Working\GenerateRefInfo-38d7c4d2-a1f5-4b50-91af-91fa42df9e4b.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+    Last step completed in 00:00:03.2405
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.4295
+    Last step completed in 00:00:00.4265
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -139,9 +137,9 @@ Adding topic filenames to API members...
     Unique name M_System_ViewModelAttribute__ctor_5 generated for M:System.ViewModelAttribute.#ctor(System.Type,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
     Unique name M_System_ViewModelAttribute__ctor_6 generated for M:System.ViewModelAttribute.#ctor(System.Type,Microsoft.Extensions.DependencyInjection.ServiceLifetime,System.Double)
     Unique name M_System_ViewModelAttribute__ctor_7 generated for M:System.ViewModelAttribute.#ctor(System.Type,System.Double)
-    Unique name M_System_ComponentModel_PropertyValues_Create__1_1 generated for M:System.ComponentModel.PropertyValues.Create``1(``0,System.ComponentModel.PropertyChangingEventHandler)
-    Unique name M_System_ComponentModel_PropertyValues_Create__1_2 generated for M:System.ComponentModel.PropertyValues.Create``1(``0,System.ComponentModel.PropertyChangingEventHandler,System.ComponentModel.PropertyChangedEventHandler)
     Unique name M_System_ComponentModel_PropertyValues_Get__1_1 generated for M:System.ComponentModel.PropertyValues.Get``1(``0,System.String)
+    Unique name M_System_ComponentModel_PropertyValues_GetCommand_1 generated for M:System.ComponentModel.PropertyValues.GetCommand(System.Action,System.String)
+    Unique name M_System_ComponentModel_PropertyValues_GetCommand__1_1 generated for M:System.ComponentModel.PropertyValues.GetCommand``1(System.Action{``0},System.String)
     Unique name M_System_Threading_DisposableMutex_WaitOne_1 generated for M:System.Threading.DisposableMutex.WaitOne(System.Int32)
     Unique name M_System_Threading_DisposableMutex_WaitOne_2 generated for M:System.Threading.DisposableMutex.WaitOne(System.Int32,System.Boolean)
     Unique name M_System_Threading_DisposableMutex_WaitOne_3 generated for M:System.Threading.DisposableMutex.WaitOne(System.TimeSpan)
@@ -536,11 +534,11 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDiscreteInput_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDiscreteInput(System.Byte,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDiscreteInputs_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDiscreteInputs(System.Byte,System.UInt16,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadDoubleFromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadDoubleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadHoldingRegister_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadHoldingRegister(System.Byte,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadHoldingRegisterBytes_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadHoldingRegisterBytes(System.Byte,System.UInt16,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadHoldingRegisters(System.Byte,System.UInt16,System.UInt16,System.Int32)
@@ -554,23 +552,23 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt16FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt16FromInputRegisters(System.Byte,System.UInt16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt16FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt16FromInputRegisters(System.Byte,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt32FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadInt64FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadSingleFromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadSingleFromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt16FromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt16FromHoldingRegisters(System.Byte,System.UInt16,System.Boolean)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt16FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt16FromHoldingRegisters(System.Byte,System.UInt16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt16FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt16FromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
@@ -578,62 +576,62 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt16FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt16FromInputRegisters(System.Byte,System.UInt16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt16FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt16FromInputRegisters(System.Byte,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt32FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt32FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromHoldingRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromHoldingRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromHoldingRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromHoldingRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromInputRegisters(System.Byte,System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_ReadUInt64FromInputRegisters_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.ReadUInt64FromInputRegisters(System.Byte,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Request_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Request(VagabondK.Protocols.Modbus.ModbusRequest,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Double,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Double,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Double,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_2 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Double,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_3 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Double,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_4 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int16)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_5 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int16,System.Boolean)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_6 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_7 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_8 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_9 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_10 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_11 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_10 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_11 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int32,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_12 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_13 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_14 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_15 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_14 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_15 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Int64,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_16 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_17 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_18 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_19 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_18 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_19 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.Single,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_20 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt16)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_21 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt16,System.Boolean)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_22 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_23 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_24 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_25 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_26 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_27 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_26 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_27 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_28 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_29 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_30 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_31 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.Data.ModbusEndian,System.Int32)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_30 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_Write_31 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.Write(System.Byte,System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.ModbusEndian,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_WriteCoil_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.WriteCoil(System.Byte,System.UInt16,System.Boolean,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_WriteCoils_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.WriteCoils(System.Byte,System.UInt16,System.Collections.Generic.IEnumerable{System.Boolean},System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_WriteHoldingRegister_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.WriteHoldingRegister(System.Byte,System.UInt16,System.UInt16,System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_WriteHoldingRegisterBytes_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.WriteHoldingRegisterBytes(System.Byte,System.UInt16,System.Collections.Generic.IEnumerable{System.Byte},System.Int32)
     Unique name M_VagabondK_Protocols_Modbus_ModbusMaster_WriteHoldingRegisters_1 generated for M:VagabondK.Protocols.Modbus.ModbusMaster.WriteHoldingRegisters(System.Byte,System.UInt16,System.Collections.Generic.IEnumerable{System.UInt16},System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetDouble_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetDouble(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetDouble_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetDouble(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt16_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetInt16(System.UInt16,System.Boolean)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt32_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetInt32(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt64_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetInt64(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetSingle_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetSingle(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt32_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetInt32(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt64_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetInt64(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetSingle_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetSingle(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt16_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetUInt16(System.UInt16,System.Boolean)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt32_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetUInt32(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt64_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetUInt64(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt32_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetUInt32(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt64_1 generated for M:VagabondK.Protocols.Modbus.ModbusReadRegisterResponse.GetUInt64(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_ModbusSlaveService__ctor_1 generated for M:VagabondK.Protocols.Modbus.ModbusSlaveService.#ctor(System.Collections.Generic.IEnumerable{VagabondK.Protocols.Channels.IChannel})
     Unique name M_VagabondK_Protocols_Modbus_ModbusSlaveService__ctor_2 generated for M:VagabondK.Protocols.Modbus.ModbusSlaveService.#ctor(System.Collections.Generic.IEnumerable{VagabondK.Protocols.Channels.IChannel},VagabondK.Protocols.Modbus.Serialization.ModbusSerializer)
     Unique name M_VagabondK_Protocols_Modbus_ModbusSlaveService__ctor_3 generated for M:VagabondK.Protocols.Modbus.ModbusSlaveService.#ctor(VagabondK.Protocols.Channels.IChannel)
@@ -643,47 +641,46 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest__ctor_2 generated for M:VagabondK.Protocols.Modbus.ModbusWriteCoilRequest.#ctor(System.Byte,System.UInt16,System.Collections.Generic.IEnumerable{System.Boolean})
     Unique name M_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest__ctor_1 generated for M:VagabondK.Protocols.Modbus.ModbusWriteHoldingRegisterRequest.#ctor(System.Byte,System.UInt16,System.Collections.Generic.IEnumerable{System.UInt16})
     Unique name M_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest__ctor_2 generated for M:VagabondK.Protocols.Modbus.ModbusWriteHoldingRegisterRequest.#ctor(System.Byte,System.UInt16,System.UInt16)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusEndian__ctor_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusEndian.#ctor(System.Boolean,System.Boolean)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Double)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_2 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Double,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_2 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Double,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_3 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int16)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_4 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_4 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_5 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_6 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_6 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int32,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_7 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int64)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_8 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_8 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Int64,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_9 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Single)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_10 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Single,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_10 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.Single,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_11 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt16)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_12 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_12 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_13 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt16[])
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_14 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt32)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_15 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_15 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_16 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt64)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_17 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetDouble_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetDouble(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate_17 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.Allocate(System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetDouble_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetDouble(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt16_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetInt16(System.UInt16,System.Boolean)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt32_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetInt32(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt64_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetInt64(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetSingle_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetSingle(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt32_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetInt32(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt64_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetInt64(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetSingle_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetSingle(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt16_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetUInt16(System.UInt16,System.Boolean)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt32_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetUInt32(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt64_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetUInt64(System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Double,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt32_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetUInt32(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt64_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.GetUInt64(System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_1 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Double,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_2 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int16)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_3 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_3 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_4 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int32)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_5 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_5 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int32,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_6 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int64)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_7 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_7 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Int64,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_8 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Single)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_9 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Single,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_9 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.Single,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_10 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt16)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_11 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt16,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_11 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt16,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_12 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt32)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_13 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_13 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt32,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_14 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt64)
-    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_15 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.Data.ModbusEndian)
+    Unique name M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue_15 generated for M:VagabondK.Protocols.Modbus.Data.ModbusRegisters.SetValue(System.UInt16,System.UInt64,VagabondK.Protocols.Modbus.ModbusEndian)
     Unique name M_VagabondK_Windows_ThemeMessageBox_Show_1 generated for M:VagabondK.Windows.ThemeMessageBox.Show(System.String,System.String)
     Unique name M_VagabondK_Windows_ThemeMessageBox_Show_2 generated for M:VagabondK.Windows.ThemeMessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton)
     Unique name M_VagabondK_Windows_ThemeMessageBox_Show_3 generated for M:VagabondK.Windows.ThemeMessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)
@@ -697,75 +694,75 @@ Adding topic filenames to API members...
     Unique name M_VagabondK_Windows_Converters_NumericSignToObjectConverter_ConvertBack_1 generated for M:VagabondK.Windows.Converters.NumericSignToObjectConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
     Unique name M_VagabondK_Windows_Converters_SwitchCaseConverter_Convert_1 generated for M:VagabondK.Windows.Converters.SwitchCaseConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
     Unique name M_VagabondK_Windows_Converters_SwitchCaseConverter_ConvertBack_1 generated for M:VagabondK.Windows.Converters.SwitchCaseConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
-    Last step completed in 00:00:00.4093
+    Last step completed in 00:00:00.3737
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.3163
+    Last step completed in 00:00:00.2940
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0990
+    Last step completed in 00:00:00.1010
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
-    Last step completed in 00:00:01.4500
+    Last step completed in 00:00:01.2378
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 D:\Documents\Project\VagabondK.Documents\icons\VagabondK.png -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\icons\VagabondK.png
-    Last step completed in 00:00:00.0230
+    Last step completed in 00:00:00.0429
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.1529
+    Last step completed in 00:00:00.1123
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.3991
+    Last step completed in 00:00:00.3802
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Documents\Project\VagabondK.Documents\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0270
+    Last step completed in 00:00:00.0304
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-빌드 시작: 2022-10-07 오후 3:09:45
+빌드 시작: 2023-01-10 오후 11:46:36
 1 노드의 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트(기본 대상)입니다.
 BuildTopics:
-  Microsoft.Build (v17.3.1+2badb37d109910fbd3155cf8743224b7a27494d8)
+  Microsoft.Build (v17.4.0+18d5aef85920037c9d6ff49b1215a4daf515197f)
   ⓒ Microsoft Corporation. All rights reserved.
   Loading configuration...
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.ComponentModel&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.ComponentModel.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : CopyFromIndexComponent: Entries for the key &#39;N:System.Threading&#39; occur in both &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework\System.Threading.xml&#39; and &#39;D:\Documents\Project\VagabondK.Documents\Help\Working\reflection.xml&#39;. The last entry will be used. [D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj]
   Processing topics...
-  Processed 2451 topic(s)
+  Processed 2447 topic(s)
   3 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 15 of 30.
 &quot;D:\Documents\Project\VagabondK.Documents\Help\Working\BuildTopics.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
-    Last step completed in 00:00:19.4868
+    Last step completed in 00:00:19.2746
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0626
+    Last step completed in 00:00:00.0436
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
-    Last step completed in 00:00:01.5368
+    Last step completed in 00:00:01.4348
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -847,14 +844,14 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\Documents\Project\VagabondK.Documents\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.8258
+    Last step completed in 00:00:00.3575
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:42.2900
+</plugIn>    Last step completed in 00:00:34.7049
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -865,16 +862,16 @@ Copied 1500 files
 Copied 2000 files
 Copied 2500 files
 Copied 3000 files
-Copied 3447 files for the website content
-    Last step completed in 00:01:05.9759
+Copied 3441 files for the website content
+    Last step completed in 00:00:35.1357
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.8734
+    Last step completed in 00:00:00.8872
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2022-10-07 오후 3:11:56.  Total time: 00:02:22.5529
+Build completed successfully at 2023-01-10 오후 11:48:07.  Total time: 00:01:46.6914
 
 </buildStep>
 </shfbBuild>

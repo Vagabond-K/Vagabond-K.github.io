@@ -24,19 +24,19 @@
   <HelpKINode Title="AllBig 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusEndian.htm" />
   <HelpKINode Title="AllLittle 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusEndian.htm" />
   <HelpKINode Title="Allocate 메서드">
-    <HelpKINode Title="ModbusBooleans.Allocate 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_Allocate.htm" />
-    <HelpKINode Title="ModbusRegisters.Allocate 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate.htm" />
+    <HelpKINode Title="ModbusBits.Allocate 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_Allocate.htm" />
+    <HelpKINode Title="ModbusWords.Allocate 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_Allocate.htm" />
   </HelpKINode>
   <HelpKINode Title="AllocateAll 메서드">
-    <HelpKINode Title="ModbusBooleans.AllocateAll 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateAll.htm" />
-    <HelpKINode Title="ModbusRegisters.AllocateAll 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAll.htm" />
+    <HelpKINode Title="ModbusBits.AllocateAll 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_AllocateAll.htm" />
+    <HelpKINode Title="ModbusWords.AllocateAll 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateAll.htm" />
   </HelpKINode>
-  <HelpKINode Title="AllocateAllRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAllRawData.htm" />
+  <HelpKINode Title="AllocateAllRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateAllRawData.htm" />
   <HelpKINode Title="AllocateRepeat 메서드">
-    <HelpKINode Title="ModbusBooleans.AllocateRepeat 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateRepeat.htm" />
-    <HelpKINode Title="ModbusRegisters.AllocateRepeat 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeat.htm" />
+    <HelpKINode Title="ModbusBits.AllocateRepeat 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_AllocateRepeat.htm" />
+    <HelpKINode Title="ModbusWords.AllocateRepeat 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateRepeat.htm" />
   </HelpKINode>
-  <HelpKINode Title="AllocateRepeatRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeatRawData.htm" />
+  <HelpKINode Title="AllocateRepeatRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateRepeatRawData.htm" />
   <HelpKINode Title="Asterisk 열거형 멤버" Url="html/T_VagabondK_App_MessageImage.htm" />
   <HelpKINode Title="AutoAllocation 속성" Url="html/P_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_AutoAllocation.htm" />
   <HelpKINode Title="Automata 속성" Url="html/P_VagabondK_Korean_ScreenInput_HangulKeyInputModel_Automata.htm" />
@@ -98,9 +98,9 @@
   <HelpKINode Title="ByteExtension.ByteExtension 생성자" Url="html/M_VagabondK_Windows_ByteExtension__ctor.htm" />
   <HelpKINode Title="ByteExtension.ProvideValue 메서드" Url="html/M_VagabondK_Windows_ByteExtension_ProvideValue.htm" />
   <HelpKINode Title="Bytes 속성">
-    <HelpKINode Title="ModbusReadRegisterResponse.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Bytes.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Bytes.htm" />
     <HelpKINode Title="ModbusWriteHoldingRegisterRequest.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_Bytes.htm" />
-    <HelpKINode Title="RequestedReadRegisterEventArgs.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs_Bytes.htm" />
+    <HelpKINode Title="RequestedReadWordEventArgs.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs_Bytes.htm" />
     <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Bytes 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Bytes.htm" />
   </HelpKINode>
   <HelpKINode Title="BytesToRead 속성">
@@ -133,8 +133,8 @@
   </HelpKINode>
   <HelpKINode Title="CanGoBack 속성" Url="html/P_VagabondK_App_INavigationManager_CanGoBack.htm" />
   <HelpKINode Title="CanReload 메서드">
-    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
+    <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_ViewProvider_CanReload.htm" />
   </HelpKINode>
   <HelpKINode Title="Case 속성" Url="html/P_VagabondK_Windows_Converters_SwitchCaseConverterItem_Case.htm" />
   <HelpKINode Title="Cast 메서드" Url="html/M_VagabondK_Protocols_LSElectric_IDeviceDataBlockExtensions_Cast.htm" />
@@ -1463,8 +1463,8 @@
   </HelpKINode>
   <HelpKINode Title="GetData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_GetData.htm" />
   <HelpKINode Title="GetDouble 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetDouble 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetDouble.htm" />
-    <HelpKINode Title="ModbusRegisters.GetDouble 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetDouble.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetDouble 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetDouble.htm" />
+    <HelpKINode Title="ModbusWords.GetDouble 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetDouble.htm" />
   </HelpKINode>
   <HelpKINode Title="GetEnumerator 메서드">
     <HelpKINode Title="ChannelLoggerGroup.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Logging_ChannelLoggerGroup_GetEnumerator.htm" />
@@ -1478,10 +1478,10 @@
     <HelpKINode Title="FEnetReadIndividualResponse.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetReadIndividualResponse_GetEnumerator.htm" />
     <HelpKINode Title="FEnetWriteContinuousRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteContinuousRequest_GetEnumerator.htm" />
     <HelpKINode Title="FEnetWriteIndividualRequest.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_GetEnumerator.htm" />
-    <HelpKINode Title="ModbusBooleans.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_GetEnumerator.htm" />
+    <HelpKINode Title="ModbusBits.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_GetEnumerator.htm" />
     <HelpKINode Title="ModbusDataSet(TData, TRawData).GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2_GetEnumerator.htm" />
-    <HelpKINode Title="ModbusRegisters.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetEnumerator.htm" />
     <HelpKINode Title="ModbusSlaveService.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusSlaveService_GetEnumerator.htm" />
+    <HelpKINode Title="ModbusWords.GetEnumerator 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_GetEnumerator.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).GetEnumerator 메서드 " Url="html/M_VagabondK_App_MultiServiceProviderShell_2_GetEnumerator.htm" />
   </HelpKINode>
   <HelpKINode Title="GetHashCode 메서드">
@@ -1489,39 +1489,39 @@
     <HelpKINode Title="DeviceVariable.GetHashCode 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_DeviceVariable_GetHashCode.htm" />
   </HelpKINode>
   <HelpKINode Title="GetInt16 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt16.htm" />
-    <HelpKINode Title="ModbusRegisters.GetInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt16.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt16.htm" />
+    <HelpKINode Title="ModbusWords.GetInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt16.htm" />
   </HelpKINode>
   <HelpKINode Title="GetInt32 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt32.htm" />
-    <HelpKINode Title="ModbusRegisters.GetInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt32.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt32.htm" />
+    <HelpKINode Title="ModbusWords.GetInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt32.htm" />
   </HelpKINode>
   <HelpKINode Title="GetInt64 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt64.htm" />
-    <HelpKINode Title="ModbusRegisters.GetInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt64.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt64.htm" />
+    <HelpKINode Title="ModbusWords.GetInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt64.htm" />
   </HelpKINode>
   <HelpKINode Title="GetIsDefault 메서드" Url="html/M_VagabondK_Windows_Focus_GetIsDefault.htm" />
   <HelpKINode Title="GetIsOk 메서드" Url="html/M_VagabondK_App_Windows_Dialog_GetIsOk.htm" />
   <HelpKINode Title="GetNewValue 메서드" Url="html/Overload_System_PropertyExtensions_GetNewValue.htm" />
   <HelpKINode Title="GetPropertyType 메서드" Url="html/M_System_NotifyPropertyChangeObject_GetPropertyType.htm" />
-  <HelpKINode Title="GetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetRawData.htm" />
+  <HelpKINode Title="GetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_GetRawData.htm" />
   <HelpKINode Title="GetResizeMode 메서드" Url="html/M_VagabondK_App_Windows_Dialog_GetResizeMode.htm" />
   <HelpKINode Title="GetShowInTaskbar 메서드" Url="html/M_VagabondK_App_Windows_Dialog_GetShowInTaskbar.htm" />
   <HelpKINode Title="GetSingle 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetSingle 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetSingle.htm" />
-    <HelpKINode Title="ModbusRegisters.GetSingle 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetSingle.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetSingle 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetSingle.htm" />
+    <HelpKINode Title="ModbusWords.GetSingle 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetSingle.htm" />
   </HelpKINode>
   <HelpKINode Title="GetUInt16 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetUInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt16.htm" />
-    <HelpKINode Title="ModbusRegisters.GetUInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt16.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetUInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt16.htm" />
+    <HelpKINode Title="ModbusWords.GetUInt16 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt16.htm" />
   </HelpKINode>
   <HelpKINode Title="GetUInt32 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetUInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt32.htm" />
-    <HelpKINode Title="ModbusRegisters.GetUInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt32.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetUInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt32.htm" />
+    <HelpKINode Title="ModbusWords.GetUInt32 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt32.htm" />
   </HelpKINode>
   <HelpKINode Title="GetUInt64 메서드">
-    <HelpKINode Title="ModbusReadRegisterResponse.GetUInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt64.htm" />
-    <HelpKINode Title="ModbusRegisters.GetUInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt64.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.GetUInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt64.htm" />
+    <HelpKINode Title="ModbusWords.GetUInt64 메서드 " Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt64.htm" />
   </HelpKINode>
   <HelpKINode Title="GoBack 메서드" Url="html/M_VagabondK_App_INavigationManager_GoBack.htm" />
   <HelpKINode Title="Hand 열거형 멤버" Url="html/T_VagabondK_App_MessageImage.htm" />
@@ -1930,8 +1930,8 @@
     <HelpKINode Title="ModbusRequest.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_Length.htm" />
     <HelpKINode Title="ModbusWriteCoilRequest.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_Length.htm" />
     <HelpKINode Title="ModbusWriteHoldingRegisterRequest.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_Length.htm" />
-    <HelpKINode Title="RequestedReadBooleanEventArgs.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Length.htm" />
-    <HelpKINode Title="RequestedReadRegisterEventArgs.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs_Length.htm" />
+    <HelpKINode Title="RequestedReadBitEventArgs.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs_Length.htm" />
+    <HelpKINode Title="RequestedReadWordEventArgs.Length 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs_Length.htm" />
   </HelpKINode>
   <HelpKINode Title="Lifetime 속성" Url="html/P_System_ServiceDescriptionAttribute_Lifetime.htm" />
   <HelpKINode Title="LocalPort 속성" Url="html/P_VagabondK_Protocols_Channels_UdpChannel_LocalPort.htm" />
@@ -1993,9 +1993,9 @@
   <HelpKINode Title="MessageCategory 속성">
     <HelpKINode Title="IModbusMessage.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_IModbusMessage_MessageCategory.htm" />
     <HelpKINode Title="ModbusExceptionResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusExceptionResponse_MessageCategory.htm" />
-    <HelpKINode Title="ModbusReadBooleanResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_MessageCategory.htm" />
-    <HelpKINode Title="ModbusReadRegisterResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_MessageCategory.htm" />
+    <HelpKINode Title="ModbusReadBitResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBitResponse_MessageCategory.htm" />
     <HelpKINode Title="ModbusReadRequest.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRequest_MessageCategory.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_MessageCategory.htm" />
     <HelpKINode Title="ModbusRequest.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_MessageCategory.htm" />
     <HelpKINode Title="ModbusResponse.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusResponse_MessageCategory.htm" />
     <HelpKINode Title="ModbusWriteCoilRequest.MessageCategory 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_MessageCategory.htm" />
@@ -2020,17 +2020,17 @@
     <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Modbus_Serialization_ModbusAsciiSerializer__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ModbusAsciiSerializer.ModbusAsciiSerializer 생성자" Url="html/M_VagabondK_Protocols_Modbus_Serialization_ModbusAsciiSerializer__ctor.htm" />
-  <HelpKINode Title="ModbusBooleans 클래스">
-    <HelpKINode Title="ModbusBooleans 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusBooleans.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_Data_ModbusBooleans.htm" />
-    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans__ctor.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusBooleans.htm" />
+  <HelpKINode Title="ModbusBits 클래스">
+    <HelpKINode Title="ModbusBits 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusBits.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_Data_ModbusBits.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusBits.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModbusBooleans.Allocate 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_Allocate.htm" />
-  <HelpKINode Title="ModbusBooleans.AllocateAll 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateAll.htm" />
-  <HelpKINode Title="ModbusBooleans.AllocateRepeat 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_AllocateRepeat.htm" />
-  <HelpKINode Title="ModbusBooleans.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans_GetEnumerator.htm" />
-  <HelpKINode Title="ModbusBooleans.ModbusBooleans 생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBooleans__ctor.htm" />
+  <HelpKINode Title="ModbusBits.Allocate 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_Allocate.htm" />
+  <HelpKINode Title="ModbusBits.AllocateAll 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_AllocateAll.htm" />
+  <HelpKINode Title="ModbusBits.AllocateRepeat 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_AllocateRepeat.htm" />
+  <HelpKINode Title="ModbusBits.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits_GetEnumerator.htm" />
+  <HelpKINode Title="ModbusBits.ModbusBits 생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusBits__ctor.htm" />
   <HelpKINode Title="ModbusCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="ModbusDataSet(Of TData, TRawData) 클래스">
     <HelpKINode Title="ModbusDataSet(TData, TRawData) 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2.htm" />
@@ -2156,31 +2156,14 @@
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusOkResponse_1.htm" />
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusOkResponse_1.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModbusReadBooleanResponse 클래스">
-    <HelpKINode Title="ModbusReadBooleanResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse.htm" />
+  <HelpKINode Title="ModbusReadBitResponse 클래스">
+    <HelpKINode Title="ModbusReadBitResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadBitResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadBitResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusReadBitResponse.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModbusReadBooleanResponse.MessageCategory 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_MessageCategory.htm" />
-  <HelpKINode Title="ModbusReadBooleanResponse.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Serialize.htm" />
-  <HelpKINode Title="ModbusReadBooleanResponse.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Values.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse 클래스">
-    <HelpKINode Title="ModbusReadRegisterResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ModbusReadRegisterResponse.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Bytes.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetDouble 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetDouble.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt16.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt32.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetInt64.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetSingle 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetSingle.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetUInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt16.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetUInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt32.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.GetUInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_GetUInt64.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.MessageCategory 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_MessageCategory.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Serialize.htm" />
-  <HelpKINode Title="ModbusReadRegisterResponse.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Values.htm" />
+  <HelpKINode Title="ModbusReadBitResponse.MessageCategory 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBitResponse_MessageCategory.htm" />
+  <HelpKINode Title="ModbusReadBitResponse.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBitResponse_Serialize.htm" />
+  <HelpKINode Title="ModbusReadBitResponse.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBitResponse_Values.htm" />
   <HelpKINode Title="ModbusReadRequest 클래스">
     <HelpKINode Title="ModbusReadRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadRequest.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadRequest.htm" />
@@ -2197,30 +2180,23 @@
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadResponse.htm" />
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusReadResponse.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModbusRegisters 클래스">
-    <HelpKINode Title="ModbusRegisters 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusRegisters.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_Data_ModbusRegisters.htm" />
-    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters__ctor.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusRegisters.htm" />
+  <HelpKINode Title="ModbusReadWordResponse 클래스">
+    <HelpKINode Title="ModbusReadWordResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadWordResponse.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusReadWordResponse.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_ModbusReadWordResponse.htm" />
   </HelpKINode>
-  <HelpKINode Title="ModbusRegisters.Allocate 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_Allocate.htm" />
-  <HelpKINode Title="ModbusRegisters.AllocateAll 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAll.htm" />
-  <HelpKINode Title="ModbusRegisters.AllocateAllRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateAllRawData.htm" />
-  <HelpKINode Title="ModbusRegisters.AllocateRepeat 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeat.htm" />
-  <HelpKINode Title="ModbusRegisters.AllocateRepeatRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_AllocateRepeatRawData.htm" />
-  <HelpKINode Title="ModbusRegisters.GetDouble 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetDouble.htm" />
-  <HelpKINode Title="ModbusRegisters.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetEnumerator.htm" />
-  <HelpKINode Title="ModbusRegisters.GetInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt16.htm" />
-  <HelpKINode Title="ModbusRegisters.GetInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt32.htm" />
-  <HelpKINode Title="ModbusRegisters.GetInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetInt64.htm" />
-  <HelpKINode Title="ModbusRegisters.GetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetRawData.htm" />
-  <HelpKINode Title="ModbusRegisters.GetSingle 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetSingle.htm" />
-  <HelpKINode Title="ModbusRegisters.GetUInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt16.htm" />
-  <HelpKINode Title="ModbusRegisters.GetUInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt32.htm" />
-  <HelpKINode Title="ModbusRegisters.GetUInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_GetUInt64.htm" />
-  <HelpKINode Title="ModbusRegisters.ModbusRegisters 생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters__ctor.htm" />
-  <HelpKINode Title="ModbusRegisters.SetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetRawData.htm" />
-  <HelpKINode Title="ModbusRegisters.SetValue 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Bytes.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetDouble 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetDouble.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt16.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt32.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetInt64.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetSingle 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetSingle.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetUInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt16.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetUInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt32.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.GetUInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusReadWordResponse_GetUInt64.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.MessageCategory 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_MessageCategory.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Serialize.htm" />
+  <HelpKINode Title="ModbusReadWordResponse.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Values.htm" />
   <HelpKINode Title="ModbusRequest 속성" Url="html/P_VagabondK_Protocols_Logging_ModbusRequestLog_ModbusRequest.htm" />
   <HelpKINode Title="ModbusRequest 클래스">
     <HelpKINode Title="ModbusRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusRequest.htm" />
@@ -2338,6 +2314,30 @@
   </HelpKINode>
   <HelpKINode Title="ModbusTcpSerializer.ModbusTcpSerializer 생성자" Url="html/M_VagabondK_Protocols_Modbus_Serialization_ModbusTcpSerializer__ctor.htm" />
   <HelpKINode Title="ModbusTcpSymbolError 열거형 멤버" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
+  <HelpKINode Title="ModbusWords 클래스">
+    <HelpKINode Title="ModbusWords 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusWords.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_Data_ModbusWords.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords__ctor.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_Data_ModbusWords.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModbusWords.Allocate 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_Allocate.htm" />
+  <HelpKINode Title="ModbusWords.AllocateAll 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateAll.htm" />
+  <HelpKINode Title="ModbusWords.AllocateAllRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateAllRawData.htm" />
+  <HelpKINode Title="ModbusWords.AllocateRepeat 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateRepeat.htm" />
+  <HelpKINode Title="ModbusWords.AllocateRepeatRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_AllocateRepeatRawData.htm" />
+  <HelpKINode Title="ModbusWords.GetDouble 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetDouble.htm" />
+  <HelpKINode Title="ModbusWords.GetEnumerator 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_GetEnumerator.htm" />
+  <HelpKINode Title="ModbusWords.GetInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt16.htm" />
+  <HelpKINode Title="ModbusWords.GetInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt32.htm" />
+  <HelpKINode Title="ModbusWords.GetInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetInt64.htm" />
+  <HelpKINode Title="ModbusWords.GetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_GetRawData.htm" />
+  <HelpKINode Title="ModbusWords.GetSingle 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetSingle.htm" />
+  <HelpKINode Title="ModbusWords.GetUInt16 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt16.htm" />
+  <HelpKINode Title="ModbusWords.GetUInt32 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt32.htm" />
+  <HelpKINode Title="ModbusWords.GetUInt64 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_GetUInt64.htm" />
+  <HelpKINode Title="ModbusWords.ModbusWords 생성자" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords__ctor.htm" />
+  <HelpKINode Title="ModbusWords.SetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_SetRawData.htm" />
+  <HelpKINode Title="ModbusWords.SetValue 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_SetValue.htm" />
   <HelpKINode Title="ModbusWriteCoilRequest 클래스">
     <HelpKINode Title="ModbusWriteCoilRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest.htm" />
@@ -2349,7 +2349,7 @@
   <HelpKINode Title="ModbusWriteCoilRequest.ModbusWriteCoilRequest 생성자" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest__ctor.htm" />
   <HelpKINode Title="ModbusWriteCoilRequest.ObjectType 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_ObjectType.htm" />
   <HelpKINode Title="ModbusWriteCoilRequest.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_Serialize.htm" />
-  <HelpKINode Title="ModbusWriteCoilRequest.SingleBooleanValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_SingleBooleanValue.htm" />
+  <HelpKINode Title="ModbusWriteCoilRequest.SingleBitValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_SingleBitValue.htm" />
   <HelpKINode Title="ModbusWriteCoilRequest.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_Values.htm" />
   <HelpKINode Title="ModbusWriteHoldingRegisterRequest 클래스">
     <HelpKINode Title="ModbusWriteHoldingRegisterRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest.htm" />
@@ -2363,7 +2363,7 @@
   <HelpKINode Title="ModbusWriteHoldingRegisterRequest.ModbusWriteHoldingRegisterRequest 생성자" Url="html/Overload_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest__ctor.htm" />
   <HelpKINode Title="ModbusWriteHoldingRegisterRequest.ObjectType 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_ObjectType.htm" />
   <HelpKINode Title="ModbusWriteHoldingRegisterRequest.Serialize 메서드" Url="html/M_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_Serialize.htm" />
-  <HelpKINode Title="ModbusWriteHoldingRegisterRequest.SingleRegisterValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_SingleRegisterValue.htm" />
+  <HelpKINode Title="ModbusWriteHoldingRegisterRequest.SingleWordValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_SingleWordValue.htm" />
   <HelpKINode Title="ModbusWriteRequest 클래스">
     <HelpKINode Title="ModbusWriteRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusWriteRequest.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_ModbusWriteRequest.htm" />
@@ -2888,7 +2888,6 @@
   <HelpKINode Title="ReceivedBytes 속성" Url="html/P_VagabondK_Protocols_RequestException_1_ReceivedBytes.htm" />
   <HelpKINode Title="RegisterMonitor 메서드" Url="html/Overload_VagabondK_Protocols_LSElectric_Cnet_CnetClient_RegisterMonitor.htm" />
   <HelpKINode Title="RegisterMonitor 열거형 멤버" Url="html/T_VagabondK_Protocols_LSElectric_Cnet_CnetCommand.htm" />
-  <HelpKINode Title="Registers 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Registers.htm" />
   <HelpKINode Title="ReloadView 메서드" Url="html/M_VagabondK_App_PageContext_ReloadView.htm" />
   <HelpKINode Title="RemotePort 속성" Url="html/P_VagabondK_Protocols_Channels_UdpChannel_RemotePort.htm" />
   <HelpKINode Title="Remove 메서드">
@@ -2935,26 +2934,26 @@
   <HelpKINode Title="RequestedEventArgs.SlaveAddress 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_SlaveAddress.htm" />
   <HelpKINode Title="RequestedEventArgs.Succeed 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_Succeed.htm" />
   <HelpKINode Title="RequestedRead 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationStation_RequestedRead.htm" />
-  <HelpKINode Title="RequestedReadBooleanEventArgs 클래스">
-    <HelpKINode Title="RequestedReadBooleanEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs.htm" />
+  <HelpKINode Title="RequestedReadBitEventArgs 클래스">
+    <HelpKINode Title="RequestedReadBitEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs.htm" />
   </HelpKINode>
-  <HelpKINode Title="RequestedReadBooleanEventArgs.Length 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Length.htm" />
-  <HelpKINode Title="RequestedReadBooleanEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Values.htm" />
+  <HelpKINode Title="RequestedReadBitEventArgs.Length 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs_Length.htm" />
+  <HelpKINode Title="RequestedReadBitEventArgs.Values 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs_Values.htm" />
   <HelpKINode Title="RequestedReadCoils 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadCoils.htm" />
   <HelpKINode Title="RequestedReadContinuous 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadContinuous.htm" />
   <HelpKINode Title="RequestedReadDiscreteInputs 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadDiscreteInputs.htm" />
   <HelpKINode Title="RequestedReadHoldingRegisters 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadHoldingRegisters.htm" />
   <HelpKINode Title="RequestedReadIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedReadIndividual.htm" />
   <HelpKINode Title="RequestedReadInputRegisters 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedReadInputRegisters.htm" />
-  <HelpKINode Title="RequestedReadRegisterEventArgs 클래스">
-    <HelpKINode Title="RequestedReadRegisterEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs.htm" />
-    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs.htm" />
-    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs.htm" />
+  <HelpKINode Title="RequestedReadWordEventArgs 클래스">
+    <HelpKINode Title="RequestedReadWordEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs.htm" />
+    <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs.htm" />
+    <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs.htm" />
   </HelpKINode>
-  <HelpKINode Title="RequestedReadRegisterEventArgs.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs_Bytes.htm" />
-  <HelpKINode Title="RequestedReadRegisterEventArgs.Length 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs_Length.htm" />
+  <HelpKINode Title="RequestedReadWordEventArgs.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs_Bytes.htm" />
+  <HelpKINode Title="RequestedReadWordEventArgs.Length 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs_Length.htm" />
   <HelpKINode Title="RequestedWrite 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationStation_RequestedWrite.htm" />
   <HelpKINode Title="RequestedWriteCoil 이벤트" Url="html/E_VagabondK_Protocols_Modbus_ModbusSlaveService_RequestedWriteCoil.htm" />
   <HelpKINode Title="RequestedWriteCoilEventArgs 클래스">
@@ -2971,7 +2970,7 @@
     <HelpKINode Title="속성" Url="html/Properties_T_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Bytes 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Bytes.htm" />
-  <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Registers 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Registers.htm" />
+  <HelpKINode Title="RequestedWriteHoldingRegisterEventArgs.Words 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Words.htm" />
   <HelpKINode Title="RequestedWriteIndividual 이벤트" Url="html/E_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_RequestedWriteIndividual.htm" />
   <HelpKINode Title="RequestException(Of TErrorCode) 클래스">
     <HelpKINode Title="RequestException(TErrorCode) 클래스" Url="html/T_VagabondK_Protocols_RequestException_1.htm" />
@@ -3080,9 +3079,9 @@
     <HelpKINode Title="FEnetMessage.Serialize 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_Serialize.htm" />
     <HelpKINode Title="IModbusMessage.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_IModbusMessage_Serialize.htm" />
     <HelpKINode Title="ModbusExceptionResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusExceptionResponse_Serialize.htm" />
-    <HelpKINode Title="ModbusReadBooleanResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Serialize.htm" />
-    <HelpKINode Title="ModbusReadRegisterResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Serialize.htm" />
+    <HelpKINode Title="ModbusReadBitResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadBitResponse_Serialize.htm" />
     <HelpKINode Title="ModbusReadRequest.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadRequest_Serialize.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Serialize.htm" />
     <HelpKINode Title="ModbusRequest.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusRequest_Serialize.htm" />
     <HelpKINode Title="ModbusResponse.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_ModbusResponse_Serialize.htm" />
     <HelpKINode Title="ModbusSerializer.Serialize 메서드 " Url="html/M_VagabondK_Protocols_Modbus_Serialization_ModbusSerializer_Serialize.htm" />
@@ -3168,10 +3167,10 @@
     <HelpKINode Title="CnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_Cnet_CnetMessage_SetProperty__1.htm" />
     <HelpKINode Title="FEnetMessage.SetProperty(TProperty) 메서드 " Url="html/M_VagabondK_Protocols_LSElectric_FEnet_FEnetMessage_SetProperty__1.htm" />
   </HelpKINode>
-  <HelpKINode Title="SetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetRawData.htm" />
+  <HelpKINode Title="SetRawData 메서드" Url="html/M_VagabondK_Protocols_Modbus_Data_ModbusWords_SetRawData.htm" />
   <HelpKINode Title="SetResizeMode 메서드" Url="html/M_VagabondK_App_Windows_Dialog_SetResizeMode.htm" />
   <HelpKINode Title="SetShowInTaskbar 메서드" Url="html/M_VagabondK_App_Windows_Dialog_SetShowInTaskbar.htm" />
-  <HelpKINode Title="SetValue 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusRegisters_SetValue.htm" />
+  <HelpKINode Title="SetValue 메서드" Url="html/Overload_VagabondK_Protocols_Modbus_Data_ModbusWords_SetValue.htm" />
   <HelpKINode Title="Shell 클래스">
     <HelpKINode Title="Shell 클래스" Url="html/T_VagabondK_App_Shell.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_Shell.htm" />
@@ -3250,7 +3249,7 @@
   <HelpKINode Title="SimpleShell&lt;TPageData&gt;.SimpleShell 생성자" Url="html/M_VagabondK_App_Windows_SimpleShell_1__ctor.htm" />
   <HelpKINode Title="SimulationStations 속성" Url="html/P_VagabondK_Protocols_LSElectric_Cnet_Simulation_CnetSimulationService_SimulationStations.htm" />
   <HelpKINode Title="Single to DeviceValue 변환" Url="html/M_VagabondK_Protocols_LSElectric_DeviceValue_op_Implicit_7.htm" />
-  <HelpKINode Title="SingleBooleanValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_SingleBooleanValue.htm" />
+  <HelpKINode Title="SingleBitValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_SingleBitValue.htm" />
   <HelpKINode Title="SingleExtension 클래스">
     <HelpKINode Title="SingleExtension 클래스" Url="html/T_VagabondK_Windows_SingleExtension.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_Windows_SingleExtension.htm" />
@@ -3259,7 +3258,7 @@
   <HelpKINode Title="SingleExtension.ProvideValue 메서드" Url="html/M_VagabondK_Windows_SingleExtension_ProvideValue.htm" />
   <HelpKINode Title="SingleExtension.SingleExtension 생성자" Url="html/M_VagabondK_Windows_SingleExtension__ctor.htm" />
   <HelpKINode Title="SingleFloatingPointValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_SingleFloatingPointValue.htm" />
-  <HelpKINode Title="SingleRegisterValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_SingleRegisterValue.htm" />
+  <HelpKINode Title="SingleWordValue 속성" Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteHoldingRegisterRequest_SingleWordValue.htm" />
   <HelpKINode Title="SlaveAddress 속성">
     <HelpKINode Title="ModbusRequest.SlaveAddress 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusRequest_SlaveAddress.htm" />
     <HelpKINode Title="RequestedEventArgs.SlaveAddress 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedEventArgs_SlaveAddress.htm" />
@@ -3890,10 +3889,10 @@
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data 네임스페이스" Url="html/N_VagabondK_Protocols_Modbus_Data.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data.IModbusDataBlock(Of TData, TRawData) 인터페이스" Url="html/T_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data.IModbusDataBlock&lt;TData, TRawData&gt; 인터페이스" Url="html/T_VagabondK_Protocols_Modbus_Data_IModbusDataBlock_2.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusBooleans 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusBooleans.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusBits 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusBits.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusDataSet(Of TData, TRawData) 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusDataSet&lt;TData, TRawData&gt; 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusDataSet_2.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusRegisters 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusRegisters.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.Data.ModbusWords 클래스" Url="html/T_VagabondK_Protocols_Modbus_Data_ModbusWords.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.IModbusMessage 인터페이스" Url="html/T_VagabondK_Protocols_Modbus_IModbusMessage.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusCommErrorCode 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusCommErrorCode.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusEndian 열거형" Url="html/T_VagabondK_Protocols_Modbus_ModbusEndian.htm" />
@@ -3908,10 +3907,10 @@
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusOkResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusOkResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusOkResponse(Of TRequest) 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusOkResponse_1.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusOkResponse&lt;TRequest&gt; 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusOkResponse_1.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadBooleanResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadRegisterResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadBitResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadBitResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadResponse.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusReadWordResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusReadWordResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusSlave 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusSlave.htm" />
@@ -3921,8 +3920,8 @@
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusWriteRequest 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusWriteRequest.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.ModbusWriteResponse 클래스" Url="html/T_VagabondK_Protocols_Modbus_ModbusWriteResponse.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedEventArgs.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedReadBooleanEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs.htm" />
-  <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedReadRegisterEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadRegisterEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedReadBitEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs.htm" />
+  <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedReadWordEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedReadWordEventArgs.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedWriteCoilEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedWriteCoilEventArgs.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.RequestedWriteHoldingRegisterEventArgs 클래스" Url="html/T_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs.htm" />
   <HelpKINode Title="VagabondK.Protocols.Modbus.Serialization 네임스페이스" Url="html/N_VagabondK_Protocols_Modbus_Serialization.htm" />
@@ -4002,11 +4001,11 @@
     <HelpKINode Title="FEnetRequestedWriteContinuousEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteContinuousEventArgs_Values.htm" />
     <HelpKINode Title="FEnetRequestedWriteIndividualEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetRequestedWriteIndividualEventArgs_Values.htm" />
     <HelpKINode Title="FEnetWriteIndividualRequest.Values 속성 " Url="html/P_VagabondK_Protocols_LSElectric_FEnet_FEnetWriteIndividualRequest_Values.htm" />
-    <HelpKINode Title="ModbusReadBooleanResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBooleanResponse_Values.htm" />
-    <HelpKINode Title="ModbusReadRegisterResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadRegisterResponse_Values.htm" />
+    <HelpKINode Title="ModbusReadBitResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadBitResponse_Values.htm" />
+    <HelpKINode Title="ModbusReadWordResponse.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusReadWordResponse_Values.htm" />
     <HelpKINode Title="ModbusWriteCoilRequest.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_ModbusWriteCoilRequest_Values.htm" />
     <HelpKINode Title="MultiServiceProviderShell(TServiceProviderKey, TPageData).Values 속성 " Url="html/P_VagabondK_App_MultiServiceProviderShell_2_Values.htm" />
-    <HelpKINode Title="RequestedReadBooleanEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBooleanEventArgs_Values.htm" />
+    <HelpKINode Title="RequestedReadBitEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedReadBitEventArgs_Values.htm" />
     <HelpKINode Title="RequestedWriteCoilEventArgs.Values 속성 " Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteCoilEventArgs_Values.htm" />
   </HelpKINode>
   <HelpKINode Title="View 속성" Url="html/P_VagabondK_App_PageContext_View.htm" />
@@ -4036,8 +4035,8 @@
     <HelpKINode Title="ViewProvider 클래스" Url="html/T_VagabondK_App_Windows_ViewProvider.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_ViewProvider.htm" />
     <HelpKINode Title="메서드" Url="html/Methods_T_VagabondK_App_Windows_ViewProvider.htm" />
-    <HelpKINode Title="생성자" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
     <HelpKINode Title="생성자" Url="html/M_VagabondK_App_Windows_ViewProvider__ctor.htm" />
+    <HelpKINode Title="생성자" Url="html/M_VagabondK_App_ViewProvider__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewProvider.CanReload 메서드">
     <HelpKINode Title="ViewProvider.CanReload 메서드 " Url="html/M_VagabondK_App_Windows_ViewProvider_CanReload.htm" />
@@ -4057,6 +4056,7 @@
     <HelpKINode Title="DataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_DataType.htm" />
     <HelpKINode Title="FEnetDataType 열거형" Url="html/T_VagabondK_Protocols_LSElectric_FEnet_FEnetDataType.htm" />
   </HelpKINode>
+  <HelpKINode Title="Words 속성" Url="html/P_VagabondK_Protocols_Modbus_RequestedWriteHoldingRegisterEventArgs_Words.htm" />
   <HelpKINode Title="WordValue 속성" Url="html/P_VagabondK_Protocols_LSElectric_DeviceValue_WordValue.htm" />
   <HelpKINode Title="Write 메서드">
     <HelpKINode Title="Channel.Write 메서드 " Url="html/M_VagabondK_Protocols_Channels_Channel_Write.htm" />

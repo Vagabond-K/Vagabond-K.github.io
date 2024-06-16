@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>SinglePoint 클래스 | Vagabond K&#39;s Libraries </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="SinglePoint 클래스 | Vagabond K&#39;s Libraries ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+              <span class="brand-title">Vagabond K&#39;s Libraries</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+                          <span class="brand-title">Vagabond K&#39;s Libraries</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="검색" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <a href='https://www.vagabond-k.com' target='_blank'>www.vagabond-k.com</a>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">검색 결과:  <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="VagabondK.Interface.Modbus.SinglePoint">
+
+
+
+  <h1 id="VagabondK_Interface_Modbus_SinglePoint" data-uid="VagabondK.Interface.Modbus.SinglePoint" class="text-break">SinglePoint 클래스</h1>
+  <div class="markdown level0 summary"><p>Modbus Word(Holding Register, Input Register) 기반의 float 형식 직렬화 인터페이스 포인트</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>상속</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.html">InterfacePoint</a></div>
+    <div class="level2"><a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.html">ModbusPoint</a></div>
+    <div class="level3"><a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint-1.html">ModbusPoint</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div class="level4"><a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.html">WordPoint</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div class="level5"><a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.html">MultiBytesPoint</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div class="level6"><a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.html">NumericPoint</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div class="level7"><a class="xref" href="VagabondK.Interface.Modbus.SinglePoint-1.html">SinglePoint</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div class="level8"><span class="xref">SinglePoint</span></div>
+  </div>
+  <div class="implements">
+    <h5>구현</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+    <div><a class="xref" href="VagabondK.Interface.Abstractions.IInterfaceHandlerContainer-1.html">IInterfaceHandlerContainer</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+    <div><a class="xref" href="VagabondK.Interface.Abstractions.IInterfaceHandlerContainer.html">IInterfaceHandlerContainer</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="VagabondK.Interface.Abstractions.InterfaceHandler.html">InterfaceHandler</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>상속된 멤버</h5>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.SinglePoint-1.Deserialize.html#VagabondK_Interface_Modbus_SinglePoint_1_Deserialize">SinglePoint&lt;float&gt;.Deserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.SinglePoint-1.Serialize.html#VagabondK_Interface_Modbus_SinglePoint_1_Serialize_System_Single_">SinglePoint&lt;float&gt;.Serialize(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.Deserialize.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_Deserialize">NumericPoint&lt;float, float&gt;.Deserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.Serialize.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_Serialize__0_">NumericPoint&lt;float, float&gt;.Serialize(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.BytesCount.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_BytesCount">NumericPoint&lt;float, float&gt;.BytesCount</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.GetBytes.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_GetBytes__1__">NumericPoint&lt;float, float&gt;.GetBytes(in float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.GetValue.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_GetValue">NumericPoint&lt;float, float&gt;.GetValue()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.NumericPoint-2.Scale.html#VagabondK_Interface_Modbus_Abstractions_NumericPoint_2_Scale">NumericPoint&lt;float, float&gt;.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.SkipFirstByte.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_SkipFirstByte">MultiBytesPoint&lt;float&gt;.SkipFirstByte</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.BytesCount.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_BytesCount">MultiBytesPoint&lt;float&gt;.BytesCount</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.ActualRequestLength.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_ActualRequestLength">MultiBytesPoint&lt;float&gt;.ActualRequestLength</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.DefaultUseMultiWriteFunction.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_DefaultUseMultiWriteFunction">MultiBytesPoint&lt;float&gt;.DefaultUseMultiWriteFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.WordsCount.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_WordsCount">MultiBytesPoint&lt;float&gt;.WordsCount</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.GetBytesFromRegisters.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_GetBytesFromRegisters_System_Boolean_">MultiBytesPoint&lt;float&gt;.GetBytesFromRegisters(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.MultiBytesPoint-1.ToBytesInRegisters.html#VagabondK_Interface_Modbus_Abstractions_MultiBytesPoint_1_ToBytesInRegisters_System_Byte___System_Boolean_">MultiBytesPoint&lt;float&gt;.ToBytesInRegisters(byte[], bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.Writable.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_Writable">WordPoint&lt;float&gt;.Writable</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.Endian.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_Endian">WordPoint&lt;float&gt;.Endian</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.Words.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_Words">WordPoint&lt;float&gt;.Words</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.WriteRequest.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_WriteRequest">WordPoint&lt;float&gt;.WriteRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.GetValue.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_GetValue">WordPoint&lt;float&gt;.GetValue()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.GetBytes.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_GetBytes__0__">WordPoint&lt;float&gt;.GetBytes(in float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.OnSendRequested.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_OnSendRequested_VagabondK_Protocols_Modbus_ModbusMaster__0__">WordPoint&lt;float&gt;.OnSendRequested(ModbusMaster, in float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.WordPoint-1.OnSendRequested.html#VagabondK_Interface_Modbus_Abstractions_WordPoint_1_OnSendRequested_VagabondK_Protocols_Modbus_ModbusSlave__0__">WordPoint&lt;float&gt;.OnSendRequested(ModbusSlave, in float)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint-1.OnSendAsyncRequested.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_1_OnSendAsyncRequested__1___0__System_Nullable_System_DateTime___System_Nullable_System_Threading_CancellationToken___">ModbusPoint&lt;float&gt;.OnSendAsyncRequested&lt;T&gt;(in T, in DateTime?, in CancellationToken?)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint-1.OnSendRequested.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_1_OnSendRequested__1___0__System_Nullable_System_DateTime___">ModbusPoint&lt;float&gt;.OnSendRequested&lt;T&gt;(in T, in DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.RaisePropertyChanged.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_RaisePropertyChanged_System_String_">ModbusPoint.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.RaisePropertyChanging.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_RaisePropertyChanging_System_String_">ModbusPoint.RaisePropertyChanging(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.SlaveAddress.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_SlaveAddress">ModbusPoint.SlaveAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.ObjectType.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_ObjectType">ModbusPoint.ObjectType</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.Address.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_Address">ModbusPoint.Address</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.RequestAddress.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_RequestAddress">ModbusPoint.RequestAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.RequestLength.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_RequestLength">ModbusPoint.RequestLength</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.UseMultiWriteFunction.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_UseMultiWriteFunction">ModbusPoint.UseMultiWriteFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.PropertyChanged.html">ModbusPoint.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.PropertyChanging.html">ModbusPoint.PropertyChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.ActualRequestAddress.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_ActualRequestAddress">ModbusPoint.ActualRequestAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.AddressIndex.html#VagabondK_Interface_Modbus_Abstractions_ModbusPoint_AddressIndex">ModbusPoint.AddressIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.RaiseErrorOccurred.html#VagabondK_Interface_Abstractions_InterfacePoint_RaiseErrorOccurred_System_Exception_VagabondK_Interface_ErrorDirection_">InterfacePoint.RaiseErrorOccurred(Exception, ErrorDirection)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SendLocalValueAsync.html#VagabondK_Interface_Abstractions_InterfacePoint_SendLocalValueAsync">InterfacePoint.SendLocalValueAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SendLocalValue.html#VagabondK_Interface_Abstractions_InterfacePoint_SendLocalValue">InterfacePoint.SendLocalValue()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SetReceivedValue.html#VagabondK_Interface_Abstractions_InterfacePoint_SetReceivedValue__1___0__System_Nullable_System_DateTime___">InterfacePoint.SetReceivedValue&lt;TValue&gt;(in TValue, in DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.IsWaitSending.html#VagabondK_Interface_Abstractions_InterfacePoint_IsWaitSending">InterfacePoint.IsWaitSending</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.OnSendAsyncRequested.html#VagabondK_Interface_Abstractions_InterfacePoint_OnSendAsyncRequested__1___0__System_Nullable_System_DateTime___System_Nullable_System_Threading_CancellationToken___">InterfacePoint.OnSendAsyncRequested&lt;TValue&gt;(in TValue, in DateTime?, in CancellationToken?)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.OnSendRequested.html#VagabondK_Interface_Abstractions_InterfacePoint_OnSendRequested__1___0__System_Nullable_System_DateTime___">InterfacePoint.OnSendRequested&lt;TValue&gt;(in TValue, in DateTime?)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.Add.html#VagabondK_Interface_Abstractions_InterfacePoint_Add_VagabondK_Interface_Abstractions_InterfaceHandler_">InterfacePoint.Add(InterfaceHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.Remove.html#VagabondK_Interface_Abstractions_InterfacePoint_Remove_VagabondK_Interface_Abstractions_InterfaceHandler_">InterfacePoint.Remove(InterfaceHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.Interface.html#VagabondK_Interface_Abstractions_InterfacePoint_Interface">InterfacePoint.Interface</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.DefaultHandler.html#VagabondK_Interface_Abstractions_InterfacePoint_DefaultHandler">InterfacePoint.DefaultHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.CreateHandler.html#VagabondK_Interface_Abstractions_InterfacePoint_CreateHandler__1">InterfacePoint.CreateHandler&lt;TValue&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SetBinding.html#VagabondK_Interface_Abstractions_InterfacePoint_SetBinding__1_System_Object_System_String_">InterfacePoint.SetBinding&lt;TValue&gt;(object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SetBinding.html#VagabondK_Interface_Abstractions_InterfacePoint_SetBinding__1_System_Object_System_String_VagabondK_Interface_InterfaceMode_">InterfacePoint.SetBinding&lt;TValue&gt;(object, string, InterfaceMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SetBinding.html#VagabondK_Interface_Abstractions_InterfacePoint_SetBinding__1_System_Object_System_String_System_Boolean_">InterfacePoint.SetBinding&lt;TValue&gt;(object, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.SetBinding.html#VagabondK_Interface_Abstractions_InterfacePoint_SetBinding__1_System_Object_System_String_VagabondK_Interface_InterfaceMode_System_Boolean_">InterfacePoint.SetBinding&lt;TValue&gt;(object, string, InterfaceMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.InterfacePoint.GetEnumerator.html#VagabondK_Interface_Abstractions_InterfacePoint_GetEnumerator">InterfacePoint.GetEnumerator()</a>
+    </div>
+  </div>
+  <h6><strong>네임스페이스</strong>: <a class="xref" href="VagabondK.html">VagabondK</a>.<a class="xref" href="VagabondK.Interface.html">Interface</a>.<a class="xref" href="VagabondK.Interface.Modbus.html">Modbus</a></h6>
+  <h6><strong>어셈블리</strong>: VagabondK.Interface.Modbus.dll</h6>
+  <h5 id="VagabondK_Interface_Modbus_SinglePoint_syntax">구문</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SinglePoint : SinglePoint&lt;float&gt;, INotifyPropertyChanged, INotifyPropertyChanging, IInterfaceHandlerContainer&lt;float&gt;, IInterfaceHandlerContainer, IEnumerable&lt;InterfaceHandler&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="constructors">생성자
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_SinglePoint__ctor_System_Byte_System_Boolean_System_UInt16_System_Boolean_VagabondK_Protocols_Modbus_ModbusEndian_System_Nullable_System_UInt16__System_Nullable_System_UInt16__System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_VagabondK_Interface_Abstractions_InterfaceHandler__" data-uid="VagabondK.Interface.Modbus.SinglePoint.#ctor(System.Byte,System.Boolean,System.UInt16,System.Boolean,VagabondK.Protocols.Modbus.ModbusEndian,System.Nullable{System.UInt16},System.Nullable{System.UInt16},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{VagabondK.Interface.Abstractions.InterfaceHandler})">
+          <a class="xref" href="VagabondK.Interface.Modbus.SinglePoint.-ctor.html#VagabondK_Interface_Modbus_SinglePoint__ctor_System_Byte_System_Boolean_System_UInt16_System_Boolean_VagabondK_Protocols_Modbus_ModbusEndian_System_Nullable_System_UInt16__System_Nullable_System_UInt16__System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_VagabondK_Interface_Abstractions_InterfaceHandler__">SinglePoint(byte, bool, ushort, bool, ModbusEndian, ushort?, ushort?, bool?, IEnumerable&lt;InterfaceHandler&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">확장 메서드</h3>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.ToNullable.html#System_ConvertExtensions_ToNullable__1_System_Object_">ConvertExtensions.ToNullable&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.To.html#System_ConvertExtensions_To__1_System_Object___0_">ConvertExtensions.To&lt;T&gt;(object, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.TryConvert.html#System_ConvertExtensions_TryConvert__1_System_Object___0__">ConvertExtensions.TryConvert&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Get.html#System_PropertyExtensions_Get__1_System_Object___0__System_Func___0__">PropertyExtensions.Get&lt;TProperty&gt;(object, ref TProperty, Func&lt;TProperty&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Set.html#System_PropertyExtensions_Set__1_System_Object___0____0_">PropertyExtensions.Set&lt;TProperty&gt;(object, ref TProperty, TProperty)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.CreateHandler.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_CreateHandler__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__">InterfaceHandlerContainerExtensions.CreateHandler&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.GetDefaultHandler.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_GetDefaultHandler__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__">InterfaceHandlerContainerExtensions.GetDefaultHandler&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.SetBinding.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_SetBinding__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__System_Object_System_String_">InterfaceHandlerContainerExtensions.SetBinding&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;, object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.SetBinding.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_SetBinding__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__System_Object_System_String_System_Boolean_">InterfaceHandlerContainerExtensions.SetBinding&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;, object, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.SetBinding.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_SetBinding__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__System_Object_System_String_VagabondK_Interface_InterfaceMode_">InterfaceHandlerContainerExtensions.SetBinding&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;, object, string, InterfaceMode)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.InterfaceHandlerContainerExtensions.SetBinding.html#VagabondK_Interface_InterfaceHandlerContainerExtensions_SetBinding__1_VagabondK_Interface_Abstractions_IInterfaceHandlerContainer___0__System_Object_System_String_VagabondK_Interface_InterfaceMode_System_Boolean_">InterfaceHandlerContainerExtensions.SetBinding&lt;TValue&gt;(IInterfaceHandlerContainer&lt;TValue&gt;, object, string, InterfaceMode, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.GenericValueConverter.To.html#VagabondK_Interface_GenericValueConverter_To__2___0_">GenericValueConverter.To&lt;TSource, TTarget&gt;(TSource)</a>
+  </div>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024. Vagabond K. All Rights Reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

@@ -1,0 +1,925 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>NavigationManagerExtensions 클래스 | Vagabond K&#39;s Libraries </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="NavigationManagerExtensions 클래스 | Vagabond K&#39;s Libraries ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+              <span class="brand-title">Vagabond K&#39;s Libraries</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+                          <span class="brand-title">Vagabond K&#39;s Libraries</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="검색" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <a href='https://www.vagabond-k.com' target='_blank'>www.vagabond-k.com</a>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">검색 결과:  <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="VagabondK.App.NavigationManagerExtensions">
+
+
+
+  <h1 id="VagabondK_App_NavigationManagerExtensions" data-uid="VagabondK.App.NavigationManagerExtensions" class="text-break">NavigationManagerExtensions 클래스</h1>
+  <div class="markdown level0 summary"><p>탐색 관리자 서비스 확장 메서드 모음</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>상속</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">NavigationManagerExtensions</span></div>
+  </div>
+  <h6><strong>네임스페이스</strong>: <a class="xref" href="VagabondK.html">VagabondK</a>.<a class="xref" href="VagabondK.App.html">App</a></h6>
+  <h6><strong>어셈블리</strong>: VagabondK.App.dll</h6>
+  <h5 id="VagabondK_App_NavigationManagerExtensions_syntax">구문</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class NavigationManagerExtensions</code></pre>
+  </div>
+  <h3 id="methods">메서드
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_">Navigate(IServiceProvider, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Action_System_Object_System_Object__">Navigate(IServiceProvider, Type, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Action_System_Object_System_Object__System_Object__">Navigate(IServiceProvider, Type, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Object__">Navigate(IServiceProvider, Type, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_">Navigate(IServiceProvider, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.String,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Action_System_Object_System_Object__">Navigate(IServiceProvider, Type, string, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.String,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__">Navigate(IServiceProvider, Type, string, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.String,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_String_System_Object__">Navigate(IServiceProvider, Type, string, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_">Navigate(IServiceProvider, Type, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Action_System_Object_System_Object__">Navigate(IServiceProvider, Type, Type, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Action_System_Object_System_Object__System_Object__">Navigate(IServiceProvider, Type, Type, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_Object__">Navigate(IServiceProvider, Type, Type, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_">Navigate(IServiceProvider, Type, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.String,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__">Navigate(IServiceProvider, Type, Type, string, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.String,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__">Navigate(IServiceProvider, Type, Type, string, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(System.IServiceProvider,System.Type,System.Type,System.String,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_System_IServiceProvider_System_Type_System_Type_System_String_System_Object__">Navigate(IServiceProvider, Type, Type, string, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_">Navigate(INavigationManager, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Action_System_Object_System_Object__">Navigate(INavigationManager, Type, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Action_System_Object_System_Object__System_Object__">Navigate(INavigationManager, Type, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Object__">Navigate(INavigationManager, Type, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_">Navigate(INavigationManager, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Action_System_Object_System_Object__">Navigate(INavigationManager, Type, string, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Action_System_Object_System_Object__System_Object__">Navigate(INavigationManager, Type, string, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.String,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_String_System_Object__">Navigate(INavigationManager, Type, string, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_">Navigate(INavigationManager, Type, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Action_System_Object_System_Object__">Navigate(INavigationManager, Type, Type, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Action_System_Object_System_Object__System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.Action{System.Object,System.Object},System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Action_System_Object_System_Object__System_Object__">Navigate(INavigationManager, Type, Type, Action&lt;object, object&gt;, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_Object__">Navigate(INavigationManager, Type, Type, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_">Navigate(INavigationManager, Type, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.String,System.Action{System.Object,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_System_Action_System_Object_System_Object__">Navigate(INavigationManager, Type, Type, string, Action&lt;object, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate(VagabondK.App.INavigationManager,System.Type,System.Type,System.String,System.Object@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate_VagabondK_App_INavigationManager_System_Type_System_Type_System_String_System_Object__">Navigate(INavigationManager, Type, Type, string, out object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_">Navigate&lt;TViewModel&gt;(IServiceProvider)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(IServiceProvider, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Action___0____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_">Navigate&lt;TViewModel&gt;(IServiceProvider, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String_System_String___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_String___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_">Navigate&lt;TViewModel&gt;(IServiceProvider, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_Action___0____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type_System_String___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,System.Type,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider_System_Type___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, Type, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(System.IServiceProvider,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_System_IServiceProvider___0__">Navigate&lt;TViewModel&gt;(IServiceProvider, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_">Navigate&lt;TViewModel&gt;(INavigationManager)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(INavigationManager, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0__">Navigate&lt;TViewModel&gt;(INavigationManager, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Action___0____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_">Navigate&lt;TViewModel&gt;(INavigationManager, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(INavigationManager, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_">Navigate&lt;TViewModel&gt;(INavigationManager, string, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(INavigationManager, string, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String_System_String___0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_String___0__">Navigate&lt;TViewModel&gt;(INavigationManager, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_">Navigate&lt;TViewModel&gt;(INavigationManager, Type)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_Action___0____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0_System_Object__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{``0,System.Object})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0_System_Object__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string, Action&lt;TViewModel, object&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0_System_Object____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{``0,System.Object},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0_System_Object____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string, Action&lt;TViewModel, object&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String_System_Action___0____0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type_System_String___0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,System.Type,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager_System_Type___0__">Navigate&lt;TViewModel&gt;(INavigationManager, Type, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``1(VagabondK.App.INavigationManager,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__1_VagabondK_App_INavigationManager___0__">Navigate&lt;TViewModel&gt;(INavigationManager, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_">Navigate&lt;TViewModel, TView&gt;(IServiceProvider)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_Action___0___1__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.Action{``0,``1})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_Action___0___1__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, Action&lt;TViewModel, TView&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_Action___0___1____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.Action{``0,``1},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_Action___0___1____0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, Action&lt;TViewModel, TView&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0___1__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String,System.Action{``0,``1})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0___1__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string, Action&lt;TViewModel, TView&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0___1____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String,System.Action{``0,``1},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0___1____0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string, Action&lt;TViewModel, TView&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String_System_Action___0____0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider_System_String___0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(System.IServiceProvider,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_System_IServiceProvider___0__">Navigate&lt;TViewModel, TView&gt;(IServiceProvider, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_">Navigate&lt;TViewModel, TView&gt;(INavigationManager)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_Action___0___1__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.Action{``0,``1})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_Action___0___1__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, Action&lt;TViewModel, TView&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_Action___0___1____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.Action{``0,``1},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_Action___0___1____0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, Action&lt;TViewModel, TView&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0___1__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String,System.Action{``0,``1})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0___1__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string, Action&lt;TViewModel, TView&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0___1____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String,System.Action{``0,``1},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0___1____0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string, Action&lt;TViewModel, TView&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String,System.Action{``0})">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string, Action&lt;TViewModel&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0____0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String,System.Action{``0},``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String_System_Action___0____0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string, Action&lt;TViewModel&gt;, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,System.String,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager_System_String___0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, string, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager___0__" data-uid="VagabondK.App.NavigationManagerExtensions.Navigate``2(VagabondK.App.INavigationManager,``0@)">
+          <a class="xref" href="VagabondK.App.NavigationManagerExtensions.Navigate.html#VagabondK_App_NavigationManagerExtensions_Navigate__2_VagabondK_App_INavigationManager___0__">Navigate&lt;TViewModel, TView&gt;(INavigationManager, out TViewModel)</a>
+        </td>
+        <td class="markdown level1 summary"><p>탐색</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024. Vagabond K. All Rights Reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

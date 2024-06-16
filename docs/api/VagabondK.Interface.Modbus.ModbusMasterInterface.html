@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>ModbusMasterInterface 클래스 | Vagabond K&#39;s Libraries </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="ModbusMasterInterface 클래스 | Vagabond K&#39;s Libraries ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+              <span class="brand-title">Vagabond K&#39;s Libraries</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+                          <span class="brand-title">Vagabond K&#39;s Libraries</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="검색" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <a href='https://www.vagabond-k.com' target='_blank'>www.vagabond-k.com</a>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">검색 결과:  <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface">
+
+
+
+  <h1 id="VagabondK_Interface_Modbus_ModbusMasterInterface" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface" class="text-break">ModbusMasterInterface 클래스</h1>
+  <div class="markdown level0 summary"><p>Modbus 마스터 기반 인터페이스</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>상속</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.html">Interface</a>&lt;<a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.html">ModbusPoint</a>&gt;</div>
+    <div class="level2"><a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.html">PollingInterface</a>&lt;<a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.html">ModbusPoint</a>&gt;</div>
+    <div class="level3"><span class="xref">ModbusMasterInterface</span></div>
+  </div>
+  <div class="implements">
+    <h5>구현</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.html">ModbusPoint</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="VagabondK.Interface.Modbus.Abstractions.ModbusPoint.html">ModbusPoint</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="VagabondK.Interface.Abstractions.IWaitSendingInterface.html">IWaitSendingInterface</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>상속된 멤버</h5>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.PollingTimeSpan.html#VagabondK_Interface_Abstractions_PollingInterface_1_PollingTimeSpan">PollingInterface&lt;ModbusPoint&gt;.PollingTimeSpan</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.IsRunning.html#VagabondK_Interface_Abstractions_PollingInterface_1_IsRunning">PollingInterface&lt;ModbusPoint&gt;.IsRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.Start.html#VagabondK_Interface_Abstractions_PollingInterface_1_Start">PollingInterface&lt;ModbusPoint&gt;.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.Stop.html#VagabondK_Interface_Abstractions_PollingInterface_1_Stop">PollingInterface&lt;ModbusPoint&gt;.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.Poll.html#VagabondK_Interface_Abstractions_PollingInterface_1_Poll">PollingInterface&lt;ModbusPoint&gt;.Poll()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.Dispose.html#VagabondK_Interface_Abstractions_PollingInterface_1_Dispose">PollingInterface&lt;ModbusPoint&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.RaisePropertyChanged.html#VagabondK_Interface_Abstractions_Interface_1_RaisePropertyChanged_System_String_">Interface&lt;ModbusPoint&gt;.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.PropertyChanged.html">Interface&lt;ModbusPoint&gt;.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.AddRange.html#VagabondK_Interface_Abstractions_Interface_1_AddRange_System_Collections_Generic_IEnumerable__0__">Interface&lt;ModbusPoint&gt;.AddRange(IEnumerable&lt;ModbusPoint&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Add.html#VagabondK_Interface_Abstractions_Interface_1_Add__0_">Interface&lt;ModbusPoint&gt;.Add(ModbusPoint)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Remove.html#VagabondK_Interface_Abstractions_Interface_1_Remove__0_">Interface&lt;ModbusPoint&gt;.Remove(ModbusPoint)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Clear.html#VagabondK_Interface_Abstractions_Interface_1_Clear">Interface&lt;ModbusPoint&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Count.html#VagabondK_Interface_Abstractions_Interface_1_Count">Interface&lt;ModbusPoint&gt;.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.IsReadOnly.html#VagabondK_Interface_Abstractions_Interface_1_IsReadOnly">Interface&lt;ModbusPoint&gt;.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Contains.html#VagabondK_Interface_Abstractions_Interface_1_Contains__0_">Interface&lt;ModbusPoint&gt;.Contains(ModbusPoint)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.CopyTo.html#VagabondK_Interface_Abstractions_Interface_1_CopyTo__0___System_Int32_">Interface&lt;ModbusPoint&gt;.CopyTo(ModbusPoint[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.GetEnumerator.html#VagabondK_Interface_Abstractions_Interface_1_GetEnumerator">Interface&lt;ModbusPoint&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.CreateHandler.html#VagabondK_Interface_Abstractions_Interface_1_CreateHandler__1__0_">Interface&lt;ModbusPoint&gt;.CreateHandler&lt;TValue&gt;(ModbusPoint)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBinding.html#VagabondK_Interface_Abstractions_Interface_1_SetBinding__1__0_System_Object_System_String_">Interface&lt;ModbusPoint&gt;.SetBinding&lt;TValue&gt;(ModbusPoint, object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBinding.html#VagabondK_Interface_Abstractions_Interface_1_SetBinding__1__0_System_Object_System_String_VagabondK_Interface_InterfaceMode_">Interface&lt;ModbusPoint&gt;.SetBinding&lt;TValue&gt;(ModbusPoint, object, string, InterfaceMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBinding.html#VagabondK_Interface_Abstractions_Interface_1_SetBinding__1__0_System_Object_System_String_System_Boolean_">Interface&lt;ModbusPoint&gt;.SetBinding&lt;TValue&gt;(ModbusPoint, object, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBinding.html#VagabondK_Interface_Abstractions_Interface_1_SetBinding__1__0_System_Object_System_String_VagabondK_Interface_InterfaceMode_System_Boolean_">Interface&lt;ModbusPoint&gt;.SetBinding&lt;TValue&gt;(ModbusPoint, object, string, InterfaceMode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBindings.html#VagabondK_Interface_Abstractions_Interface_1_SetBindings_System_Object_">Interface&lt;ModbusPoint&gt;.SetBindings(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBindings.html#VagabondK_Interface_Abstractions_Interface_1_SetBindings_System_Object_System_Action__0__">Interface&lt;ModbusPoint&gt;.SetBindings(object, Action&lt;ModbusPoint&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBindings.html#VagabondK_Interface_Abstractions_Interface_1_SetBindings_System_Object_System_Action_VagabondK_Interface_Abstractions_InterfaceHandler__">Interface&lt;ModbusPoint&gt;.SetBindings(object, Action&lt;InterfaceHandler&gt;)</a>
+    </div>
+  </div>
+  <h6><strong>네임스페이스</strong>: <a class="xref" href="VagabondK.html">VagabondK</a>.<a class="xref" href="VagabondK.Interface.html">Interface</a>.<a class="xref" href="VagabondK.Interface.Modbus.html">Modbus</a></h6>
+  <h6><strong>어셈블리</strong>: VagabondK.Interface.Modbus.dll</h6>
+  <h5 id="VagabondK_Interface_Modbus_ModbusMasterInterface_syntax">구문</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModbusMasterInterface : PollingInterface&lt;ModbusPoint&gt;, ICollection&lt;ModbusPoint&gt;, IEnumerable&lt;ModbusPoint&gt;, IEnumerable, INotifyPropertyChanged, IDisposable, IWaitSendingInterface</code></pre>
+  </div>
+  <h3 id="constructors">생성자
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor(VagabondK.Protocols.Modbus.ModbusMaster)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_">ModbusMasterInterface(ModbusMaster)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Collections_Generic_IEnumerable_VagabondK_Interface_Modbus_Abstractions_ModbusPoint__" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor(VagabondK.Protocols.Modbus.ModbusMaster,System.Collections.Generic.IEnumerable{VagabondK.Interface.Modbus.Abstractions.ModbusPoint})">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Collections_Generic_IEnumerable_VagabondK_Interface_Modbus_Abstractions_ModbusPoint__">ModbusMasterInterface(ModbusMaster, IEnumerable&lt;ModbusPoint&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Int32_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor(VagabondK.Protocols.Modbus.ModbusMaster,System.Int32)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Int32_">ModbusMasterInterface(ModbusMaster, int)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Int32_System_Collections_Generic_IEnumerable_VagabondK_Interface_Modbus_Abstractions_ModbusPoint__" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor(VagabondK.Protocols.Modbus.ModbusMaster,System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Interface.Modbus.Abstractions.ModbusPoint})">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_System_Int32_System_Collections_Generic_IEnumerable_VagabondK_Interface_Modbus_Abstractions_ModbusPoint__">ModbusMasterInterface(ModbusMaster, int, IEnumerable&lt;ModbusPoint&gt;)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">속성
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_AutoRequestMerge" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.AutoRequestMerge">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.AutoRequestMerge.html#VagabondK_Interface_Modbus_ModbusMasterInterface_AutoRequestMerge">AutoRequestMerge</a>
+        </td>
+        <td class="markdown level1 summary"><p>자동 요청 병합 여부, true이면 근접한 데이터 주소를 하나의 요청으로 병합.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_DelayBetweenPollingRequests" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.DelayBetweenPollingRequests">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.DelayBetweenPollingRequests.html#VagabondK_Interface_Modbus_ModbusMasterInterface_DelayBetweenPollingRequests">DelayBetweenPollingRequests</a>
+        </td>
+        <td class="markdown level1 summary"><p>요청과 요청 사이의 지연시간, 밀리초 단위.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_Master" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.Master">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.Master.html#VagabondK_Interface_Modbus_ModbusMasterInterface_Master">Master</a>
+        </td>
+        <td class="markdown level1 summary"><p>Modbus 마스터</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_PollingParallelRequests" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.PollingParallelRequests">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.PollingParallelRequests.html#VagabondK_Interface_Modbus_ModbusMasterInterface_PollingParallelRequests">PollingParallelRequests</a>
+        </td>
+        <td class="markdown level1 summary"><p>요청을 병렬로 수행할 지 여부. 병렬 요청은 ModbusMaster의 Serializer가 ModbusTcpSerializer일 경우에만 사용 가능.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_RequestMergeSpan" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.RequestMergeSpan">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.RequestMergeSpan.html#VagabondK_Interface_Modbus_ModbusMasterInterface_RequestMergeSpan">RequestMergeSpan</a>
+        </td>
+        <td class="markdown level1 summary"><p>요청 병합 간격, 해당 간격 이하의 인터페이스 포인트는 하나의 요청으로 병합</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">메서드
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_Dispose_System_Boolean_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.Dispose(System.Boolean)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.Dispose.html#VagabondK_Interface_Modbus_ModbusMasterInterface_Dispose_System_Boolean_">Dispose(bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>관리되지 않는 리소스의 확보, 해제 또는 다시 설정과 관련된 애플리케이션 정의 작업을 수행합니다.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_OnAdded_VagabondK_Interface_Modbus_Abstractions_ModbusPoint_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.OnAdded(VagabondK.Interface.Modbus.Abstractions.ModbusPoint)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.OnAdded.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnAdded_VagabondK_Interface_Modbus_Abstractions_ModbusPoint_">OnAdded(ModbusPoint)</a>
+        </td>
+        <td class="markdown level1 summary"><p>인터페이스 포인트가 추가되었을 경우 호출됨</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_OnCreatePollingRequests" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnCreatePollingRequests">OnCreatePollingRequests()</a>
+        </td>
+        <td class="markdown level1 summary"><p>값 읽기 요청들을 일괄 생성할 필요가 있을 때 호출되는 메서드</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_OnPoll" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.OnPoll">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.OnPoll.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnPoll">OnPoll()</a>
+        </td>
+        <td class="markdown level1 summary"><p>값 읽기 요청 수행 메서드</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_OnRemoved_VagabondK_Interface_Modbus_Abstractions_ModbusPoint_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.OnRemoved(VagabondK.Interface.Modbus.Abstractions.ModbusPoint)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.OnRemoved.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnRemoved_VagabondK_Interface_Modbus_Abstractions_ModbusPoint_">OnRemoved(ModbusPoint)</a>
+        </td>
+        <td class="markdown level1 summary"><p>인터페이스 포인트가 제거되었을 경우 호출됨</p>
+</td>
+      </tr>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_SetBindings_System_Object_System_Byte_" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.SetBindings(System.Object,System.Byte)">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.SetBindings.html#VagabondK_Interface_Modbus_ModbusMasterInterface_SetBindings_System_Object_System_Byte_">SetBindings(object, byte)</a>
+        </td>
+        <td class="markdown level1 summary"><p>인터페이스 바인딩 일괄 설정, InterfaceAttribute을 상속받은 특성을 이용하여 일괄 바인딩 설정 가능.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">이벤트
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="VagabondK_Interface_Modbus_ModbusMasterInterface_PollingCompleted" data-uid="VagabondK.Interface.Modbus.ModbusMasterInterface.PollingCompleted">
+          <a class="xref" href="VagabondK.Interface.Modbus.ModbusMasterInterface.PollingCompleted.html">PollingCompleted</a>
+        </td>
+        <td class="markdown level1 summary"><p>1주기의 값 읽기 요청과 응답이 완료되었을 때 발생하는 이벤트</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">확장 메서드</h3>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.ToNullable.html#System_ConvertExtensions_ToNullable__1_System_Object_">ConvertExtensions.ToNullable&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.To.html#System_ConvertExtensions_To__1_System_Object___0_">ConvertExtensions.To&lt;T&gt;(object, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.TryConvert.html#System_ConvertExtensions_TryConvert__1_System_Object___0__">ConvertExtensions.TryConvert&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Get.html#System_PropertyExtensions_Get__1_System_Object___0__System_Func___0__">PropertyExtensions.Get&lt;TProperty&gt;(object, ref TProperty, Func&lt;TProperty&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Set.html#System_PropertyExtensions_Set__1_System_Object___0____0_">PropertyExtensions.Set&lt;TProperty&gt;(object, ref TProperty, TProperty)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.GenericValueConverter.To.html#VagabondK_Interface_GenericValueConverter_To__2___0_">GenericValueConverter.To&lt;TSource, TTarget&gt;(TSource)</a>
+  </div>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024. Vagabond K. All Rights Reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

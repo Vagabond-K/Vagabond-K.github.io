@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>DisposableMutex 클래스 | Vagabond K&#39;s Libraries </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="DisposableMutex 클래스 | Vagabond K&#39;s Libraries ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+              <span class="brand-title">Vagabond K&#39;s Libraries</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.svg" alt="Vagabond K&#39;s Libraries" class="logomark">
+                          <span class="brand-title">Vagabond K&#39;s Libraries</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="검색" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <a href='https://www.vagabond-k.com' target='_blank'>www.vagabond-k.com</a>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">검색 결과:  <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="System.Threading.DisposableMutex">
+
+
+
+  <h1 id="System_Threading_DisposableMutex" data-uid="System.Threading.DisposableMutex" class="text-break">DisposableMutex 클래스</h1>
+  <div class="markdown level0 summary"><p>리소스 해제 가능한 Mutex</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>상속</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
+    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle">WaitHandle</a></div>
+    <div class="level3"><span class="xref">DisposableMutex</span></div>
+  </div>
+  <div class="implements">
+    <h5>구현</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>상속된 멤버</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waittimeout">WaitHandle.WaitTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.invalidhandle">WaitHandle.InvalidHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitall#system-threading-waithandle-waitall(system-threading-waithandle()-system-int32-system-boolean)">WaitHandle.WaitAll(WaitHandle[], int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitall#system-threading-waithandle-waitall(system-threading-waithandle()-system-timespan-system-boolean)">WaitHandle.WaitAll(WaitHandle[], TimeSpan, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitall#system-threading-waithandle-waitall(system-threading-waithandle())">WaitHandle.WaitAll(WaitHandle[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitall#system-threading-waithandle-waitall(system-threading-waithandle()-system-int32)">WaitHandle.WaitAll(WaitHandle[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitall#system-threading-waithandle-waitall(system-threading-waithandle()-system-timespan)">WaitHandle.WaitAll(WaitHandle[], TimeSpan)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitany#system-threading-waithandle-waitany(system-threading-waithandle()-system-int32-system-boolean)">WaitHandle.WaitAny(WaitHandle[], int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitany#system-threading-waithandle-waitany(system-threading-waithandle()-system-timespan-system-boolean)">WaitHandle.WaitAny(WaitHandle[], TimeSpan, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitany#system-threading-waithandle-waitany(system-threading-waithandle()-system-timespan)">WaitHandle.WaitAny(WaitHandle[], TimeSpan)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitany#system-threading-waithandle-waitany(system-threading-waithandle())">WaitHandle.WaitAny(WaitHandle[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.waitany#system-threading-waithandle-waitany(system-threading-waithandle()-system-int32)">WaitHandle.WaitAny(WaitHandle[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.signalandwait#system-threading-waithandle-signalandwait(system-threading-waithandle-system-threading-waithandle)">WaitHandle.SignalAndWait(WaitHandle, WaitHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.signalandwait#system-threading-waithandle-signalandwait(system-threading-waithandle-system-threading-waithandle-system-timespan-system-boolean)">WaitHandle.SignalAndWait(WaitHandle, WaitHandle, TimeSpan, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.signalandwait#system-threading-waithandle-signalandwait(system-threading-waithandle-system-threading-waithandle-system-int32-system-boolean)">WaitHandle.SignalAndWait(WaitHandle, WaitHandle, int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.dispose#system-threading-waithandle-dispose">WaitHandle.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.handle">WaitHandle.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.waithandle.safewaithandle">WaitHandle.SafeWaitHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone">MarshalByRefObject.MemberwiseClone(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice">MarshalByRefObject.GetLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref">MarshalByRefObject.CreateObjRef(Type)</a>
+    </div>
+  </div>
+  <h6><strong>네임스페이스</strong>: <a class="xref" href="https://learn.microsoft.com/dotnet/api/system">System</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading">Threading</a></h6>
+  <h6><strong>어셈블리</strong>: VagabondK.dll</h6>
+  <h5 id="System_Threading_DisposableMutex_syntax">구문</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DisposableMutex : WaitHandle, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">생성자
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="System_Threading_DisposableMutex__ctor_System_Boolean_System_String_System_Boolean__" data-uid="System.Threading.DisposableMutex.#ctor(System.Boolean,System.String,System.Boolean@)">
+          <a class="xref" href="System.Threading.DisposableMutex.-ctor.html#System_Threading_DisposableMutex__ctor_System_Boolean_System_String_System_Boolean__">DisposableMutex(bool, string, out bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>생성자</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">메서드
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="System_Threading_DisposableMutex_Close" data-uid="System.Threading.DisposableMutex.Close">
+          <a class="xref" href="System.Threading.DisposableMutex.Close.html#System_Threading_DisposableMutex_Close">Close()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Releases all resources held by the current System.Threading.WaitHandle.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_Dispose_System_Boolean_" data-uid="System.Threading.DisposableMutex.Dispose(System.Boolean)">
+          <a class="xref" href="System.Threading.DisposableMutex.Dispose.html#System_Threading_DisposableMutex_Dispose_System_Boolean_">Dispose(bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>When overridden in a derived class, releases the unmanaged resources used by the System.Threading.WaitHandle, and optionally releases the managed resources.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_InitializeLifetimeService" data-uid="System.Threading.DisposableMutex.InitializeLifetimeService">
+          <a class="xref" href="System.Threading.DisposableMutex.InitializeLifetimeService.html#System_Threading_DisposableMutex_InitializeLifetimeService">InitializeLifetimeService()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Obtains a lifetime service object to control the lifetime policy for this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_WaitOne" data-uid="System.Threading.DisposableMutex.WaitOne">
+          <a class="xref" href="System.Threading.DisposableMutex.WaitOne.html#System_Threading_DisposableMutex_WaitOne">WaitOne()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blocks the current thread until the current System.Threading.WaitHandle receives a signal.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_WaitOne_System_Int32_" data-uid="System.Threading.DisposableMutex.WaitOne(System.Int32)">
+          <a class="xref" href="System.Threading.DisposableMutex.WaitOne.html#System_Threading_DisposableMutex_WaitOne_System_Int32_">WaitOne(int)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blocks the current thread until the current System.Threading.WaitHandle receives a signal, using a 32-bit signed integer to specify the time interval in milliseconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_WaitOne_System_Int32_System_Boolean_" data-uid="System.Threading.DisposableMutex.WaitOne(System.Int32,System.Boolean)">
+          <a class="xref" href="System.Threading.DisposableMutex.WaitOne.html#System_Threading_DisposableMutex_WaitOne_System_Int32_System_Boolean_">WaitOne(int, bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blocks the current thread until the current System.Threading.WaitHandle receives a signal, using a 32-bit signed integer to specify the time interval and specifying whether to exit the synchronization domain before the wait.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_WaitOne_System_TimeSpan_" data-uid="System.Threading.DisposableMutex.WaitOne(System.TimeSpan)">
+          <a class="xref" href="System.Threading.DisposableMutex.WaitOne.html#System_Threading_DisposableMutex_WaitOne_System_TimeSpan_">WaitOne(TimeSpan)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blocks the current thread until the current instance receives a signal, using a System.TimeSpan to specify the time interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="System_Threading_DisposableMutex_WaitOne_System_TimeSpan_System_Boolean_" data-uid="System.Threading.DisposableMutex.WaitOne(System.TimeSpan,System.Boolean)">
+          <a class="xref" href="System.Threading.DisposableMutex.WaitOne.html#System_Threading_DisposableMutex_WaitOne_System_TimeSpan_System_Boolean_">WaitOne(TimeSpan, bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blocks the current thread until the current instance receives a signal, using a System.TimeSpan to specify the time interval and specifying whether to exit the synchronization domain before the wait.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">확장 메서드</h3>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.ToNullable.html#System_ConvertExtensions_ToNullable__1_System_Object_">ConvertExtensions.ToNullable&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.To.html#System_ConvertExtensions_To__1_System_Object___0_">ConvertExtensions.To&lt;T&gt;(object, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.ConvertExtensions.TryConvert.html#System_ConvertExtensions_TryConvert__1_System_Object___0__">ConvertExtensions.TryConvert&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Get.html#System_PropertyExtensions_Get__1_System_Object___0__System_Func___0__">PropertyExtensions.Get&lt;TProperty&gt;(object, ref TProperty, Func&lt;TProperty&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.PropertyExtensions.Set.html#System_PropertyExtensions_Set__1_System_Object___0____0_">PropertyExtensions.Set&lt;TProperty&gt;(object, ref TProperty, TProperty)</a>
+  </div>
+  <div>
+      <a class="xref" href="VagabondK.Interface.GenericValueConverter.To.html#VagabondK_Interface_GenericValueConverter_To__2___0_">GenericValueConverter.To&lt;TSource, TTarget&gt;(TSource)</a>
+  </div>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024. Vagabond K. All Rights Reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

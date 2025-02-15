@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
@@ -78,7 +78,7 @@
                   <div class="sr-items">
                     <p><i class="bi bi-hourglass-split index-loading"></i></p>
                   </div>
-                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                  <ul id="pagination" data-first=《 data-prev=〈 data-next=〉 data-last=》></ul>
                 </div>
  
 
@@ -102,7 +102,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>상속</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><a class="xref" href="VagabondK.Protocols.LSElectric.FEnet.FEnetMessage.html">FEnetMessage</a></div>
     <div class="level2"><span class="xref">FEnetRequest</span></div>
       <div class="level3"><a class="xref" href="VagabondK.Protocols.LSElectric.FEnet.FEnetReadRequest.html">FEnetReadRequest</a></div>
@@ -190,11 +190,11 @@
           <a class="xref" href="VagabondK.Protocols.LSElectric.FEnet.FEnetRequest.UseHexBitIndex.html#VagabondK_Protocols_LSElectric_FEnet_FEnetRequest_UseHexBitIndex">UseHexBitIndex</a>
         </td>
         <td class="markdown level1 summary"><p>비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다.
-P, M, L, K, F 이면서 Bit일 경우 16진수로 전송합니다.
+P, M, L, K, F 이면서 Bit일 경우 워드 단위 인덱스와 함께 비트 자리수를 16진수로 전송합니다.
 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다.
 이 속성을 null로 설정하면 FEnetClient의 UseHexBitIndex 값을 따릅니다.
 XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다.
-'라이스'님의 제보로 추가한 옵션입니다. 감사합니다.</p>
+'라이스'님의 제보로 추가되었으며, '박일두'님의 제보로 추가 개선된 옵션입니다. 감사합니다.</p>
 </td>
       </tr>
     </tbody>

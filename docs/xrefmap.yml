@@ -10436,18 +10436,6 @@ references:
   commentId: T:VagabondK.Indicators.Razor.DigitalIndicatorPresenter
   fullName: VagabondK.Indicators.Razor.DigitalIndicatorPresenter
   nameWithType: DigitalIndicatorPresenter
-- uid: VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree.html#VagabondK_Indicators_Razor_DigitalIndicatorPresenter_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: DigitalIndicatorPresenter.BuildRenderTree(RenderTreeBuilder)
-- uid: VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree.html
-  commentId: Overload:VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree
-  fullName: VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree
-  nameWithType: DigitalIndicatorPresenter.BuildRenderTree
 - uid: VagabondK.Indicators.Razor.DigitalIndicatorPresenter.Class
   name: Class
   href: api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.Class.html#VagabondK_Indicators_Razor_DigitalIndicatorPresenter_Class
@@ -10616,18 +10604,6 @@ references:
   fullName.vb: VagabondK.Indicators.Razor.DigitalNumber.New
   nameWithType: DigitalNumber.DigitalNumber
   nameWithType.vb: DigitalNumber.New
-- uid: VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree.html#VagabondK_Indicators_Razor_DigitalNumber_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: DigitalNumber.BuildRenderTree(RenderTreeBuilder)
-- uid: VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree.html
-  commentId: Overload:VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree
-  fullName: VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree
-  nameWithType: DigitalNumber.BuildRenderTree
 - uid: VagabondK.Indicators.Razor.DigitalNumber.DecimalPlaceScale
   name: DecimalPlaceScale
   href: api/VagabondK.Indicators.Razor.DigitalNumber.DecimalPlaceScale.html#VagabondK_Indicators_Razor_DigitalNumber_DecimalPlaceScale
@@ -10862,18 +10838,6 @@ references:
   fullName.vb: VagabondK.Indicators.Razor.DigitalText.New
   nameWithType: DigitalText.DigitalText
   nameWithType.vb: DigitalText.New
-- uid: VagabondK.Indicators.Razor.DigitalText.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/VagabondK.Indicators.Razor.DigitalText.BuildRenderTree.html#VagabondK_Indicators_Razor_DigitalText_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:VagabondK.Indicators.Razor.DigitalText.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: VagabondK.Indicators.Razor.DigitalText.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: DigitalText.BuildRenderTree(RenderTreeBuilder)
-- uid: VagabondK.Indicators.Razor.DigitalText.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/VagabondK.Indicators.Razor.DigitalText.BuildRenderTree.html
-  commentId: Overload:VagabondK.Indicators.Razor.DigitalText.BuildRenderTree
-  fullName: VagabondK.Indicators.Razor.DigitalText.BuildRenderTree
-  nameWithType: DigitalText.BuildRenderTree
 - uid: VagabondK.Indicators.Razor.DigitalText.Format
   name: Format
   href: api/VagabondK.Indicators.Razor.DigitalText.Format.html#VagabondK_Indicators_Razor_DigitalText_Format
@@ -11024,18 +10988,6 @@ references:
   commentId: T:VagabondK.Indicators.Razor.SharedDigitalFontSegments
   fullName: VagabondK.Indicators.Razor.SharedDigitalFontSegments
   nameWithType: SharedDigitalFontSegments
-- uid: VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree.html#VagabondK_Indicators_Razor_SharedDigitalFontSegments_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: SharedDigitalFontSegments.BuildRenderTree(RenderTreeBuilder)
-- uid: VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree.html
-  commentId: Overload:VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree
-  fullName: VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree
-  nameWithType: SharedDigitalFontSegments.BuildRenderTree
 - uid: VagabondK.Indicators.Razor.SharedDigitalFontSegments.DigitalFont
   name: DigitalFont
   href: api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.DigitalFont.html#VagabondK_Indicators_Razor_SharedDigitalFontSegments_DigitalFont
@@ -23379,6 +23331,12 @@ references:
   commentId: F:VagabondK.Protocols.LSElectric.DeviceType.F
   fullName: VagabondK.Protocols.LSElectric.DeviceType.F
   nameWithType: DeviceType.F
+- uid: VagabondK.Protocols.LSElectric.DeviceType.I
+  name: I
+  href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_I
+  commentId: F:VagabondK.Protocols.LSElectric.DeviceType.I
+  fullName: VagabondK.Protocols.LSElectric.DeviceType.I
+  nameWithType: DeviceType.I
 - uid: VagabondK.Protocols.LSElectric.DeviceType.K
   name: K
   href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_K
@@ -23409,6 +23367,12 @@ references:
   commentId: F:VagabondK.Protocols.LSElectric.DeviceType.P
   fullName: VagabondK.Protocols.LSElectric.DeviceType.P
   nameWithType: DeviceType.P
+- uid: VagabondK.Protocols.LSElectric.DeviceType.Q
+  name: Q
+  href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_Q
+  commentId: F:VagabondK.Protocols.LSElectric.DeviceType.Q
+  fullName: VagabondK.Protocols.LSElectric.DeviceType.Q
+  nameWithType: DeviceType.Q
 - uid: VagabondK.Protocols.LSElectric.DeviceType.R
   name: R
   href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_R
@@ -23439,6 +23403,12 @@ references:
   commentId: F:VagabondK.Protocols.LSElectric.DeviceType.Unknown
   fullName: VagabondK.Protocols.LSElectric.DeviceType.Unknown
   nameWithType: DeviceType.Unknown
+- uid: VagabondK.Protocols.LSElectric.DeviceType.W
+  name: W
+  href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_W
+  commentId: F:VagabondK.Protocols.LSElectric.DeviceType.W
+  fullName: VagabondK.Protocols.LSElectric.DeviceType.W
+  nameWithType: DeviceType.W
 - uid: VagabondK.Protocols.LSElectric.DeviceType.Z
   name: Z
   href: api/VagabondK.Protocols.LSElectric.DeviceType.html#VagabondK_Protocols_LSElectric_DeviceType_Z

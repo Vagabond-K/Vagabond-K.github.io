@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
@@ -78,7 +78,7 @@
                   <div class="sr-items">
                     <p><i class="bi bi-hourglass-split index-loading"></i></p>
                   </div>
-                  <ul id="pagination" data-first="《" data-prev="〈" data-next="〉" data-last="》"></ul>
+                  <ul id="pagination" data-first=《 data-prev=〈 data-next=〉 data-last=》></ul>
                 </div>
  
 
@@ -103,7 +103,7 @@ FEnet 클라이언트를 테스트하는 용도로 사용 가능합니다.</p>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>상속</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">FEnetSimulationService</span></div>
   </div>
   <div class="implements">
@@ -206,7 +206,7 @@ FEnet 클라이언트를 테스트하는 용도로 사용 가능합니다.</p>
           <a class="xref" href="VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService.UseHexBitIndex.html#VagabondK_Protocols_LSElectric_FEnet_Simulation_FEnetSimulationService_UseHexBitIndex">UseHexBitIndex</a>
         </td>
         <td class="markdown level1 summary"><p>비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다.
-P, M, L, K, F 이면서 Bit일 경우 16진수로 인식합니다.
+P, M, L, K, F 이면서 Bit일 경우 문자열 오른쪽 끝을 16진수로 인식하고 그 이외의 자리수는 워드 단위 인덱스로 해석합니다.
 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 인식합니다.</p>
 </td>
       </tr>

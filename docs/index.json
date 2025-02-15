@@ -907,7 +907,7 @@
   "api/VagabondK.App.Windows.PageHostControl.OnPropertyChanged.html": {
     "href": "api/VagabondK.App.Windows.PageHostControl.OnPropertyChanged.html",
     "title": "OnPropertyChanged 메서드 | Vagabond K's Libraries",
-    "keywords": "OnPropertyChanged 메서드 소스 보기 OnPropertyChanged(DependencyPropertyChangedEventArgs) 이 System.Windows.FrameworkElement에서 종속성 속성의 유효 값이 업데이트될 때마다 호출됩니다. 변경된 특정 종속성 속성이 인수 매개 변수에서 보고됩니다. System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)를 재정의합니다. 선언 protected override void OnPropertyChanged(DependencyPropertyChangedEventArgs e) 매개 변수 형식 이름 설명 DependencyPropertyChangedEventArgs e 기존 값과 새 값 그리고 변경된 속성을 설명하는 이벤트 데이터입니다. Overrides FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs)"
+    "keywords": "OnPropertyChanged 메서드 소스 보기 OnPropertyChanged(DependencyPropertyChangedEventArgs) 이 System.Windows.FrameworkElement에서 종속성 속성의 유효 값이 업데이트될 때마다 호출됩니다. 변경된 특정 종속성 속성이 인수 매개 변수에서 보고됩니다. System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)를 재정의합니다. 선언 protected override void OnPropertyChanged(DependencyPropertyChangedEventArgs e) 매개 변수 형식 이름 설명 DependencyPropertyChangedEventArgs e 기존 값과 새 값 그리고 변경된 속성을 설명하는 이벤트 데이터입니다. Overrides System.Windows.FrameworkElement.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)"
   },
   "api/VagabondK.App.Windows.PageHostControl.html": {
     "href": "api/VagabondK.App.Windows.PageHostControl.html",
@@ -2472,7 +2472,7 @@
   "api/VagabondK.Indicators.Maui.DigitalIndicatorPresenter.GetPath.html": {
     "href": "api/VagabondK.Indicators.Maui.DigitalIndicatorPresenter.GetPath.html",
     "title": "GetPath 메서드 | Vagabond K's Libraries",
-    "keywords": "GetPath 메서드 소스 보기 GetPath() Shape에서 사용할 패스를 가져옵니다. 선언 public override PathF GetPath() 반환 형식 설명 PathF 패스 Overrides Shape.GetPath()"
+    "keywords": "GetPath 메서드 소스 보기 GetPath() Shape에서 사용할 패스를 가져옵니다. 선언 public override PathF GetPath() 반환 형식 설명 PathF 패스 Overrides Microsoft.Maui.Controls.Shapes.Shape.GetPath()"
   },
   "api/VagabondK.Indicators.Maui.DigitalIndicatorPresenter.MeasureOverride.html": {
     "href": "api/VagabondK.Indicators.Maui.DigitalIndicatorPresenter.MeasureOverride.html",
@@ -2807,7 +2807,7 @@
   "api/VagabondK.Indicators.Maui.PartDrawingContext.OnBeginPath.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.OnBeginPath.html",
     "title": "OnBeginPath 메서드 | Vagabond K's Libraries",
-    "keywords": "OnBeginPath 메서드 소스 보기 OnBeginPath(in Point) 시작점을 지정하여 렌더러로 패스를 그리기를 시작합니다. 선언 protected override void OnBeginPath(in Point startPoint) 매개 변수 형식 이름 설명 Point startPoint 시작점 Overrides PartDrawingContext<PathF, Point>.OnBeginPath(in Point)"
+    "keywords": "OnBeginPath 메서드 소스 보기 OnBeginPath(in Point) 시작점을 지정하여 렌더러로 패스를 그리기를 시작합니다. 선언 protected override void OnBeginPath(in Point startPoint) 매개 변수 형식 이름 설명 Point startPoint 시작점 Overrides VagabondK.Indicators.PartDrawingContext<Microsoft.Maui.Graphics.PathF, Microsoft.Maui.Graphics.Point>.OnBeginPath(in Microsoft.Maui.Graphics.Point)"
   },
   "api/VagabondK.Indicators.Maui.PartDrawingContext.OnClosePath.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.OnClosePath.html",
@@ -2822,17 +2822,17 @@
   "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawCubicBezier.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawCubicBezier.html",
     "title": "OnDrawCubicBezier 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawCubicBezier 메서드 소스 보기 OnDrawCubicBezier(in Point, in Point, in Point) 렌더러를 이용하여 3차 베지어 곡선을 그립니다. 선언 protected override void OnDrawCubicBezier(in Point controlPoint1, in Point controlPoint2, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint1 첫 번째 컨트롤 포인트 Point controlPoint2 두 번째 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides PartDrawingContext<PathF, Point>.OnDrawCubicBezier(in Point, in Point, in Point)"
+    "keywords": "OnDrawCubicBezier 메서드 소스 보기 OnDrawCubicBezier(in Point, in Point, in Point) 렌더러를 이용하여 3차 베지어 곡선을 그립니다. 선언 protected override void OnDrawCubicBezier(in Point controlPoint1, in Point controlPoint2, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint1 첫 번째 컨트롤 포인트 Point controlPoint2 두 번째 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<Microsoft.Maui.Graphics.PathF, Microsoft.Maui.Graphics.Point>.OnDrawCubicBezier(in Microsoft.Maui.Graphics.Point, in Microsoft.Maui.Graphics.Point, in Microsoft.Maui.Graphics.Point)"
   },
   "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawLine.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawLine.html",
     "title": "OnDrawLine 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawLine 메서드 소스 보기 OnDrawLine(in Point) 렌더러를 이용하여 특정 지점을 향해 선분을 그립니다. 선언 protected override void OnDrawLine(in Point endPoint) 매개 변수 형식 이름 설명 Point endPoint 선분의 끝점 Overrides PartDrawingContext<PathF, Point>.OnDrawLine(in Point)"
+    "keywords": "OnDrawLine 메서드 소스 보기 OnDrawLine(in Point) 렌더러를 이용하여 특정 지점을 향해 선분을 그립니다. 선언 protected override void OnDrawLine(in Point endPoint) 매개 변수 형식 이름 설명 Point endPoint 선분의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<Microsoft.Maui.Graphics.PathF, Microsoft.Maui.Graphics.Point>.OnDrawLine(in Microsoft.Maui.Graphics.Point)"
   },
   "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawQuadraticBezier.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.OnDrawQuadraticBezier.html",
     "title": "OnDrawQuadraticBezier 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawQuadraticBezier 메서드 소스 보기 OnDrawQuadraticBezier(in Point, in Point) 렌더러를 이용하여 2차 베지어 곡선을 그립니다. 선언 protected override void OnDrawQuadraticBezier(in Point controlPoint, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides PartDrawingContext<PathF, Point>.OnDrawQuadraticBezier(in Point, in Point)"
+    "keywords": "OnDrawQuadraticBezier 메서드 소스 보기 OnDrawQuadraticBezier(in Point, in Point) 렌더러를 이용하여 2차 베지어 곡선을 그립니다. 선언 protected override void OnDrawQuadraticBezier(in Point controlPoint, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<Microsoft.Maui.Graphics.PathF, Microsoft.Maui.Graphics.Point>.OnDrawQuadraticBezier(in Microsoft.Maui.Graphics.Point, in Microsoft.Maui.Graphics.Point)"
   },
   "api/VagabondK.Indicators.Maui.PartDrawingContext.html": {
     "href": "api/VagabondK.Indicators.Maui.PartDrawingContext.html",
@@ -3172,7 +3172,7 @@
   "api/VagabondK.Indicators.Razor.DigitalIndicator.OnParametersSet.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicator.OnParametersSet.html",
     "title": "OnParametersSet 메서드 | Vagabond K's Libraries",
-    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides ComponentBase.OnParametersSet()"
+    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides Microsoft.AspNetCore.Components.ComponentBase.OnParametersSet()"
   },
   "api/VagabondK.Indicators.Razor.DigitalIndicator.RenderAllInactive.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicator.RenderAllInactive.html",
@@ -3214,11 +3214,6 @@
     "title": "DigitalIndicator 클래스 | Vagabond K's Libraries",
     "keywords": "DigitalIndicator 클래스 값을 여러 세그먼트로 구성된 디지털 문자들로 표시하는 인디케이터입니다. 상속 object ComponentBase DigitalIndicator DigitalNumber DigitalText 구현 IDigitalIndicator IIndicator 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public abstract class DigitalIndicator : ComponentBase, IDigitalIndicator, IIndicator 속성 이름 설명 ActiveClass 활성 세그먼트 영역 svg 태그의 class 특성에 적용할 내용을 가져오거나 설정합니다. 해당 class 특성에는 항상 자동으로 vki-digital-presenter 클래스가 추가됩니다. ActiveStyle 활성 세그먼트 영역 svg 태그의 style 특성에 적용할 내용을 가져오거나 설정합니다. Class 인디케이터 컴포넌트에서 생성할 svg 태그의 class 특성에 적용할 내용을 가져오거나 설정합니다. DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. InactiveClass 비활성 세그먼트 영역 svg 태그의 class 특성에 적용할 내용을 가져오거나 설정합니다. 해당 class 특성에는 항상 자동으로 vki-digital-presenter 클래스가 추가됩니다. InactiveStyle 비활성 세그먼트 영역 svg 태그의 style 특성에 적용할 내용을 가져오거나 설정합니다. RenderAllInactive 활성 세그먼트 뒤에 비활성 세그먼트도 함께 렌더링 여부를 가져오거나 설정합니다. Size SVG의 크기를 가져옵니다. Spacing 디지털 문자의 가로 크기 대비 문자간 거리 비율을 가져오거나 설정합니다. Style 인디케이터 컴포넌트에서 생성할 svg 태그의 style 특성에 적용할 내용을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. UseSharedSegments 공유 세그먼트를 사용할지 여부를 가져오거나 설정합니다. Value 화면에 표시할 값을 가져오거나 설정합니다. 메서드 이름 설명 Measure() SVG의 크기를 측정합니다. OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
-  "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree.html": {
-    "href": "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.BuildRenderTree.html",
-    "title": "BuildRenderTree 메서드 | Vagabond K's Libraries",
-    "keywords": "BuildRenderTree 메서드 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. 선언 protected override void BuildRenderTree(RenderTreeBuilder __builder) 매개 변수 형식 이름 설명 RenderTreeBuilder __builder Overrides ComponentBase.BuildRenderTree(RenderTreeBuilder)"
-  },
   "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.Class.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.Class.html",
     "title": "Class 속성 | Vagabond K's Libraries",
@@ -3242,7 +3237,7 @@
   "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.OnParametersSet.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.OnParametersSet.html",
     "title": "OnParametersSet 메서드 | Vagabond K's Libraries",
-    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides ComponentBase.OnParametersSet()"
+    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides Microsoft.AspNetCore.Components.ComponentBase.OnParametersSet()"
   },
   "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.SegmentFilter.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.SegmentFilter.html",
@@ -3282,17 +3277,12 @@
   "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalIndicatorPresenter.html",
     "title": "DigitalIndicatorPresenter 클래스 | Vagabond K's Libraries",
-    "keywords": "DigitalIndicatorPresenter 클래스 표시할 세그먼트에 대한 필터에 따라 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalNumberPresenter DigitalTextPresenter 구현 IDigitalIndicatorPresenter IDigitalIndicator IIndicator 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public abstract class DigitalIndicatorPresenter : ComponentBase, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 Class 프리젠터 컴포넌트에서 생성할 svg 태그의 class 특성에 적용할 내용을 가져오거나 설정합니다. 해당 class 특성에는 항상 자동으로 vki-digital-presenter 클래스가 추가됩니다. DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. SegmentFilter 표시할 세그먼트에 대한 필터를 가져오거나 설정합니다. Size SVG의 크기를 가져옵니다. Spacing 디지털 문자의 가로 크기 대비 문자간 거리 비율을 가져오거나 설정합니다. Style 프리젠터 컴포넌트에서 생성할 svg 태그의 style 특성에 적용할 내용을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. UseSharedSegments 공유 세그먼트를 사용할지 여부를 가져오거나 설정합니다. Value 화면에 표시할 값을 가져오거나 설정합니다. 메서드 이름 설명 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "DigitalIndicatorPresenter 클래스 표시할 세그먼트에 대한 필터에 따라 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalNumberPresenter DigitalTextPresenter 구현 IDigitalIndicatorPresenter IDigitalIndicator IIndicator 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public abstract class DigitalIndicatorPresenter : ComponentBase, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 Class 프리젠터 컴포넌트에서 생성할 svg 태그의 class 특성에 적용할 내용을 가져오거나 설정합니다. 해당 class 특성에는 항상 자동으로 vki-digital-presenter 클래스가 추가됩니다. DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. SegmentFilter 표시할 세그먼트에 대한 필터를 가져오거나 설정합니다. Size SVG의 크기를 가져옵니다. Spacing 디지털 문자의 가로 크기 대비 문자간 거리 비율을 가져오거나 설정합니다. Style 프리젠터 컴포넌트에서 생성할 svg 태그의 style 특성에 적용할 내용을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. UseSharedSegments 공유 세그먼트를 사용할지 여부를 가져오거나 설정합니다. Value 화면에 표시할 값을 가져오거나 설정합니다. 메서드 이름 설명 Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.DigitalNumber.-ctor.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalNumber.-ctor.html",
     "title": "DigitalNumber 생성자 | Vagabond K's Libraries",
     "keywords": "DigitalNumber 생성자 소스 보기 DigitalNumber() 생성자 선언 public DigitalNumber()"
-  },
-  "api/VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree.html": {
-    "href": "api/VagabondK.Indicators.Razor.DigitalNumber.BuildRenderTree.html",
-    "title": "BuildRenderTree 메서드 | Vagabond K's Libraries",
-    "keywords": "BuildRenderTree 메서드 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. 선언 protected override void BuildRenderTree(RenderTreeBuilder __builder) 매개 변수 형식 이름 설명 RenderTreeBuilder __builder Overrides ComponentBase.BuildRenderTree(RenderTreeBuilder)"
   },
   "api/VagabondK.Indicators.Razor.DigitalNumber.DecimalPlaceScale.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalNumber.DecimalPlaceScale.html",
@@ -3337,7 +3327,7 @@
   "api/VagabondK.Indicators.Razor.DigitalNumber.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalNumber.html",
     "title": "DigitalNumber 클래스 | Vagabond K's Libraries",
-    "keywords": "DigitalNumber 클래스 수치형 값을 디지털 문자들로 표시하는 인디케이터입니다. 상속 object ComponentBase DigitalIndicator DigitalNumber 구현 IDigitalNumber IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicator.Class DigitalIndicator.Style DigitalIndicator.ActiveClass DigitalIndicator.ActiveStyle DigitalIndicator.InactiveClass DigitalIndicator.InactiveStyle DigitalIndicator.DigitalFont DigitalIndicator.Spacing DigitalIndicator.RenderAllInactive DigitalIndicator.Value DigitalIndicator.UseSharedSegments DigitalIndicator.SvgDefs DigitalIndicator.Size DigitalIndicator.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalNumber : DigitalIndicator, IDigitalNumber, IDigitalIndicator, IIndicator 생성자 이름 설명 DigitalNumber() 생성자 속성 이름 설명 DecimalPlaceScale 디지털 문자 세로 크기 대비 소수 자리 문자의 크기 비율을 가져오거나 설정합니다. DecimalPlaces 표시할 소수 자리 개수를 가져오거나 설정합니다. DecimalSeparatorSize 디지털 문자 세로 크기 대비 소수점 크기 비율을 가져오거나 설정합니다. IntegerDigits 표시할 정수 자리 개수을 가져오거나 설정합니다. MinusAlignLeft 마이너스 기호를 왼쪽 끝에 정렬할지 여부를 가져오거나 설정합니다. PadZeroLeft 왼쪽(정수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. PadZeroRight 오른쪽(소수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. 메서드 이름 설명 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. Measure() SVG의 크기를 측정합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "DigitalNumber 클래스 수치형 값을 디지털 문자들로 표시하는 인디케이터입니다. 상속 object ComponentBase DigitalIndicator DigitalNumber 구현 IDigitalNumber IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicator.Class DigitalIndicator.Style DigitalIndicator.ActiveClass DigitalIndicator.ActiveStyle DigitalIndicator.InactiveClass DigitalIndicator.InactiveStyle DigitalIndicator.DigitalFont DigitalIndicator.Spacing DigitalIndicator.RenderAllInactive DigitalIndicator.Value DigitalIndicator.UseSharedSegments DigitalIndicator.SvgDefs DigitalIndicator.Size DigitalIndicator.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalNumber : DigitalIndicator, IDigitalNumber, IDigitalIndicator, IIndicator 생성자 이름 설명 DigitalNumber() 생성자 속성 이름 설명 DecimalPlaceScale 디지털 문자 세로 크기 대비 소수 자리 문자의 크기 비율을 가져오거나 설정합니다. DecimalPlaces 표시할 소수 자리 개수를 가져오거나 설정합니다. DecimalSeparatorSize 디지털 문자 세로 크기 대비 소수점 크기 비율을 가져오거나 설정합니다. IntegerDigits 표시할 정수 자리 개수을 가져오거나 설정합니다. MinusAlignLeft 마이너스 기호를 왼쪽 끝에 정렬할지 여부를 가져오거나 설정합니다. PadZeroLeft 왼쪽(정수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. PadZeroRight 오른쪽(소수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. 메서드 이름 설명 Measure() SVG의 크기를 측정합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.DigitalNumberPresenter.DecimalPlaceScale.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalNumberPresenter.DecimalPlaceScale.html",
@@ -3387,17 +3377,12 @@
   "api/VagabondK.Indicators.Razor.DigitalNumberPresenter.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalNumberPresenter.html",
     "title": "DigitalNumberPresenter 클래스 | Vagabond K's Libraries",
-    "keywords": "DigitalNumberPresenter 클래스 세그먼트 상태에 따라 수치형 값을 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalNumberPresenter 구현 IDigitalNumberPresenter IDigitalNumber IDigitalIndicatorPresenter IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicatorPresenter.Class DigitalIndicatorPresenter.Style DigitalIndicatorPresenter.SegmentFilter DigitalIndicatorPresenter.DigitalFont DigitalIndicatorPresenter.Spacing DigitalIndicatorPresenter.Value DigitalIndicatorPresenter.UseSharedSegments DigitalIndicatorPresenter.SvgDefs DigitalIndicatorPresenter.Size DigitalIndicatorPresenter.OnParametersSet() DigitalIndicatorPresenter.BuildRenderTree(RenderTreeBuilder) 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalNumberPresenter : DigitalIndicatorPresenter, IDigitalNumberPresenter, IDigitalNumber, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 DecimalPlaceScale 디지털 문자 세로 크기 대비 소수 자리 문자의 크기 비율을 가져오거나 설정합니다. DecimalPlaces 표시할 소수 자리 개수를 가져오거나 설정합니다. DecimalSeparatorSize 디지털 문자 세로 크기 대비 소수점 크기 비율을 가져오거나 설정합니다. IntegerDigits 표시할 정수 자리 개수을 가져오거나 설정합니다. MinusAlignLeft 마이너스 기호를 왼쪽 끝에 정렬할지 여부를 가져오거나 설정합니다. PadZeroLeft 왼쪽(정수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. PadZeroRight 오른쪽(소수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. 메서드 이름 설명 Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "DigitalNumberPresenter 클래스 세그먼트 상태에 따라 수치형 값을 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalNumberPresenter 구현 IDigitalNumberPresenter IDigitalNumber IDigitalIndicatorPresenter IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicatorPresenter.Class DigitalIndicatorPresenter.Style DigitalIndicatorPresenter.SegmentFilter DigitalIndicatorPresenter.DigitalFont DigitalIndicatorPresenter.Spacing DigitalIndicatorPresenter.Value DigitalIndicatorPresenter.UseSharedSegments DigitalIndicatorPresenter.SvgDefs DigitalIndicatorPresenter.Size DigitalIndicatorPresenter.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalNumberPresenter : DigitalIndicatorPresenter, IDigitalNumberPresenter, IDigitalNumber, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 DecimalPlaceScale 디지털 문자 세로 크기 대비 소수 자리 문자의 크기 비율을 가져오거나 설정합니다. DecimalPlaces 표시할 소수 자리 개수를 가져오거나 설정합니다. DecimalSeparatorSize 디지털 문자 세로 크기 대비 소수점 크기 비율을 가져오거나 설정합니다. IntegerDigits 표시할 정수 자리 개수을 가져오거나 설정합니다. MinusAlignLeft 마이너스 기호를 왼쪽 끝에 정렬할지 여부를 가져오거나 설정합니다. PadZeroLeft 왼쪽(정수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. PadZeroRight 오른쪽(소수 자리) 빈칸을 0으로 채울지 여부를 가져오거나 설정합니다. 메서드 이름 설명 Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.DigitalText.-ctor.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalText.-ctor.html",
     "title": "DigitalText 생성자 | Vagabond K's Libraries",
     "keywords": "DigitalText 생성자 소스 보기 DigitalText() 생성자 선언 public DigitalText()"
-  },
-  "api/VagabondK.Indicators.Razor.DigitalText.BuildRenderTree.html": {
-    "href": "api/VagabondK.Indicators.Razor.DigitalText.BuildRenderTree.html",
-    "title": "BuildRenderTree 메서드 | Vagabond K's Libraries",
-    "keywords": "BuildRenderTree 메서드 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. 선언 protected override void BuildRenderTree(RenderTreeBuilder __builder) 매개 변수 형식 이름 설명 RenderTreeBuilder __builder Overrides ComponentBase.BuildRenderTree(RenderTreeBuilder)"
   },
   "api/VagabondK.Indicators.Razor.DigitalText.Format.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalText.Format.html",
@@ -3417,7 +3402,7 @@
   "api/VagabondK.Indicators.Razor.DigitalText.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalText.html",
     "title": "DigitalText 클래스 | Vagabond K's Libraries",
-    "keywords": "DigitalText 클래스 값을 문자열 형식으로 변환하여 디지털 문자들로 표시하는 인디케이터입니다. 상속 object ComponentBase DigitalIndicator DigitalText 구현 IDigitalText IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicator.Class DigitalIndicator.Style DigitalIndicator.ActiveClass DigitalIndicator.ActiveStyle DigitalIndicator.InactiveClass DigitalIndicator.InactiveStyle DigitalIndicator.DigitalFont DigitalIndicator.Spacing DigitalIndicator.RenderAllInactive DigitalIndicator.Value DigitalIndicator.UseSharedSegments DigitalIndicator.SvgDefs DigitalIndicator.Size DigitalIndicator.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalText : DigitalIndicator, IDigitalText, IDigitalIndicator, IIndicator 생성자 이름 설명 DigitalText() 생성자 속성 이름 설명 Format 문자열 변환 포맷을 가져오거나 설정합니다. Length 표시할 문자열의 개수를 가져오거나 설정합니다. 메서드 이름 설명 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. Measure() SVG의 크기를 측정합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "DigitalText 클래스 값을 문자열 형식으로 변환하여 디지털 문자들로 표시하는 인디케이터입니다. 상속 object ComponentBase DigitalIndicator DigitalText 구현 IDigitalText IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicator.Class DigitalIndicator.Style DigitalIndicator.ActiveClass DigitalIndicator.ActiveStyle DigitalIndicator.InactiveClass DigitalIndicator.InactiveStyle DigitalIndicator.DigitalFont DigitalIndicator.Spacing DigitalIndicator.RenderAllInactive DigitalIndicator.Value DigitalIndicator.UseSharedSegments DigitalIndicator.SvgDefs DigitalIndicator.Size DigitalIndicator.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalText : DigitalIndicator, IDigitalText, IDigitalIndicator, IIndicator 생성자 이름 설명 DigitalText() 생성자 속성 이름 설명 Format 문자열 변환 포맷을 가져오거나 설정합니다. Length 표시할 문자열의 개수를 가져오거나 설정합니다. 메서드 이름 설명 Measure() SVG의 크기를 측정합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.DigitalTextPresenter.Format.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalTextPresenter.Format.html",
@@ -3442,7 +3427,7 @@
   "api/VagabondK.Indicators.Razor.DigitalTextPresenter.html": {
     "href": "api/VagabondK.Indicators.Razor.DigitalTextPresenter.html",
     "title": "DigitalTextPresenter 클래스 | Vagabond K's Libraries",
-    "keywords": "DigitalTextPresenter 클래스 세그먼트 상태에 따라 값을 문자열로 변환하여 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalTextPresenter 구현 IDigitalTextPresenter IDigitalText IDigitalIndicatorPresenter IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicatorPresenter.Class DigitalIndicatorPresenter.Style DigitalIndicatorPresenter.SegmentFilter DigitalIndicatorPresenter.DigitalFont DigitalIndicatorPresenter.Spacing DigitalIndicatorPresenter.Value DigitalIndicatorPresenter.UseSharedSegments DigitalIndicatorPresenter.SvgDefs DigitalIndicatorPresenter.Size DigitalIndicatorPresenter.OnParametersSet() DigitalIndicatorPresenter.BuildRenderTree(RenderTreeBuilder) 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalTextPresenter : DigitalIndicatorPresenter, IDigitalTextPresenter, IDigitalText, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 Format 문자열 변환 포맷을 가져오거나 설정합니다. Length 표시할 문자열의 개수를 가져오거나 설정합니다. 메서드 이름 설명 Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "DigitalTextPresenter 클래스 세그먼트 상태에 따라 값을 문자열로 변환하여 디지털 문자들을 표시합니다. 상속 object ComponentBase DigitalIndicatorPresenter DigitalTextPresenter 구현 IDigitalTextPresenter IDigitalText IDigitalIndicatorPresenter IDigitalIndicator IIndicator 상속된 멤버 DigitalIndicatorPresenter.Class DigitalIndicatorPresenter.Style DigitalIndicatorPresenter.SegmentFilter DigitalIndicatorPresenter.DigitalFont DigitalIndicatorPresenter.Spacing DigitalIndicatorPresenter.Value DigitalIndicatorPresenter.UseSharedSegments DigitalIndicatorPresenter.SvgDefs DigitalIndicatorPresenter.Size DigitalIndicatorPresenter.OnParametersSet() 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class DigitalTextPresenter : DigitalIndicatorPresenter, IDigitalTextPresenter, IDigitalText, IDigitalIndicatorPresenter, IDigitalIndicator, IIndicator 속성 이름 설명 Format 문자열 변환 포맷을 가져오거나 설정합니다. Length 표시할 문자열의 개수를 가져오거나 설정합니다. 메서드 이름 설명 Measure() 인디케이터의 크기를 측정합니다. OnCreateParts() SVG에 사용할 인디케이터 파트 목록을 생성합니다. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.BuildRenderTree.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.BuildRenderTree.html",
@@ -3457,7 +3442,7 @@
   "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.OnParametersSet.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.OnParametersSet.html",
     "title": "OnParametersSet 메서드 | Vagabond K's Libraries",
-    "keywords": "OnParametersSet 메서드 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides ComponentBase.OnParametersSet()"
+    "keywords": "OnParametersSet 메서드 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides Microsoft.AspNetCore.Components.ComponentBase.OnParametersSet()"
   },
   "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.SvgDefs.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalCharacterSegments.SvgDefs.html",
@@ -3469,11 +3454,6 @@
     "title": "SharedDigitalCharacterSegments 클래스 | Vagabond K's Libraries",
     "keywords": "SharedDigitalCharacterSegments 클래스 페이지 상단에 공유할 디지털 문자 양식 상속 object ComponentBase SharedDigitalCharacterSegments 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class SharedDigitalCharacterSegments : ComponentBase 속성 이름 설명 DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. 메서드 이름 설명 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
-  "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree.html": {
-    "href": "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.BuildRenderTree.html",
-    "title": "BuildRenderTree 메서드 | Vagabond K's Libraries",
-    "keywords": "BuildRenderTree 메서드 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. 선언 protected override void BuildRenderTree(RenderTreeBuilder __builder) 매개 변수 형식 이름 설명 RenderTreeBuilder __builder Overrides ComponentBase.BuildRenderTree(RenderTreeBuilder)"
-  },
   "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.DigitalFont.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.DigitalFont.html",
     "title": "DigitalFont 속성 | Vagabond K's Libraries",
@@ -3482,7 +3462,7 @@
   "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.OnParametersSet.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.OnParametersSet.html",
     "title": "OnParametersSet 메서드 | Vagabond K's Libraries",
-    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides ComponentBase.OnParametersSet()"
+    "keywords": "OnParametersSet 메서드 소스 보기 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 선언 protected override void OnParametersSet() Overrides Microsoft.AspNetCore.Components.ComponentBase.OnParametersSet()"
   },
   "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.SvgDefs.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.SvgDefs.html",
@@ -3492,7 +3472,7 @@
   "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.html": {
     "href": "api/VagabondK.Indicators.Razor.SharedDigitalFontSegments.html",
     "title": "SharedDigitalFontSegments 클래스 | Vagabond K's Libraries",
-    "keywords": "SharedDigitalFontSegments 클래스 페이지 상단에 공유할 디지털 문자 양식 상속 object ComponentBase SharedDigitalFontSegments 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class SharedDigitalFontSegments : ComponentBase 속성 이름 설명 DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. 메서드 이름 설명 BuildRenderTree(RenderTreeBuilder) Renders the component to the supplied RenderTreeBuilder. OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "SharedDigitalFontSegments 클래스 페이지 상단에 공유할 디지털 문자 양식 상속 object ComponentBase SharedDigitalFontSegments 네임스페이스: VagabondK.Indicators.Razor 어셈블리: VagabondK.Indicators.Razor.dll 구문 public class SharedDigitalFontSegments : ComponentBase 속성 이름 설명 DigitalFont 디지털 문자 양식을 가져오거나 설정합니다. SvgDefs svg 태그의 defs 태그 내용을 가져오거나 설정합니다. 메서드 이름 설명 OnParametersSet() Method invoked when the component has received parameters from its parent in the render tree, and the incoming values have been assigned to properties. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Indicators.Razor.html": {
     "href": "api/VagabondK.Indicators.Razor.html",
@@ -3717,7 +3697,7 @@
   "api/VagabondK.Indicators.Windows.DigitalIndicatorPresenter.OnRender.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalIndicatorPresenter.OnRender.html",
     "title": "OnRender 메서드 | Vagabond K's Libraries",
-    "keywords": "OnRender 메서드 소스 보기 OnRender(DrawingContext) 선언 protected override void OnRender(DrawingContext drawingContext) 매개 변수 형식 이름 설명 DrawingContext drawingContext Overrides UIElement.OnRender(DrawingContext)"
+    "keywords": "OnRender 메서드 소스 보기 OnRender(DrawingContext) 선언 protected override void OnRender(DrawingContext drawingContext) 매개 변수 형식 이름 설명 DrawingContext drawingContext Overrides System.Windows.UIElement.OnRender(System.Windows.Media.DrawingContext)"
   },
   "api/VagabondK.Indicators.Windows.DigitalIndicatorPresenter.SegmentFilter.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalIndicatorPresenter.SegmentFilter.html",
@@ -3962,7 +3942,7 @@
   "api/VagabondK.Indicators.Windows.DigitalNumberPresenter.MeasureOverride.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalNumberPresenter.MeasureOverride.html",
     "title": "MeasureOverride 메서드 | Vagabond K's Libraries",
-    "keywords": "MeasureOverride 메서드 소스 보기 MeasureOverride(Size) 선언 protected override Size MeasureOverride(Size availableSize) 매개 변수 형식 이름 설명 Size availableSize 반환 형식 설명 Size Overrides FrameworkElement.MeasureOverride(Size)"
+    "keywords": "MeasureOverride 메서드 소스 보기 MeasureOverride(Size) 선언 protected override Size MeasureOverride(Size availableSize) 매개 변수 형식 이름 설명 Size availableSize 반환 형식 설명 Size Overrides System.Windows.FrameworkElement.MeasureOverride(System.Windows.Size)"
   },
   "api/VagabondK.Indicators.Windows.DigitalNumberPresenter.MinusAlignLeft.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalNumberPresenter.MinusAlignLeft.html",
@@ -4052,7 +4032,7 @@
   "api/VagabondK.Indicators.Windows.DigitalTextPresenter.MeasureOverride.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalTextPresenter.MeasureOverride.html",
     "title": "MeasureOverride 메서드 | Vagabond K's Libraries",
-    "keywords": "MeasureOverride 메서드 소스 보기 MeasureOverride(Size) 선언 protected override Size MeasureOverride(Size availableSize) 매개 변수 형식 이름 설명 Size availableSize 반환 형식 설명 Size Overrides FrameworkElement.MeasureOverride(Size)"
+    "keywords": "MeasureOverride 메서드 소스 보기 MeasureOverride(Size) 선언 protected override Size MeasureOverride(Size availableSize) 매개 변수 형식 이름 설명 Size availableSize 반환 형식 설명 Size Overrides System.Windows.FrameworkElement.MeasureOverride(System.Windows.Size)"
   },
   "api/VagabondK.Indicators.Windows.DigitalTextPresenter.OnCreateParts.html": {
     "href": "api/VagabondK.Indicators.Windows.DigitalTextPresenter.OnCreateParts.html",
@@ -4067,7 +4047,7 @@
   "api/VagabondK.Indicators.Windows.PartDrawingContext.OnBeginPath.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.OnBeginPath.html",
     "title": "OnBeginPath 메서드 | Vagabond K's Libraries",
-    "keywords": "OnBeginPath 메서드 소스 보기 OnBeginPath(in Point) 시작점을 지정하여 렌더러로 패스를 그리기를 시작합니다. 선언 protected override void OnBeginPath(in Point startPoint) 매개 변수 형식 이름 설명 Point startPoint 시작점 Overrides PartDrawingContext<StreamGeometryContext, Point>.OnBeginPath(in Point)"
+    "keywords": "OnBeginPath 메서드 소스 보기 OnBeginPath(in Point) 시작점을 지정하여 렌더러로 패스를 그리기를 시작합니다. 선언 protected override void OnBeginPath(in Point startPoint) 매개 변수 형식 이름 설명 Point startPoint 시작점 Overrides VagabondK.Indicators.PartDrawingContext<System.Windows.Media.StreamGeometryContext, System.Windows.Point>.OnBeginPath(in System.Windows.Point)"
   },
   "api/VagabondK.Indicators.Windows.PartDrawingContext.OnClosePath.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.OnClosePath.html",
@@ -4082,17 +4062,17 @@
   "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawCubicBezier.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawCubicBezier.html",
     "title": "OnDrawCubicBezier 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawCubicBezier 메서드 소스 보기 OnDrawCubicBezier(in Point, in Point, in Point) 렌더러를 이용하여 3차 베지어 곡선을 그립니다. 선언 protected override void OnDrawCubicBezier(in Point controlPoint1, in Point controlPoint2, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint1 첫 번째 컨트롤 포인트 Point controlPoint2 두 번째 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides PartDrawingContext<StreamGeometryContext, Point>.OnDrawCubicBezier(in Point, in Point, in Point)"
+    "keywords": "OnDrawCubicBezier 메서드 소스 보기 OnDrawCubicBezier(in Point, in Point, in Point) 렌더러를 이용하여 3차 베지어 곡선을 그립니다. 선언 protected override void OnDrawCubicBezier(in Point controlPoint1, in Point controlPoint2, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint1 첫 번째 컨트롤 포인트 Point controlPoint2 두 번째 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<System.Windows.Media.StreamGeometryContext, System.Windows.Point>.OnDrawCubicBezier(in System.Windows.Point, in System.Windows.Point, in System.Windows.Point)"
   },
   "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawLine.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawLine.html",
     "title": "OnDrawLine 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawLine 메서드 소스 보기 OnDrawLine(in Point) 렌더러를 이용하여 특정 지점을 향해 선분을 그립니다. 선언 protected override void OnDrawLine(in Point endPoint) 매개 변수 형식 이름 설명 Point endPoint 선분의 끝점 Overrides PartDrawingContext<StreamGeometryContext, Point>.OnDrawLine(in Point)"
+    "keywords": "OnDrawLine 메서드 소스 보기 OnDrawLine(in Point) 렌더러를 이용하여 특정 지점을 향해 선분을 그립니다. 선언 protected override void OnDrawLine(in Point endPoint) 매개 변수 형식 이름 설명 Point endPoint 선분의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<System.Windows.Media.StreamGeometryContext, System.Windows.Point>.OnDrawLine(in System.Windows.Point)"
   },
   "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawQuadraticBezier.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.OnDrawQuadraticBezier.html",
     "title": "OnDrawQuadraticBezier 메서드 | Vagabond K's Libraries",
-    "keywords": "OnDrawQuadraticBezier 메서드 소스 보기 OnDrawQuadraticBezier(in Point, in Point) 렌더러를 이용하여 2차 베지어 곡선을 그립니다. 선언 protected override void OnDrawQuadraticBezier(in Point controlPoint, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides PartDrawingContext<StreamGeometryContext, Point>.OnDrawQuadraticBezier(in Point, in Point)"
+    "keywords": "OnDrawQuadraticBezier 메서드 소스 보기 OnDrawQuadraticBezier(in Point, in Point) 렌더러를 이용하여 2차 베지어 곡선을 그립니다. 선언 protected override void OnDrawQuadraticBezier(in Point controlPoint, in Point endPoint) 매개 변수 형식 이름 설명 Point controlPoint 컨트롤 포인트 Point endPoint 곡선의 끝점 Overrides VagabondK.Indicators.PartDrawingContext<System.Windows.Media.StreamGeometryContext, System.Windows.Point>.OnDrawQuadraticBezier(in System.Windows.Point, in System.Windows.Point)"
   },
   "api/VagabondK.Indicators.Windows.PartDrawingContext.html": {
     "href": "api/VagabondK.Indicators.Windows.PartDrawingContext.html",
@@ -7937,7 +7917,7 @@
   "api/VagabondK.Protocols.LSElectric.DeviceType.html": {
     "href": "api/VagabondK.Protocols.LSElectric.DeviceType.html",
     "title": "DeviceType 열거형 | Vagabond K's Libraries",
-    "keywords": "DeviceType 열거형 LS ELECTRIC(구 LS산전) PLC 디바이스 영역 네임스페이스: VagabondK.Protocols.LSElectric 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public enum DeviceType : byte 필드 이름 설명 C C, 카운터 D D, 데이터 레지스터 F F, 특수 릴레이 K K, 정전시 상태 유지 릴레이 L L, 링크 릴레이 M M, 내부 릴레이 N 통신 모듈의 P2P 서비스 주소 영역 P P, 입출력 릴레이 R 플래시 메모리 전용 영역 S S, 스텝 릴레이 T T, 타이머 U U, 아날로그 리프레시 Unknown 알 수 없음 Z Z, 인덱스 전용 레지스터 확장 메서드 GenericValueConverter.To<DeviceType, TTarget>(DeviceType)"
+    "keywords": "DeviceType 열거형 LS ELECTRIC(구 LS산전) PLC 디바이스 영역 네임스페이스: VagabondK.Protocols.LSElectric 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public enum DeviceType : byte 필드 이름 설명 C C, 카운터 D D, 데이터 레지스터 F F, 특수 릴레이 I 입력 변수 K K, 정전시 상태 유지 릴레이 L L, 링크 릴레이 M M, 내부 릴레이 N 통신 모듈의 P2P 서비스 주소 영역 P P, 입출력 릴레이 Q 출력 변수 R 플래시 메모리 전용 영역 S S, 스텝 릴레이 T T, 타이머 U U, 아날로그 리프레시 Unknown 알 수 없음 W 플래시 메모리 전용 영역 Z Z, 인덱스 전용 레지스터 확장 메서드 GenericValueConverter.To<DeviceType, TTarget>(DeviceType)"
   },
   "api/VagabondK.Protocols.LSElectric.DeviceValue.-ctor.html": {
     "href": "api/VagabondK.Protocols.LSElectric.DeviceValue.-ctor.html",
@@ -8187,7 +8167,7 @@
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.UseHexBitIndex.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.UseHexBitIndex.html",
     "title": "UseHexBitIndex 속성 | Vagabond K's Libraries",
-    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가한 옵션입니다. 감사합니다. 선언 public bool UseHexBitIndex { get; set; } 속성 값 형식 설명 bool"
+    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 워드 단위 인덱스와 함께 비트 자리수를 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가되었으며, '박일두'님의 제보로 추가 개선된 옵션입니다. 감사합니다. 선언 public bool UseHexBitIndex { get; set; } 속성 값 형식 설명 bool"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Write.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.Write.html",
@@ -8197,7 +8177,7 @@
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetClient.html",
     "title": "FEnetClient 클래스 | Vagabond K's Libraries",
-    "keywords": "FEnetClient 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 기반 클라이언트입니다. XGT 시리즈 제품의 FEnet I/F 모듈과 통신 가능합니다. 상속 object FEnetClient 구현 IDisposable 네임스페이스: VagabondK.Protocols.LSElectric.FEnet 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public class FEnetClient : IDisposable 생성자 이름 설명 FEnetClient() 생성자 FEnetClient(IChannel) 생성자 속성 이름 설명 Channel 통신 채널 CompanyID 메시지 헤더의 CompanyID. 기본값은 LSIS-XGT. 단종된 모델에서는 LGIS-GLOFA를 사용할 수도 있음. ThrowsExceptionFromNAK NAK에 대한 예외 발생 여부 Timeout 응답 제한시간(밀리초) UseChecksum 기본적으로 체크섬을 사용할 것인지 여부, 기본값은 true UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가한 옵션입니다. 감사합니다. 메서드 이름 설명 Dispose() 리소스 해제 Read(IEnumerable<DeviceVariable>) 개별 디바이스 변수 읽기 Read(int, IEnumerable<DeviceVariable>) 개별 디바이스 변수 읽기 Read(int, DeviceType, uint, int) 연속 바이트 디바이스 변수 읽기 Read(int, DeviceVariable, int) 연속 디바이스 변수 읽기 Read(int, DeviceVariable, params DeviceVariable[]) 개별 디바이스 변수 읽기 Read(DeviceType, uint, int) 연속 바이트 디바이스 변수 읽기 Read(DeviceVariable, int) 연속 디바이스 변수 읽기 Read(DeviceVariable, params DeviceVariable[]) 개별 디바이스 변수 읽기 Request(int, FEnetRequest) FEnet 요청하기 Request(FEnetRequest) FEnet 요청하기 Write(IEnumerable<KeyValuePair<DeviceVariable, DeviceValue>>) 개별 디바이스 변수 쓰기 Write(int, IEnumerable<KeyValuePair<DeviceVariable, DeviceValue>>) 개별 디바이스 변수 쓰기 Write(int, (DeviceVariable, DeviceValue), params (DeviceVariable, DeviceValue)[]) 개별 디바이스 변수 쓰기 Write(int, DeviceType, uint, byte, params byte[]) 연속 디바이스 변수 쓰기 Write(int, DeviceType, uint, IEnumerable<byte>) 연속 디바이스 변수 쓰기 Write(int, DeviceVariable, DeviceValue) 개별 디바이스 변수 쓰기 Write((DeviceVariable, DeviceValue), params (DeviceVariable, DeviceValue)[]) 개별 디바이스 변수 쓰기 Write(DeviceType, uint, byte, params byte[]) 연속 디바이스 변수 쓰기 Write(DeviceType, uint, IEnumerable<byte>) 연속 디바이스 변수 쓰기 Write(DeviceVariable, DeviceValue) 개별 디바이스 변수 쓰기 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "FEnetClient 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 기반 클라이언트입니다. XGT 시리즈 제품의 FEnet I/F 모듈과 통신 가능합니다. 상속 object FEnetClient 구현 IDisposable 네임스페이스: VagabondK.Protocols.LSElectric.FEnet 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public class FEnetClient : IDisposable 생성자 이름 설명 FEnetClient() 생성자 FEnetClient(IChannel) 생성자 속성 이름 설명 Channel 통신 채널 CompanyID 메시지 헤더의 CompanyID. 기본값은 LSIS-XGT. 단종된 모델에서는 LGIS-GLOFA를 사용할 수도 있음. ThrowsExceptionFromNAK NAK에 대한 예외 발생 여부 Timeout 응답 제한시간(밀리초) UseChecksum 기본적으로 체크섬을 사용할 것인지 여부, 기본값은 true UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 워드 단위 인덱스와 함께 비트 자리수를 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가되었으며, '박일두'님의 제보로 추가 개선된 옵션입니다. 감사합니다. 메서드 이름 설명 Dispose() 리소스 해제 Read(IEnumerable<DeviceVariable>) 개별 디바이스 변수 읽기 Read(int, IEnumerable<DeviceVariable>) 개별 디바이스 변수 읽기 Read(int, DeviceType, uint, int) 연속 바이트 디바이스 변수 읽기 Read(int, DeviceVariable, int) 연속 디바이스 변수 읽기 Read(int, DeviceVariable, params DeviceVariable[]) 개별 디바이스 변수 읽기 Read(DeviceType, uint, int) 연속 바이트 디바이스 변수 읽기 Read(DeviceVariable, int) 연속 디바이스 변수 읽기 Read(DeviceVariable, params DeviceVariable[]) 개별 디바이스 변수 읽기 Request(int, FEnetRequest) FEnet 요청하기 Request(FEnetRequest) FEnet 요청하기 Write(IEnumerable<KeyValuePair<DeviceVariable, DeviceValue>>) 개별 디바이스 변수 쓰기 Write(int, IEnumerable<KeyValuePair<DeviceVariable, DeviceValue>>) 개별 디바이스 변수 쓰기 Write(int, (DeviceVariable, DeviceValue), params (DeviceVariable, DeviceValue)[]) 개별 디바이스 변수 쓰기 Write(int, DeviceType, uint, byte, params byte[]) 연속 디바이스 변수 쓰기 Write(int, DeviceType, uint, IEnumerable<byte>) 연속 디바이스 변수 쓰기 Write(int, DeviceVariable, DeviceValue) 개별 디바이스 변수 쓰기 Write((DeviceVariable, DeviceValue), params (DeviceVariable, DeviceValue)[]) 개별 디바이스 변수 쓰기 Write(DeviceType, uint, byte, params byte[]) 연속 디바이스 변수 쓰기 Write(DeviceType, uint, IEnumerable<byte>) 연속 디바이스 변수 쓰기 Write(DeviceVariable, DeviceValue) 개별 디바이스 변수 쓰기 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetCommErrorCode.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetCommErrorCode.html",
@@ -8537,12 +8517,12 @@
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetRequest.UseHexBitIndex.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetRequest.UseHexBitIndex.html",
     "title": "UseHexBitIndex 속성 | Vagabond K's Libraries",
-    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. 이 속성을 null로 설정하면 FEnetClient의 UseHexBitIndex 값을 따릅니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가한 옵션입니다. 감사합니다. 선언 public bool? UseHexBitIndex { get; set; } 속성 값 형식 설명 bool?"
+    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 워드 단위 인덱스와 함께 비트 자리수를 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. 이 속성을 null로 설정하면 FEnetClient의 UseHexBitIndex 값을 따릅니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가되었으며, '박일두'님의 제보로 추가 개선된 옵션입니다. 감사합니다. 선언 public bool? UseHexBitIndex { get; set; } 속성 값 형식 설명 bool?"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetRequest.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetRequest.html",
     "title": "FEnetRequest 클래스 | Vagabond K's Libraries",
-    "keywords": "FEnetRequest 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 요청 메시지 상속 object FEnetMessage FEnetRequest FEnetReadRequest FEnetWriteRequest 구현 IRequest<FEnetCommErrorCode> IRequest IProtocolMessage ICloneable 상속된 멤버 FEnetMessage.InvokeID FEnetMessage.Command FEnetMessage.DataType FEnetMessage.InvalidateFrameData() FEnetMessage.SetProperty<TProperty>(ref TProperty, TProperty) FEnetMessage.Serialize(string, bool) 네임스페이스: VagabondK.Protocols.LSElectric.FEnet 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public abstract class FEnetRequest : FEnetMessage, IRequest<FEnetCommErrorCode>, IRequest, IProtocolMessage, ICloneable 생성자 이름 설명 FEnetRequest(FEnetCommand, FEnetDataType) 생성자 속성 이름 설명 BlockCount 블록 수 SourceOfFrame 통신 메시지의 소스. 클라이언트(HMI): 0x33 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. 이 속성을 null로 설정하면 FEnetClient의 UseHexBitIndex 값을 따릅니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가한 옵션입니다. 감사합니다. 메서드 이름 설명 Clone() 요청 메시지 복제 OnCreateDataFrame() 데이터 프레임 생성 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "FEnetRequest 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 요청 메시지 상속 object FEnetMessage FEnetRequest FEnetReadRequest FEnetWriteRequest 구현 IRequest<FEnetCommErrorCode> IRequest IProtocolMessage ICloneable 상속된 멤버 FEnetMessage.InvokeID FEnetMessage.Command FEnetMessage.DataType FEnetMessage.InvalidateFrameData() FEnetMessage.SetProperty<TProperty>(ref TProperty, TProperty) FEnetMessage.Serialize(string, bool) 네임스페이스: VagabondK.Protocols.LSElectric.FEnet 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public abstract class FEnetRequest : FEnetMessage, IRequest<FEnetCommErrorCode>, IRequest, IProtocolMessage, ICloneable 생성자 이름 설명 FEnetRequest(FEnetCommand, FEnetDataType) 생성자 속성 이름 설명 BlockCount 블록 수 SourceOfFrame 통신 메시지의 소스. 클라이언트(HMI): 0x33 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 워드 단위 인덱스와 함께 비트 자리수를 16진수로 전송합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 전송합니다. 이 속성을 null로 설정하면 FEnetClient의 UseHexBitIndex 값을 따릅니다. XGB PLC에서 비트를 읽거나 쓸 때 엉뚱한 비트가 읽히거나 쓰인다면 true로 설정해서 테스트 해보시기 바랍니다. '라이스'님의 제보로 추가되었으며, '박일두'님의 제보로 추가 개선된 옵션입니다. 감사합니다. 메서드 이름 설명 Clone() 요청 메시지 복제 OnCreateDataFrame() 데이터 프레임 생성 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.FEnetResponse.EthernetModuleBase.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.FEnetResponse.EthernetModuleBase.html",
@@ -8927,12 +8907,12 @@
   "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService.UseHexBitIndex.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService.UseHexBitIndex.html",
     "title": "UseHexBitIndex 속성 | Vagabond K's Libraries",
-    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 인식합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 인식합니다. 선언 public bool UseHexBitIndex { get; set; } 속성 값 형식 설명 bool"
+    "keywords": "UseHexBitIndex 속성 소스 보기 UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 문자열 오른쪽 끝을 16진수로 인식하고 그 이외의 자리수는 워드 단위 인덱스로 해석합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 인식합니다. 선언 public bool UseHexBitIndex { get; set; } 속성 값 형식 설명 bool"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.FEnetSimulationService.html",
     "title": "FEnetSimulationService 클래스 | Vagabond K's Libraries",
-    "keywords": "FEnetSimulationService 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 시뮬레이터 서비스입니다. FEnet 클라이언트를 테스트하는 용도로 사용 가능합니다. 상속 object FEnetSimulationService 구현 IDisposable 네임스페이스: VagabondK.Protocols.LSElectric.FEnet.Simulation 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public class FEnetSimulationService : IDisposable 생성자 이름 설명 FEnetSimulationService() 생성자 FEnetSimulationService(IChannel) 생성자 속성 이름 설명 Channel 통신 채널 ChannelTimeout 채널 유지 제한시간(밀리세컨드 단위). 이 시간 동안 요청이 발생하지 않으면 채널을 닫습니다. 기본값은 10000(10초)이고, 0이면 채널을 항상 유지합니다. CompanyID 메시지 헤더의 CompanyID. 기본값은 LSIS-XGT. 단종된 모델에서는 LGIS-GLOFA를 사용할 수도 있음. EthernetModuleBase 이더넷 모듈의 베이스(Base) 번호. EthernetModuleSlot 이더넷 모듈의 슬롯(Slot) 번호. PlcInfo PLC의 CPU 타입 및 상태 정보. 자세한 내용은 매뉴얼 참조 바람. UseChecksum 기본적으로 체크섬을 사용할 것인지 여부, 기본값은 true UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 16진수로 인식합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 인식합니다. 메서드 이름 설명 Dispose() 리소스 해제 이벤트 이름 설명 RequestedReadContinuous 연속 읽기 요청 이벤트 RequestedReadIndividual 개별 읽기 요청 이벤트 RequestedWriteContinuous 연속 쓰기 요청 이벤트 RequestedWriteIndividual 개별 쓰기 요청 이벤트 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "FEnetSimulationService 클래스 LS ELECTRIC(구 LS산전) FEnet 프로토콜 시뮬레이터 서비스입니다. FEnet 클라이언트를 테스트하는 용도로 사용 가능합니다. 상속 object FEnetSimulationService 구현 IDisposable 네임스페이스: VagabondK.Protocols.LSElectric.FEnet.Simulation 어셈블리: VagabondK.Protocols.LSElectric.dll 구문 public class FEnetSimulationService : IDisposable 생성자 이름 설명 FEnetSimulationService() 생성자 FEnetSimulationService(IChannel) 생성자 속성 이름 설명 Channel 통신 채널 ChannelTimeout 채널 유지 제한시간(밀리세컨드 단위). 이 시간 동안 요청이 발생하지 않으면 채널을 닫습니다. 기본값은 10000(10초)이고, 0이면 채널을 항상 유지합니다. CompanyID 메시지 헤더의 CompanyID. 기본값은 LSIS-XGT. 단종된 모델에서는 LGIS-GLOFA를 사용할 수도 있음. EthernetModuleBase 이더넷 모듈의 베이스(Base) 번호. EthernetModuleSlot 이더넷 모듈의 슬롯(Slot) 번호. PlcInfo PLC의 CPU 타입 및 상태 정보. 자세한 내용은 매뉴얼 참조 바람. UseChecksum 기본적으로 체크섬을 사용할 것인지 여부, 기본값은 true UseHexBitIndex 비트 변수의 인덱스를 16진수로 통신할지 여부를 결정합니다. P, M, L, K, F 이면서 Bit일 경우 문자열 오른쪽 끝을 16진수로 인식하고 그 이외의 자리수는 워드 단위 인덱스로 해석합니다. 그 외에는 인덱스가 .으로 나누어져있고 Bit일 경우 마지막 자리만 16진수로 인식합니다. 메서드 이름 설명 Dispose() 리소스 해제 이벤트 이름 설명 RequestedReadContinuous 연속 읽기 요청 이벤트 RequestedReadIndividual 개별 읽기 요청 이벤트 RequestedWriteContinuous 연속 쓰기 요청 이벤트 RequestedWriteIndividual 개별 쓰기 요청 이벤트 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.html": {
     "href": "api/VagabondK.Protocols.LSElectric.FEnet.Simulation.html",
@@ -11522,7 +11502,7 @@
   "api/VagabondK.Windows.ThemeMessageBoxContentControl.OnApplyTemplate.html": {
     "href": "api/VagabondK.Windows.ThemeMessageBoxContentControl.OnApplyTemplate.html",
     "title": "OnApplyTemplate 메서드 | Vagabond K's Libraries",
-    "keywords": "OnApplyTemplate 메서드 소스 보기 OnApplyTemplate() When overridden in a derived class, is invoked whenever application code or internal processes call System.Windows.FrameworkElement.ApplyTemplate. 선언 public override void OnApplyTemplate() Overrides FrameworkElement.OnApplyTemplate()"
+    "keywords": "OnApplyTemplate 메서드 소스 보기 OnApplyTemplate() When overridden in a derived class, is invoked whenever application code or internal processes call System.Windows.FrameworkElement.ApplyTemplate. 선언 public override void OnApplyTemplate() Overrides System.Windows.FrameworkElement.OnApplyTemplate()"
   },
   "api/VagabondK.Windows.ThemeMessageBoxContentControl.html": {
     "href": "api/VagabondK.Windows.ThemeMessageBoxContentControl.html",
@@ -11572,7 +11552,7 @@
   "api/VagabondK.Windows.ThemeRibbonWindow.OnPropertyChanged.html": {
     "href": "api/VagabondK.Windows.ThemeRibbonWindow.OnPropertyChanged.html",
     "title": "OnPropertyChanged 메서드 | Vagabond K's Libraries",
-    "keywords": "OnPropertyChanged 메서드 소스 보기 OnPropertyChanged(DependencyPropertyChangedEventArgs) 이 System.Windows.FrameworkElement에서 종속성 속성의 유효 값이 업데이트될 때마다 호출됩니다. 변경된 특정 종속성 속성이 인수 매개 변수에서 보고됩니다. System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)를 재정의합니다. 선언 protected override void OnPropertyChanged(DependencyPropertyChangedEventArgs e) 매개 변수 형식 이름 설명 DependencyPropertyChangedEventArgs e 기존 값과 새 값 그리고 변경된 속성을 설명하는 이벤트 데이터입니다. Overrides FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs)"
+    "keywords": "OnPropertyChanged 메서드 소스 보기 OnPropertyChanged(DependencyPropertyChangedEventArgs) 이 System.Windows.FrameworkElement에서 종속성 속성의 유효 값이 업데이트될 때마다 호출됩니다. 변경된 특정 종속성 속성이 인수 매개 변수에서 보고됩니다. System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)를 재정의합니다. 선언 protected override void OnPropertyChanged(DependencyPropertyChangedEventArgs e) 매개 변수 형식 이름 설명 DependencyPropertyChangedEventArgs e 기존 값과 새 값 그리고 변경된 속성을 설명하는 이벤트 데이터입니다. Overrides System.Windows.FrameworkElement.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)"
   },
   "api/VagabondK.Windows.ThemeRibbonWindow.html": {
     "href": "api/VagabondK.Windows.ThemeRibbonWindow.html",

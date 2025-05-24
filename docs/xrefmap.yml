@@ -12299,6 +12299,141 @@ references:
   commentId: T:VagabondK.Interface.Abstractions.IWaitSendingInterface
   fullName: VagabondK.Interface.Abstractions.IWaitSendingInterface
   nameWithType: IWaitSendingInterface
+- uid: VagabondK.Interface.Abstractions.Interface
+  name: Interface
+  href: api/VagabondK.Interface.Abstractions.Interface.html
+  commentId: T:VagabondK.Interface.Abstractions.Interface
+  fullName: VagabondK.Interface.Abstractions.Interface
+  nameWithType: Interface
+- uid: VagabondK.Interface.Abstractions.Interface.Dispose
+  name: Dispose()
+  href: api/VagabondK.Interface.Abstractions.Interface.Dispose.html#VagabondK_Interface_Abstractions_Interface_Dispose
+  commentId: M:VagabondK.Interface.Abstractions.Interface.Dispose
+  fullName: VagabondK.Interface.Abstractions.Interface.Dispose()
+  nameWithType: Interface.Dispose()
+- uid: VagabondK.Interface.Abstractions.Interface.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/VagabondK.Interface.Abstractions.Interface.Dispose.html#VagabondK_Interface_Abstractions_Interface_Dispose_System_Boolean_
+  commentId: M:VagabondK.Interface.Abstractions.Interface.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: VagabondK.Interface.Abstractions.Interface.Dispose(bool)
+  fullName.vb: VagabondK.Interface.Abstractions.Interface.Dispose(Boolean)
+  nameWithType: Interface.Dispose(bool)
+  nameWithType.vb: Interface.Dispose(Boolean)
+- uid: VagabondK.Interface.Abstractions.Interface.Dispose*
+  name: Dispose
+  href: api/VagabondK.Interface.Abstractions.Interface.Dispose.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.Dispose
+  fullName: VagabondK.Interface.Abstractions.Interface.Dispose
+  nameWithType: Interface.Dispose
+- uid: VagabondK.Interface.Abstractions.Interface.Finalize
+  name: ~Interface()
+  href: api/VagabondK.Interface.Abstractions.Interface.Finalize.html#VagabondK_Interface_Abstractions_Interface_Finalize
+  commentId: M:VagabondK.Interface.Abstractions.Interface.Finalize
+  name.vb: ''
+  fullName: VagabondK.Interface.Abstractions.Interface.~Interface()
+  fullName.vb: ''
+  nameWithType: Interface.~Interface()
+  nameWithType.vb: ''
+- uid: VagabondK.Interface.Abstractions.Interface.Finalize*
+  name: ~Interface
+  href: api/VagabondK.Interface.Abstractions.Interface.Finalize.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.Finalize
+  fullName: VagabondK.Interface.Abstractions.Interface.~Interface
+  nameWithType: Interface.~Interface
+- uid: VagabondK.Interface.Abstractions.Interface.IsRunning
+  name: IsRunning
+  href: api/VagabondK.Interface.Abstractions.Interface.IsRunning.html#VagabondK_Interface_Abstractions_Interface_IsRunning
+  commentId: P:VagabondK.Interface.Abstractions.Interface.IsRunning
+  fullName: VagabondK.Interface.Abstractions.Interface.IsRunning
+  nameWithType: Interface.IsRunning
+- uid: VagabondK.Interface.Abstractions.Interface.IsRunning*
+  name: IsRunning
+  href: api/VagabondK.Interface.Abstractions.Interface.IsRunning.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.IsRunning
+  fullName: VagabondK.Interface.Abstractions.Interface.IsRunning
+  nameWithType: Interface.IsRunning
+- uid: VagabondK.Interface.Abstractions.Interface.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.Abstractions.Interface.OnStart.html#VagabondK_Interface_Abstractions_Interface_OnStart
+  commentId: M:VagabondK.Interface.Abstractions.Interface.OnStart
+  fullName: VagabondK.Interface.Abstractions.Interface.OnStart()
+  nameWithType: Interface.OnStart()
+- uid: VagabondK.Interface.Abstractions.Interface.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.Abstractions.Interface.OnStart.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.OnStart
+  fullName: VagabondK.Interface.Abstractions.Interface.OnStart
+  nameWithType: Interface.OnStart
+- uid: VagabondK.Interface.Abstractions.Interface.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.Abstractions.Interface.OnStop.html#VagabondK_Interface_Abstractions_Interface_OnStop
+  commentId: M:VagabondK.Interface.Abstractions.Interface.OnStop
+  fullName: VagabondK.Interface.Abstractions.Interface.OnStop()
+  nameWithType: Interface.OnStop()
+- uid: VagabondK.Interface.Abstractions.Interface.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.Abstractions.Interface.OnStop.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.OnStop
+  fullName: VagabondK.Interface.Abstractions.Interface.OnStop
+  nameWithType: Interface.OnStop
+- uid: VagabondK.Interface.Abstractions.Interface.PointType
+  name: PointType
+  href: api/VagabondK.Interface.Abstractions.Interface.PointType.html#VagabondK_Interface_Abstractions_Interface_PointType
+  commentId: P:VagabondK.Interface.Abstractions.Interface.PointType
+  fullName: VagabondK.Interface.Abstractions.Interface.PointType
+  nameWithType: Interface.PointType
+- uid: VagabondK.Interface.Abstractions.Interface.PointType*
+  name: PointType
+  href: api/VagabondK.Interface.Abstractions.Interface.PointType.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.PointType
+  fullName: VagabondK.Interface.Abstractions.Interface.PointType
+  nameWithType: Interface.PointType
+- uid: VagabondK.Interface.Abstractions.Interface.PropertyChanged
+  name: PropertyChanged
+  href: api/VagabondK.Interface.Abstractions.Interface.PropertyChanged.html
+  commentId: E:VagabondK.Interface.Abstractions.Interface.PropertyChanged
+  fullName: VagabondK.Interface.Abstractions.Interface.PropertyChanged
+  nameWithType: Interface.PropertyChanged
+- uid: VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged(System.String)
+  name: RaisePropertyChanged(string)
+  href: api/VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged.html#VagabondK_Interface_Abstractions_Interface_RaisePropertyChanged_System_String_
+  commentId: M:VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged(System.String)
+  name.vb: RaisePropertyChanged(String)
+  fullName: VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged(string)
+  fullName.vb: VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged(String)
+  nameWithType: Interface.RaisePropertyChanged(string)
+  nameWithType.vb: Interface.RaisePropertyChanged(String)
+- uid: VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged*
+  name: RaisePropertyChanged
+  href: api/VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged
+  fullName: VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged
+  nameWithType: Interface.RaisePropertyChanged
+- uid: VagabondK.Interface.Abstractions.Interface.Start
+  name: Start()
+  href: api/VagabondK.Interface.Abstractions.Interface.Start.html#VagabondK_Interface_Abstractions_Interface_Start
+  commentId: M:VagabondK.Interface.Abstractions.Interface.Start
+  fullName: VagabondK.Interface.Abstractions.Interface.Start()
+  nameWithType: Interface.Start()
+- uid: VagabondK.Interface.Abstractions.Interface.Start*
+  name: Start
+  href: api/VagabondK.Interface.Abstractions.Interface.Start.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.Start
+  fullName: VagabondK.Interface.Abstractions.Interface.Start
+  nameWithType: Interface.Start
+- uid: VagabondK.Interface.Abstractions.Interface.Stop
+  name: Stop()
+  href: api/VagabondK.Interface.Abstractions.Interface.Stop.html#VagabondK_Interface_Abstractions_Interface_Stop
+  commentId: M:VagabondK.Interface.Abstractions.Interface.Stop
+  fullName: VagabondK.Interface.Abstractions.Interface.Stop()
+  nameWithType: Interface.Stop()
+- uid: VagabondK.Interface.Abstractions.Interface.Stop*
+  name: Stop
+  href: api/VagabondK.Interface.Abstractions.Interface.Stop.html
+  commentId: Overload:VagabondK.Interface.Abstractions.Interface.Stop
+  fullName: VagabondK.Interface.Abstractions.Interface.Stop
+  nameWithType: Interface.Stop
 - uid: VagabondK.Interface.Abstractions.InterfaceAttribute
   name: InterfaceAttribute
   href: api/VagabondK.Interface.Abstractions.InterfaceAttribute.html
@@ -13012,31 +13147,6 @@ references:
   fullName.vb: VagabondK.Interface.Abstractions.Interface(Of TPoint).OnRemoved
   nameWithType: Interface<TPoint>.OnRemoved
   nameWithType.vb: Interface(Of TPoint).OnRemoved
-- uid: VagabondK.Interface.Abstractions.Interface`1.PropertyChanged
-  name: PropertyChanged
-  href: api/VagabondK.Interface.Abstractions.Interface-1.PropertyChanged.html
-  commentId: E:VagabondK.Interface.Abstractions.Interface`1.PropertyChanged
-  fullName: VagabondK.Interface.Abstractions.Interface<TPoint>.PropertyChanged
-  fullName.vb: VagabondK.Interface.Abstractions.Interface(Of TPoint).PropertyChanged
-  nameWithType: Interface<TPoint>.PropertyChanged
-  nameWithType.vb: Interface(Of TPoint).PropertyChanged
-- uid: VagabondK.Interface.Abstractions.Interface`1.RaisePropertyChanged(System.String)
-  name: RaisePropertyChanged(string)
-  href: api/VagabondK.Interface.Abstractions.Interface-1.RaisePropertyChanged.html#VagabondK_Interface_Abstractions_Interface_1_RaisePropertyChanged_System_String_
-  commentId: M:VagabondK.Interface.Abstractions.Interface`1.RaisePropertyChanged(System.String)
-  name.vb: RaisePropertyChanged(String)
-  fullName: VagabondK.Interface.Abstractions.Interface<TPoint>.RaisePropertyChanged(string)
-  fullName.vb: VagabondK.Interface.Abstractions.Interface(Of TPoint).RaisePropertyChanged(String)
-  nameWithType: Interface<TPoint>.RaisePropertyChanged(string)
-  nameWithType.vb: Interface(Of TPoint).RaisePropertyChanged(String)
-- uid: VagabondK.Interface.Abstractions.Interface`1.RaisePropertyChanged*
-  name: RaisePropertyChanged
-  href: api/VagabondK.Interface.Abstractions.Interface-1.RaisePropertyChanged.html
-  commentId: Overload:VagabondK.Interface.Abstractions.Interface`1.RaisePropertyChanged
-  fullName: VagabondK.Interface.Abstractions.Interface<TPoint>.RaisePropertyChanged
-  fullName.vb: VagabondK.Interface.Abstractions.Interface(Of TPoint).RaisePropertyChanged
-  nameWithType: Interface<TPoint>.RaisePropertyChanged
-  nameWithType.vb: Interface(Of TPoint).RaisePropertyChanged
 - uid: VagabondK.Interface.Abstractions.Interface`1.Remove(`0)
   name: Remove(TPoint)
   href: api/VagabondK.Interface.Abstractions.Interface-1.Remove.html#VagabondK_Interface_Abstractions_Interface_1_Remove__0_
@@ -13159,63 +13269,6 @@ references:
   fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).New
   nameWithType: PollingInterface<TPoint>.PollingInterface
   nameWithType.vb: PollingInterface(Of TPoint).New
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Dispose
-  name: Dispose()
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Dispose.html#VagabondK_Interface_Abstractions_PollingInterface_1_Dispose
-  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.Dispose
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Dispose()
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Dispose()
-  nameWithType: PollingInterface<TPoint>.Dispose()
-  nameWithType.vb: PollingInterface(Of TPoint).Dispose()
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Dispose(System.Boolean)
-  name: Dispose(bool)
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Dispose.html#VagabondK_Interface_Abstractions_PollingInterface_1_Dispose_System_Boolean_
-  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.Dispose(System.Boolean)
-  name.vb: Dispose(Boolean)
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Dispose(bool)
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Dispose(Boolean)
-  nameWithType: PollingInterface<TPoint>.Dispose(bool)
-  nameWithType.vb: PollingInterface(Of TPoint).Dispose(Boolean)
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Dispose*
-  name: Dispose
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Dispose.html
-  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.Dispose
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Dispose
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Dispose
-  nameWithType: PollingInterface<TPoint>.Dispose
-  nameWithType.vb: PollingInterface(Of TPoint).Dispose
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.IsRunning
-  name: IsRunning
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.IsRunning.html#VagabondK_Interface_Abstractions_PollingInterface_1_IsRunning
-  commentId: P:VagabondK.Interface.Abstractions.PollingInterface`1.IsRunning
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.IsRunning
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).IsRunning
-  nameWithType: PollingInterface<TPoint>.IsRunning
-  nameWithType.vb: PollingInterface(Of TPoint).IsRunning
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.IsRunning*
-  name: IsRunning
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.IsRunning.html
-  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.IsRunning
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.IsRunning
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).IsRunning
-  nameWithType: PollingInterface<TPoint>.IsRunning
-  nameWithType.vb: PollingInterface(Of TPoint).IsRunning
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnCreatePollingRequests
-  name: OnCreatePollingRequests()
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnCreatePollingRequests.html#VagabondK_Interface_Abstractions_PollingInterface_1_OnCreatePollingRequests
-  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.OnCreatePollingRequests
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnCreatePollingRequests()
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnCreatePollingRequests()
-  nameWithType: PollingInterface<TPoint>.OnCreatePollingRequests()
-  nameWithType.vb: PollingInterface(Of TPoint).OnCreatePollingRequests()
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnCreatePollingRequests*
-  name: OnCreatePollingRequests
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnCreatePollingRequests.html
-  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.OnCreatePollingRequests
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnCreatePollingRequests
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnCreatePollingRequests
-  nameWithType: PollingInterface<TPoint>.OnCreatePollingRequests
-  nameWithType.vb: PollingInterface(Of TPoint).OnCreatePollingRequests
 - uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnPoll
   name: OnPoll()
   href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnPoll.html#VagabondK_Interface_Abstractions_PollingInterface_1_OnPoll
@@ -13232,6 +13285,38 @@ references:
   fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnPoll
   nameWithType: PollingInterface<TPoint>.OnPoll
   nameWithType.vb: PollingInterface(Of TPoint).OnPoll
+- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnStart.html#VagabondK_Interface_Abstractions_PollingInterface_1_OnStart
+  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.OnStart
+  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnStart()
+  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnStart()
+  nameWithType: PollingInterface<TPoint>.OnStart()
+  nameWithType.vb: PollingInterface(Of TPoint).OnStart()
+- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnStart.html
+  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.OnStart
+  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnStart
+  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnStart
+  nameWithType: PollingInterface<TPoint>.OnStart
+  nameWithType.vb: PollingInterface(Of TPoint).OnStart
+- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnStop.html#VagabondK_Interface_Abstractions_PollingInterface_1_OnStop
+  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.OnStop
+  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnStop()
+  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnStop()
+  nameWithType: PollingInterface<TPoint>.OnStop()
+  nameWithType.vb: PollingInterface(Of TPoint).OnStop()
+- uid: VagabondK.Interface.Abstractions.PollingInterface`1.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.OnStop.html
+  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.OnStop
+  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.OnStop
+  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).OnStop
+  nameWithType: PollingInterface<TPoint>.OnStop
+  nameWithType.vb: PollingInterface(Of TPoint).OnStop
 - uid: VagabondK.Interface.Abstractions.PollingInterface`1.Poll
   name: Poll()
   href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Poll.html#VagabondK_Interface_Abstractions_PollingInterface_1_Poll
@@ -13272,38 +13357,6 @@ references:
   fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).PollingTimeSpan
   nameWithType: PollingInterface<TPoint>.PollingTimeSpan
   nameWithType.vb: PollingInterface(Of TPoint).PollingTimeSpan
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Start
-  name: Start()
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Start.html#VagabondK_Interface_Abstractions_PollingInterface_1_Start
-  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.Start
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Start()
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Start()
-  nameWithType: PollingInterface<TPoint>.Start()
-  nameWithType.vb: PollingInterface(Of TPoint).Start()
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Start*
-  name: Start
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Start.html
-  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.Start
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Start
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Start
-  nameWithType: PollingInterface<TPoint>.Start
-  nameWithType.vb: PollingInterface(Of TPoint).Start
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Stop
-  name: Stop()
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Stop.html#VagabondK_Interface_Abstractions_PollingInterface_1_Stop
-  commentId: M:VagabondK.Interface.Abstractions.PollingInterface`1.Stop
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Stop()
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Stop()
-  nameWithType: PollingInterface<TPoint>.Stop()
-  nameWithType.vb: PollingInterface(Of TPoint).Stop()
-- uid: VagabondK.Interface.Abstractions.PollingInterface`1.Stop*
-  name: Stop
-  href: api/VagabondK.Interface.Abstractions.PollingInterface-1.Stop.html
-  commentId: Overload:VagabondK.Interface.Abstractions.PollingInterface`1.Stop
-  fullName: VagabondK.Interface.Abstractions.PollingInterface<TPoint>.Stop
-  fullName.vb: VagabondK.Interface.Abstractions.PollingInterface(Of TPoint).Stop
-  nameWithType: PollingInterface<TPoint>.Stop
-  nameWithType.vb: PollingInterface(Of TPoint).Stop
 - uid: VagabondK.Interface.ErrorDirection
   name: ErrorDirection
   href: api/VagabondK.Interface.ErrorDirection.html
@@ -14095,6 +14148,18 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.Abstractions.PlcPoint.RaisePropertyChanging
   fullName: VagabondK.Interface.LSElectric.Abstractions.PlcPoint.RaisePropertyChanging
   nameWithType: PlcPoint.RaisePropertyChanging
+- uid: VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber.html#VagabondK_Interface_LSElectric_Abstractions_PlcPoint_StationNumber
+  commentId: P:VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber
+  fullName: VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber
+  nameWithType: PlcPoint.StationNumber
+- uid: VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber*
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber.html
+  commentId: Overload:VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber
+  fullName: VagabondK.Interface.LSElectric.Abstractions.PlcPoint.StationNumber
+  nameWithType: PlcPoint.StationNumber
 - uid: VagabondK.Interface.LSElectric.Abstractions.PlcPoint`1
   name: PlcPoint<TValue>
   href: api/VagabondK.Interface.LSElectric.Abstractions.PlcPoint-1.html
@@ -14296,42 +14361,51 @@ references:
   commentId: T:VagabondK.Interface.LSElectric.CnetInterface
   fullName: VagabondK.Interface.LSElectric.CnetInterface
   nameWithType: CnetInterface
-- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte)
-  name: CnetInterface(CnetClient, byte)
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Byte_
-  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte)
-  name.vb: New(CnetClient, Byte)
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, byte)
-  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Byte)
-  nameWithType: CnetInterface.CnetInterface(CnetClient, byte)
-  nameWithType.vb: CnetInterface.New(CnetClient, Byte)
-- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
-  name: CnetInterface(CnetClient, byte, IEnumerable<PlcPoint>)
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Byte_System_Collections_Generic_IEnumerable_VagabondK_Interface_LSElectric_Abstractions_PlcPoint__
-  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
-  name.vb: New(CnetClient, Byte, IEnumerable(Of PlcPoint))
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, byte, System.Collections.Generic.IEnumerable<VagabondK.Interface.LSElectric.Abstractions.PlcPoint>)
-  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Byte, System.Collections.Generic.IEnumerable(Of VagabondK.Interface.LSElectric.Abstractions.PlcPoint))
-  nameWithType: CnetInterface.CnetInterface(CnetClient, byte, IEnumerable<PlcPoint>)
-  nameWithType.vb: CnetInterface.New(CnetClient, Byte, IEnumerable(Of PlcPoint))
-- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Int32)
-  name: CnetInterface(CnetClient, byte, int)
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Byte_System_Int32_
-  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Int32)
-  name.vb: New(CnetClient, Byte, Integer)
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, byte, int)
-  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Byte, Integer)
-  nameWithType: CnetInterface.CnetInterface(CnetClient, byte, int)
-  nameWithType.vb: CnetInterface.New(CnetClient, Byte, Integer)
-- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
-  name: CnetInterface(CnetClient, byte, int, IEnumerable<PlcPoint>)
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Byte_System_Int32_System_Collections_Generic_IEnumerable_VagabondK_Interface_LSElectric_Abstractions_PlcPoint__
-  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Byte,System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
-  name.vb: New(CnetClient, Byte, Integer, IEnumerable(Of PlcPoint))
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, byte, int, System.Collections.Generic.IEnumerable<VagabondK.Interface.LSElectric.Abstractions.PlcPoint>)
-  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Byte, Integer, System.Collections.Generic.IEnumerable(Of VagabondK.Interface.LSElectric.Abstractions.PlcPoint))
-  nameWithType: CnetInterface.CnetInterface(CnetClient, byte, int, IEnumerable<PlcPoint>)
-  nameWithType.vb: CnetInterface.New(CnetClient, Byte, Integer, IEnumerable(Of PlcPoint))
+- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor
+  name: CnetInterface()
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor
+  name.vb: New()
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface()
+  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New()
+  nameWithType: CnetInterface.CnetInterface()
+  nameWithType.vb: CnetInterface.New()
+- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient)
+  name: CnetInterface(CnetClient)
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient)
+  name.vb: New(CnetClient)
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient)
+  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient)
+  nameWithType: CnetInterface.CnetInterface(CnetClient)
+  nameWithType.vb: CnetInterface.New(CnetClient)
+- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
+  name: CnetInterface(CnetClient, IEnumerable<PlcPoint>)
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Collections_Generic_IEnumerable_VagabondK_Interface_LSElectric_Abstractions_PlcPoint__
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
+  name.vb: New(CnetClient, IEnumerable(Of PlcPoint))
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, System.Collections.Generic.IEnumerable<VagabondK.Interface.LSElectric.Abstractions.PlcPoint>)
+  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, System.Collections.Generic.IEnumerable(Of VagabondK.Interface.LSElectric.Abstractions.PlcPoint))
+  nameWithType: CnetInterface.CnetInterface(CnetClient, IEnumerable<PlcPoint>)
+  nameWithType.vb: CnetInterface.New(CnetClient, IEnumerable(Of PlcPoint))
+- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Int32)
+  name: CnetInterface(CnetClient, int)
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Int32_
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Int32)
+  name.vb: New(CnetClient, Integer)
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, int)
+  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Integer)
+  nameWithType: CnetInterface.CnetInterface(CnetClient, int)
+  nameWithType.vb: CnetInterface.New(CnetClient, Integer)
+- uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
+  name: CnetInterface(CnetClient, int, IEnumerable<PlcPoint>)
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html#VagabondK_Interface_LSElectric_CnetInterface__ctor_VagabondK_Protocols_LSElectric_Cnet_CnetClient_System_Int32_System_Collections_Generic_IEnumerable_VagabondK_Interface_LSElectric_Abstractions_PlcPoint__
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.#ctor(VagabondK.Protocols.LSElectric.Cnet.CnetClient,System.Int32,System.Collections.Generic.IEnumerable{VagabondK.Interface.LSElectric.Abstractions.PlcPoint})
+  name.vb: New(CnetClient, Integer, IEnumerable(Of PlcPoint))
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.CnetInterface(VagabondK.Protocols.LSElectric.Cnet.CnetClient, int, System.Collections.Generic.IEnumerable<VagabondK.Interface.LSElectric.Abstractions.PlcPoint>)
+  fullName.vb: VagabondK.Interface.LSElectric.CnetInterface.New(VagabondK.Protocols.LSElectric.Cnet.CnetClient, Integer, System.Collections.Generic.IEnumerable(Of VagabondK.Interface.LSElectric.Abstractions.PlcPoint))
+  nameWithType: CnetInterface.CnetInterface(CnetClient, int, IEnumerable<PlcPoint>)
+  nameWithType.vb: CnetInterface.New(CnetClient, Integer, IEnumerable(Of PlcPoint))
 - uid: VagabondK.Interface.LSElectric.CnetInterface.#ctor*
   name: CnetInterface
   href: api/VagabondK.Interface.LSElectric.CnetInterface.-ctor.html
@@ -14392,18 +14466,6 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.OnAdded
   fullName: VagabondK.Interface.LSElectric.CnetInterface.OnAdded
   nameWithType: CnetInterface.OnAdded
-- uid: VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests
-  name: OnCreatePollingRequests()
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests.html#VagabondK_Interface_LSElectric_CnetInterface_OnCreatePollingRequests
-  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests()
-  nameWithType: CnetInterface.OnCreatePollingRequests()
-- uid: VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests*
-  name: OnCreatePollingRequests
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests.html
-  commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnCreatePollingRequests
-  nameWithType: CnetInterface.OnCreatePollingRequests
 - uid: VagabondK.Interface.LSElectric.CnetInterface.OnPoll
   name: OnPoll()
   href: api/VagabondK.Interface.LSElectric.CnetInterface.OnPoll.html#VagabondK_Interface_LSElectric_CnetInterface_OnPoll
@@ -14428,24 +14490,36 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.OnRemoved
   fullName: VagabondK.Interface.LSElectric.CnetInterface.OnRemoved
   nameWithType: CnetInterface.OnRemoved
+- uid: VagabondK.Interface.LSElectric.CnetInterface.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnStart.html#VagabondK_Interface_LSElectric_CnetInterface_OnStart
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.OnStart
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnStart()
+  nameWithType: CnetInterface.OnStart()
+- uid: VagabondK.Interface.LSElectric.CnetInterface.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnStart.html
+  commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.OnStart
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnStart
+  nameWithType: CnetInterface.OnStart
+- uid: VagabondK.Interface.LSElectric.CnetInterface.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnStop.html#VagabondK_Interface_LSElectric_CnetInterface_OnStop
+  commentId: M:VagabondK.Interface.LSElectric.CnetInterface.OnStop
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnStop()
+  nameWithType: CnetInterface.OnStop()
+- uid: VagabondK.Interface.LSElectric.CnetInterface.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.LSElectric.CnetInterface.OnStop.html
+  commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.OnStop
+  fullName: VagabondK.Interface.LSElectric.CnetInterface.OnStop
+  nameWithType: CnetInterface.OnStop
 - uid: VagabondK.Interface.LSElectric.CnetInterface.PollingCompleted
   name: PollingCompleted
   href: api/VagabondK.Interface.LSElectric.CnetInterface.PollingCompleted.html
   commentId: E:VagabondK.Interface.LSElectric.CnetInterface.PollingCompleted
   fullName: VagabondK.Interface.LSElectric.CnetInterface.PollingCompleted
   nameWithType: CnetInterface.PollingCompleted
-- uid: VagabondK.Interface.LSElectric.CnetInterface.StationNumber
-  name: StationNumber
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.StationNumber.html#VagabondK_Interface_LSElectric_CnetInterface_StationNumber
-  commentId: P:VagabondK.Interface.LSElectric.CnetInterface.StationNumber
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.StationNumber
-  nameWithType: CnetInterface.StationNumber
-- uid: VagabondK.Interface.LSElectric.CnetInterface.StationNumber*
-  name: StationNumber
-  href: api/VagabondK.Interface.LSElectric.CnetInterface.StationNumber.html
-  commentId: Overload:VagabondK.Interface.LSElectric.CnetInterface.StationNumber
-  fullName: VagabondK.Interface.LSElectric.CnetInterface.StationNumber
-  nameWithType: CnetInterface.StationNumber
 - uid: VagabondK.Interface.LSElectric.DoublePoint
   name: DoublePoint
   href: api/VagabondK.Interface.LSElectric.DoublePoint.html
@@ -14503,6 +14577,15 @@ references:
   commentId: T:VagabondK.Interface.LSElectric.FEnetInterface
   fullName: VagabondK.Interface.LSElectric.FEnetInterface
   nameWithType: FEnetInterface
+- uid: VagabondK.Interface.LSElectric.FEnetInterface.#ctor
+  name: FEnetInterface()
+  href: api/VagabondK.Interface.LSElectric.FEnetInterface.-ctor.html#VagabondK_Interface_LSElectric_FEnetInterface__ctor
+  commentId: M:VagabondK.Interface.LSElectric.FEnetInterface.#ctor
+  name.vb: New()
+  fullName: VagabondK.Interface.LSElectric.FEnetInterface.FEnetInterface()
+  fullName.vb: VagabondK.Interface.LSElectric.FEnetInterface.New()
+  nameWithType: FEnetInterface.FEnetInterface()
+  nameWithType.vb: FEnetInterface.New()
 - uid: VagabondK.Interface.LSElectric.FEnetInterface.#ctor(VagabondK.Protocols.LSElectric.FEnet.FEnetClient)
   name: FEnetInterface(FEnetClient)
   href: api/VagabondK.Interface.LSElectric.FEnetInterface.-ctor.html#VagabondK_Interface_LSElectric_FEnetInterface__ctor_VagabondK_Protocols_LSElectric_FEnet_FEnetClient_
@@ -14587,18 +14670,6 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.FEnetInterface.OnAdded
   fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnAdded
   nameWithType: FEnetInterface.OnAdded
-- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests
-  name: OnCreatePollingRequests()
-  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests.html#VagabondK_Interface_LSElectric_FEnetInterface_OnCreatePollingRequests
-  commentId: M:VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests()
-  nameWithType: FEnetInterface.OnCreatePollingRequests()
-- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests*
-  name: OnCreatePollingRequests
-  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests.html
-  commentId: Overload:VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnCreatePollingRequests
-  nameWithType: FEnetInterface.OnCreatePollingRequests
 - uid: VagabondK.Interface.LSElectric.FEnetInterface.OnPoll
   name: OnPoll()
   href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnPoll.html#VagabondK_Interface_LSElectric_FEnetInterface_OnPoll
@@ -14623,6 +14694,30 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.FEnetInterface.OnRemoved
   fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnRemoved
   nameWithType: FEnetInterface.OnRemoved
+- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnStart.html#VagabondK_Interface_LSElectric_FEnetInterface_OnStart
+  commentId: M:VagabondK.Interface.LSElectric.FEnetInterface.OnStart
+  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnStart()
+  nameWithType: FEnetInterface.OnStart()
+- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnStart.html
+  commentId: Overload:VagabondK.Interface.LSElectric.FEnetInterface.OnStart
+  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnStart
+  nameWithType: FEnetInterface.OnStart
+- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnStop.html#VagabondK_Interface_LSElectric_FEnetInterface_OnStop
+  commentId: M:VagabondK.Interface.LSElectric.FEnetInterface.OnStop
+  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnStop()
+  nameWithType: FEnetInterface.OnStop()
+- uid: VagabondK.Interface.LSElectric.FEnetInterface.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.LSElectric.FEnetInterface.OnStop.html
+  commentId: Overload:VagabondK.Interface.LSElectric.FEnetInterface.OnStop
+  fullName: VagabondK.Interface.LSElectric.FEnetInterface.OnStop
+  nameWithType: FEnetInterface.OnStop
 - uid: VagabondK.Interface.LSElectric.FEnetInterface.PollingCompleted
   name: PollingCompleted
   href: api/VagabondK.Interface.LSElectric.FEnetInterface.PollingCompleted.html
@@ -14809,6 +14904,15 @@ references:
   fullName.vb: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.New()
   nameWithType: LSElectricPLCAttribute.LSElectricPLCAttribute()
   nameWithType.vb: LSElectricPLCAttribute.New()
+- uid: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.#ctor(System.Byte)
+  name: LSElectricPLCAttribute(byte)
+  href: api/VagabondK.Interface.LSElectric.LSElectricPLCAttribute.-ctor.html#VagabondK_Interface_LSElectric_LSElectricPLCAttribute__ctor_System_Byte_
+  commentId: M:VagabondK.Interface.LSElectric.LSElectricPLCAttribute.#ctor(System.Byte)
+  name.vb: New(Byte)
+  fullName: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.LSElectricPLCAttribute(byte)
+  fullName.vb: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.New(Byte)
+  nameWithType: LSElectricPLCAttribute.LSElectricPLCAttribute(byte)
+  nameWithType.vb: LSElectricPLCAttribute.New(Byte)
 - uid: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.#ctor*
   name: LSElectricPLCAttribute
   href: api/VagabondK.Interface.LSElectric.LSElectricPLCAttribute.-ctor.html
@@ -14830,6 +14934,18 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.LSElectricPLCAttribute.InterfacePointType
   fullName: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.InterfacePointType
   nameWithType: LSElectricPLCAttribute.InterfacePointType
+- uid: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber.html#VagabondK_Interface_LSElectric_LSElectricPLCAttribute_StationNumber
+  commentId: P:VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber
+  fullName: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber
+  nameWithType: LSElectricPLCAttribute.StationNumber
+- uid: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber*
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber.html
+  commentId: Overload:VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber
+  fullName: VagabondK.Interface.LSElectric.LSElectricPLCAttribute.StationNumber
+  nameWithType: LSElectricPLCAttribute.StationNumber
 - uid: VagabondK.Interface.LSElectric.PlcPointAttribute
   name: PlcPointAttribute
   href: api/VagabondK.Interface.LSElectric.PlcPointAttribute.html
@@ -14845,6 +14961,15 @@ references:
   fullName.vb: VagabondK.Interface.LSElectric.PlcPointAttribute.New(String)
   nameWithType: PlcPointAttribute.PlcPointAttribute(string)
   nameWithType.vb: PlcPointAttribute.New(String)
+- uid: VagabondK.Interface.LSElectric.PlcPointAttribute.#ctor(System.String,System.Byte)
+  name: PlcPointAttribute(string, byte)
+  href: api/VagabondK.Interface.LSElectric.PlcPointAttribute.-ctor.html#VagabondK_Interface_LSElectric_PlcPointAttribute__ctor_System_String_System_Byte_
+  commentId: M:VagabondK.Interface.LSElectric.PlcPointAttribute.#ctor(System.String,System.Byte)
+  name.vb: New(String, Byte)
+  fullName: VagabondK.Interface.LSElectric.PlcPointAttribute.PlcPointAttribute(string, byte)
+  fullName.vb: VagabondK.Interface.LSElectric.PlcPointAttribute.New(String, Byte)
+  nameWithType: PlcPointAttribute.PlcPointAttribute(string, byte)
+  nameWithType.vb: PlcPointAttribute.New(String, Byte)
 - uid: VagabondK.Interface.LSElectric.PlcPointAttribute.#ctor*
   name: PlcPointAttribute
   href: api/VagabondK.Interface.LSElectric.PlcPointAttribute.-ctor.html
@@ -14878,6 +15003,18 @@ references:
   commentId: Overload:VagabondK.Interface.LSElectric.PlcPointAttribute.OnCreatePoint
   fullName: VagabondK.Interface.LSElectric.PlcPointAttribute.OnCreatePoint
   nameWithType: PlcPointAttribute.OnCreatePoint
+- uid: VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber.html#VagabondK_Interface_LSElectric_PlcPointAttribute_StationNumber
+  commentId: P:VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber
+  fullName: VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber
+  nameWithType: PlcPointAttribute.StationNumber
+- uid: VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber*
+  name: StationNumber
+  href: api/VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber.html
+  commentId: Overload:VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber
+  fullName: VagabondK.Interface.LSElectric.PlcPointAttribute.StationNumber
+  nameWithType: PlcPointAttribute.StationNumber
 - uid: VagabondK.Interface.LSElectric.SBytePoint
   name: SBytePoint
   href: api/VagabondK.Interface.LSElectric.SBytePoint.html
@@ -17515,6 +17652,15 @@ references:
   commentId: T:VagabondK.Interface.Modbus.ModbusMasterInterface
   fullName: VagabondK.Interface.Modbus.ModbusMasterInterface
   nameWithType: ModbusMasterInterface
+- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor
+  name: ModbusMasterInterface()
+  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor
+  commentId: M:VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor
+  name.vb: New()
+  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.ModbusMasterInterface()
+  fullName.vb: VagabondK.Interface.Modbus.ModbusMasterInterface.New()
+  nameWithType: ModbusMasterInterface.ModbusMasterInterface()
+  nameWithType.vb: ModbusMasterInterface.New()
 - uid: VagabondK.Interface.Modbus.ModbusMasterInterface.#ctor(VagabondK.Protocols.Modbus.ModbusMaster)
   name: ModbusMasterInterface(ModbusMaster)
   href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusMasterInterface__ctor_VagabondK_Protocols_Modbus_ModbusMaster_
@@ -17623,18 +17769,6 @@ references:
   commentId: Overload:VagabondK.Interface.Modbus.ModbusMasterInterface.OnAdded
   fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnAdded
   nameWithType: ModbusMasterInterface.OnAdded
-- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests
-  name: OnCreatePollingRequests()
-  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnCreatePollingRequests
-  commentId: M:VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests()
-  nameWithType: ModbusMasterInterface.OnCreatePollingRequests()
-- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests*
-  name: OnCreatePollingRequests
-  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests.html
-  commentId: Overload:VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests
-  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnCreatePollingRequests
-  nameWithType: ModbusMasterInterface.OnCreatePollingRequests
 - uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnPoll
   name: OnPoll()
   href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnPoll.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnPoll
@@ -17659,6 +17793,30 @@ references:
   commentId: Overload:VagabondK.Interface.Modbus.ModbusMasterInterface.OnRemoved
   fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnRemoved
   nameWithType: ModbusMasterInterface.OnRemoved
+- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnStart
+  commentId: M:VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart
+  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart()
+  nameWithType: ModbusMasterInterface.OnStart()
+- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart.html
+  commentId: Overload:VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart
+  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStart
+  nameWithType: ModbusMasterInterface.OnStart
+- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop.html#VagabondK_Interface_Modbus_ModbusMasterInterface_OnStop
+  commentId: M:VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop
+  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop()
+  nameWithType: ModbusMasterInterface.OnStop()
+- uid: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop.html
+  commentId: Overload:VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop
+  fullName: VagabondK.Interface.Modbus.ModbusMasterInterface.OnStop
+  nameWithType: ModbusMasterInterface.OnStop
 - uid: VagabondK.Interface.Modbus.ModbusMasterInterface.PollingCompleted
   name: PollingCompleted
   href: api/VagabondK.Interface.Modbus.ModbusMasterInterface.PollingCompleted.html
@@ -17710,6 +17868,15 @@ references:
   commentId: T:VagabondK.Interface.Modbus.ModbusSlaveInterface
   fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface
   nameWithType: ModbusSlaveInterface
+- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.#ctor
+  name: ModbusSlaveInterface()
+  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusSlaveInterface__ctor
+  commentId: M:VagabondK.Interface.Modbus.ModbusSlaveInterface.#ctor
+  name.vb: New()
+  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.ModbusSlaveInterface()
+  fullName.vb: VagabondK.Interface.Modbus.ModbusSlaveInterface.New()
+  nameWithType: ModbusSlaveInterface.ModbusSlaveInterface()
+  nameWithType.vb: ModbusSlaveInterface.New()
 - uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.#ctor(VagabondK.Protocols.Modbus.ModbusSlaveService)
   name: ModbusSlaveInterface(ModbusSlaveService)
   href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.-ctor.html#VagabondK_Interface_Modbus_ModbusSlaveInterface__ctor_VagabondK_Protocols_Modbus_ModbusSlaveService_
@@ -17737,12 +17904,6 @@ references:
   fullName.vb: VagabondK.Interface.Modbus.ModbusSlaveInterface.New
   nameWithType: ModbusSlaveInterface.ModbusSlaveInterface
   nameWithType.vb: ModbusSlaveInterface.New
-- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose
-  name: Dispose()
-  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_Dispose
-  commentId: M:VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose
-  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose()
-  nameWithType: ModbusSlaveInterface.Dispose()
 - uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose(System.Boolean)
   name: Dispose(bool)
   href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_Dispose_System_Boolean_
@@ -17758,18 +17919,6 @@ references:
   commentId: Overload:VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose
   fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.Dispose
   nameWithType: ModbusSlaveInterface.Dispose
-- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues
-  name: InitializeSlaveValues()
-  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_InitializeSlaveValues
-  commentId: M:VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues
-  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues()
-  nameWithType: ModbusSlaveInterface.InitializeSlaveValues()
-- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues*
-  name: InitializeSlaveValues
-  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues.html
-  commentId: Overload:VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues
-  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.InitializeSlaveValues
-  nameWithType: ModbusSlaveInterface.InitializeSlaveValues
 - uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnAdded(VagabondK.Interface.Modbus.Abstractions.ModbusPoint)
   name: OnAdded(ModbusPoint)
   href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.OnAdded.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_OnAdded_VagabondK_Interface_Modbus_Abstractions_ModbusPoint_
@@ -17794,6 +17943,30 @@ references:
   commentId: Overload:VagabondK.Interface.Modbus.ModbusSlaveInterface.OnRemoved
   fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnRemoved
   nameWithType: ModbusSlaveInterface.OnRemoved
+- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart
+  name: OnStart()
+  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_OnStart
+  commentId: M:VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart
+  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart()
+  nameWithType: ModbusSlaveInterface.OnStart()
+- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart*
+  name: OnStart
+  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart.html
+  commentId: Overload:VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart
+  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStart
+  nameWithType: ModbusSlaveInterface.OnStart
+- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop
+  name: OnStop()
+  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_OnStop
+  commentId: M:VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop
+  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop()
+  nameWithType: ModbusSlaveInterface.OnStop()
+- uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop*
+  name: OnStop
+  href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop.html
+  commentId: Overload:VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop
+  fullName: VagabondK.Interface.Modbus.ModbusSlaveInterface.OnStop
+  nameWithType: ModbusSlaveInterface.OnStop
 - uid: VagabondK.Interface.Modbus.ModbusSlaveInterface.Service
   name: Service
   href: api/VagabondK.Interface.Modbus.ModbusSlaveInterface.Service.html#VagabondK_Interface_Modbus_ModbusSlaveInterface_Service
@@ -19048,6 +19221,18 @@ references:
   commentId: Overload:VagabondK.Protocols.Channels.Channel.BytesToRead
   fullName: VagabondK.Protocols.Channels.Channel.BytesToRead
   nameWithType: Channel.BytesToRead
+- uid: VagabondK.Protocols.Channels.Channel.Close
+  name: Close()
+  href: api/VagabondK.Protocols.Channels.Channel.Close.html#VagabondK_Protocols_Channels_Channel_Close
+  commentId: M:VagabondK.Protocols.Channels.Channel.Close
+  fullName: VagabondK.Protocols.Channels.Channel.Close()
+  nameWithType: Channel.Close()
+- uid: VagabondK.Protocols.Channels.Channel.Close*
+  name: Close
+  href: api/VagabondK.Protocols.Channels.Channel.Close.html
+  commentId: Overload:VagabondK.Protocols.Channels.Channel.Close
+  fullName: VagabondK.Protocols.Channels.Channel.Close
+  nameWithType: Channel.Close
 - uid: VagabondK.Protocols.Channels.Channel.Description
   name: Description
   href: api/VagabondK.Protocols.Channels.Channel.Description.html#VagabondK_Protocols_Channels_Channel_Description
@@ -19531,6 +19716,18 @@ references:
   commentId: Overload:VagabondK.Protocols.Channels.SerialPortChannel.BytesToRead
   fullName: VagabondK.Protocols.Channels.SerialPortChannel.BytesToRead
   nameWithType: SerialPortChannel.BytesToRead
+- uid: VagabondK.Protocols.Channels.SerialPortChannel.Close
+  name: Close()
+  href: api/VagabondK.Protocols.Channels.SerialPortChannel.Close.html#VagabondK_Protocols_Channels_SerialPortChannel_Close
+  commentId: M:VagabondK.Protocols.Channels.SerialPortChannel.Close
+  fullName: VagabondK.Protocols.Channels.SerialPortChannel.Close()
+  nameWithType: SerialPortChannel.Close()
+- uid: VagabondK.Protocols.Channels.SerialPortChannel.Close*
+  name: Close
+  href: api/VagabondK.Protocols.Channels.SerialPortChannel.Close.html
+  commentId: Overload:VagabondK.Protocols.Channels.SerialPortChannel.Close
+  fullName: VagabondK.Protocols.Channels.SerialPortChannel.Close
+  nameWithType: SerialPortChannel.Close
 - uid: VagabondK.Protocols.Channels.SerialPortChannel.DataBits
   name: DataBits
   href: api/VagabondK.Protocols.Channels.SerialPortChannel.DataBits.html#VagabondK_Protocols_Channels_SerialPortChannel_DataBits
@@ -19897,6 +20094,18 @@ references:
   commentId: Overload:VagabondK.Protocols.Channels.TcpChannel.BytesToRead
   fullName: VagabondK.Protocols.Channels.TcpChannel.BytesToRead
   nameWithType: TcpChannel.BytesToRead
+- uid: VagabondK.Protocols.Channels.TcpChannel.Close
+  name: Close()
+  href: api/VagabondK.Protocols.Channels.TcpChannel.Close.html#VagabondK_Protocols_Channels_TcpChannel_Close
+  commentId: M:VagabondK.Protocols.Channels.TcpChannel.Close
+  fullName: VagabondK.Protocols.Channels.TcpChannel.Close()
+  nameWithType: TcpChannel.Close()
+- uid: VagabondK.Protocols.Channels.TcpChannel.Close*
+  name: Close
+  href: api/VagabondK.Protocols.Channels.TcpChannel.Close.html
+  commentId: Overload:VagabondK.Protocols.Channels.TcpChannel.Close
+  fullName: VagabondK.Protocols.Channels.TcpChannel.Close
+  nameWithType: TcpChannel.Close
 - uid: VagabondK.Protocols.Channels.TcpChannel.ConnectTimeout
   name: ConnectTimeout
   href: api/VagabondK.Protocols.Channels.TcpChannel.ConnectTimeout.html#VagabondK_Protocols_Channels_TcpChannel_ConnectTimeout
@@ -20215,6 +20424,18 @@ references:
   commentId: Overload:VagabondK.Protocols.Channels.UdpChannel.BytesToRead
   fullName: VagabondK.Protocols.Channels.UdpChannel.BytesToRead
   nameWithType: UdpChannel.BytesToRead
+- uid: VagabondK.Protocols.Channels.UdpChannel.Close
+  name: Close()
+  href: api/VagabondK.Protocols.Channels.UdpChannel.Close.html#VagabondK_Protocols_Channels_UdpChannel_Close
+  commentId: M:VagabondK.Protocols.Channels.UdpChannel.Close
+  fullName: VagabondK.Protocols.Channels.UdpChannel.Close()
+  nameWithType: UdpChannel.Close()
+- uid: VagabondK.Protocols.Channels.UdpChannel.Close*
+  name: Close
+  href: api/VagabondK.Protocols.Channels.UdpChannel.Close.html
+  commentId: Overload:VagabondK.Protocols.Channels.UdpChannel.Close
+  fullName: VagabondK.Protocols.Channels.UdpChannel.Close
+  nameWithType: UdpChannel.Close
 - uid: VagabondK.Protocols.Channels.UdpChannel.Description
   name: Description
   href: api/VagabondK.Protocols.Channels.UdpChannel.Description.html#VagabondK_Protocols_Channels_UdpChannel_Description

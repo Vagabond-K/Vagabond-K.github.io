@@ -103,22 +103,57 @@
   <div class="inheritance">
     <h5>상속</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">Interface&lt;TPoint&gt;</span></div>
-      <div class="level2"><a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.html">PollingInterface&lt;TPoint&gt;</a></div>
-      <div class="level2"><a class="xref" href="VagabondK.Interface.Modbus.ModbusSlaveInterface.html">ModbusSlaveInterface</a></div>
+    <div class="level1"><a class="xref" href="VagabondK.Interface.Abstractions.Interface.html">Interface</a></div>
+    <div class="level2"><span class="xref">Interface&lt;TPoint&gt;</span></div>
+      <div class="level3"><a class="xref" href="VagabondK.Interface.Abstractions.PollingInterface-1.html">PollingInterface&lt;TPoint&gt;</a></div>
+      <div class="level3"><a class="xref" href="VagabondK.Interface.Modbus.ModbusSlaveInterface.html">ModbusSlaveInterface</a></div>
   </div>
   <div class="implements">
     <h5>구현</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TPoint&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TPoint&gt;</div>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>상속된 멤버</h5>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.RaisePropertyChanged.html#VagabondK_Interface_Abstractions_Interface_RaisePropertyChanged_System_String_">Interface.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.OnStart.html#VagabondK_Interface_Abstractions_Interface_OnStart">Interface.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.OnStop.html#VagabondK_Interface_Abstractions_Interface_OnStop">Interface.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.PropertyChanged.html">Interface.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.PointType.html#VagabondK_Interface_Abstractions_Interface_PointType">Interface.PointType</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.IsRunning.html#VagabondK_Interface_Abstractions_Interface_IsRunning">Interface.IsRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.Start.html#VagabondK_Interface_Abstractions_Interface_Start">Interface.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.Stop.html#VagabondK_Interface_Abstractions_Interface_Stop">Interface.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.Dispose.html#VagabondK_Interface_Abstractions_Interface_Dispose_System_Boolean_">Interface.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="VagabondK.Interface.Abstractions.Interface.Dispose.html#VagabondK_Interface_Abstractions_Interface_Dispose">Interface.Dispose()</a>
+    </div>
   </div>
   <h6><strong>네임스페이스</strong>: <a class="xref" href="VagabondK.html">VagabondK</a>.<a class="xref" href="VagabondK.Interface.html">Interface</a>.<a class="xref" href="VagabondK.Interface.Abstractions.html">Abstractions</a></h6>
   <h6><strong>어셈블리</strong>: VagabondK.Interface.Abstractions.dll</h6>
   <h5 id="VagabondK_Interface_Abstractions_Interface_1_syntax">구문</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Interface&lt;TPoint&gt; : ICollection&lt;TPoint&gt;, IEnumerable&lt;TPoint&gt;, IEnumerable, INotifyPropertyChanged where TPoint : InterfacePoint</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Interface&lt;TPoint&gt; : Interface, INotifyPropertyChanged, IDisposable, ICollection&lt;TPoint&gt;, IEnumerable&lt;TPoint&gt;, IEnumerable where TPoint : InterfacePoint</code></pre>
   </div>
   <h5 class="typeParameters">형식 매개 변수</h5>
   <table class="table table-bordered table-condensed">
@@ -236,13 +271,6 @@
 </td>
       </tr>
       <tr>
-        <td id="VagabondK_Interface_Abstractions_Interface_1_RaisePropertyChanged_System_String_" data-uid="VagabondK.Interface.Abstractions.Interface`1.RaisePropertyChanged(System.String)">
-          <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.RaisePropertyChanged.html#VagabondK_Interface_Abstractions_Interface_1_RaisePropertyChanged_System_String_">RaisePropertyChanged(string)</a>
-        </td>
-        <td class="markdown level1 summary"><p>임의의 속성 값 변경 이벤트 발생 메서드</p>
-</td>
-      </tr>
-      <tr>
         <td id="VagabondK_Interface_Abstractions_Interface_1_Remove__0_" data-uid="VagabondK.Interface.Abstractions.Interface`1.Remove(`0)">
           <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.Remove.html#VagabondK_Interface_Abstractions_Interface_1_Remove__0_">Remove(TPoint)</a>
         </td>
@@ -296,25 +324,6 @@
           <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.SetBindings.html#VagabondK_Interface_Abstractions_Interface_1_SetBindings_System_Object_System_Action__0__">SetBindings(object, Action&lt;TPoint&gt;)</a>
         </td>
         <td class="markdown level1 summary"><p>인터페이스 바인딩 일괄 설정, InterfaceAttribute을 상속받은 특성을 이용하여 일괄 바인딩 설정 가능.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">이벤트
-</h3>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>이름</th>
-        <th>설명</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td id="VagabondK_Interface_Abstractions_Interface_1_PropertyChanged" data-uid="VagabondK.Interface.Abstractions.Interface`1.PropertyChanged">
-          <a class="xref" href="VagabondK.Interface.Abstractions.Interface-1.PropertyChanged.html">PropertyChanged</a>
-        </td>
-        <td class="markdown level1 summary"><p>속성 값이 변경될 때 발생합니다.</p>
 </td>
       </tr>
     </tbody>

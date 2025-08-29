@@ -32557,6 +32557,18 @@ references:
   commentId: T:VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer
   fullName: VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer
   nameWithType: ModbusRtuSerializer
+- uid: VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC
+  name: SwapCRC
+  href: api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC.html#VagabondK_Protocols_Modbus_Serialization_ModbusRtuSerializer_SwapCRC
+  commentId: P:VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC
+  fullName: VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC
+  nameWithType: ModbusRtuSerializer.SwapCRC
+- uid: VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC*
+  name: SwapCRC
+  href: api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC.html
+  commentId: Overload:VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC
+  fullName: VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC
+  nameWithType: ModbusRtuSerializer.SwapCRC
 - uid: VagabondK.Protocols.Modbus.Serialization.ModbusSerializer
   name: ModbusSerializer
   href: api/VagabondK.Protocols.Modbus.Serialization.ModbusSerializer.html

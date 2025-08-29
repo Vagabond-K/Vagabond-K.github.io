@@ -10614,10 +10614,15 @@
     "title": "ModbusAsciiSerializer 클래스 | Vagabond K's Libraries",
     "keywords": "ModbusAsciiSerializer 클래스 Modbus ASCII Serializer 상속 object ModbusSerializer ModbusAsciiSerializer 상속된 멤버 ModbusSerializer.Serialize(IModbusMessage) 네임스페이스: VagabondK.Protocols.Modbus.Serialization 어셈블리: VagabondK.Protocols.Modbus.dll 구문 public sealed class ModbusAsciiSerializer : ModbusSerializer 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
+  "api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC.html": {
+    "href": "api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.SwapCRC.html",
+    "title": "SwapCRC 속성 | Vagabond K's Libraries",
+    "keywords": "SwapCRC 속성 소스 보기 SwapCRC CRC 바이트 순서를 바꿉니다. 이 옵션은 기본적으로는 사용하면 안 됩니다. CRC는 Modbus 프로토콜에서 기본적으로 리틀 엔디안(하위 바이트 우선) 으로 전송됩니다. 특정 장비나 예외적인 상황에서 빅 엔디안(상위 바이트 우선) 전송이 필요한 경우에만 사용하세요. 선언 [Obsolete(\"In Modbus protocol, CRC is transmitted in little-endian format (low byte first) by default. Use this option only if your device requires big-endian CRC (high byte first) due to specific implementation needs.\")] public bool SwapCRC { get; set; } 속성 값 형식 설명 bool"
+  },
   "api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.html": {
     "href": "api/VagabondK.Protocols.Modbus.Serialization.ModbusRtuSerializer.html",
     "title": "ModbusRtuSerializer 클래스 | Vagabond K's Libraries",
-    "keywords": "ModbusRtuSerializer 클래스 Modbus RTU Serializer 상속 object ModbusSerializer ModbusRtuSerializer 상속된 멤버 ModbusSerializer.Serialize(IModbusMessage) 네임스페이스: VagabondK.Protocols.Modbus.Serialization 어셈블리: VagabondK.Protocols.Modbus.dll 구문 public sealed class ModbusRtuSerializer : ModbusSerializer 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
+    "keywords": "ModbusRtuSerializer 클래스 Modbus RTU Serializer 상속 object ModbusSerializer ModbusRtuSerializer 상속된 멤버 ModbusSerializer.Serialize(IModbusMessage) 네임스페이스: VagabondK.Protocols.Modbus.Serialization 어셈블리: VagabondK.Protocols.Modbus.dll 구문 public sealed class ModbusRtuSerializer : ModbusSerializer 속성 이름 설명 SwapCRC CRC 바이트 순서를 바꿉니다. 이 옵션은 기본적으로는 사용하면 안 됩니다. CRC는 Modbus 프로토콜에서 기본적으로 리틀 엔디안(하위 바이트 우선) 으로 전송됩니다. 특정 장비나 예외적인 상황에서 빅 엔디안(상위 바이트 우선) 전송이 필요한 경우에만 사용하세요. 확장 메서드 ConvertExtensions.ToNullable<T>(object) ConvertExtensions.To<T>(object, T) ConvertExtensions.TryConvert<T>(object, out T) PropertyExtensions.Get<TProperty>(object, ref TProperty, Func<TProperty>) PropertyExtensions.Set<TProperty>(object, ref TProperty, TProperty) GenericValueConverter.To<TSource, TTarget>(TSource)"
   },
   "api/VagabondK.Protocols.Modbus.Serialization.ModbusSerializer.Serialize.html": {
     "href": "api/VagabondK.Protocols.Modbus.Serialization.ModbusSerializer.Serialize.html",
